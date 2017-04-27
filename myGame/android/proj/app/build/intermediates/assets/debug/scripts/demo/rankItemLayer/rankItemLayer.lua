@@ -29,11 +29,12 @@ function rankItemLayer:updateData(data)
     local iconUrl = data.iconUrl
     local name = data.nick
     local maxScore = data.maxscore
-    local rankFile = {"game/rank/1.png","game/rank/2.png","game/rank/3.png","game/rank/4.png","game/rank/5.png","game/rank/6.png","game/rank/7.png","game/rank/8.png","game/rank/9.png","game/rank/10.png",}
+
+    local path = "game/rank/" .. data.index .. ".png"
     UrlImage.spriteSetUrl(self.m_headImage, iconUrl)
     self.m_maxscoreText:setText(maxScore)
     self.m_nameText:setText(name)
-    self.m_rankImage:setFile(rankFile[data.index or 1])
+    self.m_rankImage:setFile(path)
 end
 
 

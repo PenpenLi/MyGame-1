@@ -59,7 +59,7 @@ local demoLayer=
 		name="btnRankList",type=1,typeName="Button",time=0,x=9,y=11,width=94,height=85,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="game/button/rank.png",varname="btnRankList"
 	},
 	{
-		name="btnSetConfig",type=1,typeName="Button",time=0,x=10,y=8,width=64,height=64,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="game/button/setConfig.png",varname="btnSetConfig"
+		name="btnSetConfig",type=1,typeName="Button",time=0,x=9,y=7,width=75,height=70,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="game/button/setConfig.png",varname="btnSetConfig"
 	}
 }
 return demoLayer;

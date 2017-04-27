@@ -25,7 +25,7 @@ local setHeadPopup=
 			name="imageEdit",type=1,typeName="Image",time=0,x=-79,y=97,width=40,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="game/common/editButton.png",varname="imageEdit"
 		},
 		{
-			name="editTextName",type=6,typeName="EditText",time=0,x=-166,y=54,width=296,height=117,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontName="微软雅黑",fontSize=24,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,colorA=1,varname="editTextName",string=[[WindCao]],
+			name="editTextName",type=6,typeName="EditText",time=0,x=-166,y=54,width=296,height=117,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontName="微软雅黑",fontSize=24,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,colorA=1,varname="editTextName",string=[[Fool]],
 			{
 				name="imageLine",type=1,typeName="Image",time=0,x=-6,y=21,width=150,height=44,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="game/common/line.png",varname="imageLine"
 			}

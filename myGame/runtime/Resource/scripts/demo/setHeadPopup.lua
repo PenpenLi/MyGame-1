@@ -111,7 +111,7 @@ function setHeadPopup:getHeadPhotoAndName()
 	if playerName ~= "" and playerName ~= nil then
 		self.editTextName:setText(playerName)
 	else
-		self.editTextName:setText("WindCao")
+		self.editTextName:setText("Fool")
 	end
 
 	if LASTNAME ~= nil then
@@ -126,7 +126,7 @@ function setHeadPopup:onEditText()
 	local name = self.editTextName:getText()
 	name = string.trim(name)
 	if name == "" then
-		name = "WindCao"
+		name = "Fool"
 	end
 	self.editTextName:setText(name)
 	nk.DictModule:setString("playerName", "name", name)

@@ -327,7 +327,6 @@ end
 
 function DemoScene:stationInit()
 
-	self.barimage_number = 0
 	self.barimage_state = "alive"
 	self.person_state = "running"
 	self.station = "Normal"
@@ -344,7 +343,7 @@ function DemoScene:stationInit()
 	-- self.maxscore = 0
 	-- self.coin = 0
 	if self.name == "" or self.name == nil then
-	 	self.name = "WindCao"
+	 	self.name = "Fool"
 	end
 	if self.personbutton then
 		self.personbutton:setPos(100, 110)
@@ -353,9 +352,11 @@ function DemoScene:stationInit()
 			self.imagehead:addPropRotateSolid(1, 0, kCenterDrawing)
 		end
 	end
+
 	if self.boom then 
 		delete(self.boom)
 	end
+
 	if self.barimage then
 		self.barimage:setPos(-20, 100)
 	end
@@ -434,6 +435,10 @@ end
 function DemoScene:reStart()
 	Log.printInfo("restart-----------------------------")
 	self.station = "Normal"
+
+	if self.boom then
+		delete(self.boom)
+	end
 	
 	self.score = 0
 	self:stationInit()
@@ -587,7 +592,7 @@ function DemoScene:cartonPerson()
 		self.imagehead:setPos(60, 108)
 	elseif self.person_state == "sliping" then
 		self.index = 6
-		self.imagehead:setPos(20, 100)
+		self.imagehead:setPos(18, 82)
 	elseif self.person_state == "death" then
 		self.index = 7
 		self.imagehead:setPos(-18, 20)
@@ -595,7 +600,7 @@ function DemoScene:cartonPerson()
 		self.flag = true
 	elseif self.person_state == "kicking" and self.index > 4 then
 		self.index = 4
-		self.imagehead:setPos(45, 120)
+		self.imagehead:setPos(40, 116)
 		self.imagehead:setSize(110, 90)
 	end
 
@@ -630,23 +635,26 @@ function DemoScene:createMonster()
 		local index = 1
 
 		if self.gameModel == "crazy" then
-			if self.score < 100 then
+			if self.score < 900 then
 			 	index = math.random(7, 11)
 			end
 
 			Log.dump("<<<<<<<<<<<<<<<<<<<    index",index)
 		elseif self.gameModel == "gentle" then
-			if self.score <= 2 then
-				index = math.random(1, 4)
-
+			if self.score <= 4 then
+				index = math.random(1, 2)
+			
 			elseif self.score <= 7 then
-				index = math.random(1, 8)
+				index = math.random(2, 4)
+
+			elseif self.score <= 10 then
+				index = math.random(2, 8)
 
 			elseif self.score <= 15 then
-				index = math.random(1, 10)
+				index = math.random(2, 10)
 
 			elseif self.score <= 20 then
-				index = math.random(1, 10)
+				index = math.random(2, 10)
 
 			elseif self.score <= 25 then
 				index = math.random(4, 12)
@@ -661,18 +669,23 @@ function DemoScene:createMonster()
 			delete(self.barimage)
 	    end
 
+	    if self.boom then
+			delete(self.boom)
+		end
+
 		self.barimage = new(Image, barimages[index])	
 		self.barimage:setAlign(kAlignBottomRight)
 		self.barimage:addTo(self.personbutton:getParent())
 
 		Log.printInfo("I am monster No." .. index)
 
-		self.barimage:setPos(-20, 100)
+		self.barimage:setPos(-60, 100)
 		self.barimage:setEventTouch(self, self.upBar)
 		
 		self.person_state = "running"
 		self.barimage_state  = "alive"
-		self.barimage_number = self.barimage_number + 1
+
+
 		
 		self.bar_index = index
 		self.onkeyDown_E = false    --人和怪距离较近时才可以踢怪(E)，默认为不可踢(false)
@@ -695,7 +708,7 @@ function DemoScene:upBar(finger_action, ...)
 		self:onKeyDown(87)
 	end
 	Log.printInfo("Uping the monster")
- end
+end
 
 function DemoScene:hitMoster( ... )
 	self:onKeyDown(69)	
@@ -718,12 +731,21 @@ function DemoScene:adjustBarSpeed( ... )
 	Log.printInfo("The monster has been accelerated")
 end
 
-function DemoScene:setTextColor( ... )
+function DemoScene:setTextColor_white( ... )
 
 	self.textviewscore:setText("" .. self.score, 90, 50, 248, 248, 255)
 	self.textviewmaxscore:setText("" .. self.maxscore, 90, 50, 248, 248, 255)
 	self.textviewcoin:setText("" .. self.coin, 150, 50, 248, 248, 255)
 end
+
+function DemoScene:setTextColor_black( ... )
+
+	self.textviewscore:setText("" .. self.score, 90, 50, 0, 0, 0)
+	self.textviewmaxscore:setText("" .. self.maxscore, 90, 50, 0, 0, 0)
+	self.textviewcoin:setText("" .. self.coin, 150, 50, 0, 0, 0)
+end
+
+
 
 function DemoScene:getScore( ... )
 	-- ?????	
@@ -792,9 +814,9 @@ function DemoScene:setConfig()
 		}
 	elseif self.gameModel == "crazy" then
 		config =	{
-			{score = 5,  v_bar = 15, v0_person = 25, background = "game/backgroud/bg.png"},
-			{score = 10, v_bar = 16, v0_person = 20, background = "game/backgroud/bg1.png"},
-			{score = 15, v_bar = 18, v0_person = 25, background = "game/backgroud/bg2.png"},
+			{score = 5,  v_bar = 10, v0_person = 25, background = "game/backgroud/bg.png"},
+			{score = 10, v_bar = 13, v0_person = 20, background = "game/backgroud/bg1.png"},
+			{score = 15, v_bar = 16, v0_person = 25, background = "game/backgroud/bg2.png"},
 			{score = 40, v_bar = 20, v0_person = 24, background = "game/backgroud/bg3.png"},
 			{score = 999999, v_bar = 25 , v0_person = 24, background = "game/backgroud/bg4.png"},
 		}
@@ -825,7 +847,9 @@ function DemoScene:setConfig()
 		self.v0_person = curConfigUnit.v0_person
 		self.background:setFile(curConfigUnit.background)
 		if curConfigUnit.background == "game/backgroud/bg4.png" then
-			self:setTextColor()
+			self:setTextColor_white()
+		else
+			self:setTextColor_black()
 		end
 	end
 
@@ -862,7 +886,7 @@ function DemoScene:cartonMonster( ... )
 
 		if x > ScreenWidth + 20 then
 			
-		    x = -20
+		    x = -60
 			self:getScore()
 			self:getCoin()
 			self:createMonster()	
@@ -1083,9 +1107,9 @@ function DemoScene:onKeyDown(key)
 
 		self.person_state = "sliping"
 
-		local x, y = self.personbutton:getPos()
+		-- local x, y = self.personbutton:getPos()
 	
-		self.personbutton:setPos(x, 85)
+		-- self.personbutton:setPos(x, 110)
 		
 
         self.barimage:addPropTranslate(1, kAnimNormal, 5000, 0, 0, 60, 0, -900)
@@ -1558,6 +1582,9 @@ end
 
 function DemoScene:playBoom()
 	local x, y = self.barimage:getPos()
+	if self.boom then
+		delete(self.boom)
+	end
 	self.boom = new(Image, "game/common/boom.png")
 	self.boom:setAlign(kAlignBottomRight)
 	self.boom:setPos(x - 200, y - 100)
@@ -1647,7 +1674,7 @@ function DemoScene:setHeadAndName()
 		self.name = playerName
 	else
 		self.textName:setVisible(false)
-		self.name = "WindCao"
+		self.name = "Fool"
 	end
 
 	local headUrl = httpHeadUrl
@@ -1681,9 +1708,7 @@ function DemoScene:btn_event_upload(name)
     		BUTTON_CLICK_EVENT[name] = BUTTON_CLICK_EVENT[name] + 1
     	elseif BUTTON_CLICK_EVENT[self.gameModel] and BUTTON_CLICK_EVENT[self.gameModel][name] then
     		BUTTON_CLICK_EVENT[self.gameModel][name] = BUTTON_CLICK_EVENT[self.gameModel][name] + 1
-		    -- Log.dump("<<<<<<<<<<<<<<<<<<<<<< self.gameModel", self.gameModel)
-		    -- Log.dump("<<<<<<<<<<<<<<<<<<<<<< self.name", name)
-		    -- Log.dump("<<<<<<<<<<<<<<<<<<<<<< BUTTON_CLICK_EVENT[self.gameModel][name]", BUTTON_CLICK_EVENT[self.gameModel][name])
+		   
     	end
     end
 
@@ -1780,9 +1805,7 @@ function DemoScene:showRank()
 	end)
 end
 
-function DemoScene:uploadHead()
-	nk.HttpController:execute("User.uploadIcon", {param = {method = "User.uploadIcon"}})
-end
+
 
 return DemoScene
 

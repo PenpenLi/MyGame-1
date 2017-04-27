@@ -343,7 +343,7 @@ function DemoScene:stationInit()
 	-- self.maxscore = 0
 	-- self.coin = 0
 	if self.name == "" or self.name == nil then
-	 	self.name = "WindCao"
+	 	self.name = "Fool"
 	end
 	if self.personbutton then
 		self.personbutton:setPos(100, 110)
@@ -1674,7 +1674,7 @@ function DemoScene:setHeadAndName()
 		self.name = playerName
 	else
 		self.textName:setVisible(false)
-		self.name = "WindCao"
+		self.name = "Fool"
 	end
 
 	local headUrl = httpHeadUrl

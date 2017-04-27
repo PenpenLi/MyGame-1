@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.2.5">
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.
+
+To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        android:targetSdkVersion=&quot;17&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\AndroidManifest.xml"
+            line="8"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.
+
+To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        targetSdkVersion 21"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\build.gradle"
+            line="9"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="The targetSdkVersion (21) should not be higher than the compileSdkVersion (15)"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    compileSdkVersion 15"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\build.gradle"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="GradleOverrides"
+        severity="Warning"
+        message="This `minSdkVersion` value (`9`) is not used; it is always overridden by the value specified in the Gradle build script (`9`)"
+        category="Correctness"
+        priority="4"
+        summary="Value overridden by Gradle build script"
+        explanation="The value of (for example) `minSdkVersion` is only used if it is not specified in the `build.gradle` build scripts. When specified in the Gradle build scripts, the manifest value is ignored and can be misleading, so should be removed to avoid ambiguity."
+        errorLine1="        android:minSdkVersion=&quot;9&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\AndroidManifest.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleOverrides"
+        severity="Warning"
+        message="This `targetSdkVersion` value (`17`) is not used; it is always overridden by the value specified in the Gradle build script (`21`)"
+        category="Correctness"
+        priority="4"
+        summary="Value overridden by Gradle build script"
+        explanation="The value of (for example) `minSdkVersion` is only used if it is not specified in the `build.gradle` build scripts. When specified in the Gradle build scripts, the manifest value is ignored and can be misleading, so should be removed to avoid ambiguity."
+        errorLine1="        android:targetSdkVersion=&quot;17&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\AndroidManifest.xml"
+            line="8"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `GodSDKHelper` which has field `mActivity` pointing to `Activity`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1=" private static GodSDKHelper godsdkHelper;"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\java\com\boyaa\cocoslib\godsdk\GodsdkWrapper.java"
+            line="30"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1=" private static Activity mActivity;"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\java\com\boyaa\cocoslib\godsdk\GodsdkWrapper.java"
+            line="32"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_launcher` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\res\drawable-hdpi\ic_launcher.png"/>
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\res\drawable-mdpi\ic_launcher.png"/>
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\res\drawable-xhdpi\ic_launcher.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.app_name` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>proj.android.lib.godsdk&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\res\values\strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="IconMissingDensityFolder"
+        severity="Warning"
+        message="Missing density variation folders in `src\main\res`: drawable-xxhdpi, drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="3"
+        summary="Missing density folder"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as `drawable-hdpi`.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.godsdk\src\main\res"/>
+    </issue>
+
+</issues>

@@ -1,4 +1,4 @@
-#Thu Apr 27 10:34:03 CST 2017
+#Thu Apr 27 17:13:58 CST 2017
 base.0=E\:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=E\:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.2.5">
+
+    <issue
+        id="MissingPermission"
+        severity="Error"
+        message="Missing permissions required by WifiManager.getConnectionInfo: android.permission.ACCESS_WIFI_STATE"
+        category="Correctness"
+        priority="9"
+        summary="Missing Permissions"
+        explanation="This check scans through your code and libraries and looks at the APIs being used, and checks this against the set of permissions required to access those APIs. If the code using those APIs is called at runtime, then the program will crash.
+
+Furthermore, for permissions that are revocable (with targetSdkVersion 23), client code must also be prepared to handle the calls throwing an exception if the user rejects the request for permission at runtime."
+        errorLine1="  WifiInfo wifiInf = wifiMan.getConnectionInfo();"
+        errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="209"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="MissingPermission"
+        severity="Error"
+        message="Missing permissions required by WifiManager.getConnectionInfo: android.permission.ACCESS_WIFI_STATE"
+        category="Correctness"
+        priority="9"
+        summary="Missing Permissions"
+        explanation="This check scans through your code and libraries and looks at the APIs being used, and checks this against the set of permissions required to access those APIs. If the code using those APIs is called at runtime, then the program will crash.
+
+Furthermore, for permissions that are revocable (with targetSdkVersion 23), client code must also be prepared to handle the calls throwing an exception if the user rejects the request for permission at runtime."
+        errorLine1="  WifiInfo wifiInfo = wifiManager.getConnectionInfo();"
+        errorLine2="                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="497"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="CommitPrefEdits"
+        severity="Warning"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background"
+        category="Correctness"
+        priority="6"
+        summary="Missing `commit()` on `SharedPreference` editor"
+        explanation="After calling `edit()` on a `SharedPreference`, you must call `commit()` or `apply()` on the editor to save the results."
+        errorLine1="   localEditor.commit();"
+        errorLine2="   ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\service\ComitManager.java"
+            line="36"
+            column="4"/>
+    </issue>
+
+    <issue
+        id="CommitPrefEdits"
+        severity="Warning"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background"
+        category="Correctness"
+        priority="6"
+        summary="Missing `commit()` on `SharedPreference` editor"
+        explanation="After calling `edit()` on a `SharedPreference`, you must call `commit()` or `apply()` on the editor to save the results."
+        errorLine1="   localEditor.commit();"
+        errorLine2="   ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\service\ComitManager.java"
+            line="45"
+            column="4"/>
+    </issue>
+
+    <issue
+        id="CommitPrefEdits"
+        severity="Warning"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background"
+        category="Correctness"
+        priority="6"
+        summary="Missing `commit()` on `SharedPreference` editor"
+        explanation="After calling `edit()` on a `SharedPreference`, you must call `commit()` or `apply()` on the editor to save the results."
+        errorLine1="   localEditor.commit();"
+        errorLine2="   ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\service\ComitManager.java"
+            line="91"
+            column="4"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.
+
+To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        android:targetSdkVersion=&quot;23&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\AndroidManifest.xml"
+            line="9"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="SimpleDateFormat"
+        severity="Warning"
+        message="To get local formatting use `getDateInstance()`, `getDateTimeInstance()`, or `getTimeInstance()`, or use `new SimpleDateFormat(String template, Locale locale)` with for example `Locale.US` for ASCII dates."
+        category="Correctness"
+        priority="6"
+        summary="Implied locale in date format"
+        explanation="Almost all callers should use `getDateInstance()`, `getDateTimeInstance()`, or `getTimeInstance()` to get a ready-made instance of SimpleDateFormat suitable for the user&apos;s locale. The main reason you&apos;d create an instance this class directly is because you need to format/parse a specific machine-readable format, in which case you almost certainly want to explicitly ask for US to ensure that you get ASCII digits (rather than, say, Arabic digits).
+
+Therefore, you should either use the form of the SimpleDateFormat constructor where you pass in an explicit locale, such as Locale.US, or use one of the get instance methods, or suppress this error if really know what you are doing."
+        url="http://developer.android.com/reference/java/text/SimpleDateFormat.html"
+        urls="http://developer.android.com/reference/java/text/SimpleDateFormat.html"
+        errorLine1="  SimpleDateFormat format = new SimpleDateFormat(&quot;yyyyMMdd&quot;);"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="386"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="PluralsCandidate"
+        severity="Warning"
+        message="Formatting %d followed by words (&quot;were&quot;): This should probably be a plural rather than a string"
+        category="Correctness:Messages"
+        priority="5"
+        summary="Potential Plurals"
+        explanation="This lint check looks for potential errors in internationalization where you have translated a message which involves a quantity and it looks like other parts of the string may need grammatical changes.
+
+For example, rather than something like this:
+  &lt;string name=&quot;try_again&quot;>Try again in %d seconds.&lt;/string>
+you should be using a plural:
+   &lt;plurals name=&quot;try_again&quot;>
+        &lt;item quantity=&quot;one&quot;>Try again in %d second&lt;/item>
+        &lt;item quantity=&quot;other&quot;>Try again in %d seconds&lt;/item>
+    &lt;/plurals>
+This will ensure that in other languages the right set of translations are provided for the different quantity classes.
+
+(This check depends on some heuristics, so it may not accurately determine whether a string really should be a quantity. You can use tools:ignore to filter out false positives."
+        url="http://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        urls="http://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        errorLine1="    &lt;string name=&quot;com_facebook_placepicker_subtitle_format&quot;>%1$s • %2$,d were here&lt;/string>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="17"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="PluralsCandidate"
+        severity="Warning"
+        message="Formatting %d followed by words (&quot;were&quot;): This should probably be a plural rather than a string"
+        category="Correctness:Messages"
+        priority="5"
+        summary="Potential Plurals"
+        explanation="This lint check looks for potential errors in internationalization where you have translated a message which involves a quantity and it looks like other parts of the string may need grammatical changes.
+
+For example, rather than something like this:
+  &lt;string name=&quot;try_again&quot;>Try again in %d seconds.&lt;/string>
+you should be using a plural:
+   &lt;plurals name=&quot;try_again&quot;>
+        &lt;item quantity=&quot;one&quot;>Try again in %d second&lt;/item>
+        &lt;item quantity=&quot;other&quot;>Try again in %d seconds&lt;/item>
+    &lt;/plurals>
+This will ensure that in other languages the right set of translations are provided for the different quantity classes.
+
+(This check depends on some heuristics, so it may not accurately determine whether a string really should be a quantity. You can use tools:ignore to filter out false positives."
+        url="http://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        urls="http://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        errorLine1="    &lt;string name=&quot;com_facebook_placepicker_subtitle_were_here_only_format&quot;>%1$,d were here&lt;/string>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="19"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        severity="Warning"
+        message="Using `getString` to get device identifiers is not recommended."
+        category="Security"
+        priority="6"
+        summary="Hardware Id Usage"
+        explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
+        url="https://developer.android.com/training/articles/user-data-ids.html"
+        urls="https://developer.android.com/training/articles/user-data-ids.html"
+        errorLine1="  String androidID = Settings.Secure.getString("
+        errorLine2="                     ^">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="192"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        severity="Warning"
+        message="Using `getMacAddress` to get device identifiers is not recommended."
+        category="Security"
+        priority="6"
+        summary="Hardware Id Usage"
+        explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
+        url="https://developer.android.com/training/articles/user-data-ids.html"
+        urls="https://developer.android.com/training/articles/user-data-ids.html"
+        errorLine1="  String macAddress = wifiInf.getMacAddress();"
+        errorLine2="                      ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="210"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        severity="Warning"
+        message="Using `getDeviceId` to get device identifiers is not recommended."
+        category="Security"
+        priority="6"
+        summary="Hardware Id Usage"
+        explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
+        url="https://developer.android.com/training/articles/user-data-ids.html"
+        urls="https://developer.android.com/training/articles/user-data-ids.html"
+        errorLine1="  String deviceId = tmManager.getDeviceId();"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="257"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        severity="Warning"
+        message="Using `getSubscriberId` to get device identifiers is not recommended."
+        category="Security"
+        priority="6"
+        summary="Hardware Id Usage"
+        explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
+        url="https://developer.android.com/training/articles/user-data-ids.html"
+        urls="https://developer.android.com/training/articles/user-data-ids.html"
+        errorLine1="  String userId = tmManager.getSubscriberId();"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="273"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="UnsafeProtectedBroadcastReceiver"
+        severity="Warning"
+        message="This broadcast receiver declares an intent-filter for a protected broadcast action string, which can only be sent by the system, not third-party applications. However, the receiver&apos;s onReceive method does not appear to call getAction to ensure that the received Intent&apos;s action string matches the expected value, potentially making it possible for another actor to send a spoofed intent with no action string or a different action string and cause undesired behavior."
+        category="Security"
+        priority="6"
+        summary="Unsafe Protected BroadcastReceiver"
+        explanation="BroadcastReceivers that declare an intent-filter for a protected-broadcast action string must check that the received intent&apos;s action string matches the expected value, otherwise it is possible for malicious actors to spoof intents."
+        errorLine1=" public void onReceive(Context context, Intent intent) {"
+        errorLine2="             ~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\broadcast\NetworkStateReceiver.java"
+            line="21"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="WrongConstant"
+        severity="Error"
+        message="Must be one of: Context.POWER_SERVICE, Context.WINDOW_SERVICE, Context.LAYOUT_INFLATER_SERVICE, Context.ACCOUNT_SERVICE, Context.ACTIVITY_SERVICE, Context.ALARM_SERVICE, Context.NOTIFICATION_SERVICE, Context.ACCESSIBILITY_SERVICE, Context.CAPTIONING_SERVICE, Context.KEYGUARD_SERVICE, Context.LOCATION_SERVICE, Context.SEARCH_SERVICE, Context.SENSOR_SERVICE, Context.STORAGE_SERVICE, Context.WALLPAPER_SERVICE, Context.VIBRATOR_SERVICE, Context.CONNECTIVITY_SERVICE, Context.NETWORK_STATS_SERVICE, Context.WIFI_SERVICE, Context.WIFI_P2P_SERVICE, Context.NSD_SERVICE, Context.AUDIO_SERVICE, Context.FINGERPRINT_SERVICE, Context.MEDIA_ROUTER_SERVICE, Context.TELEPHONY_SERVICE, Context.TELEPHONY_SUBSCRIPTION_SERVICE, Context.CARRIER_CONFIG_SERVICE, Context.TELECOM_SERVICE, Context.CLIPBOARD_SERVICE, Context.INPUT_METHOD_SERVICE, Context.TEXT_SERVICES_MANAGER_SERVICE, Context.APPWIDGET_SERVICE, Context.DROPBOX_SERVICE, Context.DEVICE_POLICY_SERVICE, Context.UI_MODE_SERVICE, Context.DOWNLOAD_SERVICE, Context.NFC_SERVICE, Context.BLUETOOTH_SERVICE, Context.USB_SERVICE, Context.LAUNCHER_APPS_SERVICE, Context.INPUT_SERVICE, Context.DISPLAY_SERVICE, Context.USER_SERVICE, Context.RESTRICTIONS_SERVICE, Context.APP_OPS_SERVICE, Context.CAMERA_SERVICE, Context.PRINT_SERVICE, Context.CONSUMER_IR_SERVICE, Context.TV_INPUT_SERVICE, Context.USAGE_STATS_SERVICE, Context.MEDIA_SESSION_SERVICE, Context.BATTERY_SERVICE, Context.JOB_SCHEDULER_SERVICE, Context.MEDIA_PROJECTION_SERVICE, Context.MIDI_SERVICE, Context.HARDWARE_PROPERTIES_SERVICE, Context.SHORTCUT_SERVICE, Context.SYSTEM_HEALTH_SERVICE"
+        category="Security"
+        priority="6"
+        summary="Incorrect constant"
+        explanation="Ensures that when parameter in a method only allows a specific set of constants, calls obey those rules."
+        errorLine1="  WifiManager wifiMan = (WifiManager) context.getSystemService(&quot;wifi&quot;);"
+        errorLine2="                                                               ~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\BUtility.java"
+            line="208"
+            column="64"/>
+    </issue>
+
+    <issue
+        id="ExportedReceiver"
+        severity="Warning"
+        message="Exported receiver does not require permission"
+        category="Security"
+        priority="5"
+        summary="Receiver does not require permission"
+        explanation="Exported receivers (receivers which either set `exported=true` or contain an intent-filter and do not specify `exported=false`) should define a permission that an entity must have in order to launch the receiver or bind to it. Without this, any application can use this receiver."
+        errorLine1="        &lt;receiver"
+        errorLine2="        ^">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\AndroidManifest.xml"
+            line="21"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="Recycle"
+        severity="Warning"
+        message="This `Cursor` should be freed up after use with `#close()`"
+        category="Performance"
+        priority="7"
+        summary="Missing `recycle()` calls"
+        explanation="Many resources, such as TypedArrays, VelocityTrackers, etc., should be recycled (with a `recycle()` call) after use. This lint check looks for missing `recycle()` calls."
+        errorLine1="   Cursor cursor =  db.rawQuery(DbConstant.DB_OP_QUERY_ALL, null);"
+        errorLine2="                       ~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\db\AdDataBaseManager.java"
+            line="105"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static Context context;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\adStats\AdStatsWrapper.java"
+            line="22"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `CrashHandler` which has field `mContext` pointing to `Context`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1=" private static CrashHandler INSTANCE = new CrashHandler();"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\exception\CrashHandler.java"
+            line="17"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `TaskManager` which has field `mContext` pointing to `Context`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1=" private static TaskManager mBTaskManager;"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\src\com\boyaa\admobile\util\TaskManager.java"
+            line="32"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.layout.activity_main` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\layout\activity_main.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.layout.com_facebook_login_activity_layout` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\layout\com_facebook_login_activity_layout.xml"
+            line="3"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.activity_horizontal_margin` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;dimen name=&quot;activity_horizontal_margin&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\dimens.xml"
+            line="4"
+            column="12"/>
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values-sw720dp-land\dimens.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.dimen.activity_vertical_margin` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;dimen name=&quot;activity_vertical_margin&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\dimens.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_launcher` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\drawable-hdpi\ic_launcher.png"/>
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\drawable-mdpi\ic_launcher.png"/>
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\drawable-xhdpi\ic_launcher.png"/>
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\drawable-xxhdpi\ic_launcher.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.app_name` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1=" &lt;string name=&quot;app_name&quot;>ADMobile&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="3"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.action_settings` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;action_settings&quot;>Settings&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="4"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.hello_world` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;hello_world&quot;>Hello world!&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_dialogloginactivity_ok_button` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="     &lt;string name=&quot;com_facebook_dialogloginactivity_ok_button&quot;>OK&lt;/string>"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="6"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_logo_content_description` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_logo_content_description&quot;>Facebook Logo&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="13"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_usersettingsfragment_log_in_button` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_usersettingsfragment_log_in_button&quot;>Log in&amp;#8230;&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="14"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_usersettingsfragment_logged_in` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_usersettingsfragment_logged_in&quot;>Logged in&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="15"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_usersettingsfragment_not_logged_in` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_usersettingsfragment_not_logged_in&quot;>Not logged in&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="16"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_placepicker_subtitle_format` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_placepicker_subtitle_format&quot;>%1$s • %2$,d were here&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="17"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_placepicker_subtitle_catetory_only_format` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_placepicker_subtitle_catetory_only_format&quot;>%1$s&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="18"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_placepicker_subtitle_were_here_only_format` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_placepicker_subtitle_were_here_only_format&quot;>%1$,d were here&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="19"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_picker_done_button_text` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_picker_done_button_text&quot;>Done&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="20"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_choose_friends` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_choose_friends&quot;>Choose Friends&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="21"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_nearby` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_nearby&quot;>Nearby&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="22"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_requesterror_web_login` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_requesterror_web_login&quot;>Your Facebook account is locked. Please log into www.facebook.com to continue.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="26"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_requesterror_relogin` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_requesterror_relogin&quot;>Please log into this app again to reconnect your Facebook account.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="27"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_requesterror_password_changed` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_requesterror_password_changed&quot;>Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="28"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_requesterror_reconnect` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_requesterror_reconnect&quot;>Please log into this app again to reconnect your Facebook account.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="29"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.com_facebook_requesterror_permissions` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;com_facebook_requesterror_permissions&quot;>This app doesn’t have permission to do this. To change permissions, try logging into the app again.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="http://en.wikipedia.org/wiki/Ellipsis"
+        urls="http://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;com_facebook_loading&quot;>Loading...&lt;/string>"
+        errorLine2="                                        ^"
+        quickfix="studio,adt">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\values\strings.xml"
+            line="23"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        severity="Warning"
+        message="Missing the following drawables in `drawable-xxhdpi`: com_facebook_close.png (found in drawable-hdpi, drawable-xhdpi, drawable-mdpi)"
+        category="Usability:Icons"
+        priority="4"
+        summary="Icon densities validation"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res\drawable-xxhdpi"/>
+    </issue>
+
+    <issue
+        id="IconMissingDensityFolder"
+        severity="Warning"
+        message="Missing density variation folders in `res`: drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="3"
+        summary="Missing density folder"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as `drawable-hdpi`.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="E:\MyGame\myGame\android\proj\lib.adStats\res"/>
+    </issue>
+
+</issues>

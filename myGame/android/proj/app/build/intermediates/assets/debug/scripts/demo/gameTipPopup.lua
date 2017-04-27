@@ -29,22 +29,24 @@ function gameTipPopup:initLayer()
 	self.textviewTip = self:getUI("tip")
 	self.imageTip = self:getUI("imageTip")
 	
-	
+	local name = ""
 	local x, y = self.textviewTip:getSize()
 	self.textviewTip:setText(self.curStr, x, y, 0, 0, 0)
 	
 	if self.style == "Little" then
-		self.imageTip:setFile("game/gestures/tipLittle.png")
+		name = "tipLittle"
 	elseif self.style == "Long" then
-		self.imageTip:setFile("game/gestures/tipLong.png")
+		name = "tipLong"
 	elseif self.style == "Mid" then
-		self.imageTip:setFile("game/gestures/tipMid.png")
+		name = "tipMid"
 	elseif self.style == "Tall" then
-		self.imageTip:setFile("game/gestures/tipTall.png")
+		name = "tipTall"
 	elseif self.style == "ZOMBIE" then
-		self.imageTip:setFile("game/gestures/tipZOMBIE.png")
+		name = "tipZOMBIE"
+
 	end
 
+	self.imageTip:setFile("game/gestures/" .. name .. ".png")
 
 end
 
