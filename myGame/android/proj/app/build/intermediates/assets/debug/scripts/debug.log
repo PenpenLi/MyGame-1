@@ -1,0 +1,1045 @@
+[0][Lua_Info][game\gameBase\gameBaseState.lua ctor:8][nil] GameBaseState.ctor
+[0][Lua_Info][game\gameBase\gameBaseController.lua ctor:13][nil] GameBaseController.ctor
+[0][Lua_Info][game\gameBase\gameBaseData.lua ctor:8][nil] GameBaseData.ctor
+[0][Lua_Info][demo\demoData.lua ctor:7][nil] DemoData.ctor
+[0][Lua_Info][demo\demoController.lua ctor:6][nil] DemoController.ctor
+[0][Lua_Info][demo\demoScene.lua initGame:255][nil] The first initialization is complete.
+Lua_dump from:game\net\http\httpController.lua execute:78
+- ">>>>>>>>>>>>>>>>>>>>>>>>> paramData" = "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","gid":2,"param":{"method":"Login.userLogin","loginType":1}}"
+[0][Lua_Info][game\gameBase\httpModule.lua execute_open_type:111][HttpModule execute]  url:---------->http://192.168.96.152/jeffhas_dev/jdcomb/ |  param:---------->
+Lua_dump from:game\gameBase\httpModule.lua execute_open_type:112
+- "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","gid":2,"param":{"method":"Login.userLogin","loginType":1}}" = "HttpModule execute"
+[0][Lua_Info][game\gameBase\httpModule.lua func:223][nil] -----------------------------------------------
+[0][Lua_Info][game\gameBase\httpModule.lua func:224][nil] resultStr:{"time":1493260314,"flag":10000,"data":{"nick":"banana","mid":"85","gameInfolist":{"crazy":{"maxScore":33,"modeId":2,"gameCoins":9999153},"gentle":{"maxScore":66,"modeId":1,"gameCoins":9999110}},"updateTime":"1493257690","iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","btnInfoList":{"BtnOpenAlbumNum":3,"BtnHeadOpenAlbumNum":0,"BtnTakePictureNum":3,"EditNameNum":17,"BtnMusicNum":52,"BtnConfigCancelNum":150,"BtnConfigSubmitNum":92,"BtnExitCancelNum":1,"BtnGentleNum":241,"BtnCrazyNum":55,"gentle":{"breakRecord":16,"modeId":1,"btnContinue":123,"btnTips":13,"btnRestart":58},"crazy":{"breakRecord":7,"modeId":2,"btnContinue":83,"btnTips":8,"btnRestart":29}},"sex":"0","uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","status":1,"loginType":1}}
+[0][Lua_Info][game\gameBase\httpModule.lua func:225][nil] -----------------------------------------------
+[0][Lua_Info][game\gameBase\httpModule.lua func:242][HttpModule] httpCode:0 200 errorCode:SUCCESSED command:http://192.168.96.152/jeffhas_dev/jdcomb/
+Lua_dump from:demo\demoScene.lua callback:126
+- "data" = {
+-     "data" = {
+-         "btnInfoList" = {
+-             "BtnConfigCancelNum"  = 150
+-             "BtnConfigSubmitNum"  = 92
+-             "BtnCrazyNum"         = 55
+-             "BtnExitCancelNum"    = 1
+-             "BtnGentleNum"        = 241
+-             "BtnHeadOpenAlbumNum" = 0
+-             "BtnMusicNum"         = 52
+-             "BtnOpenAlbumNum"     = 3
+-             "BtnTakePictureNum"   = 3
+-             "EditNameNum"         = 17
+-             "crazy" = {
+-                 "breakRecord" = 7
+-                 "btnContinue" = 83
+-                 "btnRestart"  = 29
+-                 "btnTips"     = 8
+-                 "modeId"      = 2
+-             }
+-             "gentle" = {
+-                 "breakRecord" = 16
+-                 "btnContinue" = 123
+-                 "btnRestart"  = 58
+-                 "btnTips"     = 13
+-                 "modeId"      = 1
+-             }
+-         }
+-         "gameInfolist" = {
+-             "crazy" = {
+-                 "gameCoins" = 9999153
+-                 "maxScore"  = 33
+-                 "modeId"    = 2
+-             }
+-             "gentle" = {
+-                 "gameCoins" = 9999110
+-                 "maxScore"  = 66
+-                 "modeId"    = 1
+-             }
+-         }
+-         "iconUrl"      = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-         "loginType"    = 1
+-         "mid"          = "85"
+-         "nick"         = "banana"
+-         "sex"          = "0"
+-         "status"       = 1
+-         "updateTime"   = "1493257690"
+-         "uuid"         = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-     }
+-     "flag" = 10000
+-     "time" = 1493260314
+- }
+Lua_dump from:demo\demoScene.lua callback:163
+- 1 = "-----Visitor login"
+Lua_dump from:game\net\http\httpController.lua execute:78
+- ">>>>>>>>>>>>>>>>>>>>>>>>> paramData" = "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","mid":"85","gid":2,"param":{"method":"Rank.getRankList"}}"
+[2][Lua_Info][game\gameBase\httpModule.lua execute_open_type:111][HttpModule execute]  url:---------->http://192.168.96.152/jeffhas_dev/jdcomb/ |  param:---------->
+Lua_dump from:game\gameBase\httpModule.lua execute_open_type:112
+- "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","mid":"85","gid":2,"param":{"method":"Rank.getRankList"}}" = "HttpModule execute"
+[2][Lua_Info][game\gameBase\httpModule.lua func:223][nil] -----------------------------------------------
+[2][Lua_Info][game\gameBase\httpModule.lua func:224][nil] resultStr:{"time":1493260316,"flag":10000,"data":{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","personalRankList":{"gentle":{"maxScore":66,"gameCoins":9999110,"rank":1},"crazy":{"maxScore":33,"gameCoins":9999153,"rank":1}},"gModelRankList":{"gentle":[{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","maxScore":66,"gameCoins":9999110},{"mid":86,"uuid":"866c1822a5de45c49f308d48ad7128c4","nick":"\u66f9\u98de\u7684\u5c0f\u53f7","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/86\/86_middle.jpg?1493105446","maxScore":22,"gameCoins":15},{"mid":105,"uuid":"7bf795e3401942f0b3d9dadb81e566b3","nick":"happy","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/105\/105_middle.jpg","maxScore":19,"gameCoins":56},{"mid":106,"uuid":"786f7b2b4c91444385722dc50e141d71","nick":"\u5361\u5e03\u8fbe","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/106\/106_middle.jpg","maxScore":11,"gameCoins":53},{"mid":103,"uuid":"f9931ee9e6bf4c82b8fa63240204a3c6","nick":"\u7ff0\u54e5\u54e5","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/103\/103_middle.jpg?1493120804","maxScore":5,"gameCoins":48},{"mid":104,"uuid":"e7217f1dd90a44a8a589822d066cbcf8","nick":"Beauty","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/104\/104_middle.jpg?1493199144","maxScore":3,"gameCoins":44},{"mid":111,"uuid":"783939af98734bfa8be10380b41040ca","nick":"WindCao","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/default.png","maxScore":0,"gameCoins":40}],"crazy":[{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","maxScore":33,"gameCoins":9999153},{"mid":104,"uuid":"e7217f1dd90a44a8a589822d066cbcf8","nick":"Beauty","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/104\/104_middle.jpg?1493199144","maxScore":17,"gameCoins":2},{"mid":86,"uuid":"866c1822a5de45c49f308d48ad7128c4","nick":"\u66f9\u98de\u7684\u5c0f\u53f7","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/86\/86_middle.jpg?1493105446","maxScore":13,"gameCoins":67},{"mid":103,"uuid":"f9931ee9e6bf4c82b8fa63240204a3c6","nick":"\u7ff0\u54e5\u54e5","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/103\/103_middle.jpg?1493120804","maxScore":2,"gameCoins":113},{"mid":105,"uuid":"7bf795e3401942f0b3d9dadb81e566b3","nick":"happy","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/105\/105_middle.jpg","maxScore":0,"gameCoins":80},{"mid":106,"uuid":"786f7b2b4c91444385722dc50e141d71","nick":"\u5361\u5e03\u8fbe","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/106\/106_middle.jpg","maxScore":0,"gameCoins":80},{"mid":111,"uuid":"783939af98734bfa8be10380b41040ca","nick":"WindCao","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/default.png","maxScore":0,"gameCoins":80}]}}}
+[2][Lua_Info][game\gameBase\httpModule.lua func:225][nil] -----------------------------------------------
+[2][Lua_Info][game\gameBase\httpModule.lua func:242][HttpModule] httpCode:0 200 errorCode:SUCCESSED command:http://192.168.96.152/jeffhas_dev/jdcomb/
+Lua_dump from:demo\demoScene.lua callback:1733
+- "data" = {
+-     "data" = {
+-         "gModelRankList" = {
+-             "crazy" = {
+-                 1 = {
+-                     "gameCoins" = 9999153
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-                     "maxScore"  = 33
+-                     "mid"       = 85
+-                     "nick"      = "banana"
+-                     "sex"       = 0
+-                     "uuid"      = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-                 }
+-                 2 = {
+-                     "gameCoins" = 2
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-                     "maxScore"  = 17
+-                     "mid"       = 104
+-                     "nick"      = "Beauty"
+-                     "sex"       = 0
+-                     "uuid"      = "e7217f1dd90a44a8a589822d066cbcf8"
+-                 }
+-                 3 = {
+-                     "gameCoins" = 67
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-                     "maxScore"  = 13
+-                     "mid"       = 86
+-                     "nick"      = "曹飞的小号"
+-                     "sex"       = 0
+-                     "uuid"      = "866c1822a5de45c49f308d48ad7128c4"
+-                 }
+-                 4 = {
+-                     "gameCoins" = 113
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-                     "maxScore"  = 2
+-                     "mid"       = 103
+-                     "nick"      = "翰哥哥"
+-                     "sex"       = 0
+-                     "uuid"      = "f9931ee9e6bf4c82b8fa63240204a3c6"
+-                 }
+-                 5 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-                     "maxScore"  = 0
+-                     "mid"       = 105
+-                     "nick"      = "happy"
+-                     "sex"       = 0
+-                     "uuid"      = "7bf795e3401942f0b3d9dadb81e566b3"
+-                 }
+-                 6 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-                     "maxScore"  = 0
+-                     "mid"       = 106
+-                     "nick"      = "卡布达"
+-                     "sex"       = 0
+-                     "uuid"      = "786f7b2b4c91444385722dc50e141d71"
+-                 }
+-                 7 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-                     "maxScore"  = 0
+-                     "mid"       = 111
+-                     "nick"      = "WindCao"
+-                     "sex"       = 0
+-                     "uuid"      = "783939af98734bfa8be10380b41040ca"
+-                 }
+-             }
+-             "gentle" = {
+-                 1 = {
+-                     "gameCoins" = 9999110
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-                     "maxScore"  = 66
+-                     "mid"       = 85
+-                     "nick"      = "banana"
+-                     "sex"       = 0
+-                     "uuid"      = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-                 }
+-                 2 = {
+-                     "gameCoins" = 15
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-                     "maxScore"  = 22
+-                     "mid"       = 86
+-                     "nick"      = "曹飞的小号"
+-                     "sex"       = 0
+-                     "uuid"      = "866c1822a5de45c49f308d48ad7128c4"
+-                 }
+-                 3 = {
+-                     "gameCoins" = 56
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-                     "maxScore"  = 19
+-                     "mid"       = 105
+-                     "nick"      = "happy"
+-                     "sex"       = 0
+-                     "uuid"      = "7bf795e3401942f0b3d9dadb81e566b3"
+-                 }
+-                 4 = {
+-                     "gameCoins" = 53
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-                     "maxScore"  = 11
+-                     "mid"       = 106
+-                     "nick"      = "卡布达"
+-                     "sex"       = 0
+-                     "uuid"      = "786f7b2b4c91444385722dc50e141d71"
+-                 }
+-                 5 = {
+-                     "gameCoins" = 48
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-                     "maxScore"  = 5
+-                     "mid"       = 103
+-                     "nick"      = "翰哥哥"
+-                     "sex"       = 0
+-                     "uuid"      = "f9931ee9e6bf4c82b8fa63240204a3c6"
+-                 }
+-                 6 = {
+-                     "gameCoins" = 44
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-                     "maxScore"  = 3
+-                     "mid"       = 104
+-                     "nick"      = "Beauty"
+-                     "sex"       = 0
+-                     "uuid"      = "e7217f1dd90a44a8a589822d066cbcf8"
+-                 }
+-                 7 = {
+-                     "gameCoins" = 40
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-                     "maxScore"  = 0
+-                     "mid"       = 111
+-                     "nick"      = "WindCao"
+-                     "sex"       = 0
+-                     "uuid"      = "783939af98734bfa8be10380b41040ca"
+-                 }
+-             }
+-         }
+-         "iconUrl"          = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-         "mid"              = 85
+-         "nick"             = "banana"
+-         "personalRankList" = {
+-             "crazy" = {
+-                 "gameCoins" = 9999153
+-                 "maxScore"  = 33
+-                 "rank"      = 1
+-             }
+-             "gentle" = {
+-                 "gameCoins" = 9999110
+-                 "maxScore"  = 66
+-                 "rank"      = 1
+-             }
+-         }
+-         "sex"              = 0
+-         "uuid"             = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-     }
+-     "flag" = 10000
+-     "time" = 1493260316
+- }
+Lua_dump from:demo\demoScene.lua callback:1776
+- "<<<<<<   my,Rank" = {
+-     "crazyRankList" = {
+-         1 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-             "index"    = 1
+-             "isSelf"   = true
+-             "maxscore" = 33
+-             "mid"      = 85
+-             "nick"     = "banana"
+-         }
+-         2 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-             "index"    = 2
+-             "isSelf"   = false
+-             "maxscore" = 17
+-             "mid"      = 104
+-             "nick"     = "Beauty"
+-         }
+-         3 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-             "index"    = 3
+-             "isSelf"   = false
+-             "maxscore" = 13
+-             "mid"      = 86
+-             "nick"     = "曹飞的小号"
+-         }
+-         4 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-             "index"    = 4
+-             "isSelf"   = false
+-             "maxscore" = 2
+-             "mid"      = 103
+-             "nick"     = "翰哥哥"
+-         }
+-         5 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-             "index"    = 5
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 105
+-             "nick"     = "happy"
+-         }
+-         6 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-             "index"    = 6
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 106
+-             "nick"     = "卡布达"
+-         }
+-         7 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-             "index"    = 7
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 111
+-             "nick"     = "WindCao"
+-         }
+-     }
+-     "gentleRankList" = {
+-         1 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-             "index"    = 1
+-             "isSelf"   = true
+-             "maxscore" = 66
+-             "mid"      = 85
+-             "nick"     = "banana"
+-         }
+-         2 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-             "index"    = 2
+-             "isSelf"   = false
+-             "maxscore" = 22
+-             "mid"      = 86
+-             "nick"     = "曹飞的小号"
+-         }
+-         3 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-             "index"    = 3
+-             "isSelf"   = false
+-             "maxscore" = 19
+-             "mid"      = 105
+-             "nick"     = "happy"
+-         }
+-         4 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-             "index"    = 4
+-             "isSelf"   = false
+-             "maxscore" = 11
+-             "mid"      = 106
+-             "nick"     = "卡布达"
+-         }
+-         5 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-             "index"    = 5
+-             "isSelf"   = false
+-             "maxscore" = 5
+-             "mid"      = 103
+-             "nick"     = "翰哥哥"
+-         }
+-         6 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-             "index"    = 6
+-             "isSelf"   = false
+-             "maxscore" = 3
+-             "mid"      = 104
+-             "nick"     = "Beauty"
+-         }
+-         7 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-             "index"    = 7
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 111
+-             "nick"     = "WindCao"
+-         }
+-     }
+-     "personalRankList" = {
+-         "crazy" = {
+-             "maxscore" = 33
+-             "rank"     = 1
+-         }
+-         "gentle" = {
+-             "maxscore" = 66
+-             "rank"     = 1
+-         }
+-         "iconUrl" = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-         "mid"     = 85
+-         "nick"    = "banana"
+-     }
+- }
+[2][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[2][Lua_Info][demo\onRankPopup.lua ctor:16][nil] onRankPopup.ctor
+[2][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[2][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[2][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[2][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[2][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[2][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[2][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[2][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[2][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[2][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[3][Lua_Info][demo\onRankPopup.lua dtor:24][nil] onRankPopup.dtor
+[3][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[3][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[3][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[3][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[3][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[3][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[3][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[3][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[3][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[3][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[3][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[3][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[3][Lua_Info][demo\setHeadPopup.lua ctor:34][nil] setHeadPopup.ctor
+Lua_dump from:demo\setHeadPopup.lua getHeadPhotoAndName:98
+- "ICON_URL>>>" = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+Lua_dump from:demo\setHeadPopup.lua getHeadPhotoAndName:118
+- " asdas<<<<<<<" = "banana"
+[5][Lua_Info][demo\setHeadPopup.lua dtor:84][nil] setHeadPopup.dtor
+[5][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+Lua_dump from:game\net\http\httpController.lua execute:78
+- ">>>>>>>>>>>>>>>>>>>>>>>>> paramData" = "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","mid":"85","gid":2,"param":{"method":"Rank.getRankList"}}"
+[7][Lua_Info][game\gameBase\httpModule.lua execute_open_type:111][HttpModule execute]  url:---------->http://192.168.96.152/jeffhas_dev/jdcomb/ |  param:---------->
+Lua_dump from:game\gameBase\httpModule.lua execute_open_type:112
+- "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","mid":"85","gid":2,"param":{"method":"Rank.getRankList"}}" = "HttpModule execute"
+[7][Lua_Info][game\gameBase\httpModule.lua func:223][nil] -----------------------------------------------
+[7][Lua_Info][game\gameBase\httpModule.lua func:224][nil] resultStr:{"time":1493260321,"flag":10000,"data":{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","personalRankList":{"gentle":{"maxScore":66,"gameCoins":9999110,"rank":1},"crazy":{"maxScore":33,"gameCoins":9999153,"rank":1}},"gModelRankList":{"gentle":[{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","maxScore":66,"gameCoins":9999110},{"mid":86,"uuid":"866c1822a5de45c49f308d48ad7128c4","nick":"\u66f9\u98de\u7684\u5c0f\u53f7","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/86\/86_middle.jpg?1493105446","maxScore":22,"gameCoins":15},{"mid":105,"uuid":"7bf795e3401942f0b3d9dadb81e566b3","nick":"happy","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/105\/105_middle.jpg","maxScore":19,"gameCoins":56},{"mid":106,"uuid":"786f7b2b4c91444385722dc50e141d71","nick":"\u5361\u5e03\u8fbe","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/106\/106_middle.jpg","maxScore":11,"gameCoins":53},{"mid":103,"uuid":"f9931ee9e6bf4c82b8fa63240204a3c6","nick":"\u7ff0\u54e5\u54e5","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/103\/103_middle.jpg?1493120804","maxScore":5,"gameCoins":48},{"mid":104,"uuid":"e7217f1dd90a44a8a589822d066cbcf8","nick":"Beauty","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/104\/104_middle.jpg?1493199144","maxScore":3,"gameCoins":44},{"mid":111,"uuid":"783939af98734bfa8be10380b41040ca","nick":"WindCao","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/default.png","maxScore":0,"gameCoins":40}],"crazy":[{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","maxScore":33,"gameCoins":9999153},{"mid":104,"uuid":"e7217f1dd90a44a8a589822d066cbcf8","nick":"Beauty","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/104\/104_middle.jpg?1493199144","maxScore":17,"gameCoins":2},{"mid":86,"uuid":"866c1822a5de45c49f308d48ad7128c4","nick":"\u66f9\u98de\u7684\u5c0f\u53f7","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/86\/86_middle.jpg?1493105446","maxScore":13,"gameCoins":67},{"mid":103,"uuid":"f9931ee9e6bf4c82b8fa63240204a3c6","nick":"\u7ff0\u54e5\u54e5","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/103\/103_middle.jpg?1493120804","maxScore":2,"gameCoins":113},{"mid":105,"uuid":"7bf795e3401942f0b3d9dadb81e566b3","nick":"happy","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/105\/105_middle.jpg","maxScore":0,"gameCoins":80},{"mid":106,"uuid":"786f7b2b4c91444385722dc50e141d71","nick":"\u5361\u5e03\u8fbe","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/106\/106_middle.jpg","maxScore":0,"gameCoins":80},{"mid":111,"uuid":"783939af98734bfa8be10380b41040ca","nick":"WindCao","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/default.png","maxScore":0,"gameCoins":80}]}}}
+[7][Lua_Info][game\gameBase\httpModule.lua func:225][nil] -----------------------------------------------
+[7][Lua_Info][game\gameBase\httpModule.lua func:242][HttpModule] httpCode:0 200 errorCode:SUCCESSED command:http://192.168.96.152/jeffhas_dev/jdcomb/
+Lua_dump from:demo\demoScene.lua callback:1733
+- "data" = {
+-     "data" = {
+-         "gModelRankList" = {
+-             "crazy" = {
+-                 1 = {
+-                     "gameCoins" = 9999153
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-                     "maxScore"  = 33
+-                     "mid"       = 85
+-                     "nick"      = "banana"
+-                     "sex"       = 0
+-                     "uuid"      = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-                 }
+-                 2 = {
+-                     "gameCoins" = 2
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-                     "maxScore"  = 17
+-                     "mid"       = 104
+-                     "nick"      = "Beauty"
+-                     "sex"       = 0
+-                     "uuid"      = "e7217f1dd90a44a8a589822d066cbcf8"
+-                 }
+-                 3 = {
+-                     "gameCoins" = 67
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-                     "maxScore"  = 13
+-                     "mid"       = 86
+-                     "nick"      = "曹飞的小号"
+-                     "sex"       = 0
+-                     "uuid"      = "866c1822a5de45c49f308d48ad7128c4"
+-                 }
+-                 4 = {
+-                     "gameCoins" = 113
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-                     "maxScore"  = 2
+-                     "mid"       = 103
+-                     "nick"      = "翰哥哥"
+-                     "sex"       = 0
+-                     "uuid"      = "f9931ee9e6bf4c82b8fa63240204a3c6"
+-                 }
+-                 5 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-                     "maxScore"  = 0
+-                     "mid"       = 105
+-                     "nick"      = "happy"
+-                     "sex"       = 0
+-                     "uuid"      = "7bf795e3401942f0b3d9dadb81e566b3"
+-                 }
+-                 6 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-                     "maxScore"  = 0
+-                     "mid"       = 106
+-                     "nick"      = "卡布达"
+-                     "sex"       = 0
+-                     "uuid"      = "786f7b2b4c91444385722dc50e141d71"
+-                 }
+-                 7 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-                     "maxScore"  = 0
+-                     "mid"       = 111
+-                     "nick"      = "WindCao"
+-                     "sex"       = 0
+-                     "uuid"      = "783939af98734bfa8be10380b41040ca"
+-                 }
+-             }
+-             "gentle" = {
+-                 1 = {
+-                     "gameCoins" = 9999110
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-                     "maxScore"  = 66
+-                     "mid"       = 85
+-                     "nick"      = "banana"
+-                     "sex"       = 0
+-                     "uuid"      = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-                 }
+-                 2 = {
+-                     "gameCoins" = 15
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-                     "maxScore"  = 22
+-                     "mid"       = 86
+-                     "nick"      = "曹飞的小号"
+-                     "sex"       = 0
+-                     "uuid"      = "866c1822a5de45c49f308d48ad7128c4"
+-                 }
+-                 3 = {
+-                     "gameCoins" = 56
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-                     "maxScore"  = 19
+-                     "mid"       = 105
+-                     "nick"      = "happy"
+-                     "sex"       = 0
+-                     "uuid"      = "7bf795e3401942f0b3d9dadb81e566b3"
+-                 }
+-                 4 = {
+-                     "gameCoins" = 53
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-                     "maxScore"  = 11
+-                     "mid"       = 106
+-                     "nick"      = "卡布达"
+-                     "sex"       = 0
+-                     "uuid"      = "786f7b2b4c91444385722dc50e141d71"
+-                 }
+-                 5 = {
+-                     "gameCoins" = 48
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-                     "maxScore"  = 5
+-                     "mid"       = 103
+-                     "nick"      = "翰哥哥"
+-                     "sex"       = 0
+-                     "uuid"      = "f9931ee9e6bf4c82b8fa63240204a3c6"
+-                 }
+-                 6 = {
+-                     "gameCoins" = 44
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-                     "maxScore"  = 3
+-                     "mid"       = 104
+-                     "nick"      = "Beauty"
+-                     "sex"       = 0
+-                     "uuid"      = "e7217f1dd90a44a8a589822d066cbcf8"
+-                 }
+-                 7 = {
+-                     "gameCoins" = 40
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-                     "maxScore"  = 0
+-                     "mid"       = 111
+-                     "nick"      = "WindCao"
+-                     "sex"       = 0
+-                     "uuid"      = "783939af98734bfa8be10380b41040ca"
+-                 }
+-             }
+-         }
+-         "iconUrl"          = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-         "mid"              = 85
+-         "nick"             = "banana"
+-         "personalRankList" = {
+-             "crazy" = {
+-                 "gameCoins" = 9999153
+-                 "maxScore"  = 33
+-                 "rank"      = 1
+-             }
+-             "gentle" = {
+-                 "gameCoins" = 9999110
+-                 "maxScore"  = 66
+-                 "rank"      = 1
+-             }
+-         }
+-         "sex"              = 0
+-         "uuid"             = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-     }
+-     "flag" = 10000
+-     "time" = 1493260321
+- }
+Lua_dump from:demo\demoScene.lua callback:1776
+- "<<<<<<   my,Rank" = {
+-     "crazyRankList" = {
+-         1 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-             "index"    = 1
+-             "isSelf"   = true
+-             "maxscore" = 33
+-             "mid"      = 85
+-             "nick"     = "banana"
+-         }
+-         2 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-             "index"    = 2
+-             "isSelf"   = false
+-             "maxscore" = 17
+-             "mid"      = 104
+-             "nick"     = "Beauty"
+-         }
+-         3 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-             "index"    = 3
+-             "isSelf"   = false
+-             "maxscore" = 13
+-             "mid"      = 86
+-             "nick"     = "曹飞的小号"
+-         }
+-         4 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-             "index"    = 4
+-             "isSelf"   = false
+-             "maxscore" = 2
+-             "mid"      = 103
+-             "nick"     = "翰哥哥"
+-         }
+-         5 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-             "index"    = 5
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 105
+-             "nick"     = "happy"
+-         }
+-         6 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-             "index"    = 6
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 106
+-             "nick"     = "卡布达"
+-         }
+-         7 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-             "index"    = 7
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 111
+-             "nick"     = "WindCao"
+-         }
+-     }
+-     "gentleRankList" = {
+-         1 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-             "index"    = 1
+-             "isSelf"   = true
+-             "maxscore" = 66
+-             "mid"      = 85
+-             "nick"     = "banana"
+-         }
+-         2 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-             "index"    = 2
+-             "isSelf"   = false
+-             "maxscore" = 22
+-             "mid"      = 86
+-             "nick"     = "曹飞的小号"
+-         }
+-         3 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-             "index"    = 3
+-             "isSelf"   = false
+-             "maxscore" = 19
+-             "mid"      = 105
+-             "nick"     = "happy"
+-         }
+-         4 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-             "index"    = 4
+-             "isSelf"   = false
+-             "maxscore" = 11
+-             "mid"      = 106
+-             "nick"     = "卡布达"
+-         }
+-         5 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-             "index"    = 5
+-             "isSelf"   = false
+-             "maxscore" = 5
+-             "mid"      = 103
+-             "nick"     = "翰哥哥"
+-         }
+-         6 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-             "index"    = 6
+-             "isSelf"   = false
+-             "maxscore" = 3
+-             "mid"      = 104
+-             "nick"     = "Beauty"
+-         }
+-         7 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-             "index"    = 7
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 111
+-             "nick"     = "WindCao"
+-         }
+-     }
+-     "personalRankList" = {
+-         "crazy" = {
+-             "maxscore" = 33
+-             "rank"     = 1
+-         }
+-         "gentle" = {
+-             "maxscore" = 66
+-             "rank"     = 1
+-         }
+-         "iconUrl" = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-         "mid"     = 85
+-         "nick"    = "banana"
+-     }
+- }
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[7][Lua_Info][demo\onRankPopup.lua ctor:16][nil] onRankPopup.ctor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[7][Lua_Info][demo\onRankPopup.lua dtor:24][nil] onRankPopup.dtor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[7][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[7][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+Lua_dump from:game\net\http\httpController.lua execute:78
+- ">>>>>>>>>>>>>>>>>>>>>>>>> paramData" = "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","mid":"85","gid":2,"param":{"method":"Rank.getRankList"}}"
+[8][Lua_Info][game\gameBase\httpModule.lua execute_open_type:111][HttpModule execute]  url:---------->http://192.168.96.152/jeffhas_dev/jdcomb/ |  param:---------->
+Lua_dump from:game\gameBase\httpModule.lua execute_open_type:112
+- "{"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","mid":"85","gid":2,"param":{"method":"Rank.getRankList"}}" = "HttpModule execute"
+[8][Lua_Info][game\gameBase\httpModule.lua func:223][nil] -----------------------------------------------
+[8][Lua_Info][game\gameBase\httpModule.lua func:224][nil] resultStr:{"time":1493260322,"flag":10000,"data":{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","personalRankList":{"gentle":{"maxScore":66,"gameCoins":9999110,"rank":1},"crazy":{"maxScore":33,"gameCoins":9999153,"rank":1}},"gModelRankList":{"gentle":[{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","maxScore":66,"gameCoins":9999110},{"mid":86,"uuid":"866c1822a5de45c49f308d48ad7128c4","nick":"\u66f9\u98de\u7684\u5c0f\u53f7","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/86\/86_middle.jpg?1493105446","maxScore":22,"gameCoins":15},{"mid":105,"uuid":"7bf795e3401942f0b3d9dadb81e566b3","nick":"happy","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/105\/105_middle.jpg","maxScore":19,"gameCoins":56},{"mid":106,"uuid":"786f7b2b4c91444385722dc50e141d71","nick":"\u5361\u5e03\u8fbe","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/106\/106_middle.jpg","maxScore":11,"gameCoins":53},{"mid":103,"uuid":"f9931ee9e6bf4c82b8fa63240204a3c6","nick":"\u7ff0\u54e5\u54e5","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/103\/103_middle.jpg?1493120804","maxScore":5,"gameCoins":48},{"mid":104,"uuid":"e7217f1dd90a44a8a589822d066cbcf8","nick":"Beauty","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/104\/104_middle.jpg?1493199144","maxScore":3,"gameCoins":44},{"mid":111,"uuid":"783939af98734bfa8be10380b41040ca","nick":"WindCao","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/default.png","maxScore":0,"gameCoins":40}],"crazy":[{"mid":85,"uuid":"0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op","nick":"banana","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/85\/85_middle.jpg?1493101708","maxScore":33,"gameCoins":9999153},{"mid":104,"uuid":"e7217f1dd90a44a8a589822d066cbcf8","nick":"Beauty","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/104\/104_middle.jpg?1493199144","maxScore":17,"gameCoins":2},{"mid":86,"uuid":"866c1822a5de45c49f308d48ad7128c4","nick":"\u66f9\u98de\u7684\u5c0f\u53f7","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/86\/86_middle.jpg?1493105446","maxScore":13,"gameCoins":67},{"mid":103,"uuid":"f9931ee9e6bf4c82b8fa63240204a3c6","nick":"\u7ff0\u54e5\u54e5","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/103\/103_middle.jpg?1493120804","maxScore":2,"gameCoins":113},{"mid":105,"uuid":"7bf795e3401942f0b3d9dadb81e566b3","nick":"happy","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/105\/105_middle.jpg","maxScore":0,"gameCoins":80},{"mid":106,"uuid":"786f7b2b4c91444385722dc50e141d71","nick":"\u5361\u5e03\u8fbe","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/106\/106_middle.jpg","maxScore":0,"gameCoins":80},{"mid":111,"uuid":"783939af98734bfa8be10380b41040ca","nick":"WindCao","sex":0,"iconUrl":"http:\/\/192.168.96.152\/jeffhas_dev\/jdcomb\/icon\/2\/default.png","maxScore":0,"gameCoins":80}]}}}
+[8][Lua_Info][game\gameBase\httpModule.lua func:225][nil] -----------------------------------------------
+[8][Lua_Info][game\gameBase\httpModule.lua func:242][HttpModule] httpCode:0 200 errorCode:SUCCESSED command:http://192.168.96.152/jeffhas_dev/jdcomb/
+Lua_dump from:demo\demoScene.lua callback:1733
+- "data" = {
+-     "data" = {
+-         "gModelRankList" = {
+-             "crazy" = {
+-                 1 = {
+-                     "gameCoins" = 9999153
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-                     "maxScore"  = 33
+-                     "mid"       = 85
+-                     "nick"      = "banana"
+-                     "sex"       = 0
+-                     "uuid"      = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-                 }
+-                 2 = {
+-                     "gameCoins" = 2
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-                     "maxScore"  = 17
+-                     "mid"       = 104
+-                     "nick"      = "Beauty"
+-                     "sex"       = 0
+-                     "uuid"      = "e7217f1dd90a44a8a589822d066cbcf8"
+-                 }
+-                 3 = {
+-                     "gameCoins" = 67
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-                     "maxScore"  = 13
+-                     "mid"       = 86
+-                     "nick"      = "曹飞的小号"
+-                     "sex"       = 0
+-                     "uuid"      = "866c1822a5de45c49f308d48ad7128c4"
+-                 }
+-                 4 = {
+-                     "gameCoins" = 113
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-                     "maxScore"  = 2
+-                     "mid"       = 103
+-                     "nick"      = "翰哥哥"
+-                     "sex"       = 0
+-                     "uuid"      = "f9931ee9e6bf4c82b8fa63240204a3c6"
+-                 }
+-                 5 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-                     "maxScore"  = 0
+-                     "mid"       = 105
+-                     "nick"      = "happy"
+-                     "sex"       = 0
+-                     "uuid"      = "7bf795e3401942f0b3d9dadb81e566b3"
+-                 }
+-                 6 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-                     "maxScore"  = 0
+-                     "mid"       = 106
+-                     "nick"      = "卡布达"
+-                     "sex"       = 0
+-                     "uuid"      = "786f7b2b4c91444385722dc50e141d71"
+-                 }
+-                 7 = {
+-                     "gameCoins" = 80
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-                     "maxScore"  = 0
+-                     "mid"       = 111
+-                     "nick"      = "WindCao"
+-                     "sex"       = 0
+-                     "uuid"      = "783939af98734bfa8be10380b41040ca"
+-                 }
+-             }
+-             "gentle" = {
+-                 1 = {
+-                     "gameCoins" = 9999110
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-                     "maxScore"  = 66
+-                     "mid"       = 85
+-                     "nick"      = "banana"
+-                     "sex"       = 0
+-                     "uuid"      = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-                 }
+-                 2 = {
+-                     "gameCoins" = 15
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-                     "maxScore"  = 22
+-                     "mid"       = 86
+-                     "nick"      = "曹飞的小号"
+-                     "sex"       = 0
+-                     "uuid"      = "866c1822a5de45c49f308d48ad7128c4"
+-                 }
+-                 3 = {
+-                     "gameCoins" = 56
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-                     "maxScore"  = 19
+-                     "mid"       = 105
+-                     "nick"      = "happy"
+-                     "sex"       = 0
+-                     "uuid"      = "7bf795e3401942f0b3d9dadb81e566b3"
+-                 }
+-                 4 = {
+-                     "gameCoins" = 53
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-                     "maxScore"  = 11
+-                     "mid"       = 106
+-                     "nick"      = "卡布达"
+-                     "sex"       = 0
+-                     "uuid"      = "786f7b2b4c91444385722dc50e141d71"
+-                 }
+-                 5 = {
+-                     "gameCoins" = 48
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-                     "maxScore"  = 5
+-                     "mid"       = 103
+-                     "nick"      = "翰哥哥"
+-                     "sex"       = 0
+-                     "uuid"      = "f9931ee9e6bf4c82b8fa63240204a3c6"
+-                 }
+-                 6 = {
+-                     "gameCoins" = 44
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-                     "maxScore"  = 3
+-                     "mid"       = 104
+-                     "nick"      = "Beauty"
+-                     "sex"       = 0
+-                     "uuid"      = "e7217f1dd90a44a8a589822d066cbcf8"
+-                 }
+-                 7 = {
+-                     "gameCoins" = 40
+-                     "iconUrl"   = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-                     "maxScore"  = 0
+-                     "mid"       = 111
+-                     "nick"      = "WindCao"
+-                     "sex"       = 0
+-                     "uuid"      = "783939af98734bfa8be10380b41040ca"
+-                 }
+-             }
+-         }
+-         "iconUrl"          = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-         "mid"              = 85
+-         "nick"             = "banana"
+-         "personalRankList" = {
+-             "crazy" = {
+-                 "gameCoins" = 9999153
+-                 "maxScore"  = 33
+-                 "rank"      = 1
+-             }
+-             "gentle" = {
+-                 "gameCoins" = 9999110
+-                 "maxScore"  = 66
+-                 "rank"      = 1
+-             }
+-         }
+-         "sex"              = 0
+-         "uuid"             = "0XyvMbZqYYq99XvAQPd4lWf8dgkIw8Op"
+-     }
+-     "flag" = 10000
+-     "time" = 1493260322
+- }
+Lua_dump from:demo\demoScene.lua callback:1776
+- "<<<<<<   my,Rank" = {
+-     "crazyRankList" = {
+-         1 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-             "index"    = 1
+-             "isSelf"   = true
+-             "maxscore" = 33
+-             "mid"      = 85
+-             "nick"     = "banana"
+-         }
+-         2 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-             "index"    = 2
+-             "isSelf"   = false
+-             "maxscore" = 17
+-             "mid"      = 104
+-             "nick"     = "Beauty"
+-         }
+-         3 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-             "index"    = 3
+-             "isSelf"   = false
+-             "maxscore" = 13
+-             "mid"      = 86
+-             "nick"     = "曹飞的小号"
+-         }
+-         4 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-             "index"    = 4
+-             "isSelf"   = false
+-             "maxscore" = 2
+-             "mid"      = 103
+-             "nick"     = "翰哥哥"
+-         }
+-         5 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-             "index"    = 5
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 105
+-             "nick"     = "happy"
+-         }
+-         6 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-             "index"    = 6
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 106
+-             "nick"     = "卡布达"
+-         }
+-         7 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-             "index"    = 7
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 111
+-             "nick"     = "WindCao"
+-         }
+-     }
+-     "gentleRankList" = {
+-         1 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-             "index"    = 1
+-             "isSelf"   = true
+-             "maxscore" = 66
+-             "mid"      = 85
+-             "nick"     = "banana"
+-         }
+-         2 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/86/86_middle.jpg?1493105446"
+-             "index"    = 2
+-             "isSelf"   = false
+-             "maxscore" = 22
+-             "mid"      = 86
+-             "nick"     = "曹飞的小号"
+-         }
+-         3 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/105/105_middle.jpg"
+-             "index"    = 3
+-             "isSelf"   = false
+-             "maxscore" = 19
+-             "mid"      = 105
+-             "nick"     = "happy"
+-         }
+-         4 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/106/106_middle.jpg"
+-             "index"    = 4
+-             "isSelf"   = false
+-             "maxscore" = 11
+-             "mid"      = 106
+-             "nick"     = "卡布达"
+-         }
+-         5 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/103/103_middle.jpg?1493120804"
+-             "index"    = 5
+-             "isSelf"   = false
+-             "maxscore" = 5
+-             "mid"      = 103
+-             "nick"     = "翰哥哥"
+-         }
+-         6 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/104/104_middle.jpg?1493199144"
+-             "index"    = 6
+-             "isSelf"   = false
+-             "maxscore" = 3
+-             "mid"      = 104
+-             "nick"     = "Beauty"
+-         }
+-         7 = {
+-             "iconUrl"  = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/default.png"
+-             "index"    = 7
+-             "isSelf"   = false
+-             "maxscore" = 0
+-             "mid"      = 111
+-             "nick"     = "WindCao"
+-         }
+-     }
+-     "personalRankList" = {
+-         "crazy" = {
+-             "maxscore" = 33
+-             "rank"     = 1
+-         }
+-         "gentle" = {
+-             "maxscore" = 66
+-             "rank"     = 1
+-         }
+-         "iconUrl" = "http://192.168.96.152/jeffhas_dev/jdcomb/icon/2/85/85_middle.jpg?1493101708"
+-         "mid"     = 85
+-         "nick"    = "banana"
+-     }
+- }
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[8][Lua_Info][demo\onRankPopup.lua ctor:16][nil] onRankPopup.ctor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua ctor:6][nil] rankItemLayer.ctor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua ctor:8][nil] GameBaseLayer.ctor
+[8][Lua_Info][demo\onRankPopup.lua dtor:24][nil] onRankPopup.dtor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[8][Lua_Info][demo\rankItemLayer\rankItemLayer.lua dtor:18][nil] rankItemLayer.dtor
+[8][Lua_Info][game\gameBase\gameBaseLayer.lua dtor:18][nil] GameBaseLayer.dtor
+[9][Lua_Info][demo\demoScene.lua func:987][DemoScene] key = 83
+[10][Lua_Info][demo\demoScene.lua func:987][DemoScene] key = 162
+[10][Lua_Info][demo\demoScene.lua func:987][DemoScene] key = 83
+[10][Lua_Info][demo\demoScene.lua func:987][DemoScene] key = 162

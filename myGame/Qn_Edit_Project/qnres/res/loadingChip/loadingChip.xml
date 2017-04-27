@@ -1,0 +1,14 @@
+<item label="loadingChip" compress="0" asset="res/loadingChip" isDirectory="true">
+  <item atlasType="0" compress="0" key="06449e200dc47039a37de96670ab7813" label="loading_chip_2" asset="res/loadingChip/loading_chip_2.png" alias="loading_chip_2"/>
+  <item atlasType="0" compress="0" key="0ab93c0b2ae98bcdc589d04d31e80c2f" label="loading_chip_4" asset="res/loadingChip/loading_chip_4.png" alias="loading_chip_4"/>
+  <item atlasType="0" compress="0" key="38a3447dc6d1c23977da9740ea533e11" label="loading_chip_5" asset="res/loadingChip/loading_chip_5.png" alias="loading_chip_5"/>
+  <item atlasType="0" compress="0" key="41b0e742371e5844bec6759b005603c7" label="loading_chip_7" asset="res/loadingChip/loading_chip_7.png" alias="loading_chip_7"/>
+  <item atlasType="0" compress="0" key="45976dd09dd8e1ab545d180167927afc" label="loading_chip_11" asset="res/loadingChip/loading_chip_11.png" alias="loading_chip_11"/>
+  <item atlasType="0" compress="0" key="4a41e1aba8b08a14b3629e093f757783" label="loading_chip_6" asset="res/loadingChip/loading_chip_6.png" alias="loading_chip_6"/>
+  <item atlasType="0" compress="0" key="53df9d5dfd08846d95634093f280fcd6" label="loading_chip_1" asset="res/loadingChip/loading_chip_1.png" alias="loading_chip_1"/>
+  <item atlasType="0" compress="0" key="8eb41edf0037d60a662c94f949446077" label="loading_chip_8" asset="res/loadingChip/loading_chip_8.png" alias="loading_chip_8"/>
+  <item atlasType="0" compress="0" key="a80dbd1018de35afbf962a7a9002ea62" label="loading_chip_9" asset="res/loadingChip/loading_chip_9.png" alias="loading_chip_9"/>
+  <item atlasType="0" compress="0" key="acde7ffb80269cd58c8a451e836ef9ab" label="loading_chip_3" asset="res/loadingChip/loading_chip_3.png" alias="loading_chip_3"/>
+  <item atlasType="0" compress="0" key="c7c115a3f483516cc9b8f56feb73d25a" label="loading_chip_12" asset="res/loadingChip/loading_chip_12.png" alias="loading_chip_12"/>
+  <item atlasType="0" compress="0" key="f24d7581930e933d830e4c594a49d309" label="loading_chip_10" asset="res/loadingChip/loading_chip_10.png" alias="loading_chip_10"/>
+</item>

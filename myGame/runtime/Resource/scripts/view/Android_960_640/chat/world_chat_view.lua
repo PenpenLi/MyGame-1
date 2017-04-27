@@ -1,0 +1,35 @@
+local world_chat_view=
+{
+	name="world_chat_view",type=0,typeName="View",time=0,x=0,y=0,width=680,height=400,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="chat_msg_view",type=0,typeName="ScrollView",time=0,x=0,y=0,width=100,height=315,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,varname="chat_msg_view"
+	},
+	{
+		name="send_view",type=0,typeName="View",time=0,x=0,y=0,width=100,height=81,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignBottom,varname="send_view",
+		{
+			name="line",type=1,typeName="Image",time=0,x=0,y=-5,width=650,height=11,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,file="res/chat/chat_sep_line.png"
+		},
+		{
+			name="horn_input_bg",type=1,typeName="Image",time=0,x=18,y=14,width=545,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/chat/chat_horn_bg.png",gridLeft=18,gridRight=18,
+			{
+				name="horn_input",type=7,typeName="EditTextView",time=0,x=60,y=0,width=480,height=50,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,fontSize=24,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,colorA=1,varname="horn_input"
+			}
+		},
+		{
+			name="horn_icon",type=1,typeName="Image",time=0,x=26,y=23,width=49,height=40,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/chat/chat_horn_icon.png"
+		},
+		{
+			name="hron_num_bg",type=1,typeName="Image",time=0,x=45,y=10,width=40,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_red_point.png",gridLeft=12,gridRight=12,gridTop=12,gridBottom=12,varname="hron_num_bg",
+			{
+				name="hron_num",type=4,typeName="Text",time=0,x=1,y=-2,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=14,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[0]],colorA=1,varname="hron_num"
+			}
+		},
+		{
+			name="horn_send_btn",type=1,typeName="Button",time=0,x=560,y=12,width=118,height=62,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_btn_yellow_s1.png",varname="horn_send_btn",callbackfunc="onHornSendBtnClick",
+			{
+				name="Text12",type=4,typeName="Text",time=0,x=0,y=-2,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=26,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[Kirim]]
+			}
+		}
+	}
+}
+return world_chat_view;

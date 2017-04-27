@@ -1,0 +1,16 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="710" height="517" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2491d8a29bfb06ed81b6ed13dfb240ee" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image_bt_bg type="1" typeName="Image" time="0" x="77" y="19" width="540" height="58" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="d2fc09b8ca5b3955e7ee57b0fd9f0291" packFile="" gridLeft="30" gridRight="30" gridTop="0" gridBottom="0"/>
+    <RadioButtonGroup type="0" typeName="RadioButtonGroup" time="0" x="90" y="19" width="499" height="51" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="RadioButtonGroup">
+      <RadioButton_l type="0" typeName="RadioButton" time="0" x="-14" y="1" width="179" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="ea5ee7fd765d449d0627f5cfa0da981c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+        <Text_l type="4" typeName="Text" time="0" x="28" y="8" width="125" height="39" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="Text_l"/>
+      </RadioButton_l>
+      <RadioButton_m type="0" typeName="RadioButton" time="0" x="169" y="0" width="174" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="735fd1acffc284d42b71ae077f2520bf" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+        <Text_m type="4" typeName="Text" time="0" x="15" y="9" width="145" height="39" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_m"/>
+      </RadioButton_m>
+      <RadioButton_r type="0" typeName="RadioButton" time="0" x="348" y="1" width="179" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="5d80d4a39c6db44ff6c1220f96e51f45" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+        <Text_r type="4" typeName="Text" time="0" x="19" y="8" width="136" height="39" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_r"/>
+      </RadioButton_r>
+    </RadioButtonGroup>
+  </Image_bg>
+</root>

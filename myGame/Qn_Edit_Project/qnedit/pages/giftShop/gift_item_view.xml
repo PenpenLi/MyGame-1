@@ -1,0 +1,9 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="118" height="118" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <gift_btn type="1" typeName="Button" time="0" x="0" y="0" width="110" height="110" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="50a327406ddc952d386255cde8f77d02" file2="" packFile="" gridLeft="10" gridRight="10" gridTop="10" gridBottom="10" varname="gift_btn" callbackfunc="onGiftBtnClick">
+    <gift_view type="0" typeName="View" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" varname="gift_view"/>
+    <gift_icon type="1" typeName="Image" time="0" x="0" y="9" width="88" height="47" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="f7e0101b7c3719ba96aee01187e6f395" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="gift_icon"/>
+    <Image6 type="1" typeName="Image" time="0" x="0" y="-41" width="104" height="24" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="47a29405a56d26de103def5fe1ba3774" packFile="" gridLeft="10" gridRight="10" gridTop="10" gridBottom="10"/>
+    <gift_desc type="4" typeName="Text" time="0" x="15" y="6" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="16" textAlign="7" color="0xfbd7e6" string="1000 (3天)" varname="gift_desc" colorA="1"/>
+    <gift_selected type="1" typeName="Image" time="0" x="0" y="-1" width="110" height="110" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="883ae99414ea38ebf3963a1a3209dd12" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="gift_selected"/>
+  </gift_btn>
+</root>

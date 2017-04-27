@@ -1,0 +1,19 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="650" height="88" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="650" height="88" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="e086f1f945ce8812775a3506b4256e6a" packFile="" gridLeft="47" gridRight="47" gridTop="0" gridBottom="0" varname="Image_bg">
+    <Image_icon type="1" typeName="Image" time="0" x="-262" y="0" width="64" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="9ee4bb27981eb5e56cf062b68d71c17e" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_icon">
+      <Word type="1" typeName="Image" time="0" x="0" y="0" width="55" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="f7e0101b7c3719ba96aee01187e6f395" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Word"/>
+    </Image_icon>
+    <Text_content type="5" typeName="TextView" time="0" x="118" y="10" width="312" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0xffe6fa" string="TextView" varname="Text_content" colorA="1"/>
+    <Text_reward type="5" typeName="TextView" time="0" x="118" y="48" width="312" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0xFFFFFF" string="TextView" varname="Text_reward" colorA="1"/>
+    <Text_num type="4" typeName="Text" time="0" x="222" y="-23" width="117" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="22" textAlign="0" color="0xffe6fa" string="1/10" colorA="1" varname="Text_num"/>
+    <Button_get type="1" typeName="Button" time="0" x="461" y="35" width="170" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="0dffc546f8359cb459230e32f522abe1" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="Button_get" isLock="0">
+      <Text_bt_get type="4" typeName="Text" time="0" x="0" y="0" width="122" height="34" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="Text_bt_get"/>
+    </Button_get>
+    <Button_reward type="1" typeName="Button" time="0" x="461" y="35" width="170" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="aab9e02edcd5071e7439e8d1e6bd6737" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="Button_reward">
+      <Text_bt_reward type="4" typeName="Text" time="0" x="0" y="0" width="123" height="34" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_bt_reward"/>
+    </Button_reward>
+    <Button_goto type="1" typeName="Button" time="0" x="461" y="35" width="170" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="96f735197599ad4f02113f561c8fdd71" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="Button_goto">
+      <Text_bt_goto type="4" typeName="Text" time="0" x="0" y="0" width="129" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="22" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_bt_goto" colorA="1"/>
+    </Button_goto>
+  </Image_bg>
+</root>

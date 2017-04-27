@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    }
+]

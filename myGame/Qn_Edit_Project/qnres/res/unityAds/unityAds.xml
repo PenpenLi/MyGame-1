@@ -1,0 +1,7 @@
+<item label="unityAds" compress="0" asset="res/unityAds" isDirectory="true">
+  <item atlasType="0" compress="0" key="0f4ce3ca0acc2e68571dba4c22101b09" label="video_woman" asset="res/unityAds/video_woman.png"/>
+  <item atlasType="0" compress="0" key="3772e6b7757fb8fb1ecfd0bbb9fb5ca1" label="video_btn_2" asset="res/unityAds/video_btn_2.png"/>
+  <item atlasType="0" compress="0" key="3ec8d46b375b635bd158470830779f3a" label="video_btn_bg" asset="res/unityAds/video_btn_bg.png"/>
+  <item atlasType="0" compress="0" key="61852ccd7d8de9a7d9ca427ebe18851d" label="video_btn_1" asset="res/unityAds/video_btn_1.png"/>
+  <item atlasType="0" compress="0" key="bacb4af5e167ff5e5c5c34e5ba37c5ab" label="video_coin_bg" asset="res/unityAds/video_coin_bg.png"/>
+</item>

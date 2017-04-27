@@ -1,0 +1,12 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <bg type="1" typeName="Image" time="0" x="0" y="0" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="bg" callbackfunc="onPopupBgTouch">
+    <titleBg type="1" typeName="Image" time="0" x="0" y="11" width="375" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="33b239241ad84d697765297faea5ae99" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+      <titleLabel type="4" typeName="Text" time="0" x="0" y="0" width="194" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="30" textAlign="0" color="0xFFFFFF" string="温馨提示" colorA="1" varname="titleLabel"/>
+    </titleBg>
+    <closeButton type="1" typeName="Button" time="0" x="22" y="21" width="51" height="52" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" file="16eedbe3a1091c44ce819d48d9854cba" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="closeButton" callbackfunc="onCloseButtonClick"/>
+    <tipContentLabel type="5" typeName="TextView" time="0" x="0" y="108" width="522" height="214" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" colorA="1" varname="tipContentLabel"/>
+    <playButton type="1" typeName="Button" time="0" x="2" y="322" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="playButton" callbackfunc="onPlayButtonClick">
+      <playBtnLabel type="4" typeName="Text" time="0" x="0" y="2" width="155" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="马上玩牌" varname="playBtnLabel"/>
+    </playButton>
+  </bg>
+</root>

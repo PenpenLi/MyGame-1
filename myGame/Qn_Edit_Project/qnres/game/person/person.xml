@@ -1,0 +1,9 @@
+<item label="person" compress="0" asset="game/person" isDirectory="true">
+  <item atlasType="0" compress="0" key="28d1d38e88790573f31fd643f49705bb" label="run3" asset="game/person/run3.png"/>
+  <item atlasType="0" compress="0" key="49590d0ab236094d79794dc1a746efa4" label="run2" asset="game/person/run2.png"/>
+  <item atlasType="0" compress="0" key="73e481629f5bb818130f2d04c8e1156c" label="sliping" asset="game/person/sliping.png"/>
+  <item atlasType="0" compress="0" key="7590c26a6ffa10dc2d5bec6d090878cd" label="kicking" asset="game/person/kicking.png"/>
+  <item atlasType="0" compress="0" key="aabfdbe522081f070506ba53d617375b" label="run1" asset="game/person/run1.png"/>
+  <item atlasType="0" compress="0" key="ae50b822d6f450bd86b6e22c3dc1babe" label="kneeling" asset="game/person/kneeling.png"/>
+  <item atlasType="0" compress="0" key="e43cf988177dd402e9234d874e9a2f72" label="death" asset="game/person/death.png"/>
+</item>

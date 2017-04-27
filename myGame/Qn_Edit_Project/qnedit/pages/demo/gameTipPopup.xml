@@ -1,0 +1,6 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <tipImageBg type="1" typeName="Image" time="0" x="0" y="0" width="750" height="550" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="baf62be613ae788ac3d54c2502fe04ef" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="tipImageBg" isLock="0">
+    <tip type="5" typeName="TextView" time="0" x="79" y="39" width="264" height="426" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="30" textAlign="0" color="0xFFFFFF" string="TextView" colorA="1" varname="tip"/>
+    <imageTip type="1" typeName="Image" time="0" x="320" y="124" width="407" height="310" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="190fae4b1efcdffae18aedf61074d3fe" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="imageTip"/>
+  </tipImageBg>
+</root>

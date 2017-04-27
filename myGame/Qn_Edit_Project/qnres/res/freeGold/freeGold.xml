@@ -1,0 +1,15 @@
+<item label="freeGold" compress="0" asset="res/freeGold" isDirectory="true">
+  <item atlasType="0" compress="0" key="012164c7e52b42831be1e9a9e601d95c" label="freeGold_upgrade" asset="res/freeGold/freeGold_upgrade.png"/>
+  <item atlasType="0" compress="0" key="0bf64b138ae8242fc45d2920fa12e720" label="freeGold_room_di" asset="res/freeGold/freeGold_room_di.png"/>
+  <item atlasType="0" compress="0" key="1a3d0c89a4c536efce0972ad0e00a89f" label="freeGold_fans" asset="res/freeGold/freeGold_fans.png"/>
+  <item atlasType="0" compress="0" key="3b6b6224ab6b1da672a22791886b4004" label="freeGold_login" asset="res/freeGold/freeGold_login.png"/>
+  <item atlasType="0" compress="0" key="435099c017798cc3c95214a4c38cfda3" label="freeGold_bt" asset="res/freeGold/freeGold_bt.png"/>
+  <item atlasType="0" compress="0" key="61895ed4b651bbb537b7f9f556a5c7e2" label="freeGold_room_bg" asset="res/freeGold/freeGold_room_bg.png" grid="45,155,45,45"/>
+  <item atlasType="0" compress="0" key="6acc54f90d55a84398b9639426150db1" label="freeGold_video" asset="res/freeGold/freeGold_video.png"/>
+  <item atlasType="0" compress="0" key="773a28d034893a594f3d603e1d5eecc0" label="freeGold_input" asset="res/freeGold/freeGold_input.png" grid="15,15,20,20"/>
+  <item atlasType="0" compress="0" key="8cb05412d585834488ffb709add04cec" label="freeGold_bt_di" asset="res/freeGold/freeGold_bt_di.png" grid="35,200,35,35"/>
+  <item atlasType="0" compress="0" key="b60cbd98ad65c150934732f7a256090c" label="freeGold_di" asset="res/freeGold/freeGold_di.png" grid="15,15,20,20"/>
+  <item atlasType="0" compress="0" key="c1f8d212ebf105a3aa7666e554cba320" label="freeGold_gift" asset="res/freeGold/freeGold_gift.png"/>
+  <item atlasType="0" compress="0" key="d67bea9ec7c147dada01c465a056a548" label="freeGold_download" asset="res/freeGold/freeGold_download.png"/>
+  <item atlasType="0" compress="0" key="dc05a61daa0f7b3345f9a0e868080709" label="freeGold_room_new" asset="res/freeGold/freeGold_room_new.png"/>
+</item>

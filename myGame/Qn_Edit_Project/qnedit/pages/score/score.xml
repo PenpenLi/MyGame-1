@@ -1,0 +1,11 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" isGenerateLocal="false">
+  <Bg type="1" typeName="Image" time="0" x="0" y="0" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Bg" callbackfunc="onPopupBgTouch">
+    <Image3 type="1" typeName="Image" time="0" x="0" y="-158" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="9118df0b7cbdaeddd69649911181706d" packFile="" gridLeft="150" gridRight="150" gridTop="35" gridBottom="35"/>
+    <Title type="4" typeName="Text" time="0" x="0" y="-159" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="30" textAlign="7" color="0xFFFFFF" string="Text" colorA="1" varname="Title"/>
+    <Tip type="5" typeName="TextView" time="0" x="0" y="-67" width="460" height="49" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="8" color="0xffe6fa" colorA="1" varname="Tip"/>
+    <Image6 type="1" typeName="Image" time="0" x="0" y="32" width="538" height="110" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="8d8267829c073b58fd655fd24f048c5c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <CommitBtn type="1" typeName="Button" time="0" x="0" y="137" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="CommitBtn" callbackfunc="onCommitClick">
+      <BtnText type="4" typeName="Text" time="0" x="0" y="0" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="Text" varname="BtnText"/>
+    </CommitBtn>
+  </Bg>
+</root>

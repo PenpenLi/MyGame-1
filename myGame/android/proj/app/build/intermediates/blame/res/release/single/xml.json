@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\release\\xml\\global_tracker.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\generated\\res\\google-services\\release\\xml\\global_tracker.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\release\\xml\\provider_paths.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    }
+]

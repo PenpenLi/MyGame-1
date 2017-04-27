@@ -1,0 +1,29 @@
+local failPopup=
+{
+	name="failPopup",type=0,typeName="View",time=0,x=0,y=0,width=480,height=320,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="failPopupBg",type=1,typeName="Image",time=0,x=0,y=0,width=580,height=420,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="game/backgroud/bg0.png",varname="failPopupBg",
+		{
+			name="continue",type=1,typeName="Button",time=0,x=38,y=296,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="game/button/continue.png",varname="continue"
+		},
+		{
+			name="restart",type=1,typeName="Button",time=0,x=43,y=288,width=90,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="game/button/restart.png",varname="restart"
+		},
+		{
+			name="message",type=5,typeName="TextView",time=0,x=0,y=0,width=451,height=211,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=0,colorGreen=0,colorBlue=0,string=[[TextView]],colorA=1,varname="message"
+		},
+		{
+			name="key",type=1,typeName="Button",time=0,x=20,y=30,width=100,height=100,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="game/button/key.png",varname="key"
+		},
+		{
+			name="tip",type=1,typeName="Button",time=0,x=25,y=302,width=179,height=82,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomRight,file="game/button/tip.png",varname="tip"
+		},
+		{
+			name="cancel",type=1,typeName="Button",time=0,x=40,y=30,width=160,height=64,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottomLeft,file="game/button/cancel2.png",varname="cancel"
+		},
+		{
+			name="btnHome",type=1,typeName="Button",time=0,x=46,y=26,width=80,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="game/button/btnHome.png",varname="btnHome"
+		}
+	}
+}
+return failPopup;

@@ -1,0 +1,19 @@
+<item label="common" compress="0" asset="game/common" isDirectory="true">
+  <item atlasType="0" compress="0" key="07e3fce617cb33497c9acdaac641c03c" label="score" asset="game/common/score.png"/>
+  <item atlasType="0" compress="0" key="0a07896cfd247347f0cf63f832573d4a" label="boom" asset="game/common/boom.png"/>
+  <item atlasType="0" compress="0" key="1045e2350ead24cb64b723264bc591c7" label="pig" asset="game/common/pig.png"/>
+  <item atlasType="0" compress="0" key="1efbefd506398c9b52e197cb16ad0882" label="bg_gameTip" asset="game/common/bg_gameTip.png"/>
+  <item atlasType="0" compress="0" key="1f843e1f94142561f19e090dd67155a2" label="maxscore" asset="game/common/maxscore.png"/>
+  <item atlasType="0" compress="0" key="22ea1fba8fdc82e425c5ca9da60abadc" label="coin" asset="game/common/coin.png"/>
+  <item atlasType="0" compress="0" key="2f389594e220f7fe38897d2ebd8f3e7b" label="title" asset="game/common/title.png"/>
+  <item atlasType="0" compress="0" key="3d2cf48dddd9225554884827791c96d5" label="headframe" asset="game/common/headframe.png"/>
+  <item atlasType="0" compress="0" key="511904bac63a1a17cc7b1681f9209730" label="score0" asset="game/common/score0.png"/>
+  <item atlasType="0" compress="0" key="68348d7c159896538255726d9a9a2a07" label="title0" asset="game/common/title0.png"/>
+  <item atlasType="0" compress="0" key="712e4f0141616089b6a6884dbae405e5" label="line" asset="game/common/line.png"/>
+  <item atlasType="0" compress="0" key="730ec047d25368d49804896892a3c730" label="bg_setHead" asset="game/common/bg_setHead.png"/>
+  <item atlasType="0" compress="0" key="865e546ba6ede959b1ff886d2b46c31b" label="headframe1" asset="game/common/headframe1.png"/>
+  <item atlasType="0" compress="0" key="9ed945535c6167edbc48434544e6e33c" label="editButton" asset="game/common/editButton.png"/>
+  <item atlasType="0" compress="0" key="bbcf9d2c4e52ebf02f568431aa5787c5" label="maxscore0" asset="game/common/maxscore0.png"/>
+  <item atlasType="0" compress="0" key="f168c2983d76e77055702f49c38fa7e0" label="blank" asset="game/common/blank.png"/>
+  <item atlasType="0" compress="0" key="fa660c3423d0bd4658abfef76d989bae" label="common_transparent_blank" asset="game/common/common_transparent_blank.png"/>
+</item>

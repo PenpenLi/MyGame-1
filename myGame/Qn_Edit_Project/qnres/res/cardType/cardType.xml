@@ -1,0 +1,7 @@
+<item label="cardType" compress="0" asset="res/cardType" isDirectory="true">
+  <item atlasType="0" compress="0" key="432b520c83f2615969e4f0033be0304f" label="cardType_x" asset="res/cardType/cardType_x.png"/>
+  <item atlasType="0" compress="0" key="7c88c934e6b70b7b16ec3eac46e07542" label="cardType_number_3" asset="res/cardType/cardType_number_3.png"/>
+  <item atlasType="0" compress="0" key="b9fc4a279299c3a46794404fa2fdc24f" label="cardType_number_4" asset="res/cardType/cardType_number_4.png"/>
+  <item atlasType="0" compress="0" key="d4548fc94687946c526bda44991a3af3" label="cardType_number_1" asset="res/cardType/cardType_number_1.png"/>
+  <item atlasType="0" compress="0" key="de49a4905310f9ac80da9b91139619ec" label="cardType_number_2" asset="res/cardType/cardType_number_2.png"/>
+</item>

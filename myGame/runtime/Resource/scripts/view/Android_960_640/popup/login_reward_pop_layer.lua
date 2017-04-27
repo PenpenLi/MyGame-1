@@ -1,0 +1,32 @@
+local login_reward_pop_layer=
+{
+	name="login_reward_pop_layer",type=0,typeName="View",time=0,x=0,y=0,width=960,height=640,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="popup_bg",type=1,typeName="Image",time=0,x=0,y=0,width=838,height=564,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/loginReward/login_reward_bg.png",varname="popup_bg",callbackfunc="onPopupBgTouch",
+		{
+			name="progressBg",type=1,typeName="Image",time=0,x=0,y=185,width=758,height=19,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="res/common/common_progress_bg_blue.png",gridLeft=15,gridRight=15,gridTop=9,gridBottom=9,varname="progressBg",
+			{
+				name="progressBarImage",type=1,typeName="Image",time=0,x=0,y=1,width=0,height=23,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="res/common/common_progress_bar_orange_1.png",gridLeft=20,gridRight=20,gridTop=10,gridBottom=10,varname="progressBarImage"
+			}
+		},
+		{
+			name="tipLabel",type=4,typeName="Text",time=0,x=56,y=104,width=674,height=25,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,fontSize=18,textAlign=kAlignCenter,colorRed=201,colorGreen=149,colorBlue=254,colorA=1,varname="tipLabel"
+		},
+		{
+			name="shareButton",type=1,typeName="Button",time=0,x=0,y=17,width=266,height=69,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="res/common/common_btn_yellow.png",gridLeft=50,gridRight=50,gridTop=35,gridBottom=34,varname="shareButton",callbackfunc="onShareButtonClick",
+			{
+				name="shareLabel",type=4,typeName="Text",time=0,x=0,y=3,width=100,height=100,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=30,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,colorA=1,varname="shareLabel"
+			}
+		},
+		{
+			name="closeButton",type=1,typeName="Button",time=0,x=769,y=74,width=51,height=52,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_close_btn.png",varname="closeButton",callbackfunc="onCloseBtnClick"
+		},
+		{
+			name="Image10",type=1,typeName="Image",time=0,x=132,y=271,width=685,height=195,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/loginReward/login_reward_item_panel.png",gridLeft=20,gridRight=20,gridTop=20,gridBottom=20
+		},
+		{
+			name="itemsView",type=0,typeName="View",time=0,x=135,y=265,width=687,height=185,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,varname="itemsView"
+		}
+	}
+}
+return login_reward_pop_layer;

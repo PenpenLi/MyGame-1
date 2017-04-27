@@ -1,0 +1,330 @@
+[
+    {
+        "outputFile": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-fr\\values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 142,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 142,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 142,
+                    "endOffset": 336
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 307,
+                        "endColumn": 142,
+                        "endOffset": 445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 341,
+                    "endColumn": 95,
+                    "endOffset": 432
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 450,
+                        "endColumn": 95,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 437,
+                    "endColumn": 70,
+                    "endOffset": 503
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 546,
+                        "endColumn": 70,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 508,
+                    "endColumn": 69,
+                    "endOffset": 573
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 617,
+                        "endColumn": 69,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 578,
+                    "endColumn": 62,
+                    "endOffset": 636
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 62,
+                        "endOffset": 745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 641,
+                    "endColumn": 72,
+                    "endOffset": 709
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 750,
+                        "endColumn": 72,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 714,
+                    "endColumn": 74,
+                    "endOffset": 784
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 823,
+                        "endColumn": 74,
+                        "endOffset": 893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 789,
+                    "endColumn": 93,
+                    "endOffset": 878
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 898,
+                        "endColumn": 93,
+                        "endOffset": 987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 883,
+                    "endColumn": 77,
+                    "endOffset": 956
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 992,
+                        "endColumn": 77,
+                        "endOffset": 1065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 961,
+                    "endColumn": 77,
+                    "endOffset": 1034
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1070,
+                        "endColumn": 77,
+                        "endOffset": 1143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1039,
+                    "endColumn": 92,
+                    "endOffset": 1127
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1148,
+                        "endColumn": 92,
+                        "endOffset": 1236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1132,
+                    "endColumn": 108,
+                    "endOffset": 1236
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1241,
+                        "endColumn": 108,
+                        "endOffset": 1345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1241,
+                    "endColumn": 65,
+                    "endOffset": 1302
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1350,
+                        "endColumn": 65,
+                        "endOffset": 1411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1307,
+                    "endColumn": 67,
+                    "endOffset": 1370
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1416,
+                        "endColumn": 67,
+                        "endOffset": 1479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1375,
+                    "endColumn": 145,
+                    "endOffset": 1516
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1484,
+                        "endColumn": 145,
+                        "endOffset": 1625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1521,
+                    "endColumn": 62,
+                    "endOffset": 1579
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1756,
+                        "endColumn": 62,
+                        "endOffset": 1814
+                    }
+                }
+            }
+        ]
+    }
+]

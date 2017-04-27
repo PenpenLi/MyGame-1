@@ -1,0 +1,13 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="725" height="430" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="74fc3456a34ca931b94f47474c01a548" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" callbackfunc="onPopupBgTouch" varname="Image_bg">
+    <Image5 type="1" typeName="Image" time="0" x="75" y="95" width="214" height="228" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="7af1a030cce047e226e95cc8fc11b679" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <Image6 type="1" typeName="Image" time="0" x="129" y="14" width="480" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="d58e46d0933bc95782ea828ee75c7fb6" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+      <Text_title type="4" typeName="Text" time="0" x="88" y="18" width="323" height="46" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="30" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="Text_title"/>
+    </Image6>
+    <TextView_content type="5" typeName="TextView" time="0" x="313" y="126" width="336" height="119" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="8" color="0xFFFFFF" string="TextView" colorA="1" varname="TextView_content"/>
+    <Button_invite type="1" typeName="Button" time="0" x="326" y="285" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="Button_invite" callbackfunc="bt_invite_click">
+      <Text_bt_invite type="4" typeName="Text" time="0" x="20" y="17" width="149" height="38" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_bt_invite" colorA="1"/>
+      <Image4 type="1" typeName="Image" time="0" x="134" y="-39" width="102" height="90" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="6b7309d6394b1bce1be6ec58bf860fa7" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    </Button_invite>
+  </Image_bg>
+</root>

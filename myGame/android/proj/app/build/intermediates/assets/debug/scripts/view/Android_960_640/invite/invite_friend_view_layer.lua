@@ -1,0 +1,47 @@
+local invite_friend_view_layer=
+{
+	name="invite_friend_view_layer",type=0,typeName="View",time=0,x=0,y=0,width=681,height=395,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="bgView",type=0,typeName="View",time=0,x=0,y=0,width=681,height=395,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,varname="bgView",
+		{
+			name="topImage",type=1,typeName="Image",time=0,x=0,y=0,width=677,height=77,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTop,file="res/invite/invite_top_bg.png",
+			{
+				name="checkButton",type=1,typeName="Button",time=0,x=10,y=0,width=48,height=49,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="res/common/common_bg_1.png",gridLeft=15,gridRight=15,gridTop=15,gridBottom=15,varname="checkButton",callbackfunc="onCheckButtonClick"
+			},
+			{
+				name="checkBgImage",type=1,typeName="Image",time=0,x=10,y=0,width=48,height=49,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="res/common/common_bg_1.png",gridLeft=15,gridRight=15,gridTop=15,gridBottom=15,varname="checkBgImage",
+				{
+					name="checkImage",type=1,typeName="Image",time=0,x=0,y=0,width=32,height=32,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_check_big.png",varname="checkImage"
+				}
+			},
+			{
+				name="inviteButton",type=1,typeName="Button",time=0,x=470,y=4,width=192,height=69,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_btn_yellow.png",gridLeft=50,gridRight=50,gridTop=35,gridBottom=34,varname="inviteButton",callbackfunc="onInviteButtonClick",
+				{
+					name="inviteLabel",type=4,typeName="Text",time=0,x=0,y=0,width=100,height=100,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,fontSize=26,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[邀请]],varname="inviteLabel"
+				}
+			},
+			{
+				name="Image7",type=1,typeName="Image",time=0,x=190,y=9,width=275,height=57,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_password_bg.png",gridLeft=15,gridRight=15,gridTop=15,gridBottom=15,
+				{
+					name="searchEditBox",type=6,typeName="EditText",time=0,x=2,y=0,width=222,height=57,visible=1,fillParentWidth=0,fillParentHeight=1,nodeAlign=kAlignLeft,fontSize=22,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,colorA=1,varname="searchEditBox"
+				},
+				{
+					name="searchButton",type=1,typeName="Button",time=0,x=0,y=0,width=52,height=53,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="res/common/common_magnifier.png",varname="searchButton",callbackfunc="onSearchButtonClick",effect={shader="mirror",mirrorType=1}
+				}
+			},
+			{
+				name="checkAllLabel",type=4,typeName="Text",time=0,x=60,y=17,width=94,height=43,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=22,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[Pilih semua]],colorA=1,varname="checkAllLabel"
+			}
+		},
+		{
+			name="itemScrollView",type=0,typeName="AutoScrollView",time=0,x=0,y=82,width=666,height=314,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,varname="itemScrollView"
+		},
+		{
+			name="bottomImage",type=1,typeName="Image",time=0,x=0,y=-14,width=714,height=63,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="res/invite/invite_bottom_bg.png",varname="bottomImage",
+			{
+				name="chooseTipLabel",type=4,typeName="Text",time=0,x=0,y=0,width=714,height=42,visible=0,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=20,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[您邀请了0位好朋友，发送邀请即可获得0金币奖励！]],varname="chooseTipLabel",colorA=1
+			}
+		}
+	}
+}
+return invite_friend_view_layer;

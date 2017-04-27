@@ -1,0 +1,25 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image2 type="1" typeName="Image" time="0" x="0" y="0" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="popupBg" callbackfunc="onPopupBgTouch">
+    <Image4 type="1" typeName="Image" time="0" x="0" y="12" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="9118df0b7cbdaeddd69649911181706d" packFile="" gridLeft="150" gridRight="150" gridTop="35" gridBottom="35">
+      <Text4 type="4" typeName="Text" time="0" x="0" y="4" width="100" height="46" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Tips" colorA="1" varname="TextTitle"/>
+    </Image4>
+    <Image6 type="1" typeName="Image" time="0" x="43" y="129" width="489" height="173" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="96a7e49439da0d29409c0e8654085168" packFile="" gridLeft="10" gridRight="10" gridTop="10" gridBottom="10">
+      <Image11 type="1" typeName="Image" time="0" x="42" y="26" width="125" height="125" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+        <Image_sex_frame type="1" typeName="Image" time="0" x="-1" y="-2" width="137" height="137" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ebdcbe13e4749560e4ab1f2b0395dd4d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_sex_frame"/>
+        <View61 type="0" typeName="View" time="0" x="0" y="-1" width="125" height="125" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8">
+          <Image_user_icon type="1" typeName="Image" time="0" x="0" y="0" width="125" height="125" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" file="66e9b7ffacb52a9a71013360c5ad1f27" varname="Image_user_icon"/>
+        </View61>
+      </Image11>
+      <Text13 type="4" typeName="Text" time="0" x="193" y="17" width="259" height="33" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0xFFFFFF" string="Text" varname="TextName"/>
+      <Text14 type="4" typeName="Text" time="0" x="193" y="50" width="259" height="33" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0xFFFFFF" string="Text" colorA="1" varname="TextUID"/>
+      <Image15 type="1" typeName="Image" time="0" x="192" y="86" width="276" height="2" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="447a910bcc2ae68328b579cc95fa565d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <TextView16 type="5" typeName="TextView" time="0" x="194" y="96" width="256" height="52" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="8" color="0xfbd7e6" string="TextView" colorA="1" varname="TextTips"/>
+    </Image6>
+    <Button18 type="1" typeName="Button" time="0" x="85" y="319" width="177" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="e0b8cf297c456c99a82b2cb5a4cb08e6" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="ButtonCancel" callbackfunc="onClose">
+      <Text21 type="4" typeName="Text" time="0" x="0" y="-3" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Cancel" colorA="1" varname="TextCancel"/>
+    </Button18>
+    <Button19 type="1" typeName="Button" time="0" x="307" y="316" width="177" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" callbackfunc="onBtnSureClick" varname="ButtonSure">
+      <Text22 type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Yes" varname="TextSure"/>
+    </Button19>
+  </Image2>
+</root>

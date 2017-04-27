@@ -1,0 +1,66 @@
+<item label="gaple" compress="0" asset="res/room/gaple" isDirectory="true">
+  <item atlasType="0" compress="0" key="03f61c332e14a4a325c6e535704c877b" label="poker_font_bg" asset="res/room/gaple/poker_font_bg.png"/>
+  <item atlasType="0" compress="0" key="0503be8ae31d345a9798b0956cf07d6c" label="roomG_owner_icon" asset="res/room/gaple/roomG_owner_icon.png"/>
+  <item atlasType="0" compress="0" key="06060127c511d97a76c88a4f72caefcd" label="n_+" asset="res/room/gaple/n_+.png" alias="n_and"/>
+  <item atlasType="0" compress="0" key="07e0c2529b8baf697b4f89b6af885b85" label="roomG_chat_arrow" asset="res/room/gaple/roomG_chat_arrow.png"/>
+  <item atlasType="0" compress="0" key="0872e25898d939e2bf120914fecd74f5" label="roomG_round_pass_right" asset="res/room/gaple/roomG_round_pass_right.png"/>
+  <item atlasType="0" compress="0" key="11395378be1c7ce14dea062974e04623" label="n_-" asset="res/room/gaple/n_-.png" alias="n_delete"/>
+  <item atlasType="0" compress="0" key="144dddeb0f8d7591f9b240ca90b2d3a4" label="roomG_setting_btn" asset="res/room/gaple/roomG_setting_btn.png"/>
+  <item atlasType="0" compress="0" key="1991089c566baba2eccc31ef4a30a300" label="roomG_bg_top" asset="res/room/gaple/roomG_bg_top.png" alias="roomG_bg_top"/>
+  <item atlasType="0" compress="0" key="19a4c62f006acaea0fa964580b3339e8" label="roomG_signal_3" asset="res/room/gaple/roomG_signal_3.png" alias="roomG_signal_3"/>
+  <item atlasType="0" compress="0" key="19d804301fa048a7bff879639175da0e" label="n_1" asset="res/room/gaple/n_1.png" alias="n_1"/>
+  <item atlasType="0" compress="0" key="1b18afedb02083a04565e9d39a3a2887" label="n_M" asset="res/room/gaple/n_M.png" alias="n_M"/>
+  <item atlasType="0" compress="0" key="2685a2002da9e0bcd6de911ef12a2e9c" label="roomG_seat_win_border" asset="res/room/gaple/roomG_seat_win_border.png"/>
+  <item atlasType="0" compress="0" key="29fd6cfebde15d2c020304a18a098f35" label="n_8" asset="res/room/gaple/n_8.png" alias="n_8"/>
+  <item atlasType="0" compress="0" key="2b71fdf35ae00c138f6d807f5f18d24b" label="roomG_round_pass_left" asset="res/room/gaple/roomG_round_pass_left.png"/>
+  <item atlasType="0" compress="0" key="317a0a1491b564b94f1ad336faf7e9b0" label="roomG_signal_4" asset="res/room/gaple/roomG_signal_4.png" alias="roomG_signal_4"/>
+  <item atlasType="0" compress="0" key="385665e844d8728482d2190af645badf" label="roomG_return_btn" asset="res/room/gaple/roomG_return_btn.png"/>
+  <item atlasType="0" compress="0" key="3ac8fbacb4efae8874e90b11e82276ba" label="roomG_more_bg" asset="res/room/gaple/roomG_more_bg.png"/>
+  <item atlasType="0" compress="0" key="403ad70ac6295e54ede85fae730e2bb5" label="n_6" asset="res/room/gaple/n_6.png" alias="n_6"/>
+  <item atlasType="0" compress="0" key="4571d7bb3ab534afe9789026d9b493d6" label="n_T" asset="res/room/gaple/n_T.png" alias="n_T"/>
+  <item atlasType="0" compress="0" key="468b32d41109dc6375904b825bac2ed5" label="roomG_seat_win_winner" asset="res/room/gaple/roomG_seat_win_winner.png"/>
+  <item atlasType="0" compress="0" key="4854b967b3e6fd1dbf6e53fe2689a325" label="n_9" asset="res/room/gaple/n_9.png" alias="n_9"/>
+  <item atlasType="0" compress="0" key="487e64f0e0be0ff3371d41d189d68ecb" label="n_K" asset="res/room/gaple/n_K.png" alias="n_K"/>
+  <item atlasType="0" compress="0" key="53c409ea00278542c825895755873114" label="roomG_standUp_btn" asset="res/room/gaple/roomG_standUp_btn.png"/>
+  <item atlasType="0" compress="0" key="5a8a01f7dd5e8e70c80e4170335f6dd5" label="count_down_box_normal" asset="res/room/gaple/count_down_box_normal.png"/>
+  <item atlasType="0" compress="0" key="6281ca2c1edebb941f6642862cc83ebe" label="n_." asset="res/room/gaple/n_..png" alias="n_dot"/>
+  <item atlasType="0" compress="0" key="64bbae29da665cde3305ba3a44bc479c" label="n_5" asset="res/room/gaple/n_5.png" alias="n_5"/>
+  <item atlasType="0" compress="0" key="64d49a4da7e7c30549719672d62f17f1" label="roomG_info_bg" asset="res/room/gaple/roomG_info_bg.png"/>
+  <item atlasType="0" compress="0" key="6530d9ede619d34904474f3a264749c0" label="roomG_count_time" asset="res/room/gaple/roomG_count_time.png"/>
+  <item atlasType="0" compress="0" key="6545c1207ffd295ae55927e31a23a971" label="roomG_more_btn" asset="res/room/gaple/roomG_more_btn.png"/>
+  <item atlasType="0" compress="0" key="67177ebc69499752babd515877c2f22d" label="room_table_light" asset="res/room/gaple/room_table_light.png" alias="room_table_light"/>
+  <item atlasType="0" compress="0" key="6c88fbaa934681631b5420f80f1fe12a" label="roomG_you_win_flash" asset="res/room/gaple/roomG_you_win_flash.png"/>
+  <item atlasType="0" compress="0" key="714acafb3db4c7bf507d1fa6bb17f8ce" label="roomG_rule_tips" asset="res/room/gaple/roomG_rule_tips.png"/>
+  <item atlasType="0" compress="0" key="731a6589039d38c96ce9dfe73c4bd658" label="n_4" asset="res/room/gaple/n_4.png" alias="n_4"/>
+  <item atlasType="0" compress="0" key="7b9ccef89373e44884b2622a25ceecf8" label="roomG_top_light_top" asset="res/room/gaple/roomG_top_light_top.png" alias="roomG_top_light_top"/>
+  <item atlasType="0" compress="0" key="7ede1ad6795d5eab68ec1668db7ba7d7" label="roomG_round_pass_bg" asset="res/room/gaple/roomG_round_pass_bg.png"/>
+  <item atlasType="0" compress="0" key="811780de874180b7e484615b79ba8d1f" label="count_down_box_reward_light" asset="res/room/gaple/count_down_box_reward_light.png"/>
+  <item atlasType="0" compress="0" key="81b0aa772feea74e423e7e967ffa7711" label="n_2" asset="res/room/gaple/n_2.png" alias="n_2"/>
+  <item atlasType="0" compress="0" key="89dc641f8cd3730bdd55160e93215093" label="roomG_hand_tips_bg" asset="res/room/gaple/roomG_hand_tips_bg.png" grid="25,25,25,25"/>
+  <item atlasType="0" compress="0" key="94fcfc99c12fac429eef95e63eb91391" label="roomG_hand_tips_node" asset="res/room/gaple/roomG_hand_tips_node.png"/>
+  <item atlasType="0" compress="0" key="9711323423230ad14e6e37318309a85b" label="roomG_down_btn" asset="res/room/gaple/roomG_down_btn.png"/>
+  <item atlasType="0" compress="0" key="9dfea02ca6dda5638873a907da0b2e86" label="roomG_add_friend" asset="res/room/gaple/roomG_add_friend.png"/>
+  <item atlasType="0" compress="0" key="a1674122badd25fb54d27a8e4ee341cb" label="n_3" asset="res/room/gaple/n_3.png" alias="n_3"/>
+  <item atlasType="0" compress="0" key="a2a650c25165958d9bb9a70d6c11221b" label="roomG_table_dealer_icon" asset="res/room/gaple/roomG_table_dealer_icon.png"/>
+  <item atlasType="0" compress="0" key="af90e297b1eabe0a96932f5192f034ee" label="roomG__shop_btn" asset="res/room/gaple/roomG__shop_btn.png"/>
+  <item atlasType="0" compress="0" key="b01435aa86e62f17a1d72615c9f1da46" label="roomG_dealed_hand_card" asset="res/room/gaple/roomG_dealed_hand_card.png" alias="roomG_dealed_hand_card"/>
+  <item atlasType="0" compress="0" key="b136ccf05b9b30782112b98a6de8c8e0" label="roomG_bg_middle" asset="res/room/gaple/roomG_bg_middle.png" alias="roomG_bg_middle"/>
+  <item atlasType="0" compress="0" key="b8f16aba58a2453682e0c35c7c3bcd91" label="count_down_box_reward" asset="res/room/gaple/count_down_box_reward.png"/>
+  <item atlasType="0" compress="0" key="b9b64570402b8cc31350905977217f54" label="n_7" asset="res/room/gaple/n_7.png" alias="n_7"/>
+  <item atlasType="0" compress="0" key="c60f52b63969a2f7eaaa0f46941cb836" label="roomG_signal_1" asset="res/room/gaple/roomG_signal_1.png" alias="roomG_signal_1"/>
+  <item atlasType="0" compress="0" key="c7cdf402f4c3f27623a2e4a1ac7b4558" label="count_down_text_bg" asset="res/room/gaple/count_down_text_bg.png"/>
+  <item atlasType="0" compress="0" key="cfc2a743441328691fd726b29be173f2" label="roomG_signal_no" asset="res/room/gaple/roomG_signal_no.png" alias="roomG_signal_no"/>
+  <item atlasType="0" compress="0" key="d0c811fc162f80032d78c15c40d6672a" label="roomG_player_last_cards" asset="res/room/gaple/roomG_player_last_cards.png"/>
+  <item atlasType="0" compress="0" key="d156d360a14d7bc9e50d496e41fc31ea" label="roomG_top_light" asset="res/room/gaple/roomG_top_light.png" alias="roomG_top_light"/>
+  <item atlasType="0" compress="0" key="d37c3824f32cf819366836fcbe80b4b5" label="n_B" asset="res/room/gaple/n_B.png" alias="n_B"/>
+  <item atlasType="0" compress="0" key="d5dfaf7a01819d50b0e04944569f9448" label="n_0" asset="res/room/gaple/n_0.png" alias="n_0"/>
+  <item atlasType="0" compress="0" key="d91c5bddc17e1e78d583788bca41a9d6" label="roomG_top_light_middle" asset="res/room/gaple/roomG_top_light_middle.png" alias="roomG_top_light_middle"/>
+  <item atlasType="0" compress="0" key="dd27b5ff418e4fd5818407b9c46ae457" label="roomG_signal_2" asset="res/room/gaple/roomG_signal_2.png" alias="roomG_signal_2"/>
+  <item atlasType="0" compress="0" key="e8e75b0d070461e5316ffacbc7ea22ce" label="roomG_change_btn" asset="res/room/gaple/roomG_change_btn.png"/>
+  <item atlasType="0" compress="0" key="ebeb88477c7a016f070ce5a5a686b909" label="roomG_heard_bg" asset="res/room/gaple/roomG_heard_bg.png"/>
+  <item atlasType="0" compress="0" key="eef54e0f6729564f0f05ef3241994ae4" label="roomG_talk_btn" asset="res/room/gaple/roomG_talk_btn.png"/>
+  <item atlasType="0" compress="0" key="f76b4a028362a19bbbb1505a64ba881f" label="roomG_bg" asset="res/room/gaple/roomG_bg.png" alias="roomG_bg"/>
+  <item atlasType="0" compress="0" key="f8513590870771b38836af018bc5c009" label="roomG__invite_btn" asset="res/room/gaple/roomG__invite_btn.png"/>
+  <item atlasType="0" compress="0" key="fbf9fa8006f709f4a0c284fceed655af" label="roomG_chat_bg" asset="res/room/gaple/roomG_chat_bg.png" grid="15,15,15,15"/>
+  <item atlasType="0" compress="0" key="fca4cc194de8c788208c5aa64b65c5d3" label="count_down_box_finished" asset="res/room/gaple/count_down_box_finished.png"/>
+</item>

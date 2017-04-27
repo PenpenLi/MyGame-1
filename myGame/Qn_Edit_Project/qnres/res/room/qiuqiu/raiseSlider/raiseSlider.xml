@@ -1,0 +1,14 @@
+<item label="raiseSlider" compress="0" asset="res/room/qiuqiu/raiseSlider" isDirectory="true">
+  <item atlasType="0" compress="0" key="0ba4b494a13f2594a45e7d1122ef534b" label="room_buyin_sub_up_bg" asset="res/room/qiuqiu/raiseSlider/room_buyin_sub_up_bg.png" alias="room_buyin_sub_up_bg"/>
+  <item atlasType="0" compress="0" key="0d78be9cfab0516e184b213dc2600e76" label="room_raise_allin_txt" asset="res/room/qiuqiu/raiseSlider/room_raise_allin_txt.png"/>
+  <item atlasType="0" compress="0" key="1430c675d8d62d6f4c2cd0633c8e2247" label="room_raise_allin_btn_up" asset="res/room/qiuqiu/raiseSlider/room_raise_allin_btn_up.png" grid="10,10,20,20"/>
+  <item atlasType="0" compress="0" key="186543d516747b8eed7d8a32c2abdf8b" label="room_raise_track_bg_overlay" asset="res/room/qiuqiu/raiseSlider/room_raise_track_bg_overlay.png" grid="5,5,8,8"/>
+  <item atlasType="0" compress="0" key="2e60c5205bbaf45fe5fef00ab964e2f0" label="room_raise_yellow_track_bg" asset="res/room/qiuqiu/raiseSlider/room_raise_yellow_track_bg.png" grid="5,5,8,8"/>
+  <item atlasType="0" compress="0" key="3f818887a3551050549628019a8e937b" label="room_raise_panel_bg" asset="res/room/qiuqiu/raiseSlider/room_raise_panel_bg.png" grid="20,20,20,20"/>
+  <item atlasType="0" compress="0" key="4aeaf35186616ea6649bcc103e48c20a" label="room_raise_track_bg" asset="res/room/qiuqiu/raiseSlider/room_raise_track_bg.png" grid="10,10,10,10"/>
+  <item atlasType="0" compress="0" key="5a95917fc989648f10b813d1e0683036" label="room_raise_blue_track_bg" asset="res/room/qiuqiu/raiseSlider/room_raise_blue_track_bg.png" grid="5,5,8,8"/>
+  <item atlasType="0" compress="0" key="693275824da73531c85b54021506d185" label="room_raise_split_line" asset="res/room/qiuqiu/raiseSlider/room_raise_split_line.png" alias="room_raise_split_line"/>
+  <item atlasType="0" compress="0" key="a206cee3abce988cf3e445181d67de86" label="room_buyin_add_up_bg" asset="res/room/qiuqiu/raiseSlider/room_buyin_add_up_bg.png" alias="room_buyin_add_up_bg"/>
+  <item atlasType="0" compress="0" key="f2aed143e45e2d68528a50c0a837f72d" label="room_raise_slider_thumb" asset="res/room/qiuqiu/raiseSlider/room_raise_slider_thumb.png"/>
+  <item atlasType="0" compress="0" key="f68efddfb9a35baaa167c06b04f5fa2e" label="room_raise_bar_chip_text_bg" asset="res/room/qiuqiu/raiseSlider/room_raise_bar_chip_text_bg.png" grid="10,10,10,10"/>
+</item>

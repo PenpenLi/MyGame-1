@@ -1,0 +1,25 @@
+<item label="button" compress="0" asset="game/button" isDirectory="true">
+  <item atlasType="0" compress="0" key="037b9fc8153c266b0b50a11bb562940f" label="gentleMode" asset="game/button/gentleMode.png"/>
+  <item atlasType="0" compress="0" key="17515969959c4fa15aa2fef8ceadbaf1" label="key" asset="game/button/key.png"/>
+  <item atlasType="0" compress="0" key="1d89ef0cee50ae4cb9ef95b5bb863c03" label="takePhoto" asset="game/button/takePhoto.png"/>
+  <item atlasType="0" compress="0" key="246931dc88dbe7a91616e633c13a0306" label="tip1" asset="game/button/tip1.png"/>
+  <item atlasType="0" compress="0" key="266ceab4e357aaf9a5c4c4bddb796d15" label="btnmusic" asset="game/button/btnmusic.png"/>
+  <item atlasType="0" compress="0" key="3e300e52308a6b7bd6a2019c6da9c3f8" label="cancel2" asset="game/button/cancel2.png"/>
+  <item atlasType="0" compress="0" key="400a4a6e093c912ccefe673d0a136217" label="openAlbum" asset="game/button/openAlbum.png"/>
+  <item atlasType="0" compress="0" key="404b96f030715df78c527c43bfb190de" label="restart" asset="game/button/restart.png"/>
+  <item atlasType="0" compress="0" key="49755619c0e37692a6c2377c687f0ea0" label="btnHome" asset="game/button/btnHome.png"/>
+  <item atlasType="0" compress="0" key="5ac6c8ea7a7e64c020593d8bc47d51aa" label="crazyMode" asset="game/button/crazyMode.png"/>
+  <item atlasType="0" compress="0" key="63cb60f57cd84432d76d7587e89d1e80" label="continue" asset="game/button/continue.png"/>
+  <item atlasType="0" compress="0" key="7347ab6b0f9a42e066088f9a8f7f74bd" label="crazy" asset="game/button/crazy.png"/>
+  <item atlasType="0" compress="0" key="86d1270f55eb0b3fe6764df9cec757ff" label="btnmusic2" asset="game/button/btnmusic2.png"/>
+  <item atlasType="0" compress="0" key="8ea9a209583b3bbbe0c7802cbe502809" label="cancel" asset="game/button/cancel.png"/>
+  <item atlasType="0" compress="0" key="90e053a0c6b68df12b75a940aa3f0fa6" label="setConfig" asset="game/button/setConfig.png"/>
+  <item atlasType="0" compress="0" key="a948e9e97dc091b4c6eafb4aa2ea4d30" label="tip" asset="game/button/tip.png"/>
+  <item atlasType="0" compress="0" key="abb50b4c9d9632c6933f851d6967dc11" label="rank" asset="game/button/rank.png"/>
+  <item atlasType="0" compress="0" key="b25c75a60e3c6b60870c75d4aaba24f2" label="submit" asset="game/button/submit.png"/>
+  <item atlasType="0" compress="0" key="bd11c8e680fdc3d60942a89b9edffe38" label="start" asset="game/button/start.png"/>
+  <item atlasType="0" compress="0" key="c1c685fb3516a0f7231f50ac21542864" label="return" asset="game/button/return.png"/>
+  <item atlasType="0" compress="0" key="e2edd5bff7a9179e25964409152a76cd" label="exit" asset="game/button/exit.png"/>
+  <item atlasType="0" compress="0" key="e787d00d3f3c3dca847cafa9d0fa67c3" label="start2" asset="game/button/start2.png"/>
+  <item atlasType="0" compress="0" key="f8aefec04f3b21ab74c104b62b5caee6" label="gentle" asset="game/button/gentle.png"/>
+</item>

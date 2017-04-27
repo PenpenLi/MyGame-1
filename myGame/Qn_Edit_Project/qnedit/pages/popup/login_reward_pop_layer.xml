@@ -1,0 +1,14 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <popup_bg type="1" typeName="Image" time="0" x="0" y="0" width="838" height="564" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="4fd91181d57a678a93f7d238d42ddcb6" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="popup_bg" callbackfunc="onPopupBgTouch">
+    <progressBg type="1" typeName="Image" time="0" x="0" y="185" width="758" height="19" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="9e5775c0cd06eb2255b0fcac75735f00" packFile="" gridLeft="15" gridRight="15" gridTop="9" gridBottom="9" varname="progressBg">
+      <progressBarImage type="1" typeName="Image" time="0" x="0" y="1" width="0" height="23" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="5349b7204e9d4b96bde0232f9639276f" packFile="" gridLeft="20" gridRight="20" gridTop="10" gridBottom="10" varname="progressBarImage"/>
+    </progressBg>
+    <tipLabel type="4" typeName="Text" time="0" x="56" y="104" width="674" height="25" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" fontName="" fontSize="18" textAlign="0" color="0xfe95c9" colorA="1" varname="tipLabel"/>
+    <shareButton type="1" typeName="Button" time="0" x="0" y="17" width="266" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="shareButton" callbackfunc="onShareButtonClick">
+      <shareLabel type="4" typeName="Text" time="0" x="0" y="3" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="30" textAlign="0" color="0xFFFFFF" colorA="1" varname="shareLabel"/>
+    </shareButton>
+    <closeButton type="1" typeName="Button" time="0" x="769" y="74" width="51" height="52" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="16eedbe3a1091c44ce819d48d9854cba" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="closeButton" callbackfunc="onCloseBtnClick"/>
+    <Image10 type="1" typeName="Image" time="0" x="132" y="271" width="685" height="195" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="85cf052357d4856fdbe08f630e76fcbf" packFile="" gridLeft="20" gridRight="20" gridTop="20" gridBottom="20"/>
+    <itemsView type="0" typeName="View" time="0" x="135" y="265" width="687" height="185" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="itemsView"/>
+  </popup_bg>
+</root>

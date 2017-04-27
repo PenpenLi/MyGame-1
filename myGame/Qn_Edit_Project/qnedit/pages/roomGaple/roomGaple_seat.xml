@@ -1,0 +1,50 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="160" height="165" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <seatNode type="0" typeName="View" time="0" x="0" y="0" width="160" height="165" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="seatNode">
+    <seatDown_btn type="1" typeName="Button" time="0" x="-1" y="-20" width="111" height="110" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="9711323423230ad14e6e37318309a85b" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="seatDown_btn"/>
+    <HeadImageBg type="1" typeName="Image" time="0" x="0" y="-20" width="113" height="113" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c28eae11be2f8dbe1e6e7308aaa9fd97" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="HeadImageBg">
+      <headImage type="1" typeName="Image" time="0" x="1" y="-1" width="113" height="113" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="66e9b7ffacb52a9a71013360c5ad1f27" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="headImage"/>
+    </HeadImageBg>
+    <View_vip type="0" typeName="View" time="0" x="23" y="6" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="View_vip"/>
+    <head_bg_btn type="1" typeName="Button" time="0" x="1" y="0" width="126" height="125" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="ebeb88477c7a016f070ce5a5a686b909" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="head_bg_btn"/>
+    <info_bg type="1" typeName="Image" time="0" x="0" y="0" width="142" height="54" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" file="64d49a4da7e7c30549719672d62f17f1" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="info_bg">
+      <name type="4" typeName="Text" time="0" x="0" y="3" width="150" height="22" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" fontName="" fontSize="18" textAlign="0" color="0xeecfd6" string="Text" colorA="1" varname="name"/>
+      <AddGoldBtn type="1" typeName="Button" time="0" x="-4" y="26" width="150" height="26" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="c28eae11be2f8dbe1e6e7308aaa9fd97" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="AddGoldBtn" callbackfunc="OnAddGoldClick">
+        <AddImage type="1" typeName="Image" time="0" x="128" y="3" width="22" height="22" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="b977adfd18a61bf160c241395fb53355" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="AddImage"/>
+      </AddGoldBtn>
+      <room_owner type="1" typeName="Image" time="0" x="-10" y="-110" width="34" height="34" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="0503be8ae31d345a9798b0956cf07d6c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="room_owner"/>
+      <money type="4" typeName="Text" time="0" x="55" y="29" width="80" height="22" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="7" color="0x00d1ff" string="Text" colorA="1" varname="money"/>
+      <chip_icon type="1" typeName="Image" time="0" x="21" y="25" width="31" height="29" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="487e9fe8cc6f2cdd0823a2811952212e" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="chip_icon">
+        <chip_node type="0" typeName="View" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="chip_node"/>
+      </chip_icon>
+    </info_bg>
+    <lastCards_bg type="1" typeName="Image" time="0" x="-54" y="0" width="61" height="49" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="d0c811fc162f80032d78c15c40d6672a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="lastCards_bg">
+      <lastCards_num type="4" typeName="Text" time="0" x="15" y="5" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="18" textAlign="7" color="0x33cc00" string="0" colorA="1" varname="lastCards_num"/>
+    </lastCards_bg>
+    <gift_btn type="1" typeName="Button" time="0" x="57" y="0" width="46" height="46" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="3bb457942914e765a2d7a031e434ad04" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="gift_btn">
+      <giftCenter_node type="0" typeName="View" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="giftCenter_node"/>
+    </gift_btn>
+    <gift_btn_big type="1" typeName="Button" time="0" x="57" y="0" width="70" height="70" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="831b0e7666504bc82ab9ed1227613b3f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="gift_btn_big"/>
+    <passIcon type="1" typeName="Image" time="0" x="70" y="-100" width="63" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2b71fdf35ae00c138f6d807f5f18d24b" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="passIcon"/>
+    <waitBg type="1" typeName="Image" time="0" x="200" y="0" width="542" height="48" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="7ede1ad6795d5eab68ec1668db7ba7d7" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="waitBg">
+      <waitText type="4" typeName="Text" time="0" x="0" y="0" width="500" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0x50ffe9" colorA="1" varname="waitText"/>
+    </waitBg>
+    <tipsNode type="0" typeName="View" time="0" x="200" y="-55" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="tipsNode">
+      <tips_bg type="1" typeName="Image" time="0" x="0" y="0" width="320" height="60" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="89dc641f8cd3730bdd55160e93215093" packFile="" gridLeft="25" gridRight="25" gridTop="25" gridBottom="25" varname="tips_bg">
+        <tips_node type="1" typeName="Image" time="0" x="50" y="60" width="33" height="16" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="94fcfc99c12fac429eef95e63eb91391" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="tips_node"/>
+        <tipsText type="5" typeName="TextView" time="0" x="0" y="0" width="290" height="60" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="16" textAlign="7" color="0xFFFFFF" string="TextView" colorA="1" varname="tipsText"/>
+      </tips_bg>
+    </tipsNode>
+    <baseNode type="0" typeName="View" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" varname="baseNode"/>
+    <winBorderView type="0" typeName="View" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="1" varname="winBorderView">
+      <Image22 type="1" typeName="Image" time="0" x="0" y="-20" width="141" height="141" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2685a2002da9e0bcd6de911ef12a2e9c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <win_text type="1" typeName="Image" time="0" x="0" y="40" width="179" height="46" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="468b32d41109dc6375904b825bac2ed5" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="win_text"/>
+      <Image24 type="1" typeName="Image" time="0" x="114" y="-5" width="37" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="6c88fbaa934681631b5420f80f1fe12a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <Image25 type="1" typeName="Image" time="0" x="14" y="87" width="37" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="6c88fbaa934681631b5420f80f1fe12a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <Image26 type="1" typeName="Image" time="0" x="20" y="-23" width="37" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="6c88fbaa934681631b5420f80f1fe12a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    </winBorderView>
+    <seatCenter_node type="0" typeName="View" time="0" x="0" y="-18" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="seatCenter_node"/>
+    <chatBubble_node_right type="0" typeName="View" time="0" x="60" y="-5" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="chatBubble_node_right"/>
+    <chatBubble_node_left type="0" typeName="View" time="0" x="100" y="-5" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="chatBubble_node_left"/>
+    <seatId type="4" typeName="Text" time="0" x="-11" y="-64" width="100" height="100" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="Text" varname="seatId" colorA="1"/>
+  </seatNode>
+</root>

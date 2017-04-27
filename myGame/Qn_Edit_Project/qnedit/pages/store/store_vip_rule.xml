@@ -1,0 +1,25 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_touch type="1" typeName="Image" time="0" x="0" y="0" width="-1" height="-1" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_touch" callbackfunc="onBgTouch"/>
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="710" height="517" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2491d8a29bfb06ed81b6ed13dfb240ee" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image_tab12 type="1" typeName="Image" time="0" x="162" y="21" width="367" height="58" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="d2fc09b8ca5b3955e7ee57b0fd9f0291" packFile="" gridLeft="30" gridRight="30" gridTop="0" gridBottom="0">
+      <RadioButtonGroup type="0" typeName="RadioButtonGroup" time="0" x="13" y="10" width="342" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="RadioButtonGroup">
+        <RadioButton_l type="0" typeName="RadioButton" time="0" x="-16" y="-8" width="179" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="ea5ee7fd765d449d0627f5cfa0da981c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="RadioButton_l">
+          <Text_l type="4" typeName="Text" time="0" x="21" y="10" width="140" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="Text_l"/>
+        </RadioButton_l>
+        <RadioButton_r type="0" typeName="RadioButton" time="0" x="175" y="-9" width="179" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="5d80d4a39c6db44ff6c1220f96e51f45" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="RadioButton_r">
+          <Text_r type="4" typeName="Text" time="0" x="16" y="9" width="143" height="36" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_r"/>
+        </RadioButton_r>
+      </RadioButtonGroup>
+    </Image_tab12>
+    <View_vip_level type="0" typeName="View" time="0" x="23" y="103" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="View_vip_level">
+      <Image15 type="1" typeName="Image" time="0" x="0" y="0" width="667" height="379" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="173835aabef5f53ce405f623de1f75f6" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15"/>
+      <ListView_vip type="0" typeName="ListView" time="0" x="2" y="56" width="665" height="322" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="ListView_vip"/>
+      <Text16 type="4" typeName="Text" time="0" x="59" y="6" width="100" height="48" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0x1b7f6" string="Lv VIP" colorA="1"/>
+      <Text17 type="4" typeName="Text" time="0" x="420" y="6" width="100" height="47" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0x1b7f6" string="Nominal" colorA="1"/>
+    </View_vip_level>
+    <View_vip_rule type="0" typeName="View" time="0" x="23" y="103" width="0" height="0" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="View_vip_rule">
+      <Image20 type="1" typeName="Image" time="0" width="667" height="379" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="173835aabef5f53ce405f623de1f75f6" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15" x="0" y="0"/>
+      <TextView_rule type="5" typeName="TextView" time="0" x="29" y="49" width="609" height="307" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="8" color="0xFFFFFF" colorA="1" varname="TextView_rule"/>
+    </View_vip_rule>
+  </Image_bg>
+</root>

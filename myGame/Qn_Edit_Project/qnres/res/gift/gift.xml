@@ -1,0 +1,13 @@
+<item label="gift" compress="0" asset="res/gift" isDirectory="true">
+  <item atlasType="0" compress="0" key="0a1f97c74b17294b745f55365bc4af5e" label="mygift_tips_bg" asset="res/gift/mygift_tips_bg.png"/>
+  <item atlasType="0" compress="0" key="15d30461d3445ba94ff6722caaf49ac8" label="btn_titile_bg" asset="res/gift/btn_titile_bg.png" grid="20,20,20,20"/>
+  <item atlasType="0" compress="0" key="1db26917395817829f6c0369d476b54e" label="gift_icon_normal_bg" asset="res/gift/gift_icon_normal_bg.png"/>
+  <item atlasType="0" compress="0" key="3bfeab870872029a9a09e7a3abb874ae" label="gift_btn_2" asset="res/gift/gift_btn_2.png" grid="25,25,18,18"/>
+  <item atlasType="0" compress="0" key="47a29405a56d26de103def5fe1ba3774" label="gift_title" asset="res/gift/gift_title.png" grid="10,10,10,10"/>
+  <item atlasType="0" compress="0" key="50a327406ddc952d386255cde8f77d02" label="gift_bg" asset="res/gift/gift_bg.png" grid="10,10,10,10"/>
+  <item atlasType="0" compress="0" key="5b482d1ea98c415b0d79e9676f3791ed" label="gift_title_btn_bg1" asset="res/gift/gift_title_btn_bg1.png"/>
+  <item atlasType="0" compress="0" key="63ae62b76b708a2562ae3fc1963026c3" label="gift_btn_new" asset="res/gift/gift_btn_new.png"/>
+  <item atlasType="0" compress="0" key="6822b184614453635bbf48887eee0060" label="gift_icon_selected_bg" asset="res/gift/gift_icon_selected_bg.png"/>
+  <item atlasType="0" compress="0" key="827ae329f8de3b5c9028554e20d2e6fb" label="left_bg" asset="res/gift/left_bg.png" grid="5,5,5,5"/>
+  <item atlasType="0" compress="0" key="f0835fe1116870212e082d2364c506e1" label="gift_btn_1" asset="res/gift/gift_btn_1.png"/>
+</item>

@@ -1,0 +1,10 @@
+<item label="invite" compress="0" asset="res/invite" isDirectory="true">
+  <item atlasType="0" compress="0" key="0a5d5fed7de3fe057ffcac8e0a0b570b" label="invite_point_left" asset="res/invite/invite_point_left.png"/>
+  <item atlasType="0" compress="0" key="383663e60e8382fd2210575747aad14d" label="invite_bottom_bg" asset="res/invite/invite_bottom_bg.png"/>
+  <item atlasType="0" compress="0" key="3d5e09c49913ce72f98ac17b97378e6b" label="invite_box" asset="res/invite/invite_box.png" alias="invite_box"/>
+  <item atlasType="0" compress="0" key="5f291c0dc0a7002562640b89b62ab1ec" label="invite_point_right" asset="res/invite/invite_point_right.png"/>
+  <item atlasType="0" compress="0" key="9ed30f689cf1c25bb5e24544e8d27599" label="invite_top_bg" asset="res/invite/invite_top_bg.png" alias="invite_top_bg"/>
+  <item atlasType="0" compress="0" key="b55901262d42f4f0938c256c9b58b946" label="invite_line" asset="res/invite/invite_line.png" alias="invite_line"/>
+  <item atlasType="0" compress="0" key="bc19dc48c0765816ef5c43520f234676" label="invite_people" asset="res/invite/invite_people.png" alias="invite_people"/>
+  <item atlasType="0" compress="0" key="ea44e87434d93d2514b33b3a083a0aa9" label="invite_item_bg" asset="res/invite/invite_item_bg.png"/>
+</item>

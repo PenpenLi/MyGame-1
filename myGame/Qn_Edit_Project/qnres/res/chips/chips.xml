@@ -1,0 +1,26 @@
+<item label="chips" compress="0" asset="res/chips" isDirectory="true">
+  <item atlasType="0" compress="0" key="0d18a713ae3a0bbf25648f4d94e54ec8" label="particle0004" asset="res/chips/particle0004.png"/>
+  <item atlasType="0" compress="0" key="0de26f7e76498861a656e03aeda08a67" label="sweepLight0011" asset="res/chips/sweepLight0011.png"/>
+  <item atlasType="0" compress="0" key="10e7b2b700519a83f62e1d324c76bb89" label="sweepLight0012" asset="res/chips/sweepLight0012.png"/>
+  <item atlasType="0" compress="0" key="133cbe9c0855d607f9652a59727ab17d" label="particle0007" asset="res/chips/particle0007.png"/>
+  <item atlasType="0" compress="0" key="24c77950a7e64cf5f0fc046520908fbc" label="sweepLight0004" asset="res/chips/sweepLight0004.png"/>
+  <item atlasType="0" compress="0" key="33519c32f84b1c863e7932c9bed5db47" label="particle0001" asset="res/chips/particle0001.png"/>
+  <item atlasType="0" compress="0" key="3b5f44fa5cc638b82b880b7a5a17ddd6" label="sweepLight0005" asset="res/chips/sweepLight0005.png"/>
+  <item atlasType="0" compress="0" key="3c59086f3024fb4dabe6e604c4d12385" label="sweepLight0008" asset="res/chips/sweepLight0008.png"/>
+  <item atlasType="0" compress="0" key="40f04507f36d01edfa78063d70f3136a" label="particle0006" asset="res/chips/particle0006.png"/>
+  <item atlasType="0" compress="0" key="5f45172dd3ecd6c02ff3236004c3d9e1" label="chip_small" asset="res/chips/chip_small.png"/>
+  <item atlasType="0" compress="0" key="749bec523cf11caeae5a804c3416d80d" label="sweepLight0010" asset="res/chips/sweepLight0010.png"/>
+  <item atlasType="0" compress="0" key="79cffae79c3023f0e7878ad515e2d6b1" label="particle0005" asset="res/chips/particle0005.png"/>
+  <item atlasType="0" compress="0" key="7bf65a336625ee80dd887765a4648608" label="sweepLight0009" asset="res/chips/sweepLight0009.png"/>
+  <item atlasType="0" compress="0" key="874386462449914376f5faff41d92795" label="sweepLight0002" asset="res/chips/sweepLight0002.png"/>
+  <item atlasType="0" compress="0" key="8d78b470447508b0d6eb660843ba09a6" label="sweepLight0006" asset="res/chips/sweepLight0006.png"/>
+  <item atlasType="0" compress="0" key="8de16dc22df1043bd5d302a7dc5c5a58" label="particle0008" asset="res/chips/particle0008.png"/>
+  <item atlasType="0" compress="0" key="99cb0772920d86d9fc6ba62b88794c83" label="particle0003" asset="res/chips/particle0003.png"/>
+  <item atlasType="0" compress="0" key="a8285c33d08a41ff5736cc68124eb1de" label="sweepLight0003" asset="res/chips/sweepLight0003.png"/>
+  <item atlasType="0" compress="0" key="b077348d24b97f6b2b5282cd3c50d024" label="particle0009" asset="res/chips/particle0009.png"/>
+  <item atlasType="0" compress="0" key="ba6d47d112d3835088d0caad6396bc70" label="sweepLight0007" asset="res/chips/sweepLight0007.png"/>
+  <item atlasType="0" compress="0" key="de32a45c5301c0d47229df320d90470c" label="chip_small_light" asset="res/chips/chip_small_light.png"/>
+  <item atlasType="0" compress="0" key="e4f6b7a67b81578f594f36da53a5d562" label="sweepLight0001" asset="res/chips/sweepLight0001.png"/>
+  <item atlasType="0" compress="0" key="edd54e556c4f78b6ba7521b2ba58e6e1" label="particle0002" asset="res/chips/particle0002.png"/>
+  <item atlasType="0" compress="0" key="fab4387cf7b48c5c17546dfbf904c3fc" label="particle0010" asset="res/chips/particle0010.png"/>
+</item>

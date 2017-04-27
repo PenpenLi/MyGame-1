@@ -1,0 +1,13 @@
+<item label="friend" compress="0" asset="res/friend" isDirectory="true">
+  <item atlasType="0" compress="0" key="08ee2e7e4749a8f75aa342da3c9af4c8" label="friend_message" asset="res/friend/friend_message.png"/>
+  <item atlasType="0" compress="0" key="3849a2a4d73ff7b62ea8af6edc4afc89" label="friend_recommend_bg" asset="res/friend/friend_recommend_bg.png"/>
+  <item atlasType="0" compress="0" key="46499f49e8d5e52be680ef882c2bde8a" label="friend_send_money" asset="res/friend/friend_send_money.png"/>
+  <item atlasType="0" compress="0" key="8e9079c0ba5b97f7c169482c5d3680f3" label="friend_item_bg" asset="res/friend/friend_item_bg.png"/>
+  <item atlasType="0" compress="0" key="9d5915d023aa42ae74a7f55f9574fa64" label="friend_change_a_lot" asset="res/friend/friend_change_a_lot.png" grid="30,30,100,30"/>
+  <item atlasType="0" compress="0" key="b8f63c149c59eff19db83e9ab8253470" label="friend_send_prop" asset="res/friend/friend_send_prop.png"/>
+  <item atlasType="0" compress="0" key="cba050bf1c5ea01ac0fb44fb72da0aa4" label="friend_title_friends_unchoose" asset="res/friend/friend_title_friends_unchoose.png"/>
+  <item atlasType="0" compress="0" key="dab291e83540a61394eb1e46e876f8e2" label="friend_title_add_choose" asset="res/friend/friend_title_add_choose.png"/>
+  <item atlasType="0" compress="0" key="db1cdd0e5e6e8cd4da817ef97d3e05d2" label="friend_title_add_unchoose" asset="res/friend/friend_title_add_unchoose.png"/>
+  <item atlasType="0" compress="0" key="e4396ef58a07a4c9380a12298e6a9da4" label="friend_title_friends_choose" asset="res/friend/friend_title_friends_choose.png"/>
+  <item atlasType="0" compress="0" key="fc6195d7f1cf9c6535a152bff674b224" label="friend_add" asset="res/friend/friend_add.png"/>
+</item>

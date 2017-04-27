@@ -1,0 +1,184 @@
+<item label="common" compress="0" asset="res/common" isDirectory="true">
+  <item atlasType="0" compress="0" key="0023d0bc25e477cd965966593d0864b1" label="dynamic_item_bg" asset="res/common/dynamic_item_bg.png" grid="16,16,16,16"/>
+  <item atlasType="0" compress="0" key="05c34fa1e441dd42d56ba45b106ce835" label="common2_invite_word" asset="res/common/common2_invite_word.png"/>
+  <item atlasType="0" compress="0" key="07f23028d57ef8dc45aad51aab9bc67d" label="common_poker_6" asset="res/common/common_poker_6.png"/>
+  <item atlasType="0" compress="0" key="082c18a9c52f3218e1e9ee411cc3bd1f" label="common_bg_2" asset="res/common/common_bg_2.png"/>
+  <item atlasType="0" compress="0" key="0dcca42cf811fd62172e902aed27b421" label="common_btn_gray" asset="res/common/common_btn_gray.png"/>
+  <item atlasType="0" compress="0" key="0dffc546f8359cb459230e32f522abe1" label="common_btn_gray_s" asset="res/common/common_btn_gray_s.png" grid="40,40,0,0"/>
+  <item atlasType="0" compress="0" key="14f7bd365d5e389859c4d08ae2062e47" label="common_bg" asset="res/common/common_bg.png"/>
+  <item atlasType="0" compress="0" key="1569eeea2413e375352091d4220a7bc5" label="common_poker_dark_overlay_h" asset="res/common/common_poker_dark_overlay_h.png"/>
+  <item atlasType="0" compress="0" key="16eedbe3a1091c44ce819d48d9854cba" label="common_close_btn" asset="res/common/common_close_btn.png"/>
+  <item atlasType="0" compress="0" key="17403642b8c25a7c613787ffc74b442b" label="common_dialog_di" asset="res/common/common_dialog_di.png" grid="15,15,10,20"/>
+  <item atlasType="0" compress="0" key="176f32d54a0c21fac75d8903666227b5" label="common_coin_106" asset="res/common/common_coin_106.png" alias="common_coin_106"/>
+  <item atlasType="0" compress="0" key="193f7218a07544eb0b4e7484c0b8dc77" label="common_btn_left" asset="res/common/common_btn_left.png"/>
+  <item atlasType="0" compress="0" key="1a95deb47f17432dff2e1122c2b215ab" label="common_broadcast_bg" asset="res/common/common_broadcast_bg.png" alias="common_broadcast_bg"/>
+  <item atlasType="0" compress="0" key="1af5d5bab9bb1ecb67a702de90228c0b" label="common_poker_2" asset="res/common/common_poker_2.png"/>
+  <item atlasType="0" compress="0" key="1d272f3bb1f45c685ec1fa4091f70860" label="common_poker_back_bg" asset="res/common/common_poker_back_bg.png"/>
+  <item atlasType="0" compress="0" key="1d343927c536836010aab2aed4019371" label="common_poker_font_bg_h" asset="res/common/common_poker_font_bg_h.png"/>
+  <item atlasType="0" compress="0" key="1de1aa35ed6733094620a481b46d128e" label="checkBox_rect_selected" asset="res/common/checkBox_rect_selected.png"/>
+  <item atlasType="0" compress="0" key="1feee12b7d2a5d966bd52a5efce5f791" label="common_full_screen_tip_bg" asset="res/common/common_full_screen_tip_bg.png" alias="common_full_screen_tip_bg"/>
+  <item atlasType="0" compress="0" key="21171142089725aeee52307574abdeac" label="common_poker_dark_overlay" asset="res/common/common_poker_dark_overlay.png"/>
+  <item atlasType="0" compress="0" key="23a57dce49ecf01e6edd122f6dbfca2c" label="common_red_point" asset="res/common/common_red_point.png" grid="12,12,12,12"/>
+  <item atlasType="0" compress="0" key="2491d8a29bfb06ed81b6ed13dfb240ee" label="common_pop_bg" asset="res/common/common_pop_bg.png" alias="common_pop_bg"/>
+  <item atlasType="0" compress="0" key="264e866cd803c26816ebe3012e7a703e" label="common_poker_0" asset="res/common/common_poker_0.png"/>
+  <item atlasType="0" compress="0" key="28f73671c00c4b60c89adb0790c1dc28" label="common_btn_middle" asset="res/common/common_btn_middle.png"/>
+  <item atlasType="0" compress="0" key="29eea17bd890bb9f07f1eaa25646556f" label="common_man_icon" asset="res/common/common_man_icon.png"/>
+  <item atlasType="0" compress="0" key="2a7345e27580079408069cec858f8fba" label="common_password_bg" asset="res/common/common_password_bg.png" grid="15,15,15,15"/>
+  <item atlasType="0" compress="0" key="2b89fcb1a40153e63144d37b81be8ab4" label="common_head_mask_min" asset="res/common/common_head_mask_min.png" alias="common_head_mask_min"/>
+  <item atlasType="0" compress="0" key="2c6d7145e0a287b45b083ec625c2a873" label="pay_select" asset="res/common/pay_select.png"/>
+  <item atlasType="0" compress="0" key="2db3597cffd3a1c404205b9a826481e9" label="common_check_big" asset="res/common/common_check_big.png" alias="common_check_big"/>
+  <item atlasType="0" compress="0" key="2ef09f8fb12a84f7b587389d8854c6a9" label="pay_more_bg" asset="res/common/pay_more_bg.png"/>
+  <item atlasType="0" compress="0" key="306a8e25a13de9a32a6ce59432f858f4" label="common_gold_big" asset="res/common/common_gold_big.png"/>
+  <item atlasType="0" compress="0" key="306e15010c9eb2acedf970144cf13317" label="vip_head_kuang" asset="res/common/vip_head_kuang.png"/>
+  <item atlasType="0" compress="0" key="32b1703abff2c738949def2f1927ad7f" label="checkBox_rect_unselected" asset="res/common/checkBox_rect_unselected.png"/>
+  <item atlasType="0" compress="0" key="339cc2b7c9dd3720921fcb15a46ac7d6" label="expand_btn" asset="res/common/expand_btn.png"/>
+  <item atlasType="0" compress="0" key="33b239241ad84d697765297faea5ae99" label="common_title1" asset="res/common/common_title1.png"/>
+  <item atlasType="0" compress="0" key="33f31e9f6e85089feae3000a9532931c" label="common_friend_track" asset="res/common/common_friend_track.png"/>
+  <item atlasType="0" compress="0" key="35cd4a10e4464d2db1205702470a33fe" label="common_woman_icon" asset="res/common/common_woman_icon.png"/>
+  <item atlasType="0" compress="0" key="360bae5e17bc915932fa016accdf1245" label="common_poker_font_bg" asset="res/common/common_poker_font_bg.png"/>
+  <item atlasType="0" compress="0" key="37e3cfb25540cdfbb0a0c931c564483a" label="common_friend_gift" asset="res/common/common_friend_gift.png"/>
+  <item atlasType="0" compress="0" key="38c3426ca17e680223223f89aec5260e" label="common_bankrupt" asset="res/common/common_bankrupt.png"/>
+  <item atlasType="0" compress="0" key="3aac9c2a13f6517eb0d1ed3d5f027c51" label="common_tips1" asset="res/common/common_tips1.png"/>
+  <item atlasType="0" compress="0" key="3aedfc421b39b6b833e78d4d83e12f42" label="BG" asset="res/common/BG.png"/>
+  <item atlasType="0" compress="0" key="3bb457942914e765a2d7a031e434ad04" label="common_gift_icon" asset="res/common/common_gift_icon.png" alias="common_gift_icon"/>
+  <item atlasType="0" compress="0" key="3d778d2384ae5a99efb1dc44fa3e32f4" label="default2" asset="res/common/default2.png" alias="default_gaple"/>
+  <item atlasType="0" compress="0" key="4091a0c6f7a83eb4bdb98f994e56ccc3" label="common_title_bg_choosed" asset="res/common/common_title_bg_choosed.png" alias="common_title_bg_choosed"/>
+  <item atlasType="0" compress="0" key="43bd201c233966f05af6e37e2e12562a" label="common_title_bg" asset="res/common/common_title_bg.png"/>
+  <item atlasType="0" compress="0" key="456544701924013973a97294f7e3a4c3" label="dynamic_delete" asset="res/common/dynamic_delete.png"/>
+  <item atlasType="0" compress="0" key="46c371417cc57f356dc070f5e188cb8b" label="common2_limit_time_giftbag" asset="res/common/common2_limit_time_giftbag.png"/>
+  <item atlasType="0" compress="0" key="47555b6cf3b933a39a3c6c029b944a65" label="common_purple_btn" asset="res/common/common_purple_btn.png"/>
+  <item atlasType="0" compress="0" key="487e9fe8cc6f2cdd0823a2811952212e" label="common_gold_small" asset="res/common/common_gold_small.png"/>
+  <item atlasType="0" compress="0" key="48b4d2dcbac66faac061cbbb7c2df8ec" label="common_head_frame_min" asset="res/common/common_head_frame_min.png" alias="common_head_frame_min"/>
+  <item atlasType="0" compress="0" key="4be2a207928ae935efa0479139ef330c" label="common_transparent_blank" asset="res/common/common_transparent_blank.png" alias="common_transparent_blank"/>
+  <item atlasType="0" compress="0" key="4f0cccfbacdda09936e8a7e664617c00" label="common_chat_icon" asset="res/common/common_chat_icon.png"/>
+  <item atlasType="0" compress="0" key="52a4e3828dd6a07824c9eb834412434f" label="common_quick_pay" asset="res/common/common_quick_pay.png"/>
+  <item atlasType="0" compress="0" key="52cedd61f33d4a8a52e137148ae3903e" label="common_help_icon" asset="res/common/common_help_icon.png"/>
+  <item atlasType="0" compress="0" key="5349b7204e9d4b96bde0232f9639276f" label="common_progress_bar_orange_1" asset="res/common/common_progress_bar_orange_1.png" grid="20,20,10,10"/>
+  <item atlasType="0" compress="0" key="535ac1aa5c395d53496ccdce62f65bae" label="common_check_small" asset="res/common/common_check_small.png"/>
+  <item atlasType="0" compress="0" key="54e6ba2d6de73d0314ade0cbce7237bd" label="bankrupt_bouns" asset="res/common/bankrupt_bouns.png"/>
+  <item atlasType="0" compress="0" key="555f6c97cc3f232af9f9866c54b37a20" label="common_btn_purple_m" asset="res/common/common_btn_purple_m.png" alias="common_btn_purple_m"/>
+  <item atlasType="0" compress="0" key="55ef745b42dffe58426f1817e018960d" label="common_poker_4" asset="res/common/common_poker_4.png"/>
+  <item atlasType="0" compress="0" key="56c1f1d82e2cf2d01603f11102570fbb" label="common_light_big" asset="res/common/common_light_big.png"/>
+  <item atlasType="0" compress="0" key="599a869d5c36a3852e0d66bd921bd845" label="common_progress_bg_blue_1" asset="res/common/common_progress_bg_blue_1.png" grid="15,15,5,5"/>
+  <item atlasType="0" compress="0" key="59db14e3a94f69d89ead39207deb504d" label="common_yellowbackground" asset="res/common/common_yellowbackground.png"/>
+  <item atlasType="0" compress="0" key="5d1049f59e4f58a96efc8b62f5560494" label="common_shade_1" asset="res/common/common_shade_1.png"/>
+  <item atlasType="0" compress="0" key="5d80d4a39c6db44ff6c1220f96e51f45" label="common_tab_r" asset="res/common/common_tab_r.png"/>
+  <item atlasType="0" compress="0" key="61689698a936f64003ea06c6941b15d0" label="common_friend_add" asset="res/common/common_friend_add.png" alias="common_friend_add"/>
+  <item atlasType="0" compress="0" key="6196bfc9c255d78e3cd476c5f370190c" label="bankrupt_buy_coin" asset="res/common/bankrupt_buy_coin.png"/>
+  <item atlasType="0" compress="0" key="65b2f855eaeb003a6614444dd97bf00e" label="dynamic_tips_bg" asset="res/common/dynamic_tips_bg.png" grid="5,5,5,5"/>
+  <item atlasType="0" compress="0" key="66e9b7ffacb52a9a71013360c5ad1f27" label="common_nophoto" asset="res/common/common_nophoto.jpg" alias="userInfo_nophoto"/>
+  <item atlasType="0" compress="0" key="676545fb884df57ed5eb72ffd69ca525" label="common_btn_gray_s1" asset="res/common/common_btn_gray_s1.png"/>
+  <item atlasType="0" compress="0" key="67eb56576ef24646a2bc0db9ee0e2142" label="scoreStar1" asset="res/common/scoreStar1.png" alias="scoreStar1"/>
+  <item atlasType="0" compress="0" key="69d4bba144ecb50307d2267ed7a66698" label="common_poker_space_h" asset="res/common/common_poker_space_h.png"/>
+  <item atlasType="0" compress="0" key="6a9a2050fe9b97493dae9545bb3cf0a7" label="dynamic_like_btn" asset="res/common/dynamic_like_btn.png"/>
+  <item atlasType="0" compress="0" key="6b7309d6394b1bce1be6ec58bf860fa7" label="common_tab" asset="res/common/common_tab.png"/>
+  <item atlasType="0" compress="0" key="6f3a31bd81048d086cf24cb56eecdd27" label="common_refresh_btn" asset="res/common/common_refresh_btn.png"/>
+  <item atlasType="0" compress="0" key="6f3a527d662c82467472ff315f6d0b7c" label="first_recharge_reward_bg" asset="res/common/first_recharge_reward_bg.png"/>
+  <item atlasType="0" compress="0" key="6f65d891e18af091c48a2c3dfe721b94" label="common_shade" asset="res/common/common_shade.png"/>
+  <item atlasType="0" compress="0" key="6f724816e58a93bf2343637c42004b00" label="common_popup_bg_big" asset="res/common/common_popup_bg_big.png"/>
+  <item atlasType="0" compress="0" key="735fd1acffc284d42b71ae077f2520bf" label="common_tab_m" asset="res/common/common_tab_m.png"/>
+  <item atlasType="0" compress="0" key="74c3feb25c700e591f1f0e2844eb7aa9" label="common_girl" asset="res/common/common_girl.png"/>
+  <item atlasType="0" compress="0" key="74fc3456a34ca931b94f47474c01a548" label="common_popup_bg_small" asset="res/common/common_popup_bg_small.png"/>
+  <item atlasType="0" compress="0" key="7855c1f0f5c1150bd77e4f6dc4a31915" label="dynamic_like_icon" asset="res/common/dynamic_like_icon.png"/>
+  <item atlasType="0" compress="0" key="7902683df58f8a39106f50ec783f94c0" label="common_rounded_rect_10" asset="res/common/common_rounded_rect_10.png" alias="common_rounded_rect_10" grid="10,10,10,10"/>
+  <item atlasType="0" compress="0" key="7af1a030cce047e226e95cc8fc11b679" label="common_gift" asset="res/common/common_gift.png"/>
+  <item atlasType="0" compress="0" key="7c21ee1287d7fd5591f1470fb8143aac" label="common_first_pay" asset="res/common/common_first_pay.png"/>
+  <item atlasType="0" compress="0" key="7c233e35cae33fc7d3d49f3e11fd44b2" label="common_gray_btn" asset="res/common/common_gray_btn.png"/>
+  <item atlasType="0" compress="0" key="7cbb29bee5a9b2bd9536355eb98b3704" label="bankrupt_coin_bg" asset="res/common/bankrupt_coin_bg.png"/>
+  <item atlasType="0" compress="0" key="7d2a1cc710c57b11b1086759ee3b3bc5" label="common_big_check" asset="res/common/common_big_check.png"/>
+  <item atlasType="0" compress="0" key="7eeb9ef62503a1c1605e3a59818ef993" label="common_btn_yellow_s1" asset="res/common/common_btn_yellow_s1.png"/>
+  <item atlasType="0" compress="0" key="80b256703c981997e9c7ade2f3f94a79" label="common2_shop_btn" asset="res/common/common2_shop_btn.png"/>
+  <item atlasType="0" compress="0" key="831b0e7666504bc82ab9ed1227613b3f" label="common_blank" asset="res/common/common_blank.png"/>
+  <item atlasType="0" compress="0" key="83dcd057045cfb399ec84ebee1124c9e" label="common_coin_107" asset="res/common/common_coin_107.png" alias="common_coin_107"/>
+  <item atlasType="0" compress="0" key="83e7d13f323d07a635acb385c5483804" label="common_choose_small" asset="res/common/common_choose_small.png"/>
+  <item atlasType="0" compress="0" key="87e97ca00da81586a748cd251ff527d3" label="common_btn_gray_m" asset="res/common/common_btn_gray_m.png"/>
+  <item atlasType="0" compress="0" key="884118f7b12dc7ae1a3d3d6e50c40900" label="bankrupt_icon_addfriend" asset="res/common/bankrupt_icon_addfriend.png"/>
+  <item atlasType="0" compress="0" key="898bb3b97498eec7ed6de4eabf518636" label="common2_store_sale" asset="res/common/common2_store_sale.png"/>
+  <item atlasType="0" compress="0" key="8d60778171bdc1d192fce198a87e1739" label="common_coin_103" asset="res/common/common_coin_103.png" alias="common_coin_103"/>
+  <item atlasType="0" compress="0" key="8d8267829c073b58fd655fd24f048c5c" label="star_bg" asset="res/common/star_bg.png"/>
+  <item atlasType="0" compress="0" key="8de7e2adc9b053637c168fe45ea40be3" label="common_small_check" asset="res/common/common_small_check.png"/>
+  <item atlasType="0" compress="0" key="903313d65ff3fb87de1ab702f29090dd" label="common_btn_green" asset="res/common/common_btn_green.png"/>
+  <item atlasType="0" compress="0" key="9118df0b7cbdaeddd69649911181706d" label="common_pop_bg_title" asset="res/common/common_pop_bg_title.png" grid="150,150,35,35" alias="common_pop_bg_title"/>
+  <item atlasType="0" compress="0" key="91960a825b6dcad99382a3cc80dd909f" label="common_level_icon" asset="res/common/common_level_icon.png"/>
+  <item atlasType="0" compress="0" key="921d66a9631eebcc2d3d017b2829bbb3" label="common_pull_down" asset="res/common/common_pull_down.png"/>
+  <item atlasType="0" compress="0" key="92daaade6922fc1fabeab3cb08ca005d" label="common_coin_101" asset="res/common/common_coin_101.png" alias="common_coin_101"/>
+  <item atlasType="0" compress="0" key="96884d7effdc497e0622f21c6260a6a0" label="common_poker_3" asset="res/common/common_poker_3.png"/>
+  <item atlasType="0" compress="0" key="96a7e49439da0d29409c0e8654085168" label="bankrupt_other_bg" asset="res/common/bankrupt_other_bg.png"/>
+  <item atlasType="0" compress="0" key="96f735197599ad4f02113f561c8fdd71" label="common_btn_purple_s" asset="res/common/common_btn_purple_s.png" grid="40,40,0,0"/>
+  <item atlasType="0" compress="0" key="981405f80b756f368c62dfd43a60858c" label="common_head_mask_middle" asset="res/common/common_head_mask_middle.png" alias="common_head_mask_middle"/>
+  <item atlasType="0" compress="0" key="993153dacf736afa3623c1919f0c4d6c" label="bankrupt_icon" asset="res/common/bankrupt_icon.png"/>
+  <item atlasType="0" compress="0" key="9c0a0dbd29ea1862e7fa6bfd5de7eeaf" label="common_question_mark" asset="res/common/common_question_mark.png" alias="common_question_mark"/>
+  <item atlasType="0" compress="0" key="9d1e4dff9bd3bcd9911a9288de584623" label="common_sex_man_icon" asset="res/common/common_sex_man_icon.png" alias="common_sex_man_icon"/>
+  <item atlasType="0" compress="0" key="9e50dc9257a47e3c70547741ed1ffdc8" label="common2_register" asset="res/common/common2_register.png"/>
+  <item atlasType="0" compress="0" key="9e5775c0cd06eb2255b0fcac75735f00" label="common_progress_bg_blue" asset="res/common/common_progress_bg_blue.png" grid="15,15,9,9" alias="common_progress_bg_blue"/>
+  <item atlasType="0" compress="0" key="9ee4bb27981eb5e56cf062b68d71c17e" label="default1" asset="res/common/default1.png"/>
+  <item atlasType="0" compress="0" key="9fc5b033f14ac3c62f1818e8545e6d20" label="common_bg_1" asset="res/common/common_bg_1.png" grid="15,15,15,15" alias="common_bg_1"/>
+  <item atlasType="0" compress="0" key="a1c53af2973101dc1a6930c003f769d5" label="common_first_pay_word" asset="res/common/common_first_pay_word.png"/>
+  <item atlasType="0" compress="0" key="a23323a4950a1207540e53af23ee77fe" label="common_tip" asset="res/common/common_tip.png" grid="33,10,10,25"/>
+  <item atlasType="0" compress="0" key="a3ea421565b540f6654a9ca1dfb85483" label="common_tips2" asset="res/common/common_tips2.png"/>
+  <item atlasType="0" compress="0" key="a55683e0504463eeb599456a854e5faf" label="common_poker_space_v" asset="res/common/common_poker_space_v.png"/>
+  <item atlasType="0" compress="0" key="a595d421601ab2bf8554b11be0b5062b" label="roomC_return_btn" asset="res/common/roomC_return_btn.png"/>
+  <item atlasType="0" compress="0" key="a60831087d75c0027ba0efb484780a77" label="common_btn_yellow_s2" asset="res/common/common_btn_yellow_s2.png"/>
+  <item atlasType="0" compress="0" key="a8707d338fc6f828acf4a9eadd950219" label="common_btn_change_bg" asset="res/common/common_btn_change_bg.png"/>
+  <item atlasType="0" compress="0" key="aa32d54358e26282b94d529663e5dcaa" label="common_coin_105" asset="res/common/common_coin_105.png" alias="common_coin_105"/>
+  <item atlasType="0" compress="0" key="aab9e02edcd5071e7439e8d1e6bd6737" label="common_btn_yellow_s" asset="res/common/common_btn_yellow_s.png" grid="40,40,0,0" alias="common_btn_yellow_s"/>
+  <item atlasType="0" compress="0" key="ab4eb0226394bb58fab041646355ba79" label="common_head_mask_big" asset="res/common/common_head_mask_big.png" alias="common_head_mask_big"/>
+  <item atlasType="0" compress="0" key="abb31b08fd6043c7fdec087bd239bf73" label="common_magnifier" asset="res/common/common_magnifier.png"/>
+  <item atlasType="0" compress="0" key="ac10e7e34ded9225aebeb27991a22938" label="chest1" asset="res/common/chest1.png"/>
+  <item atlasType="0" compress="0" key="acad1a712aa254e9d08be3a0fa3dba57" label="common_coin_104" asset="res/common/common_coin_104.png" alias="common_coin_104"/>
+  <item atlasType="0" compress="0" key="adcb2d127d32b3f7c0b3de6854be7c45" label="common_head_bg_big" asset="res/common/common_head_bg_big.png" alias="common_head_bg_big"/>
+  <item atlasType="0" compress="0" key="aeefbb247027d6a305bad2b517834b73" label="scoreqp" asset="res/common/scoreqp.png" alias="scoreqp"/>
+  <item atlasType="0" compress="0" key="af6b18afbafa0d0e03511d537670dea4" label="common_btn_right1" asset="res/common/common_btn_right1.png"/>
+  <item atlasType="0" compress="0" key="b270dd196cd38fae5ac4335c325035f4" label="common_first_pay_light" asset="res/common/common_first_pay_light.png"/>
+  <item atlasType="0" compress="0" key="b2b7de0cb3fdd2e4fe410f17cbbe9ce3" label="common_btn_right" asset="res/common/common_btn_right.png"/>
+  <item atlasType="0" compress="0" key="b64d582af40db28472c8d5946f88e5e5" label="common_popuo_bg_other" asset="res/common/common_popuo_bg_other.png"/>
+  <item atlasType="0" compress="0" key="b888ecc817f63504605f02005e9747b8" label="common_change_bg" asset="res/common/common_change_bg.png"/>
+  <item atlasType="0" compress="0" key="b977adfd18a61bf160c241395fb53355" label="add_gold" asset="res/common/add_gold.png"/>
+  <item atlasType="0" compress="0" key="ba424b14d5bbd951500f3f8170b74bf6" label="common2_limit_time_giftbag_word" asset="res/common/common2_limit_time_giftbag_word.png"/>
+  <item atlasType="0" compress="0" key="ba5899ca2855d29bb58d4725733c596c" label="common_popup_bg_small1" asset="res/common/common_popup_bg_small1.png" alias="common_popup_bg_small1"/>
+  <item atlasType="0" compress="0" key="bac3d2518175ee89367f46c976d53606" label="common_chat_white_bg" asset="res/common/common_chat_white_bg.png"/>
+  <item atlasType="0" compress="0" key="bcb8289ed0a964bf3f15fd937d159d53" label="common_progress_bar_orange_big" asset="res/common/common_progress_bar_orange_big.png" grid="10,10,8,8"/>
+  <item atlasType="0" compress="0" key="c28eae11be2f8dbe1e6e7308aaa9fd97" label="common_transparent" asset="res/common/common_transparent.png" alias="common_transparent"/>
+  <item atlasType="0" compress="0" key="c4909b223ae82f0b08817db4f921a92c" label="+" asset="res/common/+.png"/>
+  <item atlasType="0" compress="0" key="c51d0d14204470d0681196a703b1815d" label="common2_vip_bs" asset="res/common/common2_vip_bs.png" alias="vip_bs"/>
+  <item atlasType="0" compress="0" key="c7a82219d5f0a1481c6911bd157e6cf8" label="common_btn_yellow" asset="res/common/common_btn_yellow.png" grid="50,50,35,34" alias="common_btn_yellow"/>
+  <item atlasType="0" compress="0" key="cae388e6dae83122e11acd4101073008" label="common_choose_big" asset="res/common/common_choose_big.png"/>
+  <item atlasType="0" compress="0" key="cbd2e968c32a1b8acb88483db9f5f48f" label="scoreFeedback" asset="res/common/scoreFeedback.png" grid="15,15,15,15"/>
+  <item atlasType="0" compress="0" key="cd7d67304de11107250a7ce79a70791c" label="common_poker_back_bg_h" asset="res/common/common_poker_back_bg_h.png"/>
+  <item atlasType="0" compress="0" key="ceb331bdf676f6bbbefae6bfc7fbd74c" label="common_coin_102" asset="res/common/common_coin_102.png" alias="common_coin_102"/>
+  <item atlasType="0" compress="0" key="cec12e0035937e270fe82cd68486ac6a" label="common2_invite_btn" asset="res/common/common2_invite_btn.png"/>
+  <item atlasType="0" compress="0" key="cee48d8c56a55726f1f24ef1fac16cda" label="common_friend_track_disable" asset="res/common/common_friend_track_disable.png"/>
+  <item atlasType="0" compress="0" key="d03e595b4065fa85258ed3ed9f78b57e" label="common_btn_left1" asset="res/common/common_btn_left1.png"/>
+  <item atlasType="0" compress="0" key="d1567e999a878ecffd98d3507918fd8f" label="common_coin_100" asset="res/common/common_coin_100.png" alias="common_coin_100"/>
+  <item atlasType="0" compress="0" key="d245748ad195d1d81208d0cd3980d0a3" label="common_reward_item_bg" asset="res/common/common_reward_item_bg.png" alias="common_reward_item_bg"/>
+  <item atlasType="0" compress="0" key="d2fc09b8ca5b3955e7ee57b0fd9f0291" label="common_tab_bg" asset="res/common/common_tab_bg.png" grid="30,30,0,0"/>
+  <item atlasType="0" compress="0" key="d58e46d0933bc95782ea828ee75c7fb6" label="common_title2" asset="res/common/common_title2.png"/>
+  <item atlasType="0" compress="0" key="d8f140749295df4c37ec894c90d29e29" label="common_pop_close" asset="res/common/common_pop_close.png" alias="common_pop_close"/>
+  <item atlasType="0" compress="0" key="daf8a228e27c9159377fec3509580504" label="common_refresh_btn_2" asset="res/common/common_refresh_btn_2.png"/>
+  <item atlasType="0" compress="0" key="db942b9cfd72d1978caec799b99b77f7" label="bankrupt_100" asset="res/common/bankrupt_100.png"/>
+  <item atlasType="0" compress="0" key="dcaeaa36845d6986f7274c619ed2d535" label="bankrupt_icon_bg" asset="res/common/bankrupt_icon_bg.png"/>
+  <item atlasType="0" compress="0" key="de306e01132e2d96ed768bd1cf8392d5" label="common_loading_icon" asset="res/common/common_loading_icon.png" alias="common_loading_icon"/>
+  <item atlasType="0" compress="0" key="e086f1f945ce8812775a3506b4256e6a" label="common_yuanzhudi" asset="res/common/common_yuanzhudi.png" grid="47,47,0,0"/>
+  <item atlasType="0" compress="0" key="e0b8cf297c456c99a82b2cb5a4cb08e6" label="common_btn_purple" asset="res/common/common_btn_purple.png"/>
+  <item atlasType="0" compress="0" key="e2c65a1e2606d54b17e897805242621c" label="common_poker_font_bg_v" asset="res/common/common_poker_font_bg_v.png"/>
+  <item atlasType="0" compress="0" key="e3416c989622f7e310c8c30b4d34e3c9" label="common_horn_icon" asset="res/common/common_horn_icon.png"/>
+  <item atlasType="0" compress="0" key="e6194f8c22f9587d36675364ec9990e2" label="common_poker_dark_overlay_v" asset="res/common/common_poker_dark_overlay_v.png"/>
+  <item atlasType="0" compress="0" key="e77d8b4d5bcaed2e4d12c25e6a3d7716" label="common_rxpression_btn" asset="res/common/common_rxpression_btn.png"/>
+  <item atlasType="0" compress="0" key="e824f889cbf9892109b2bf2ae1bedc85" label="common_btn_purple1" asset="res/common/common_btn_purple1.png"/>
+  <item atlasType="0" compress="0" key="e98f40e81f02da477a251629ecd8b373" label="common_btn_yellow_m" asset="res/common/common_btn_yellow_m.png" alias="common_btn_yellow_m"/>
+  <item atlasType="0" compress="0" key="ea5ee7fd765d449d0627f5cfa0da981c" label="common_tab_l" asset="res/common/common_tab_l.png"/>
+  <item atlasType="0" compress="0" key="ec0162fa9eb0349e47b47bf6dbdcd6dd" label="common_sex_woman_icon" asset="res/common/common_sex_woman_icon.png" alias="common_sex_woman_icon"/>
+  <item atlasType="0" compress="0" key="ec2118a2d9e25e5731a0e17f7e3c29d0" label="common_dialog_di2" asset="res/common/common_dialog_di2.png" grid="15,15,10,20"/>
+  <item atlasType="0" compress="0" key="ecffb018724a73270065e54580a51b3a" label="common_chat_blue_bg" asset="res/common/common_chat_blue_bg.png" grid="30,30,35,15"/>
+  <item atlasType="0" compress="0" key="eea415044b54232f0ca8b9a99c8e8645" label="common_poker_5" asset="res/common/common_poker_5.png"/>
+  <item atlasType="0" compress="0" key="f139dc633f9db222c4fa74f3e7cda830" label="common_poker_back_bg_v" asset="res/common/common_poker_back_bg_v.png"/>
+  <item atlasType="0" compress="0" key="f2765841a0d1a3cec052e9dfcc5eb043" label="common_logo_1" asset="res/common/common_logo_1.png"/>
+  <item atlasType="0" compress="0" key="f3f5a46306c876b8a06506836ec2382f" label="common_yellow_btn" asset="res/common/common_yellow_btn.png"/>
+  <item atlasType="0" compress="0" key="f55ce3137d8e5da583327efca002fff9" label="common_top_tip_bg" asset="res/common/common_top_tip_bg.png" grid="70,70,10,10"/>
+  <item atlasType="0" compress="0" key="f782dd3604a753f4bf254e5de24cef6d" label="common_logo" asset="res/common/common_logo.png"/>
+  <item atlasType="0" compress="0" key="f7e0101b7c3719ba96aee01187e6f395" label="default3" asset="res/common/default3.png" alias="default_qiuqiu"/>
+  <item atlasType="0" compress="0" key="f815732cded270869740ff7a86c80ace" label="common_friend_delete" asset="res/common/common_friend_delete.png" alias="common_friend_delete"/>
+  <item atlasType="0" compress="0" key="f87c3a0d1e8e30bf153c7f8c5f89703b" label="common_popup_bg_no_title_bg" asset="res/common/common_popup_bg_no_title_bg.png" grid="30,30,30,30"/>
+  <item atlasType="0" compress="0" key="fdc8471b9a76d939e81aaecca1913425" label="scoreStar2" asset="res/common/scoreStar2.png" alias="scoreStar2"/>
+  <item atlasType="0" compress="0" key="fef6a90fd532395493a12851b3540100" label="common_poker_1" asset="res/common/common_poker_1.png"/>
+</item>

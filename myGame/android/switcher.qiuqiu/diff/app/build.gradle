@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+
+android {
+    // 编译SDK的版本
+    compileSdkVersion 22
+    // build tools的版本
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        // 应用的包名
+        applicationId "com.boyaa.gaple.qiuqiu"
+        // 是否分包
+        multiDexEnabled false
+        minSdkVersion 9
+        targetSdkVersion 22
+    }
+
+    signingConfigs {
+        myConfig {
+            storeFile file('../../doc/key/billiards.keystore')
+            storePassword 'jsdk`1122334'
+            keyAlias 'boyaapool'
+            keyPassword 'mtv.boyaa.com'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.myConfig
+            //是否进行混淆
+            minifyEnabled false
+            multiDexEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            multiDexEnabled false
+            signingConfig signingConfigs.myConfig
+        }
+    }
+    productFlavors {
+
+    }
+
+    sourceSets {
+        release {
+			assets.srcDirs = ['../../../assets']
+        }
+        debug {
+            assets.srcDirs = ['../../../runtime/Resource']
+            assets.excludes = [
+                    '*.config'
+//                    '*.luaproj'
+            ]
+        }
+    }
+
+    // 移除lint检查的error
+    lintOptions {
+        abortOnError false
+    }
+
+   // useLibrary 'org.apache.http.legacy'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //    compile 'com.android.support:support-v4:23.+'
+    //    compile 'com.android.support:support-v7:23.0.1'
+    // 编译libs目录下的所有jar包
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile files('libs/umeng-analytics-game-v5.6.7.0.jar')
+    //    compile files('libs/bymade.jar')
+    compile project(path: ':lib.adStats')
+    compile project(path: ':lib.godsdk')
+    //    compile project(path: ':lib.iab')
+    compile 'com.facebook.android:facebook-android-sdk:4.5.0'
+    // compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.google.android.gms:play-services-ads:9.2.0'
+    compile 'com.google.android.gms:play-services-auth:9.2.0'
+    // compile 'com.google.android.gms:play-services-gcm:9.2.0'
+    compile 'com.google.firebase:firebase-core:9.2.0'
+    compile "com.google.firebase:firebase-messaging:9.2.0"
+    compile 'com.google.android.gms:play-services-analytics:9.2.0'
+    compile project(':unity-ads')
+}
+
+apply plugin: 'com.google.gms.google-services'

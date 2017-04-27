@@ -1,0 +1,40 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <bg type="1" typeName="Image" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" file="3aedfc421b39b6b833e78d4d83e12f42" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="bg">
+    <titleBg type="1" typeName="Image" time="0" x="0" y="0" width="960" height="92" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="1" file="15842363213364caff4889749ccc5a79" packFile="" gridLeft="10" gridRight="45" gridTop="45" gridBottom="45">
+      <backButton type="1" typeName="Button" time="0" x="23" y="-6" width="82" height="66" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="a595d421601ab2bf8554b11be0b5062b" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="backButton" callbackfunc="onBackButtonClick"/>
+      <inviteButton type="1" typeName="Button" time="0" x="23" y="-6" width="71" height="66" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="fc6195d7f1cf9c6535a152bff674b224" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="inviteButton" callbackfunc="onInviteButtonClick"/>
+    </titleBg>
+    <View6 type="0" typeName="View" time="0" x="0" y="0" width="382" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1">
+      <titleLightImage_1 type="1" typeName="Image" time="0" x="0" y="0" width="169" height="71" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="4091a0c6f7a83eb4bdb98f994e56ccc3" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="titleLightImage_1"/>
+      <titleLightImage_2 type="1" typeName="Image" time="0" x="0" y="0" width="169" height="71" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="4091a0c6f7a83eb4bdb98f994e56ccc3" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="titleLightImage_2"/>
+      <titleRadioButtonGroup type="0" typeName="RadioButtonGroup" time="0" x="1" y="0" width="367" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="titleRadioButtonGroup">
+        <friendRadiobutton type="0" typeName="RadioButton" time="0" x="0" y="0" width="139" height="45" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="cba050bf1c5ea01ac0fb44fb72da0aa4" file2="e4396ef58a07a4c9380a12298e6a9da4" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="friendRadiobutton"/>
+        <searchRadiobutton type="0" typeName="RadioButton" time="0" x="4" y="0" width="145" height="44" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="db1cdd0e5e6e8cd4da817ef97d3e05d2" file2="dab291e83540a61394eb1e46e876f8e2" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="searchRadiobutton"/>
+      </titleRadioButtonGroup>
+    </View6>
+    <friendsView type="0" typeName="View" time="0" x="0" y="85" width="898" height="547" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="friendsView">
+      <friendNumLabel type="4" typeName="Text" time="0" x="0" y="0" width="130" height="31" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" fontName="" fontSize="20" textAlign="7" color="0xFFFFFF" string="Friend: 5/300" colorA="1" varname="friendNumLabel"/>
+      <contentListView type="0" typeName="ListView" time="0" x="0" y="28" width="898" height="517" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="1" varname="contentListView" isLock="0"/>
+      <noDataTipLabel type="5" typeName="TextView" time="0" x="187" y="71" width="503" height="100" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="暂无好友\n立即邀请好友可获得丰厚金币赠送！" varname="noDataTipLabel" colorA="1"/>
+    </friendsView>
+    <searchFriendView type="0" typeName="View" time="0" x="0" y="85" width="898" height="548" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="searchFriendView">
+      <editView type="0" typeName="View" time="0" x="0" y="-15" width="847" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1">
+        <editBg type="1" typeName="Image" time="0" x="0" y="0" width="748" height="56" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2a7345e27580079408069cec858f8fba" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15">
+          <searchEditBox type="6" typeName="EditText" time="0" x="5" y="0" width="653" height="53" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" colorA="1" varname="searchEditBox"/>
+          <searchButton type="1" typeName="Button" time="0" x="0" y="-1" width="52" height="53" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="abb31b08fd6043c7fdec087bd239bf73" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="searchButton" callbackfunc="onSearchButtonClick" effect="{&quot;shader&quot;:&quot;mirror&quot;,&quot;mirrorType&quot;:&quot;1&quot;}"/>
+        </editBg>
+      </editView>
+      <friendItemView type="0" typeName="View" time="0" x="0" y="75" width="875" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="friendItemView"/>
+    </searchFriendView>
+    <recommendFriendView type="0" typeName="View" time="0" x="0" y="304" width="848" height="302" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="recommendFriendView">
+      <recommendLabel type="4" typeName="Text" time="0" x="0" y="-31" width="191" height="31" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="好友推荐" varname="recommendLabel" colorA="1">
+        <changeLotButton type="1" typeName="Button" time="0" x="442" y="105" width="62" height="180" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="9d5915d023aa42ae74a7f55f9574fa64" file2="" packFile="" gridLeft="30" gridRight="30" gridTop="100" gridBottom="30" varname="changeLotButton" callbackfunc="onChangeLotButtonClick">
+          <changeLotLabel type="4" typeName="Text" time="0" x="1" y="9" width="233" height="24" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Change" varname="changeLotLabel"/>
+        </changeLotButton>
+      </recommendLabel>
+      <Image25 type="1" typeName="Image" time="0" x="-6" y="-16" width="331" height="2" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="79fb7ad71280f6d3fea8e90d815d1183" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <Image26 type="1" typeName="Image" time="0" x="520" y="-16" width="331" height="2" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="79fb7ad71280f6d3fea8e90d815d1183" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <noRecommendTipLabel type="5" typeName="TextView" time="0" x="0" y="0" width="503" height="100" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="暂无好友\n立即邀请好友可获得丰厚金币赠送！" varname="noRecommendTipLabel"/>
+    </recommendFriendView>
+  </bg>
+</root>

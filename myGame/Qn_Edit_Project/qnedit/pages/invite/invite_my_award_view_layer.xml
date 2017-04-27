@@ -1,0 +1,20 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="681" height="395" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <bgView type="0" typeName="View" time="0" x="0" y="0" width="681" height="395" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="bgView">
+    <topImage type="1" typeName="Image" time="0" x="0" y="0" width="699" height="45" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="9ed30f689cf1c25bb5e24544e8d27599" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="topImage">
+      <totalNumLabel type="4" typeName="Text" time="0" x="27" y="0" width="305" height="44" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="7" color="0xFFFFFF" string="累计成功邀请人数：0人" varname="totalNumLabel"/>
+      <totalMoneyLabel type="4" typeName="Text" time="0" x="349" y="0" width="314" height="46" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="7" color="0xFFFFFF" string="累计获得奖励：0金币" varname="totalMoneyLabel"/>
+    </topImage>
+    <detailLabel type="4" typeName="Text" time="0" x="8" y="59" width="272" height="32" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="16" textAlign="7" color="0xFFFFFF" string="奖励明细（最多只能查看七日内的记录）" varname="detailLabel" colorA="1"/>
+    <getAllButton type="1" typeName="Button" time="0" x="523" y="44" width="143" height="60" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="e98f40e81f02da477a251629ecd8b373" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="getAllButton" callbackfunc="onGetAllButtonClick">
+      <getAllLabel type="4" typeName="Text" time="0" x="0" y="-2" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="19" textAlign="0" color="0xFFFFFF" string="全部领取" varname="getAllLabel" colorA="1"/>
+    </getAllButton>
+    <Image7 type="1" typeName="Image" time="0" x="0" y="97" width="658" height="296" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="9fc5b033f14ac3c62f1818e8545e6d20" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15">
+      <Image8 type="1" typeName="Image" time="0" x="0" y="49" width="650" height="2" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="79fb7ad71280f6d3fea8e90d815d1183" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <beforeButton type="1" typeName="Button" time="0" x="5" y="5" width="41" height="45" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="0a5d5fed7de3fe057ffcac8e0a0b570b" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="beforeButton" callbackfunc="onBeforeButtonClick"/>
+      <afterButton type="1" typeName="Button" time="0" x="5" y="5" width="41" height="45" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" file="5f291c0dc0a7002562640b89b62ab1ec" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" callbackfunc="onAfterButtonClick" varname="afterButton"/>
+      <dateLabel type="4" typeName="Text" time="0" x="212" y="8" width="204" height="39" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="0" color="0xfcd8ed" string="2016-06-30" varname="dateLabel" colorA="1"/>
+      <tipNoLabel type="4" typeName="Text" time="0" x="0" y="0" width="279" height="80" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xf47ac2" string="暂无奖励信息哦！" varname="tipNoLabel" colorA="1"/>
+      <awardScrollView type="0" typeName="AutoScrollView" time="0" x="0" y="54" width="645" height="235" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="awardScrollView"/>
+    </Image7>
+  </bgView>
+</root>

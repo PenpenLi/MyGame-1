@@ -1,0 +1,8 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="213" height="185" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" stageW="0" stageH="0" isGenerateLocal="false">
+  <Image_item type="1" typeName="Image" time="0" x="0" y="0" width="162" height="148" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="71e204745d12660e23cf24e508fb0b7a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_item">
+    <Text_prop_name type="4" typeName="Text" time="0" x="0" y="9" width="129" height="27" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" fontName="" fontSize="20" textAlign="0" color="0xFFFFFF" varname="Text_prop_name" colorA="1"/>
+    <Image_shine_bg type="1" typeName="Image" time="0" x="26" y="29" width="110" height="110" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="dcaeaa36845d6986f7274c619ed2d535" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <Image_prop_icon type="1" typeName="Image" time="0" x="40" y="44" width="80" height="80" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_prop_icon" file="3edd07335fa7f411c4b3283fbdb68e2c"/>
+    <Text_prop_deadline type="4" typeName="Text" time="0" x="0" y="111" width="153" height="33" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" fontName="" textAlign="3" color="0xFFFFFF" varname="Text_prop_deadline" colorA="1" fontSize="18"/>
+  </Image_item>
+</root>

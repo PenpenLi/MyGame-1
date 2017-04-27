@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.2.0_aca7220a39a1cd5096273e702a3d64ebb3a32d54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="18e52280643effbab30370b073e456d670a0db54">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.2.0_0e1f4eecd266cba6fe096409c9964559bfaa22c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.2.0_1e17d5a409fee13f83833029412b06d3acd7842b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="535d4497b5fa5d451e07a043e9e220d5c25ab7c7">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.2.0_cde29f8b0f75227f17c0d6fcb9acda0afb5d4106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f56a68df45e18ce77814db6553fdaa229308f49b">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.2.0_606ffb0faf596cfe181a4420c286586a37162164.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\abspatch.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ff22885d788e83014d10b09bc2ff809fe4287f4c">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\abspatch_18d78ee97d5747e3232908877f3cf2e5ab2ce1f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\proj\lib.godsdk\unspecified\jars\libs\boyaagodsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="807a905b6c7bba183043cdd58e8af8c722ef9012">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\boyaagodsdk_5416a85e722b2cf6703b5fcdd7c13590dcc52b13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="15ad6a46fb8e2ed86556e0b330d738b589dc62c7">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.5.0_0a4709eca42db95366dcdb893d1dc9e3b6cb7463.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e91e1f335dc418d0138991a1d5155f0490ab6082">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.2.0_8dfe2849cfb4d1c19c83c48b1a6023c5f243714f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\bymade.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="43ebeb864874069d63d704acbf953ae920236063">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\bymade_abc0c4b92e5c8fd33f7b52e22b119f2c8a8577b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.2.0_17f3a0104b4c64925b0fd760ea8837a16d56bc53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b53d61bae49278c0fa202d9066d2e72fc151c1e8">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.2.0_782370795be6589dee284e0fbfb3914dc1a8ce4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="363f626ad5686283250cdb6073ae1bba5cb07a87">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.2.0_2932a93727eb1628f409dc145b20da10f45af27d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WindCao\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0_7acf25f320a243bfb1f9fc4683a59498ea32881b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1dc44c4798cbd79e95e4838a3fdc734c0e3f895f">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.2.0_aefa04077fc963ede6d531c401818d0bbdebe5c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f315c6b5b99081f16a79c9aaa557328a4644fe63">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.2.0_47114149d245bdaa150c98257db938575a5d9237.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_d687c9f9fc281eb0ab386573abeb212cfda24a21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="dc4c18602ecffb3e69cda6cdc51ba4feac0f97d7">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.2.0_3dc9be6faff94c48ff9ffae56fa16421d634fd91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7428f0d1debdcf1b5792a26146e51a38d992d04d">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.2.0_a3f39cb1feebf900a4d32d1f70653e312658f56d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\gaple_20160810.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d57d0c6b49b17b00cae806d6e92c80a2becd1084">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\gaple_20160810_33263ce435fb7804590339390c0bf0417da1be4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4838df6db988160b107e954e02a745370df543b6">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.2.0_e42221d6d7d1e2a5ffab6f66980149d094d639e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.2.0_bdf663f6bf38ae1310eb1ce90449db69ceaf9df4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_5a76e1dd992db5d8ea69dd615534e92ef7c3c434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\proj\unity-ads\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="634238b621cfae4def37264bde5dfae4ee384991">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\proj-unity-ads-unspecified_abb9132ae7ea631d676dfa775849eecf9a8e2886.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="30489a97b06cc3945bdbcc1770089af9e3b3b64d">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.2.0_8e48bf23bc4edfb8a69c1180f3212adcf18bf882.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fbb50f7f89342c915898c9376a67229e2fcee286">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.2.0_5345949bc315ae870bc71aedfe52e96c14e85017.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WindCao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_7c097778212eb2acdea749fd14f482fd61f13884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\umeng-analytics-v5.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b2705cbb19f52bb4d242458163a98d9e889c1292">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.1_ce65efe686725ef8e97c717dbee4257d9b8b6398.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f56a68df45e18ce77814db6553fdaa229308f49b">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.2.0_606ffb0faf596cfe181a4420c286586a37162164.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="535d4497b5fa5d451e07a043e9e220d5c25ab7c7">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.2.0_cde29f8b0f75227f17c0d6fcb9acda0afb5d4106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4838df6db988160b107e954e02a745370df543b6">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.2.0_e42221d6d7d1e2a5ffab6f66980149d094d639e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\proj\lib.godsdk\unspecified\jars\libs\boyaagodsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="807a905b6c7bba183043cdd58e8af8c722ef9012">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\boyaagodsdk_5416a85e722b2cf6703b5fcdd7c13590dcc52b13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a06eb7761fca120bbb46b34b930a3a3462ba9d7f">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.2.0_37ec175597e59949799f08fe50647b1a96b8e125.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="18e52280643effbab30370b073e456d670a0db54">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.2.0_0e1f4eecd266cba6fe096409c9964559bfaa22c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="15ad6a46fb8e2ed86556e0b330d738b589dc62c7">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.5.0_0a4709eca42db95366dcdb893d1dc9e3b6cb7463.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\abspatch.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ff22885d788e83014d10b09bc2ff809fe4287f4c">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\abspatch_18d78ee97d5747e3232908877f3cf2e5ab2ce1f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.2.0_1e17d5a409fee13f83833029412b06d3acd7842b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b53d61bae49278c0fa202d9066d2e72fc151c1e8">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.2.0_782370795be6589dee284e0fbfb3914dc1a8ce4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_d687c9f9fc281eb0ab386573abeb212cfda24a21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\proj\lib.adStats\unspecified\jars\libs\AF-Android-SDK-v2.3.1.15.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="993836b18a2473350b79493a8d8d5d3133ca8770">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\AF-Android-SDK-v2.3.1.15_bb324222b63769e25bd661c6d2d4b1438a161ba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e91e1f335dc418d0138991a1d5155f0490ab6082">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.2.0_8dfe2849cfb4d1c19c83c48b1a6023c5f243714f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\proj\lib.adStats\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b052bdeff18c1d55b1c6f4fac028c285860dce42">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\proj-lib.adStats-unspecified_cb3e93c1a951e77667bb8c38542dbd164ffc1c70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="363f626ad5686283250cdb6073ae1bba5cb07a87">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.2.0_2932a93727eb1628f409dc145b20da10f45af27d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.2.0_aca7220a39a1cd5096273e702a3d64ebb3a32d54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\bymade.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="43ebeb864874069d63d704acbf953ae920236063">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\bymade_abc0c4b92e5c8fd33f7b52e22b119f2c8a8577b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.2.0_17f3a0104b4c64925b0fd760ea8837a16d56bc53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f315c6b5b99081f16a79c9aaa557328a4644fe63">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.2.0_47114149d245bdaa150c98257db938575a5d9237.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1dc44c4798cbd79e95e4838a3fdc734c0e3f895f">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.2.0_aefa04077fc963ede6d531c401818d0bbdebe5c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="30489a97b06cc3945bdbcc1770089af9e3b3b64d">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.2.0_8e48bf23bc4edfb8a69c1180f3212adcf18bf882.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\proj\lib.godsdk\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b2c23f6093b9d51a774d1fb5a3955f264039259b">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\proj-lib.godsdk-unspecified_a6578ffab014c02c7cea63b0be993805d1f9d8e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.2.0_bdf663f6bf38ae1310eb1ce90449db69ceaf9df4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\umeng-analytics-v5.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b2705cbb19f52bb4d242458163a98d9e889c1292">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.1_ce65efe686725ef8e97c717dbee4257d9b8b6398.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\proj\lib.adStats\unspecified\jars\libs\AF-Android-SDK-v2.3.1.15.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="993836b18a2473350b79493a8d8d5d3133ca8770">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\AF-Android-SDK-v2.3.1.15_bb324222b63769e25bd661c6d2d4b1438a161ba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WindCao\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0_7acf25f320a243bfb1f9fc4683a59498ea32881b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="dc4c18602ecffb3e69cda6cdc51ba4feac0f97d7">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.2.0_3dc9be6faff94c48ff9ffae56fa16421d634fd91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7428f0d1debdcf1b5792a26146e51a38d992d04d">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.2.0_a3f39cb1feebf900a4d32d1f70653e312658f56d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a06eb7761fca120bbb46b34b930a3a3462ba9d7f">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.2.0_37ec175597e59949799f08fe50647b1a96b8e125.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_5a76e1dd992db5d8ea69dd615534e92ef7c3c434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\libs\gaple_20160810.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d57d0c6b49b17b00cae806d6e92c80a2becd1084">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\gaple_20160810_33263ce435fb7804590339390c0bf0417da1be4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WindCao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_7c097778212eb2acdea749fd14f482fd61f13884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MyGame\myGame\android\proj\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fbb50f7f89342c915898c9376a67229e2fcee286">
+        <dex dex="E:\MyGame\myGame\android\proj\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.2.0_5345949bc315ae870bc71aedfe52e96c14e85017.jar" />
+    </item>
+
+</items>

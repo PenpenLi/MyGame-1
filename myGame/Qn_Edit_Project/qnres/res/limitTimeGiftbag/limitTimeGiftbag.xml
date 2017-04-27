@@ -1,0 +1,5 @@
+<item label="limitTimeGiftbag" compress="0" asset="res/limitTimeGiftbag" isDirectory="true">
+  <item atlasType="0" compress="0" key="0c4cfb985bac5c2005d6a608d7e09b1e" label="goods_bg1" asset="res/limitTimeGiftbag/goods_bg1.png"/>
+  <item atlasType="0" compress="0" key="219eacc7acca28b62f5f780f4aa68222" label="title" asset="res/limitTimeGiftbag/title.png"/>
+  <item atlasType="0" compress="0" key="713776acdd58784a9b60616533afbb57" label="count_down_bg" asset="res/limitTimeGiftbag/count_down_bg.png"/>
+</item>

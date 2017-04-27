@@ -1,0 +1,61 @@
+<item label="userInfo" compress="0" asset="res/userInfo" isDirectory="true">
+  <item atlasType="0" compress="0" key="01f708134e170255fa7bcd97aa108fbf" label="userInfo_toolbar_fb" asset="res/userInfo/userInfo_toolbar_fb.png"/>
+  <item atlasType="0" compress="0" key="0304eff0bca3c41885f612a29e25fe95" label="userInfo_photo_mask" asset="res/userInfo/userInfo_photo_mask.png"/>
+  <item atlasType="0" compress="0" key="0fd03b58e52969180bda7c2b9e61ee64" label="userInfo_propItem_deco" asset="res/userInfo/userInfo_propItem_deco.png" alias="userInfo_propItem_deco"/>
+  <item atlasType="0" compress="0" key="10916426050ce4db542bd1c49f2e8356" label="userInfo_toolbar_report" asset="res/userInfo/userInfo_toolbar_report.png"/>
+  <item atlasType="0" compress="0" key="17ff3417fd35d1529031d72a85cc9803" label="userInfo_prop_expression_bg" asset="res/userInfo/userInfo_prop_expression_bg.png"/>
+  <item atlasType="0" compress="0" key="1b427b2bd704837cfe7575d6f49e11cf" label="userInfo_help" asset="res/userInfo/userInfo_help.png"/>
+  <item atlasType="0" compress="0" key="207629d5061d386fed1b34b21b1e4147" label="userInfo_changeHead" asset="res/userInfo/userInfo_changeHead.png"/>
+  <item atlasType="0" compress="0" key="29fd01ff6310e81843cd93695aadeb91" label="userInfo_btn_thumbUp" asset="res/userInfo/userInfo_btn_thumbUp.png"/>
+  <item atlasType="0" compress="0" key="2a2737aa107894bc6171559276735bd5" label="userInfo_tips_bg" asset="res/userInfo/userInfo_tips_bg.png" grid="20,15,40,15"/>
+  <item atlasType="0" compress="0" key="2a9ac78b298a2053a94d02c89b785a32" label="userInfo_btn_camera" asset="res/userInfo/userInfo_btn_camera.png"/>
+  <item atlasType="0" compress="0" key="2f958c3d8b365fcbb8a963f089baf44c" label="userInfo_name_bg" asset="res/userInfo/userInfo_name_bg.png"/>
+  <item atlasType="0" compress="0" key="3a3057d84ad1e0dba5eec925e69ecff9" label="userInfo_sendprop_tips_bg" asset="res/userInfo/userInfo_sendprop_tips_bg.png" alias="userInfo_sendprop_tips_bg"/>
+  <item atlasType="0" compress="0" key="3c39c02e8ae8e7953f6f1d1dd9f6138c" label="userInfo_edit_btn" asset="res/userInfo/userInfo_edit_btn.png"/>
+  <item atlasType="0" compress="0" key="3edd07335fa7f411c4b3283fbdb68e2c" label="userInfo_coming_add_big" asset="res/userInfo/userInfo_coming_add_big.png" alias="userInfo_coming_add_big"/>
+  <item atlasType="0" compress="0" key="447a910bcc2ae68328b579cc95fa565d" label="userInfo_divider_horizontal" asset="res/userInfo/userInfo_divider_horizontal.png" alias="userInfo_divider_horizontal"/>
+  <item atlasType="0" compress="0" key="46c5123021ab943de5e59badd06b38dc" label="userInfo_exchange_exchangable" asset="res/userInfo/userInfo_exchange_exchangable.png" alias="userInfo_exchange_exchangable"/>
+  <item atlasType="0" compress="0" key="470da92ee1872a2fcdef925f61bb5298" label="userInfo_toolbar_showmsg" asset="res/userInfo/userInfo_toolbar_showmsg.png"/>
+  <item atlasType="0" compress="0" key="4d7968b984e32c28f8f95bd8f6783207" label="userInfo_propItem_bg" asset="res/userInfo/userInfo_propItem_bg.png" alias="userInfo_propItem_bg"/>
+  <item atlasType="0" compress="0" key="5367ef2ec99c741be5487943718e89ee" label="userInfo_tab_bg" asset="res/userInfo/userInfo_tab_bg.png"/>
+  <item atlasType="0" compress="0" key="60644979254a5c60244a3b85f85313e7" label="userInfo_toolbar_hidemsg" asset="res/userInfo/userInfo_toolbar_hidemsg.png"/>
+  <item atlasType="0" compress="0" key="63b2b309cb9824771136d8ba9098055b" label="userInfo_thumb_up" asset="res/userInfo/userInfo_thumb_up.png" alias="thumb_up"/>
+  <item atlasType="0" compress="0" key="67eddfe5ff2b6da15292ddb90617f4f4" label="userInfo_toolbar_unfollow" asset="res/userInfo/userInfo_toolbar_unfollow.png"/>
+  <item atlasType="0" compress="0" key="67fab53aabd7908aef9469ad63978308" label="userInfo_tab_upper_light" asset="res/userInfo/userInfo_tab_upper_light.png"/>
+  <item atlasType="0" compress="0" key="689665d01b9910bfb26e7e47339e8ad2" label="userInfo_btn_question" asset="res/userInfo/userInfo_btn_question.png"/>
+  <item atlasType="0" compress="0" key="6c94176393053929e42f21d11deb7e51" label="userInfo_toolbar_fbBind" asset="res/userInfo/userInfo_toolbar_fbBind.png"/>
+  <item atlasType="0" compress="0" key="6cdee35a70b46e2b6f4eaef76296c5f9" label="userInfo_toolbar_trace" asset="res/userInfo/userInfo_toolbar_trace.png"/>
+  <item atlasType="0" compress="0" key="71e204745d12660e23cf24e508fb0b7a" label="userInfo_coming_bg" asset="res/userInfo/userInfo_coming_bg.png"/>
+  <item atlasType="0" compress="0" key="71ee59af654d8dd5dc5c0a7c9e627759" label="userInfo_toolbar_unFbBind" asset="res/userInfo/userInfo_toolbar_unFbBind.png"/>
+  <item atlasType="0" compress="0" key="770b936f0069e6b0b4a955dea6d59ce6" label="userInfo_edit_profile" asset="res/userInfo/userInfo_edit_profile.png"/>
+  <item atlasType="0" compress="0" key="77dd7fe48ae1ea297f193a5bba16db7d" label="userInfo_edit_sign" asset="res/userInfo/userInfo_edit_sign.png"/>
+  <item atlasType="0" compress="0" key="79fe90ec6e597f4f8c5532da05eaa720" label="userInfo_propItem_exchange" asset="res/userInfo/userInfo_propItem_exchange.png" alias="userInfo_propItem_exchange"/>
+  <item atlasType="0" compress="0" key="7a68d1d5e04de6d68bb8928ed7a0fd82" label="userInfo_photo_frame" asset="res/userInfo/userInfo_photo_frame.png"/>
+  <item atlasType="0" compress="0" key="7e343904f34214ad9a38fe144448c997" label="userInfo_tile_bg" asset="res/userInfo/userInfo_tile_bg.png" alias="userInfo_tile_bg"/>
+  <item atlasType="0" compress="0" key="8625c74c2473a993e0277f4283138dfa" label="userInfo_coming_soon_bg" asset="res/userInfo/userInfo_coming_soon_bg.png" grid="56,56,15,15"/>
+  <item atlasType="0" compress="0" key="91aab7b58afdb3ac97554e47112eac29" label="userInfo_usericon_bg_man" asset="res/userInfo/userInfo_usericon_bg_man.png"/>
+  <item atlasType="0" compress="0" key="99e57c15557b34fe91912ecd0c37131e" label="userInfo_tab3_right" asset="res/userInfo/userInfo_tab3_right.png"/>
+  <item atlasType="0" compress="0" key="9d85c3cf4e0f7f9f5c61e70985d557ad" label="userInfo_exchange_deco" asset="res/userInfo/userInfo_exchange_deco.png" alias="userInfo_exchange_deco"/>
+  <item atlasType="0" compress="0" key="9df50a536bd5d9543b4b2a1316cc8d79" label="userInfo_toolbar_follow" asset="res/userInfo/userInfo_toolbar_follow.png"/>
+  <item atlasType="0" compress="0" key="a013a6a7b11e9402b736c60dabccef19" label="userInfo_prop_text_bg_1" asset="res/userInfo/userInfo_prop_text_bg_1.png" alias="userInfo_prop_text_bg_1"/>
+  <item atlasType="0" compress="0" key="a0d7057d4b9dba4ba5fd052c78b12966" label="userInfo_exchange_unexchangable" asset="res/userInfo/userInfo_exchange_unexchangable.png" alias="userInfo_exchange_unexchangable"/>
+  <item atlasType="0" compress="0" key="a2cefc29fec7078bd295b17702a617bc" label="userInfo_line" asset="res/userInfo/userInfo_line.png"/>
+  <item atlasType="0" compress="0" key="ab46c51c05518a051d3e6347a8d4444c" label="userInfo_toolbar_gift" asset="res/userInfo/userInfo_toolbar_gift.png"/>
+  <item atlasType="0" compress="0" key="b7aa15c395a7b922e1fcd08a205d7e1c" label="userInfo_toolbar_sendprop" asset="res/userInfo/userInfo_toolbar_sendprop.png"/>
+  <item atlasType="0" compress="0" key="c007a707ee385c473bbf291f9df6a8aa" label="userInfo_delete_say" asset="res/userInfo/userInfo_delete_say.png"/>
+  <item atlasType="0" compress="0" key="c311e9511345bb925d9ee2f7d3b9d69e" label="userInfo_choosed" asset="res/userInfo/userInfo_choosed.png"/>
+  <item atlasType="0" compress="0" key="ccc157dcfc674bf1dda3e20fd60fbfd6" label="userInfo_sex_bg" asset="res/userInfo/userInfo_sex_bg.png"/>
+  <item atlasType="0" compress="0" key="d0a5a7cab86d2e75812e01ff93739eda" label="userInfo_toolbar_deletefriend" asset="res/userInfo/userInfo_toolbar_deletefriend.png"/>
+  <item atlasType="0" compress="0" key="d7b0e4ea2e99b51561c2b0e8fd673784" label="userInfo_popup_bg" asset="res/userInfo/userInfo_popup_bg.png"/>
+  <item atlasType="0" compress="0" key="d9165c738b87c3f70e719553cfcac40a" label="userInfo_tab3_left" asset="res/userInfo/userInfo_tab3_left.png"/>
+  <item atlasType="0" compress="0" key="db447ce1e0fff24eef669711c94c68f7" label="userInfo_tab3_center" asset="res/userInfo/userInfo_tab3_center.png"/>
+  <item atlasType="0" compress="0" key="db6e5a7aa14d9420e52d66af6aaa879d" label="userInfo_btn_add" asset="res/userInfo/userInfo_btn_add.png"/>
+  <item atlasType="0" compress="0" key="de75703934eaec80d736509e64847bd4" label="userInfo_modify" asset="res/userInfo/userInfo_modify.png"/>
+  <item atlasType="0" compress="0" key="ebdcbe13e4749560e4ab1f2b0395dd4d" label="userInfo_usericon_bg_woman" asset="res/userInfo/userInfo_usericon_bg_woman.png"/>
+  <item atlasType="0" compress="0" key="ed3b789ab00799c32a53b3892eab96fe" label="userInfo_toolbar_addfriend" asset="res/userInfo/userInfo_toolbar_addfriend.png"/>
+  <item atlasType="0" compress="0" key="f1f1accbbc811ab5f89d162440d611eb" label="userInfo_pull_down_bg" asset="res/userInfo/userInfo_pull_down_bg.png" grid="12,12,3,15"/>
+  <item atlasType="0" compress="0" key="f2cf3feadf7088b0c8f93e8daafd663f" label="userInfo_divider_vertical" asset="res/userInfo/userInfo_divider_vertical.png"/>
+  <item atlasType="0" compress="0" key="f383f7655b5253bee808ab80dfa6492d" label="userInfo_head" asset="res/userInfo/userInfo_head.png"/>
+  <item atlasType="0" compress="0" key="f9b2bfb233c01cedcd95ac86dbddda3c" label="userInfo_uchosed" asset="res/userInfo/userInfo_uchosed.png"/>
+  <item atlasType="0" compress="0" key="ff79594ad0788e8663d12cc7a0b53ec1" label="userInfo_use_bt" asset="res/userInfo/userInfo_use_bt.png"/>
+</item>

@@ -1,0 +1,15 @@
+<item label="bar" compress="0" asset="game/bar" isDirectory="true">
+  <item atlasType="0" compress="0" key="05e5b558535f2afba6e0a57ace9ded21" label="low2_80_100" asset="game/bar/low2_80_100.png"/>
+  <item atlasType="0" compress="0" key="148ed52eadbdd2f4567898c17294fcf3" label="mid3_251_250" asset="game/bar/mid3_251_250.png"/>
+  <item atlasType="0" compress="0" key="1765ded0b86d905df660bd62ee76881d" label="zombie" asset="game/bar/zombie.png"/>
+  <item atlasType="0" compress="0" key="29aa9a35d5ec751cc679b004e53ea3d8" label="mid4_245_250" asset="game/bar/mid4_245_250.png"/>
+  <item atlasType="0" compress="0" key="6a513472e2b1d7207a49655b966814de" label="mid1_300_250" asset="game/bar/mid1_300_250.png"/>
+  <item atlasType="0" compress="0" key="76b60368d392ae7435793b46fa1fe361" label="low3_150_100" asset="game/bar/low3_150_100.png"/>
+  <item atlasType="0" compress="0" key="78e292bd6a0edc08d841adbd33535743" label="tall2_320_530" asset="game/bar/tall2_320_530.png"/>
+  <item atlasType="0" compress="0" key="79e4f5c0218b4382f82d4d2df1a1929c" label="mid2_180_250" asset="game/bar/mid2_180_250.png"/>
+  <item atlasType="0" compress="0" key="8a6535609cfd9b19e01711abf7913484" label="low1_80_100" asset="game/bar/low1_80_100.png"/>
+  <item atlasType="0" compress="0" key="a1abf2bb404e4eb8888061de3c3ce843" label="low4_250_100" asset="game/bar/low4_250_100.png"/>
+  <item atlasType="0" compress="0" key="ab6e2554d30f3fc80b7bdfce384c884b" label="low5_161_150" asset="game/bar/low5_161_150.png"/>
+  <item atlasType="0" compress="0" key="cc8d20ec03085424868c595e44ab0d04" label="tall1_320_530" asset="game/bar/tall1_320_530.png"/>
+  <item atlasType="0" compress="0" key="e9fbe90cd22b9de9cba72fe04bb5138d" label="low6_206_150" asset="game/bar/low6_206_150.png"/>
+</item>

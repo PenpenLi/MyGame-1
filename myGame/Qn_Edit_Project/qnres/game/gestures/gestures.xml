@@ -1,0 +1,7 @@
+<item label="gestures" compress="0" asset="game/gestures" isDirectory="true">
+  <item atlasType="0" compress="0" key="190fae4b1efcdffae18aedf61074d3fe" label="tipLittle" asset="game/gestures/tipLittle.png"/>
+  <item atlasType="0" compress="0" key="5b2335cb830beb76c733b8f5358bad25" label="tipLong" asset="game/gestures/tipLong.png"/>
+  <item atlasType="0" compress="0" key="814f46fad515a94acbb6adc491da6b7a" label="tipMid" asset="game/gestures/tipMid.png"/>
+  <item atlasType="0" compress="0" key="df080c33711565d75fefe3cd224e4d33" label="tipTall" asset="game/gestures/tipTall.png"/>
+  <item atlasType="0" compress="0" key="e57b7d269cc24c508118359105cfee5a" label="tipZOMBIE" asset="game/gestures/tipZOMBIE.png"/>
+</item>

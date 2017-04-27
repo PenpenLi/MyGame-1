@@ -1,0 +1,16 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="680" height="400" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <chat_msg_view type="0" typeName="ScrollView" time="0" x="0" y="0" width="100" height="315" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="1" varname="chat_msg_view"/>
+  <send_view type="0" typeName="View" time="0" x="0" y="0" width="100" height="81" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="5" varname="send_view">
+    <line type="1" typeName="Image" time="0" x="0" y="-5" width="650" height="11" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="1" file="ac31ce8455676fc8eada8dd602afc720" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <horn_input_bg type="1" typeName="Image" time="0" x="18" y="14" width="545" height="58" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="49866334eaddb5b8f306fe613793e150" packFile="" gridLeft="18" gridRight="18" gridTop="0" gridBottom="0">
+      <horn_input type="7" typeName="EditTextView" time="0" x="60" y="0" width="480" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" colorA="1" varname="horn_input"/>
+    </horn_input_bg>
+    <horn_icon type="1" typeName="Image" time="0" x="26" y="23" width="49" height="40" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="19a6ed053704936a447bab2f16637dbc" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <hron_num_bg type="1" typeName="Image" time="0" x="45" y="10" width="40" height="26" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="23a57dce49ecf01e6edd122f6dbfca2c" packFile="" gridLeft="12" gridRight="12" gridTop="12" gridBottom="12" varname="hron_num_bg">
+      <hron_num type="4" typeName="Text" time="0" x="1" y="-2" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="14" textAlign="0" color="0xffffff" string="0" colorA="1" varname="hron_num"/>
+    </hron_num_bg>
+    <horn_send_btn type="1" typeName="Button" time="0" x="560" y="12" width="118" height="62" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="7eeb9ef62503a1c1605e3a59818ef993" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="horn_send_btn" callbackfunc="onHornSendBtnClick">
+      <Text12 type="4" typeName="Text" time="0" x="0" y="-2" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Kirim"/>
+    </horn_send_btn>
+  </send_view>
+</root>

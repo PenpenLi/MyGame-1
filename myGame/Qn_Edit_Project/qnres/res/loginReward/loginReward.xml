@@ -1,0 +1,10 @@
+<item label="loginReward" compress="0" asset="res/loginReward" isDirectory="true">
+  <item atlasType="0" compress="0" key="02132cf6818ec44e86c7ec31afdfe93f" label="login_reward_item_s" asset="res/loginReward/login_reward_item_s.png" alias="login_reward_item_s"/>
+  <item atlasType="0" compress="0" key="17e8d5bba051a9ca1a1cc8805cf4e158" label="login_reward_light_big" asset="res/loginReward/login_reward_light_big.png" alias="login_reward_light_big"/>
+  <item atlasType="0" compress="0" key="49eaf5e6714866072114d9a3e4c92941" label="login_show_reward_bg" asset="res/loginReward/login_show_reward_bg.png" alias="login_show_reward_bg"/>
+  <item atlasType="0" compress="0" key="4fd91181d57a678a93f7d238d42ddcb6" label="login_reward_bg" asset="res/loginReward/login_reward_bg.png"/>
+  <item atlasType="0" compress="0" key="767fa3c99a03bab1e5de93a589556f60" label="login_reward_text_gettd" asset="res/loginReward/login_reward_text_gettd.png" alias="login_reward_text_gettd"/>
+  <item atlasType="0" compress="0" key="85cf052357d4856fdbe08f630e76fcbf" label="login_reward_item_panel" asset="res/loginReward/login_reward_item_panel.png" grid="20,20,20,20"/>
+  <item atlasType="0" compress="0" key="937cbc8914bdf587db3a74a0e7a2e13f" label="login_reward_item_bg" asset="res/loginReward/login_reward_item_bg.png" alias="login_reward_item_bg" grid="50,50,50,50"/>
+  <item atlasType="0" compress="0" key="ed37753a883538738f98c5bce259f5a7" label="login_reward_start" asset="res/loginReward/login_reward_start.png" alias="login_reward_start"/>
+</item>

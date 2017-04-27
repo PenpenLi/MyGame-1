@@ -1,0 +1,32 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image9 type="1" typeName="Image" time="0" x="124" y="13" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="33b239241ad84d697765297faea5ae99" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <titleTxt type="4" typeName="Text" time="0" x="232" y="7" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="30" textAlign="0" color="0xFFFFFF" string="发表动态" colorA="1" varname="titleTxt"/>
+    <Image11 type="1" typeName="Image" time="0" x="2" y="-65" width="519" height="102" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="9fc5b033f14ac3c62f1818e8545e6d20" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15"/>
+    <contentTxt type="7" typeName="EditTextView" time="0" x="34" y="113" width="506" height="62" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="7" color="0xFFFFFF" string="随时随地发表动态的辅导老师附近路口dskfo打赏打开拉萨" colorA="1" varname="contentTxt"/>
+    <Button6 type="1" typeName="Button" time="0" x="190" y="327" width="191" height="61" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="a60831087d75c0027ba0efb484780a77" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" callbackfunc="onSend" varname="Button6">
+      <sendBtnTxt type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="发布动态" colorA="1" varname="sendBtnTxt"/>
+    </Button6>
+    <soonImage_1 type="1" typeName="Image" time="0" x="58" y="193" width="126" height="124" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="71e204745d12660e23cf24e508fb0b7a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="soonImage_1">
+      <Image14 type="1" typeName="Image" time="0" x="24" y="35" width="78" height="78" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3edd07335fa7f411c4b3283fbdb68e2c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <uploadPicTxt_1 type="4" typeName="Text" time="0" x="15" y="-14" width="100" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="16" textAlign="0" color="0xfbd7e6" string="Text" varname="uploadPicTxt_1" colorA="1"/>
+      <Image13 type="1" typeName="Image" time="0" x="1" y="53" width="122" height="40" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="8625c74c2473a993e0277f4283138dfa" packFile="" gridLeft="56" gridRight="56" gridTop="15" gridBottom="15">
+        <Text15 type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="16" textAlign="0" color="0xFFFFFF" string="Coming soon" colorA="1"/>
+      </Image13>
+    </soonImage_1>
+    <soonImage_2 type="1" typeName="Image" time="0" x="221" y="193" width="126" height="124" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="71e204745d12660e23cf24e508fb0b7a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="soonImage_2">
+      <Image14 type="1" typeName="Image" time="0" x="24" y="35" width="78" height="78" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3edd07335fa7f411c4b3283fbdb68e2c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <uploadPicTxt_2 type="4" typeName="Text" time="0" x="15" y="-14" width="100" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="16" textAlign="0" color="0xfbd7e6" string="Text" colorA="1" varname="uploadPicTxt_2"/>
+      <Image13 type="1" typeName="Image" time="0" x="1" y="53" width="122" height="40" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="8625c74c2473a993e0277f4283138dfa" packFile="" gridLeft="56" gridRight="56" gridTop="15" gridBottom="15">
+        <Text15 type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="16" textAlign="0" color="0xFFFFFF" string="Coming soon" colorA="1"/>
+      </Image13>
+    </soonImage_2>
+    <soonImage_3 type="1" typeName="Image" time="0" x="387" y="193" width="126" height="124" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="71e204745d12660e23cf24e508fb0b7a" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="soonImage_3">
+      <Image14 type="1" typeName="Image" time="0" x="24" y="35" width="78" height="78" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3edd07335fa7f411c4b3283fbdb68e2c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <uploadPicTxt_3 type="4" typeName="Text" time="0" x="15" y="-14" width="100" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="16" textAlign="0" color="0xfbd7e6" string="Text" colorA="1" varname="uploadPicTxt_3"/>
+      <Image13 type="1" typeName="Image" time="0" x="1" y="53" width="122" height="40" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="8625c74c2473a993e0277f4283138dfa" packFile="" gridLeft="56" gridRight="56" gridTop="15" gridBottom="15">
+        <Text15 type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="16" textAlign="0" color="0xFFFFFF" string="Coming soon" colorA="1"/>
+      </Image13>
+    </soonImage_3>
+  </Image_bg>
+</root>

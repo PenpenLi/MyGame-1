@@ -1,0 +1,33 @@
+<item label="rank" compress="0" asset="game/rank" isDirectory="true">
+  <item atlasType="0" compress="0" key="082c038f416cd8afadd4515b8342e728" label="14" asset="game/rank/14.png"/>
+  <item atlasType="0" compress="0" key="08ef686ad9a151837540ef28b3579481" label="20" asset="game/rank/20.png"/>
+  <item atlasType="0" compress="0" key="0d494fd96016aa38680d8bc71daa85e7" label="25" asset="game/rank/25.png"/>
+  <item atlasType="0" compress="0" key="119aef1440051d7ee536f2c4e3d7e426" label="22" asset="game/rank/22.png"/>
+  <item atlasType="0" compress="0" key="17cf6fb5cec950758dab38746ff55589" label="19" asset="game/rank/19.png"/>
+  <item atlasType="0" compress="0" key="1e1fb1c0bc62b12f20af1f96433526ed" label="21" asset="game/rank/21.png"/>
+  <item atlasType="0" compress="0" key="20754b41609c8801da1176feeb471555" label="7" asset="game/rank/7.png"/>
+  <item atlasType="0" compress="0" key="2e3ee98e2ab5fa35d6003062bbe8b209" label="24" asset="game/rank/24.png"/>
+  <item atlasType="0" compress="0" key="2f90ac12821be48c6736662674625aa5" label="11" asset="game/rank/11.png"/>
+  <item atlasType="0" compress="0" key="3ad7869e7741d29fb721cc1aa2a243ab" label="28" asset="game/rank/28.png"/>
+  <item atlasType="0" compress="0" key="5744265c3011573952d903705eaec2ef" label="10" asset="game/rank/10.png"/>
+  <item atlasType="0" compress="0" key="586b0a2a414788e46262b2a38aa95622" label="2" asset="game/rank/2.png"/>
+  <item atlasType="0" compress="0" key="694718784059a2186c915b1f684919d0" label="16" asset="game/rank/16.png"/>
+  <item atlasType="0" compress="0" key="6e97fe20de84cd8eb1a6ac8a1d0a2a58" label="9" asset="game/rank/9.png"/>
+  <item atlasType="0" compress="0" key="751f2d230a2d292033378208e7b3e954" label="3" asset="game/rank/3.png"/>
+  <item atlasType="0" compress="0" key="82d20fd041863342a8136d8b3de42009" label="15" asset="game/rank/15.png"/>
+  <item atlasType="0" compress="0" key="8ee3cd7bc556fa75e0a31de3340c71a3" label="27" asset="game/rank/27.png"/>
+  <item atlasType="0" compress="0" key="902b77e3a2a0db0fcab737cec3eb2708" label="4" asset="game/rank/4.png"/>
+  <item atlasType="0" compress="0" key="9d587b3fcfcaf7da9fe07c81fd5bd24c" label="frame_blank" asset="game/rank/frame_blank.png"/>
+  <item atlasType="0" compress="0" key="a58a8998ca3771d19a05aaae529b5131" label="26" asset="game/rank/26.png"/>
+  <item atlasType="0" compress="0" key="a78955f2280d8c6569e3f06877d237d2" label="18" asset="game/rank/18.png"/>
+  <item atlasType="0" compress="0" key="ab7e48f77f2ca8b38149aa33bf089d2c" label="17" asset="game/rank/17.png"/>
+  <item atlasType="0" compress="0" key="b02941ade3a224578e9b9b6b685292ad" label="1" asset="game/rank/1.png"/>
+  <item atlasType="0" compress="0" key="be63343cabd686e1237fdbcca83db7ce" label="29" asset="game/rank/29.png"/>
+  <item atlasType="0" compress="0" key="c1c930f118f3874b1c5ff219b92b4b65" label="12" asset="game/rank/12.png"/>
+  <item atlasType="0" compress="0" key="c2179db46627ed61c024a2b2492d0d12" label="13" asset="game/rank/13.png"/>
+  <item atlasType="0" compress="0" key="c4d2df75ce711663d95505682c03e003" label="8" asset="game/rank/8.png"/>
+  <item atlasType="0" compress="0" key="ce83c2cf1b63afd2f40bac7ef624f9a3" label="23" asset="game/rank/23.png"/>
+  <item atlasType="0" compress="0" key="d3ab0c066f74f6e5a521f6414c0d39c7" label="6" asset="game/rank/6.png"/>
+  <item atlasType="0" compress="0" key="f0662c4cc2bc99ab02459a1004f030c0" label="30" asset="game/rank/30.png"/>
+  <item atlasType="0" compress="0" key="f7c08adcb3ab806dc4e91f88de22884a" label="5" asset="game/rank/5.png"/>
+</item>

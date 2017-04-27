@@ -1,0 +1,4 @@
+<item label="reward" compress="0" asset="res/reward" isDirectory="true">
+  <item atlasType="0" compress="0" key="6efa014a8cf3e6aac111c68cf0f0336c" label="reward_bg" asset="res/reward/reward_bg.png"/>
+  <item atlasType="0" compress="0" key="ff398781f0c08a91c419dc9fcf7e6023" label="reward_item_bg" asset="res/reward/reward_item_bg.png"/>
+</item>

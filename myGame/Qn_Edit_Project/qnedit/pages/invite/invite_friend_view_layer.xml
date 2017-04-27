@@ -1,0 +1,22 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="681" height="395" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <bgView type="0" typeName="View" time="0" x="0" y="0" width="681" height="395" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="bgView">
+    <topImage type="1" typeName="Image" time="0" x="0" y="0" width="677" height="77" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="1" file="9ed30f689cf1c25bb5e24544e8d27599" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+      <checkButton type="1" typeName="Button" time="0" x="10" y="0" width="48" height="49" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="9fc5b033f14ac3c62f1818e8545e6d20" file2="" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15" varname="checkButton" callbackfunc="onCheckButtonClick"/>
+      <checkBgImage type="1" typeName="Image" time="0" x="10" y="0" width="48" height="49" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="9fc5b033f14ac3c62f1818e8545e6d20" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15" varname="checkBgImage">
+        <checkImage type="1" typeName="Image" time="0" x="0" y="0" width="32" height="32" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2db3597cffd3a1c404205b9a826481e9" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="checkImage"/>
+      </checkBgImage>
+      <inviteButton type="1" typeName="Button" time="0" x="470" y="4" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="c7a82219d5f0a1481c6911bd157e6cf8" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="inviteButton" callbackfunc="onInviteButtonClick">
+        <inviteLabel type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="邀请" varname="inviteLabel"/>
+      </inviteButton>
+      <Image7 type="1" typeName="Image" time="0" x="190" y="9" width="275" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="2a7345e27580079408069cec858f8fba" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15">
+        <searchEditBox type="6" typeName="EditText" time="0" x="2" y="0" width="222" height="57" visible="true" fillParentWidth="false" fillParentHeight="true" nodeAlign="7" fontName="" fontSize="22" textAlign="7" color="0xFFFFFF" colorA="1" varname="searchEditBox"/>
+        <searchButton type="1" typeName="Button" time="0" x="0" y="0" width="52" height="53" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="abb31b08fd6043c7fdec087bd239bf73" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="searchButton" callbackfunc="onSearchButtonClick" effect="{&quot;shader&quot;:&quot;mirror&quot;,&quot;mirrorType&quot;:&quot;1&quot;}"/>
+      </Image7>
+      <checkAllLabel type="4" typeName="Text" time="0" x="60" y="17" width="94" height="43" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0xFFFFFF" string="Pilih semua" colorA="1" varname="checkAllLabel"/>
+    </topImage>
+    <itemScrollView type="0" typeName="AutoScrollView" time="0" x="0" y="82" width="666" height="314" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="itemScrollView"/>
+    <bottomImage type="1" typeName="Image" time="0" x="0" y="-14" width="714" height="63" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" file="383663e60e8382fd2210575747aad14d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="bottomImage">
+      <chooseTipLabel type="4" typeName="Text" time="0" x="0" y="0" width="714" height="42" visible="false" fillParentWidth="true" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="0" color="0xffffff" string="您邀请了0位好朋友，发送邀请即可获得0金币奖励！" varname="chooseTipLabel" isLock="0" colorA="1"/>
+    </bottomImage>
+  </bgView>
+</root>

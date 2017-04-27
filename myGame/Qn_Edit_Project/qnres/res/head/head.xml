@@ -1,0 +1,14 @@
+<item label="head" compress="0" asset="res/head" isDirectory="true">
+  <item atlasType="0" compress="0" key="0d29a364f8ff18ea1fef3f2b7f8a3147" label="male_avatar_2" asset="res/head/male_avatar_2.png"/>
+  <item atlasType="0" compress="0" key="156b22cc165490cd9656c60a76057542" label="common_male_avatar" asset="res/head/common_male_avatar.png" alias="common_male_avatar"/>
+  <item atlasType="0" compress="0" key="4d92b6f1ffc14d1de78133fa1d124cbb" label="male_avatar_5" asset="res/head/male_avatar_5.png"/>
+  <item atlasType="0" compress="0" key="6db917b311003aaeef37917e6a699a77" label="female_avatar_3" asset="res/head/female_avatar_3.png"/>
+  <item atlasType="0" compress="0" key="8ed63091dd625d490078e0cb0f70ebb6" label="male_avatar_1" asset="res/head/male_avatar_1.png"/>
+  <item atlasType="0" compress="0" key="9e7b8ff047b8406877038ee9c796cc17" label="female_avatar_4" asset="res/head/female_avatar_4.png"/>
+  <item atlasType="0" compress="0" key="a09bb60266dcad619a2e74034e0b4377" label="female_avatar_1" asset="res/head/female_avatar_1.png"/>
+  <item atlasType="0" compress="0" key="abdfddfbb2af8b66d1b65733ed0cc6c3" label="female_avatar_5" asset="res/head/female_avatar_5.png"/>
+  <item atlasType="0" compress="0" key="b48e7843d6ba7667027dc166b5f89b06" label="male_avatar_3" asset="res/head/male_avatar_3.png"/>
+  <item atlasType="0" compress="0" key="c6159eb462431f6738e17e78ec661b50" label="female_avatar_2" asset="res/head/female_avatar_2.png"/>
+  <item atlasType="0" compress="0" key="ca5e053482d60895605109d4f690b4f6" label="male_avatar_4" asset="res/head/male_avatar_4.png"/>
+  <item atlasType="0" compress="0" key="e190a490b2cdc149aa95dece3c8ce014" label="common_female_avatar" asset="res/head/common_female_avatar.png" alias="common_female_avatar"/>
+</item>

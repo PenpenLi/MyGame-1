@@ -1,0 +1,13 @@
+<item label="vip_small" compress="0" asset="res/common/vip_small" isDirectory="true">
+  <item atlasType="0" compress="0" key="0cf48780f49b227ff81a70cdb5d29edc" label="1" asset="res/common/vip_small/1.png"/>
+  <item atlasType="0" compress="0" key="1914666cee40d631dffb26bbc819ad1c" label="9" asset="res/common/vip_small/9.png"/>
+  <item atlasType="0" compress="0" key="33068b26c39aaa2c1ca8038eb80f7ea8" label="3" asset="res/common/vip_small/3.png"/>
+  <item atlasType="0" compress="0" key="a29daa5c79b66e8d60ff05bbe30b9674" label="8" asset="res/common/vip_small/8.png"/>
+  <item atlasType="0" compress="0" key="ae4e3f7ef0632f09a1e5f4995cc2446d" label="0" asset="res/common/vip_small/0.png"/>
+  <item atlasType="0" compress="0" key="aeb55895fb07b01bdaa31f115fbd3f15" label="2" asset="res/common/vip_small/2.png"/>
+  <item atlasType="0" compress="0" key="b9451ca14afdf2a54d7896173813fa11" label="5" asset="res/common/vip_small/5.png"/>
+  <item atlasType="0" compress="0" key="badaaf66ee602ab7dbc7d1264a1b36ed" label="7" asset="res/common/vip_small/7.png"/>
+  <item atlasType="0" compress="0" key="d6f4429980b06c92f15f6d52ce601b53" label="6" asset="res/common/vip_small/6.png"/>
+  <item atlasType="0" compress="0" key="df0859fb585813eb46544120cfc2e250" label="4" asset="res/common/vip_small/4.png"/>
+  <item atlasType="0" compress="0" key="eb3a44e43bdcd7c396a1149e7e51cd30" label="v" asset="res/common/vip_small/v.png"/>
+</item>

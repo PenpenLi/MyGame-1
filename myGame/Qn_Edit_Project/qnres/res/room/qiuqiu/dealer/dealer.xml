@@ -1,0 +1,13 @@
+<item label="dealer" compress="0" asset="res/room/qiuqiu/dealer" isDirectory="true">
+  <item atlasType="0" compress="0" key="241125068127b7f859fb5f6109bd60f6" label="room_dealer_knock_2" asset="res/room/qiuqiu/dealer/room_dealer_knock_2.png"/>
+  <item atlasType="0" compress="0" key="42a0adaa371d5b7bd8f7b49ae7548830" label="room_dealer_kiss_1" asset="res/room/qiuqiu/dealer/room_dealer_kiss_1.png"/>
+  <item atlasType="0" compress="0" key="50e89ceaaec095f28d846029afcdc9cc" label="room_dealer_normal" asset="res/room/qiuqiu/dealer/room_dealer_normal.png"/>
+  <item atlasType="0" compress="0" key="674d3ae6407deebfca41025039e87ea5" label="room_dealer_knock_3" asset="res/room/qiuqiu/dealer/room_dealer_knock_3.png"/>
+  <item atlasType="0" compress="0" key="71d6576558501730042da4a578e745b5" label="room_dealer_kiss_5" asset="res/room/qiuqiu/dealer/room_dealer_kiss_5.png"/>
+  <item atlasType="0" compress="0" key="9be204fad15cd7cc3372d5e48c1ba0f3" label="room_dealer_kiss_4" asset="res/room/qiuqiu/dealer/room_dealer_kiss_4.png"/>
+  <item atlasType="0" compress="0" key="c0c2ef916b4096284dbfae44578d9a51" label="room_dealer_heart" asset="res/room/qiuqiu/dealer/room_dealer_heart.png"/>
+  <item atlasType="0" compress="0" key="c3196b8d86622621600c1e4299c22dd3" label="room_dealer_kiss_2" asset="res/room/qiuqiu/dealer/room_dealer_kiss_2.png"/>
+  <item atlasType="0" compress="0" key="ca36a366e2b5fe7a0ee594c4cf32b15c" label="room_dealer_knock_1" asset="res/room/qiuqiu/dealer/room_dealer_knock_1.png"/>
+  <item atlasType="0" compress="0" key="e5a9fa9bceb1d4c944ec5f61bcfbafc4" label="room_dealer_kiss_3" asset="res/room/qiuqiu/dealer/room_dealer_kiss_3.png"/>
+  <item atlasType="0" compress="0" key="ed7404bdc920a44ee2454087e1ef783d" label="room_dealer_knock_4" asset="res/room/qiuqiu/dealer/room_dealer_knock_4.png"/>
+</item>

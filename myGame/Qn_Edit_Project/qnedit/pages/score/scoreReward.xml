@@ -1,0 +1,13 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Bg type="1" typeName="Image" time="0" x="0" y="-13" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" callbackfunc="onPopupBgTouch" varname="Bg">
+    <Image18 type="1" typeName="Image" time="0" x="0" y="0" width="671" height="428" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="e47f829d764e5066bb54fbe57706673f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <Image3 type="1" typeName="Image" time="0" x="0" y="-158" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="9118df0b7cbdaeddd69649911181706d" packFile="" gridLeft="150" gridRight="150" gridTop="35" gridBottom="35"/>
+    <Title type="4" typeName="Text" time="0" x="0" y="-159" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="30" textAlign="7" color="0xFFFFFF" string="Text" colorA="1" varname="Title"/>
+    <GoBtn type="1" typeName="Button" time="0" x="0" y="132" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="f3f5a46306c876b8a06506836ec2382f" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="GoBtn" callbackfunc="onGoClick">
+      <BtnText type="4" typeName="Text" time="0" x="-47" y="0" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="7" color="0xFFFFFF" string="GO" varname="BtnText"/>
+      <Image10 type="1" typeName="Image" time="0" x="29" y="-4" width="123" height="54" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="320fe5afbe2d9beb9474deb39fc2a368" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    </GoBtn>
+    <Image6 type="1" typeName="Image" time="0" x="149" y="-1" width="144" height="164" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="6f3a527d662c82467472ff315f6d0b7c" packFile="" gridLeft="50" gridRight="50" gridTop="50" gridBottom="50"/>
+    <Image19 type="1" typeName="Image" time="0" x="363" y="139" width="146" height="142" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="8d60778171bdc1d192fce198a87e1739" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+  </Bg>
+</root>

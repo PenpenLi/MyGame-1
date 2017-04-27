@@ -1,0 +1,8 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="550" height="70" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" stageW="0" isGenerateLocal="false">
+  <bg type="1" typeName="Image" time="0" x="0" y="0" width="550" height="70" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="9d587b3fcfcaf7da9fe07c81fd5bd24c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="bg">
+    <rankImage type="1" typeName="Image" time="0" x="2" y="2" width="92" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="b02941ade3a224578e9b9b6b685292ad" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="rankImage"/>
+    <headImage type="1" typeName="Image" time="0" x="120" y="2" width="64" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3d2cf48dddd9225554884827791c96d5" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="headImage"/>
+    <nameText type="4" typeName="Text" time="0" x="45" y="0" width="100" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0x000000" string="Text" colorA="1" varname="nameText"/>
+    <maxscoreText type="4" typeName="Text" time="0" x="7" y="0" width="100" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" fontName="" fontSize="24" textAlign="3" color="0x000000" string="Text" colorA="1" varname="maxscoreText"/>
+  </bg>
+</root>

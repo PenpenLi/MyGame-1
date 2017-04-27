@@ -1,0 +1,5 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="681" height="395" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <bgView type="0" typeName="View" time="0" x="0" y="0" width="681" height="395" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="bgView">
+    <contentView type="0" typeName="ScrollView" time="0" x="0" y="11" width="681" height="382" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="8" varname="contentView"/>
+  </bgView>
+</root>

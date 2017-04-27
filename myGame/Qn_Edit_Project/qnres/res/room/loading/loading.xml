@@ -1,0 +1,8 @@
+<item label="loading" compress="0" asset="res/room/loading" isDirectory="true">
+  <item atlasType="0" compress="0" key="128ba86cd344d60d35abf96f0794bab3" label="blur_purple_gaple" asset="res/room/loading/blur_purple_gaple.jpg"/>
+  <item atlasType="0" compress="0" key="1a03f694aafa8639ddee4b82323d3fba" label="blur_red" asset="res/room/loading/blur_red.jpg"/>
+  <item atlasType="0" compress="0" key="6a6089d8556eb19403512821535580bb" label="blur_purple" asset="res/room/loading/blur_purple.jpg"/>
+  <item atlasType="0" compress="0" key="6e53fb0aea38a4017e4b5522d9956a78" label="blur_red_gaple" asset="res/room/loading/blur_red_gaple.jpg"/>
+  <item atlasType="0" compress="0" key="d24529da3c69c9d3ef42c967a2af1bc2" label="blur_green" asset="res/room/loading/blur_green.jpg"/>
+  <item atlasType="0" compress="0" key="f1450c81dad432f69e2782b66bf5c2a6" label="blur_green_gaple" asset="res/room/loading/blur_green_gaple.jpg"/>
+</item>

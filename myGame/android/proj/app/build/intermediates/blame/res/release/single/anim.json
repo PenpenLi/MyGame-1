@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\release\\anim\\boyaa_dialog_alpha_exit.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\anim\\boyaa_dialog_alpha_exit.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\release\\anim\\boyaa_dialog_alpha_enter.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\anim\\boyaa_dialog_alpha_enter.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\release\\anim\\boyaa_dialog_enter.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\anim\\boyaa_dialog_enter.xml"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\release\\anim\\boyaa_dialog_exit.xml",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\anim\\boyaa_dialog_exit.xml"
+    }
+]

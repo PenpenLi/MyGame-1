@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "154331066592",
+    "project_id": "dominogaple-cd6b8"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154331066592:android:47d8a49086e1fa22",
+        "android_client_info": {
+          "package_name": "com.boyaa.gaple"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_M1Qg-zUdBFRlbMfzl1MYCOyT_V38_gc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-70322225-4"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

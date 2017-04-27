@@ -1,0 +1,11 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="190" height="290" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <Photo type="1" typeName="Image" time="0" x="0" y="-5" width="155" height="155" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="66e9b7ffacb52a9a71013360c5ad1f27" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Photo"/>
+  <Image8 type="1" typeName="Image" time="0" x="-43" y="-116" width="40" height="40" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="9fc5b033f14ac3c62f1818e8545e6d20" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15"/>
+  <UploadBtn type="1" typeName="Button" time="0" x="0" y="105" width="131" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="aab9e02edcd5071e7439e8d1e6bd6737" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="UploadBtn">
+    <Text1 type="4" typeName="Text" time="0" x="0" y="-3" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="上传" varname="Text1"/>
+  </UploadBtn>
+  <CheckBoxGroup type="0" typeName="CheckBoxGroup" time="0" x="-42" y="-116" width="48" height="48" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="CheckBoxGroup">
+    <CheckBox type="0" typeName="CheckBox" time="0" x="0" y="0" width="40" height="40" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c28eae11be2f8dbe1e6e7308aaa9fd97" file2="7d2a1cc710c57b11b1086759ee3b3bc5" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15" varname="CheckBox"/>
+  </CheckBoxGroup>
+  <Text type="5" typeName="TextView" time="0" x="33" y="-115" width="90" height="55" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="18" textAlign="0" color="0xFFFFFF" string="TextView" colorA="1" varname="Text"/>
+</root>

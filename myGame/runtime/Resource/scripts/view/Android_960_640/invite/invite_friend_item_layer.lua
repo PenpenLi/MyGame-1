@@ -1,0 +1,32 @@
+local invite_friend_item_layer=
+{
+	name="invite_friend_item_layer",type=0,typeName="View",time=0,x=0,y=0,width=214,height=108,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="View2",type=0,typeName="View",time=0,x=2,y=5,width=214,height=103,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+		{
+			name="itemButton",type=1,typeName="Button",time=0,x=-2,y=-5,width=214,height=103,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/invite/invite_item_bg.png",varname="itemButton",callbackfunc="onItemButtonClick",
+			{
+				name="nameLabel",type=4,typeName="Text",time=0,x=120,y=13,width=87,height=39,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=21,textAlign=kAlignLeft,colorRed=160,colorGreen=255,colorBlue=0,string=[[Domin]],colorA=1,varname="nameLabel"
+			},
+			{
+				name="moneyLabel",type=4,typeName="Text",time=0,x=119,y=59,width=100,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=18,textAlign=kAlignLeft,colorRed=255,colorGreen=246,colorBlue=0,string=[[+20K]],colorA=1,varname="moneyLabel"
+			},
+			{
+				name="Image9",type=1,typeName="Image",time=0,x=85,y=62,width=31,height=29,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_gold_small.png"
+			},
+			{
+				name="SexIcon",type=1,typeName="Image",time=0,x=86,y=19,width=30,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_sex_woman_icon.png",varname="SexIcon"
+			},
+			{
+				name="headImage",type=1,typeName="Image",time=0,x=-60,y=0,width=64,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_nophoto.jpg",varname="headImage"
+			},
+			{
+				name="Vipk",type=1,typeName="Image",time=0,x=-60,y=0,width=80,height=82,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/hall/hall_playerhead_bg.png",varname="Vipk"
+			}
+		}
+	},
+	{
+		name="checkImage",type=1,typeName="Image",time=0,x=175,y=4,width=32,height=32,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_check_big.png",varname="checkImage"
+	}
+}
+return invite_friend_item_layer;

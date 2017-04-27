@@ -1,0 +1,10 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="230" height="86" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <friend_bg type="1" typeName="Image" time="0" x="0" y="0" width="227" height="82" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="0f41011f2b577a25a12121e9824bfc41" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="friend_bg"/>
+  <View8 type="0" typeName="View" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7">
+    <feirnd_head type="1" typeName="Image" time="0" x="15" y="0" width="65" height="65" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="66e9b7ffacb52a9a71013360c5ad1f27" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="feirnd_head"/>
+  </View8>
+  <online_status type="4" typeName="Text" time="0" x="85" y="49" width="32" height="16" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="16" textAlign="7" color="0xffb969" string="Text" colorA="1" varname="online_status"/>
+  <friend_name type="4" typeName="Text" time="0" x="85" y="14" width="100" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="7" color="0xffffff" string="walalalala" colorA="1" varname="friend_name"/>
+  <new_msg type="1" typeName="Image" time="0" x="60" y="14" width="24" height="26" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="23a57dce49ecf01e6edd122f6dbfca2c" packFile="" gridLeft="12" gridRight="12" gridTop="12" gridBottom="12" varname="new_msg"/>
+  <sex_icon type="1" typeName="Image" time="0" x="56" y="53" width="20" height="20" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="29eea17bd890bb9f07f1eaa25646556f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="sex_icon"/>
+</root>

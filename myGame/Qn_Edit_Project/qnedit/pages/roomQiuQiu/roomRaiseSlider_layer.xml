@@ -1,0 +1,26 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="216" height="520" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <Image_touch18 type="1" typeName="Image" time="0" x="0" y="0" width="-1" height="-1" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" file="831b0e7666504bc82ab9ed1227613b3f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" isLock="0" varname="Image_touch18" callbackfunc="onBgTouch"/>
+  <bgNode type="0" typeName="View" time="0" x="0" y="0" width="216" height="520" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0">
+    <Image3 type="1" typeName="Image" time="0" x="0" y="0" width="216" height="520" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="4f796117795f8e2b44b87fd57f3c79d4" packFile="" gridLeft="50" gridRight="50" gridTop="20" gridBottom="20">
+      <Image5 type="1" typeName="Image" time="0" x="13" y="18" width="188" height="70" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="79658230b0f36dc8459f1010f6958496" packFile="" gridLeft="50" gridRight="50" gridTop="20" gridBottom="20"/>
+      <countTxt type="4" typeName="Text" time="0" x="18" y="14" width="179" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="40" textAlign="0" color="0x00f6ff" string="500K" colorA="1" varname="countTxt"/>
+      <image_track type="1" typeName="Image" time="0" x="54" y="51" width="38" height="423" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="7645ef988bf2eb07b82b683a162c38bf" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="image_track">
+        <fg type="1" typeName="Image" time="0" x="0" y="0" width="38" height="423" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" file="a1fbca5ba22616a7e4e1685b20ce8d80" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="fg"/>
+        <image_bar type="1" typeName="Image" time="0" x="0" y="127" width="66" height="108" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="e11959f49fb9207a8ca0a173e9d43dbf" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="image_bar"/>
+      </image_track>
+      <allInBtn type="1" typeName="Button" time="0" x="6" y="9" width="206" height="86" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="89fdcf5c084659831460b39ce8db9d04" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="allInBtn"/>
+      <btnPot4 type="1" typeName="Button" time="0" x="20" y="120" width="94" height="66" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="bcb25a9205060ea47d5a86790eaaa1ec" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="btnPot4">
+        <btnPot4Txt type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="btnPot4Txt"/>
+      </btnPot4>
+      <btnPot2 type="1" typeName="Button" time="0" x="20" y="220" width="94" height="66" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="bcb25a9205060ea47d5a86790eaaa1ec" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="btnPot2">
+        <btnPot2Txt type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="btnPot2Txt"/>
+      </btnPot2>
+      <btnPot1 type="1" typeName="Button" time="0" x="20" y="320" width="94" height="66" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="bcb25a9205060ea47d5a86790eaaa1ec" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="btnPot1">
+        <btnPot1Txt type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="btnPot1Txt"/>
+      </btnPot1>
+      <btnBet3 type="1" typeName="Button" time="0" x="20" y="420" width="94" height="66" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="bcb25a9205060ea47d5a86790eaaa1ec" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="btnBet3">
+        <btnBet3Txt type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="btnBet3Txt"/>
+      </btnBet3>
+    </Image3>
+  </bgNode>
+</root>

@@ -1,0 +1,12 @@
+<item label="backgroud" compress="0" asset="game/backgroud" isDirectory="true">
+  <item atlasType="0" compress="0" key="36a96d58d434549569ea7313f8889b6f" label="bgMyrank" asset="game/backgroud/bgMyrank.png"/>
+  <item atlasType="0" compress="0" key="5e69466d46dc53456a91022af950aa43" label="bg1" asset="game/backgroud/bg1.png"/>
+  <item atlasType="0" compress="0" key="7d9f1150b14616ef072500902e96e52b" label="bgGrass" asset="game/backgroud/bgGrass.png"/>
+  <item atlasType="0" compress="0" key="80733a6431071454c1ac3878716f18b0" label="bg" asset="game/backgroud/bg.png"/>
+  <item atlasType="0" compress="0" key="babd3e968cab3fd078aec73697a615b5" label="bg7" asset="game/backgroud/bg7.png"/>
+  <item atlasType="0" compress="0" key="baf62be613ae788ac3d54c2502fe04ef" label="bg0" asset="game/backgroud/bg0.png"/>
+  <item atlasType="0" compress="0" key="c25d8a88d04aed081b1fb8d9e3f89b98" label="bg4" asset="game/backgroud/bg4.png"/>
+  <item atlasType="0" compress="0" key="cbf57f729e254b97dce3943f28762878" label="bg2" asset="game/backgroud/bg2.png"/>
+  <item atlasType="0" compress="0" key="ce6569d255625b38631920508d42e3e9" label="bg3" asset="game/backgroud/bg3.png"/>
+  <item atlasType="0" compress="0" key="f6eb10f2ba9bef441836a4384195a859" label="bg5" asset="game/backgroud/bg5.png"/>
+</item>

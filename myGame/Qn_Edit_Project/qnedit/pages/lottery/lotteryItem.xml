@@ -1,0 +1,5 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="110" height="110" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" isGenerateLocal="false">
+  <PrizeIcon type="1" typeName="Image" time="0" x="0" y="-2" width="77" height="41" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="f7e0101b7c3719ba96aee01187e6f395" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="PrizeIcon"/>
+  <PrizeNameBg type="1" typeName="Image" time="0" x="-1" y="41" width="104" height="20" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="8408174bc9e12237b25c736dc2a2bbf8" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="PrizeNameBg"/>
+  <PrizeName type="4" typeName="Text" time="0" x="0" y="41" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="18" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="PrizeName"/>
+</root>

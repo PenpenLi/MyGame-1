@@ -1,0 +1,32 @@
+local store_pop_goodsItem_layer=
+{
+	name="store_pop_goodsItem_layer",type=0,typeName="View",time=0,x=0,y=0,width=704,height=113,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=0,x=0,y=0,width=460,height=115,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/store/store_popup/store_popup_item_bg.png",varname="bg",
+		{
+			name="buyButton",type=1,typeName="Button",time=0,x=12,y=15,width=677,height=82,visible=1,fillParentWidth=1,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_transparent.png",file2="res/common/common_rounded_rect_10.png",gridLeft=10,gridRight=10,gridTop=10,gridBottom=10,varname="buyButton",callbackfunc="onBuyButtonClick"
+		},
+		{
+			name="pointImage",type=1,typeName="Image",time=0,x=15,y=48,width=35,height=28,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/store/store_point_icon.png",varname="pointImage"
+		},
+		{
+			name="hotImage",type=1,typeName="Image",time=0,x=12,y=13,width=56,height=56,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/store/store_label_hot.png",varname="hotImage"
+		},
+		{
+			name="goosIcon",type=1,typeName="Image",time=0,x=43,y=20,width=75,height=75,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="ui/image.png",varname="goosIcon"
+		},
+		{
+			name="goodsMoneyLabel",type=4,typeName="Text",time=0,x=116,y=35,width=123,height=35,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignLeft,colorRed=244,colorGreen=226,colorBlue=30,string=[[0]],varname="goodsMoneyLabel",colorA=1
+		},
+		{
+			name="changeMoneyLabel",type=4,typeName="Text",time=0,x=116,y=63,width=137,height=35,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=16,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[0]],colorA=1,varname="changeMoneyLabel"
+		},
+		{
+			name="payMoneyLabel",type=4,typeName="Text",time=0,x=338,y=36,width=100,height=48,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=22,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[0]],colorA=1,varname="payMoneyLabel"
+		},
+		{
+			name="goldImage",type=1,typeName="Image",time=0,x=305,y=46,width=31,height=29,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_gold_small.png",varname="goldImage"
+		}
+	}
+}
+return store_pop_goodsItem_layer;

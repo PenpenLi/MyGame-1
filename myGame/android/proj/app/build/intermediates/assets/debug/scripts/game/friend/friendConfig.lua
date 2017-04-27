@@ -1,0 +1,4 @@
+local FriendConfig = {}
+
+
+return FriendConfig

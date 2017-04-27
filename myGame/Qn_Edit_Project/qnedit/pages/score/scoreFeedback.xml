@@ -1,0 +1,10 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Bg type="1" typeName="Image" time="0" x="0" y="0" width="556" height="398" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="f87c3a0d1e8e30bf153c7f8c5f89703b" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Bg" callbackfunc="onPopupBgTouch">
+    <Image6 type="1" typeName="Image" time="0" x="0" y="-5" width="463" height="181" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="cbd2e968c32a1b8acb88483db9f5f48f" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15"/>
+    <CommitBtn type="1" typeName="Button" time="0" x="0" y="135" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="CommitBtn" callbackfunc="onCommitClick">
+      <BtnText type="4" typeName="Text" time="0" x="0" y="0" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="Text" varname="BtnText"/>
+    </CommitBtn>
+    <Desc type="5" typeName="TextView" time="0" x="-18" y="-127" width="423" height="48" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="8" color="0xffe6fa" string="TextView" colorA="1" varname="Desc"/>
+    <Opiniont type="7" typeName="EditTextView" time="0" x="0" y="-3" width="416" height="142" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="8" color="0xec5fab" colorA="1" varname="Opiniont"/>
+  </Bg>
+</root>

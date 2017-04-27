@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "593591816990",
+    "firebase_url": "https://dominogaple-qiuqiu.firebaseio.com",
+    "project_id": "dominogaple-qiuqiu",
+    "storage_bucket": "dominogaple-qiuqiu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593591816990:android:ca7ced6d5a3832c4",
+        "android_client_info": {
+          "package_name": "com.boyaa.xiaojian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593591816990-i4vd50d2qrgapb3ilbn5hut9amprqvva.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "593591816990-8d25itf5l68h5sqljljpqdcc97hfn3lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsCpGAWcBRrqKQeso42KvPSnBT7w2-c1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-70322225-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

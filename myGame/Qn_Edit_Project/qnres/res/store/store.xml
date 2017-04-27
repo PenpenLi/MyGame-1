@@ -1,0 +1,38 @@
+<item label="store" compress="0" asset="res/store" isDirectory="true">
+  <item atlasType="0" compress="0" key="03f780a1559abbeb638937af779dc147" label="store_bg" asset="res/store/store_bg.png"/>
+  <item atlasType="0" compress="0" key="0c4ef3a3f8e52787e9cf108c03bfa8b6" label="store_paytype_269_icon" asset="res/store/store_paytype_269_icon.png" alias="store_paytype_269_icon"/>
+  <item atlasType="0" compress="0" key="18593b922f2dedcce2eea76cebc4c3fa" label="store_daoqi_di" asset="res/store/store_daoqi_di.png" grid="20,20,0,0"/>
+  <item atlasType="0" compress="0" key="20004ffd0557a3ee4a7ab1d5ab070719" label="store_paytype_205_icon" asset="res/store/store_paytype_205_icon.png" alias="store_paytype_205_icon"/>
+  <item atlasType="0" compress="0" key="209639ce1e7d4fb6ae80abeb9d4ca7fc" label="store_paytype_12_icon" asset="res/store/store_paytype_12_icon.png" alias="store_paytype_12_icon"/>
+  <item atlasType="0" compress="0" key="2bed288148a27384a196aff120e02db4" label="store_line" asset="res/store/store_line.png" alias="store_line"/>
+  <item atlasType="0" compress="0" key="2d589ba0fa0ef1b70a4b73ac00653129" label="store_goodType_choosed" asset="res/store/store_goodType_choosed.png"/>
+  <item atlasType="0" compress="0" key="3e31bfe225968d57bd77ad6efaf99989" label="store_catatanPembelian_down" asset="res/store/store_catatanPembelian_down.png" alias="store_catatanPembelian_down"/>
+  <item atlasType="0" compress="0" key="428b824fa658062145f4ff027829d1a6" label="store_history_line" asset="res/store/store_history_line.png" alias="store_history_line"/>
+  <item atlasType="0" compress="0" key="48d46feab9f0880688d1a302f3517207" label="store_goodType_unchoose" asset="res/store/store_goodType_unchoose.png"/>
+  <item atlasType="0" compress="0" key="4c68449f5c962c1df4e7b442ed597c97" label="store_item_bg_2" asset="res/store/store_item_bg_2.png" alias="store_item_bg_2"/>
+  <item atlasType="0" compress="0" key="4d39aceba12e6bff7390044227ed497c" label="store_point_icon" asset="res/store/store_point_icon.png"/>
+  <item atlasType="0" compress="0" key="55e66a112bdde1883149e24933a34b69" label="store_title_light" asset="res/store/store_title_light.png"/>
+  <item atlasType="0" compress="0" key="5ab44e7e5d7b8a2a3deabe2f6494c31f" label="store_history" asset="res/store/store_history.png"/>
+  <item atlasType="0" compress="0" key="61aef28b81befd47463579d253f6891c" label="store_vip_right" asset="res/store/store_vip_right.png"/>
+  <item atlasType="0" compress="0" key="669d50de97a3929d03656fbdc91a8822" label="store_koin_up" asset="res/store/store_koin_up.png" alias="store_koin_up"/>
+  <item atlasType="0" compress="0" key="6e01ccee2420b503099dc8d065b69ee4" label="store_icon_di" asset="res/store/store_icon_di.png" grid="15,15,15,15"/>
+  <item atlasType="0" compress="0" key="7222383274b9dab93aff207e6ff1837f" label="sotre_vip_light" asset="res/store/sotre_vip_light.png"/>
+  <item atlasType="0" compress="0" key="76eccada69abc612a60398e5f13901fd" label="store_vip_bg" asset="res/store/store_vip_bg.png"/>
+  <item atlasType="0" compress="0" key="77de6e49ab131a6e868a605a8c2dce64" label="store_vip_item" asset="res/store/store_vip_item.png"/>
+  <item atlasType="0" compress="0" key="79fb7ad71280f6d3fea8e90d815d1183" label="store_history_line_2" asset="res/store/store_history_line_2.png" alias="store_history_line_2"/>
+  <item atlasType="0" compress="0" key="809945d74715b6cbb54c29c940b0b26c" label="store_payType_unchoose" asset="res/store/store_payType_unchoose.png" alias="store_payType_unchoose"/>
+  <item atlasType="0" compress="0" key="8261f78a94e66974e033bb56b2b450e0" label="store_vip_gray" asset="res/store/store_vip_gray.png"/>
+  <item atlasType="0" compress="0" key="89a4e3b0ab03239d404c927886137905" label="store_koin_down" asset="res/store/store_koin_down.png" alias="store_koin_down"/>
+  <item atlasType="0" compress="0" key="ab0923b294fed7f3ab48ca1a3f25fe99" label="store_sale" asset="res/store/store_sale.png" alias="store_sale"/>
+  <item atlasType="0" compress="0" key="abfa2a5a0cdf730ec43909062ef42b2f" label="store_bg_di" asset="res/store/store_bg_di.png"/>
+  <item atlasType="0" compress="0" key="c10505da11b7bad0e9c4673790afb536" label="store_catatanPembelian_up" asset="res/store/store_catatanPembelian_up.png" alias="store_catatanPembelian_up"/>
+  <item atlasType="0" compress="0" key="c7fb3674d3e980806767db23a44098bc" label="store_paytype_46_icon" asset="res/store/store_paytype_46_icon.png" alias="store_paytype_46_icon"/>
+  <item atlasType="0" compress="0" key="cb7fe929a5189a881cea37badf9f255e" label="store_paytype_147_icon" asset="res/store/store_paytype_147_icon.png" alias="store_paytype_147_icon"/>
+  <item atlasType="0" compress="0" key="cd552d735a07218917d673c8dd0e11cd" label="store_vip_left" asset="res/store/store_vip_left.png"/>
+  <item atlasType="0" compress="0" key="d6b9163b065219ba211d341d7a598bf4" label="store_item_bg" asset="res/store/store_item_bg.png"/>
+  <item atlasType="0" compress="0" key="ddbd134c22b17e29eb1845034a507546" label="store_label_hot" asset="res/store/store_label_hot.png"/>
+  <item atlasType="0" compress="0" key="f289943a7ff5de895f7e677db5f14ff2" label="store_title_bg_1" asset="res/store/store_title_bg_1.png" alias="store_title_bg_1"/>
+  <item atlasType="0" compress="0" key="f658f8b18ab6aee1568b278faacbe775" label="store_payType_choosed" asset="res/store/store_payType_choosed.png" alias="store_payType_choosed"/>
+  <item atlasType="0" compress="0" key="f7e55ebc0803680819ff8269c7428175" label="store_btn_question" asset="res/store/store_btn_question.png"/>
+  <item atlasType="0" compress="0" key="fa1af2bd535d65af77a947f66265587b" label="store_title_bg_2" asset="res/store/store_title_bg_2.png" alias="store_title_bg_2"/>
+</item>

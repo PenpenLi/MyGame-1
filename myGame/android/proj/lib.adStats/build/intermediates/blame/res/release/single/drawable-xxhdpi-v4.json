@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\com_facebook_button_icon.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\lib.adStats\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xxhdpi\\messenger_button_send_round_shadow.png"
+    }
+]

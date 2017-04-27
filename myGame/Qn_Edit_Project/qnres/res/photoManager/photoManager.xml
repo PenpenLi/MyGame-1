@@ -1,0 +1,5 @@
+<item label="photoManager" compress="0" asset="res/photoManager" isDirectory="true">
+  <item atlasType="0" compress="0" key="0f9bbc4d2bd0cb3dfb98d05c2730fc2a" label="avatar_big_male" asset="res/photoManager/avatar_big_male.png"/>
+  <item atlasType="0" compress="0" key="85d49614bfc4711afaa6f0abe14fc3cb" label="photo_bg" asset="res/photoManager/photo_bg.png"/>
+  <item atlasType="0" compress="0" key="e2e5a3138fd9ae1cde60cb0ed336f7ec" label="avatar_big_female" asset="res/photoManager/avatar_big_female.png"/>
+</item>

@@ -1,0 +1,32 @@
+<item label="level" compress="0" asset="res/level" isDirectory="true">
+  <item atlasType="0" compress="0" key="0313cf624c4a5a7b073124b1a0b93283" label="level_11" asset="res/level/level_11.png" alias="level_11"/>
+  <item atlasType="0" compress="0" key="16c399feff9522691f844126a32c3b63" label="level_4" asset="res/level/level_4.png" alias="level_4"/>
+  <item atlasType="0" compress="0" key="1dc33625926740b2c69723747615742b" label="level_3" asset="res/level/level_3.png" alias="level_3"/>
+  <item atlasType="0" compress="0" key="2a3b4b7ffcc005e2b1148a29585ac94e" label="level_17" asset="res/level/level_17.png" alias="level_17"/>
+  <item atlasType="0" compress="0" key="2e08f0e7f8a42ac3bd4653109387f538" label="level_10" asset="res/level/level_10.png" alias="level_10"/>
+  <item atlasType="0" compress="0" key="351603acba8b70e6c56fa2c40fec1555" label="level_30" asset="res/level/level_30.png" alias="level_30"/>
+  <item atlasType="0" compress="0" key="4a3781695f9918310e3c0e06e656bf60" label="level_23" asset="res/level/level_23.png" alias="level_23"/>
+  <item atlasType="0" compress="0" key="4eb42ba1b035e99c3182fa82b3b34996" label="level_25" asset="res/level/level_25.png" alias="level_25"/>
+  <item atlasType="0" compress="0" key="52e809759cbc556fd8aeb8d087eb8ae6" label="level_5" asset="res/level/level_5.png" alias="level_5"/>
+  <item atlasType="0" compress="0" key="5777d2270d58d05e48ea6f427bbd7b4a" label="level_27" asset="res/level/level_27.png" alias="level_27"/>
+  <item atlasType="0" compress="0" key="5c61e09affcbb5a0c3c86615544772d2" label="level_19" asset="res/level/level_19.png" alias="level_19"/>
+  <item atlasType="0" compress="0" key="6269cd3109017d6832d2dfd90e661923" label="level_22" asset="res/level/level_22.png" alias="level_22"/>
+  <item atlasType="0" compress="0" key="63ae73b9e572593b0dbc4e48907e4939" label="level_16" asset="res/level/level_16.png" alias="level_16"/>
+  <item atlasType="0" compress="0" key="64d4b1458b2d7d938d395a7c801cc14c" label="level_7" asset="res/level/level_7.png" alias="level_7"/>
+  <item atlasType="0" compress="0" key="783bec4d79d5382c54047c31108b010d" label="level_2" asset="res/level/level_2.png" alias="level_2"/>
+  <item atlasType="0" compress="0" key="8a05094eebca0f4d3f1419e1da2b8267" label="level_26" asset="res/level/level_26.png" alias="level_26"/>
+  <item atlasType="0" compress="0" key="9daa25496e230365ea1d6a246a42fdc0" label="level_1" asset="res/level/level_1.png" alias="level_1"/>
+  <item atlasType="0" compress="0" key="a28f596716a1e494f8dc415096ecf429" label="level_14" asset="res/level/level_14.png" alias="level_14"/>
+  <item atlasType="0" compress="0" key="aaded157db74c505251edf72b9351c49" label="level_6" asset="res/level/level_6.png" alias="level_6"/>
+  <item atlasType="0" compress="0" key="aff5cecbba8f1b94d0d167df5eef4a6e" label="level_28" asset="res/level/level_28.png" alias="level_28"/>
+  <item atlasType="0" compress="0" key="b3e9067fd640c894c3db8554a323747d" label="level_20" asset="res/level/level_20.png" alias="level_20"/>
+  <item atlasType="0" compress="0" key="b982e64a3476a510fa7f0ed617f36f38" label="level_24" asset="res/level/level_24.png" alias="level_24"/>
+  <item atlasType="0" compress="0" key="bd4a3d8656ed11f6af8b4299c041b04f" label="level_18" asset="res/level/level_18.png" alias="level_18"/>
+  <item atlasType="0" compress="0" key="c55dd89e43142d02d973729e97f90592" label="level_8" asset="res/level/level_8.png" alias="level_8"/>
+  <item atlasType="0" compress="0" key="cf31b2bf8afe6bb28b6bdddae6c118cb" label="level_29" asset="res/level/level_29.png" alias="level_29"/>
+  <item atlasType="0" compress="0" key="d8cf62644fed954c50536eedd551c37a" label="level_21" asset="res/level/level_21.png" alias="level_21"/>
+  <item atlasType="0" compress="0" key="ec200480eff69225f702e8e93e7ab9d8" label="level_15" asset="res/level/level_15.png" alias="level_15"/>
+  <item atlasType="0" compress="0" key="eca138a54b1fd213f4157fb36a5c6d99" label="level_9" asset="res/level/level_9.png" alias="level_9"/>
+  <item atlasType="0" compress="0" key="f0d1a98cb7cc82b7e57de5cdb2d7f161" label="level_12" asset="res/level/level_12.png" alias="level_12"/>
+  <item atlasType="0" compress="0" key="fcae72efcb84a5249a98ddd62a3ac47e" label="level_13" asset="res/level/level_13.png" alias="level_13"/>
+</item>

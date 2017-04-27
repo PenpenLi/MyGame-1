@@ -1,0 +1,29 @@
+local bankrupt_invite_layer=
+{
+	name="bankrupt_invite_layer",type=0,typeName="View",time=0,x=0,y=0,width=960,height=640,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image_bg",type=1,typeName="Image",time=0,x=0,y=0,width=725,height=430,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_popup_bg_small.png",callbackfunc="onPopupBgTouch",varname="Image_bg",
+		{
+			name="Image5",type=1,typeName="Image",time=0,x=75,y=95,width=214,height=228,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_gift.png"
+		},
+		{
+			name="Image6",type=1,typeName="Image",time=0,x=129,y=14,width=480,height=77,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_title2.png",
+			{
+				name="Text_title",type=4,typeName="Text",time=0,x=88,y=18,width=323,height=46,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=30,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[Text]],colorA=1,varname="Text_title"
+			}
+		},
+		{
+			name="TextView_content",type=5,typeName="TextView",time=0,x=313,y=126,width=336,height=119,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignTopLeft,colorRed=255,colorGreen=255,colorBlue=255,string=[[TextView]],colorA=1,varname="TextView_content"
+		},
+		{
+			name="Button_invite",type=1,typeName="Button",time=0,x=326,y=285,width=192,height=69,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_btn_yellow.png",gridLeft=50,gridRight=50,gridTop=35,gridBottom=34,varname="Button_invite",callbackfunc="bt_invite_click",
+			{
+				name="Text_bt_invite",type=4,typeName="Text",time=0,x=20,y=17,width=149,height=38,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[Text]],varname="Text_bt_invite",colorA=1
+			},
+			{
+				name="Image4",type=1,typeName="Image",time=0,x=134,y=-39,width=102,height=90,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_tab.png"
+			}
+		}
+	}
+}
+return bankrupt_invite_layer;

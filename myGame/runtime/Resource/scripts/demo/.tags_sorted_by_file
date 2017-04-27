@@ -1,0 +1,297 @@
+coinTipPopup.hide	coinTipPopup.lua	/^function coinTipPopup.hide()$/;"	f
+coinTipPopup.show	coinTipPopup.lua	/^function coinTipPopup.show(...)$/;"	f
+coinTipPopup:initLayer	coinTipPopup.lua	/^function coinTipPopup:initLayer()$/;"	f
+coinTipPopup:onCancelClick	coinTipPopup.lua	/^function coinTipPopup:onCancelClick()$/;"	f
+coinTipPopup:onContinueClick	coinTipPopup.lua	/^function coinTipPopup:onContinueClick()$/;"	f
+initLayer	coinTipPopup.lua	/^function coinTipPopup:initLayer()$/;"	f
+onCancelClick	coinTipPopup.lua	/^function coinTipPopup:onCancelClick()$/;"	f
+onContinueClick	coinTipPopup.lua	/^function coinTipPopup:onContinueClick()$/;"	f
+DemoController:ctor	demoController.lua	/^function DemoController:ctor(state, viewClass, viewConfig, dataClass)$/;"	f
+ctor	demoController.lua	/^function DemoController:ctor(state, viewClass, viewConfig, dataClass)$/;"	f
+DemoData:ctor	demoData.lua	/^function DemoData:ctor(controller)$/;"	f
+ctor	demoData.lua	/^function DemoData:ctor(controller)$/;"	f
+ComputeCollision	demoScene.lua	/^function DemoScene:ComputeCollision(w, h, r, rx, ry)$/;"	f
+DemoScene:ComputeCollision	demoScene.lua	/^function DemoScene:ComputeCollision(w, h, r, rx, ry)$/;"	f
+DemoScene:EventTouch	demoScene.lua	/^function DemoScene:EventTouch()$/;"	f
+DemoScene:adjustBarSpeed	demoScene.lua	/^function DemoScene:adjustBarSpeed( ... )$/;"	f
+DemoScene:backHome	demoScene.lua	/^function DemoScene:backHome()$/;"	f
+DemoScene:breakRecord	demoScene.lua	/^function DemoScene:breakRecord()$/;"	f
+DemoScene:btn_event_upload	demoScene.lua	/^function DemoScene:btn_event_upload(name)$/;"	f
+DemoScene:cancel	demoScene.lua	/^function DemoScene:cancel()$/;"	f
+DemoScene:cancelSetHeadAndName	demoScene.lua	/^function DemoScene:cancelSetHeadAndName()$/;"	f
+DemoScene:cartonMonster	demoScene.lua	/^function DemoScene:cartonMonster( ... )$/;"	f
+DemoScene:cartonPerson	demoScene.lua	/^function DemoScene:cartonPerson()$/;"	f
+DemoScene:checkStation	demoScene.lua	/^function DemoScene:checkStation()$/;"	f
+DemoScene:classifyCue	demoScene.lua	/^function DemoScene:classifyCue( ... )$/;"	f
+DemoScene:classifyMonster	demoScene.lua	/^function DemoScene:classifyMonster( ... )$/;"	f
+DemoScene:cleanScene	demoScene.lua	/^function DemoScene:cleanScene()$/;"	f
+DemoScene:coinTipPopup	demoScene.lua	/^function DemoScene:coinTipPopup()$/;"	f
+DemoScene:consumeCoin	demoScene.lua	/^function DemoScene:consumeCoin( ... )$/;"	f
+DemoScene:continue	demoScene.lua	/^function DemoScene:continue()$/;"	f
+DemoScene:createMonster	demoScene.lua	/^function DemoScene:createMonster()$/;"	f
+DemoScene:createPerson	demoScene.lua	/^function DemoScene:createPerson()$/;"	f
+DemoScene:ctor	demoScene.lua	/^function DemoScene:ctor(viewConfig, controller)$/;"	f
+DemoScene:dtor	demoScene.lua	/^function DemoScene:dtor(viewConfig, controller)$/;"	f
+DemoScene:gameOver	demoScene.lua	/^function DemoScene:gameOver()$/;"	f
+DemoScene:gameTip	demoScene.lua	/^function DemoScene:gameTip( ... )$/;"	f
+DemoScene:gameTipPopup	demoScene.lua	/^function DemoScene:gameTipPopup()$/;"	f
+DemoScene:getCoin	demoScene.lua	/^function DemoScene:getCoin( ... )$/;"	f
+DemoScene:getHeadUrl	demoScene.lua	/^function DemoScene:getHeadUrl()$/;"	f
+DemoScene:getMaxData	demoScene.lua	/^function DemoScene:getMaxData()$/;"	f
+DemoScene:getScore	demoScene.lua	/^function DemoScene:getScore( ... )$/;"	f
+DemoScene:hitMoster	demoScene.lua	/^function DemoScene:hitMoster( ... )$/;"	f
+DemoScene:httpUpdate	demoScene.lua	/^function DemoScene:httpUpdate(method, table)$/;"	f
+DemoScene:initGame	demoScene.lua	/^function DemoScene:initGame()$/;"	f
+DemoScene:initScene	demoScene.lua	/^function DemoScene:initScene()$/;"	f
+DemoScene:isCollisionWithCircle	demoScene.lua	/^function DemoScene:isCollisionWithCircle(x1, y1, x2, y2, r1, r2)$/;"	f
+DemoScene:isCollsion1	demoScene.lua	/^function DemoScene:isCollsion1(x1, y1, x2, y2, w, h)$/;"	f
+DemoScene:isCollsion2	demoScene.lua	/^function DemoScene:isCollsion2(x1, y1, x2, y2, r)$/;"	f
+DemoScene:isCollsionWithRect	demoScene.lua	/^function DemoScene:isCollsionWithRect(x1, y1, w1, h1, x2, y2, w2, h2)$/;"	f
+DemoScene:loadMusicStation	demoScene.lua	/^function DemoScene:loadMusicStation()$/;"	f
+DemoScene:onButtonClick	demoScene.lua	/^function DemoScene:onButtonClick(mode)$/;"	f
+DemoScene:onButtonInit	demoScene.lua	/^function DemoScene:onButtonInit()$/;"	f
+DemoScene:onConfirmPopup	demoScene.lua	/^function DemoScene:onConfirmPopup( ... )$/;"	f
+DemoScene:onExitPopup	demoScene.lua	/^function DemoScene:onExitPopup( ... )$/;"	f
+DemoScene:onFailPopup	demoScene.lua	/^function DemoScene:onFailPopup()$/;"	f
+DemoScene:onKeyDown	demoScene.lua	/^function DemoScene:onKeyDown(key)$/;"	f
+DemoScene:onRankPopup	demoScene.lua	/^function DemoScene:onRankPopup( ... )$/;"	f
+DemoScene:onVictoryPopup	demoScene.lua	/^function DemoScene:onVictoryPopup()$/;"	f
+DemoScene:playBoom	demoScene.lua	/^function DemoScene:playBoom()$/;"	f
+DemoScene:playEffect	demoScene.lua	/^function DemoScene:playEffect(style1, style2)$/;"	f
+DemoScene:playMusic	demoScene.lua	/^function DemoScene:playMusic()$/;"	f
+DemoScene:reStart	demoScene.lua	/^function DemoScene:reStart()$/;"	f
+DemoScene:removeAllHandle	demoScene.lua	/^function DemoScene:removeAllHandle( ... )$/;"	f
+DemoScene:removeAllMyProp	demoScene.lua	/^function DemoScene:removeAllMyProp( ... )$/;"	f
+DemoScene:resumeSound	demoScene.lua	/^function DemoScene:resumeSound()$/;"	f
+DemoScene:revive	demoScene.lua	/^function DemoScene:revive()$/;"	f
+DemoScene:setConfig	demoScene.lua	/^function DemoScene:setConfig()$/;"	f
+DemoScene:setHeadAndName	demoScene.lua	/^function DemoScene:setHeadAndName()$/;"	f
+DemoScene:setHeadPopup	demoScene.lua	/^function DemoScene:setHeadPopup( ... )$/;"	f
+DemoScene:setMusic	demoScene.lua	/^function DemoScene:setMusic() $/;"	f
+DemoScene:setTextColor	demoScene.lua	/^function DemoScene:setTextColor( ... )$/;"	f
+DemoScene:showRank	demoScene.lua	/^function DemoScene:showRank()$/;"	f
+DemoScene:start	demoScene.lua	/^function DemoScene:start()$/;"	f
+DemoScene:stationInit	demoScene.lua	/^function DemoScene:stationInit()$/;"	f
+DemoScene:upBar	demoScene.lua	/^function DemoScene:upBar(finger_action, ...)$/;"	f
+DemoScene:updateMaxData	demoScene.lua	/^function DemoScene:updateMaxData(value)$/;"	f
+DemoScene:userLogin	demoScene.lua	/^function DemoScene:userLogin(nextCallback)$/;"	f
+DemoScene:victory	demoScene.lua	/^function DemoScene:victory()$/;"	f
+EventTouch	demoScene.lua	/^function DemoScene:EventTouch()$/;"	f
+[10] 	demoScene.lua	/^		[10] = function( ... )$/;"	f
+[11] 	demoScene.lua	/^		[11] = function( ... )$/;"	f
+[12] 	demoScene.lua	/^		[12] = function( ... )$/;"	f
+[13] 	demoScene.lua	/^		[13] = function( ... )$/;"	f
+[1] 	demoScene.lua	/^		[1] = function( ... )$/;"	f
+[2] 	demoScene.lua	/^		[2] = function( ... )$/;"	f
+[3] 	demoScene.lua	/^		[3] = function( ... )$/;"	f
+[4] 	demoScene.lua	/^		[4] = function( ... )$/;"	f
+[5] 	demoScene.lua	/^		[5] = function( ... )$/;"	f
+[6] 	demoScene.lua	/^		[6] = function( ... )$/;"	f
+[7] 	demoScene.lua	/^		[7] = function( ... )$/;"	f
+[8] 	demoScene.lua	/^		[8] = function( ... )$/;"	f
+[9] 	demoScene.lua	/^		[9] = function( ... )$/;"	f
+adjustBarSpeed	demoScene.lua	/^function DemoScene:adjustBarSpeed( ... )$/;"	f
+backHome	demoScene.lua	/^function DemoScene:backHome()$/;"	f
+breakRecord	demoScene.lua	/^function DemoScene:breakRecord()$/;"	f
+btn_event_upload	demoScene.lua	/^function DemoScene:btn_event_upload(name)$/;"	f
+cancel	demoScene.lua	/^function DemoScene:cancel()$/;"	f
+cancelSetHeadAndName	demoScene.lua	/^function DemoScene:cancelSetHeadAndName()$/;"	f
+cartonMonster	demoScene.lua	/^function DemoScene:cartonMonster( ... )$/;"	f
+cartonPerson	demoScene.lua	/^function DemoScene:cartonPerson()$/;"	f
+checkStation	demoScene.lua	/^function DemoScene:checkStation()$/;"	f
+classifyCue	demoScene.lua	/^function DemoScene:classifyCue( ... )$/;"	f
+classifyMonster	demoScene.lua	/^function DemoScene:classifyMonster( ... )$/;"	f
+cleanBrick	demoScene.lua	/^-- function DemoScene:cleanBrick(data)$/;"	f
+cleanScene	demoScene.lua	/^function DemoScene:cleanScene()$/;"	f
+coinTipPopup	demoScene.lua	/^function DemoScene:coinTipPopup()$/;"	f
+consumeCoin	demoScene.lua	/^function DemoScene:consumeCoin( ... )$/;"	f
+continue	demoScene.lua	/^function DemoScene:continue()$/;"	f
+createBrick	demoScene.lua	/^-- function DemoScene:createBrick()$/;"	f
+createMonster	demoScene.lua	/^function DemoScene:createMonster()$/;"	f
+createPerson	demoScene.lua	/^function DemoScene:createPerson()$/;"	f
+ctor	demoScene.lua	/^function DemoScene:ctor(viewConfig, controller)$/;"	f
+dtor	demoScene.lua	/^function DemoScene:dtor(viewConfig, controller)$/;"	f
+gameOver	demoScene.lua	/^function DemoScene:gameOver()$/;"	f
+gameTip	demoScene.lua	/^function DemoScene:gameTip( ... )$/;"	f
+gameTipPopup	demoScene.lua	/^function DemoScene:gameTipPopup()$/;"	f
+getCoin	demoScene.lua	/^function DemoScene:getCoin( ... )$/;"	f
+getHeadUrl	demoScene.lua	/^function DemoScene:getHeadUrl()$/;"	f
+getMaxData	demoScene.lua	/^function DemoScene:getMaxData()$/;"	f
+getScore	demoScene.lua	/^function DemoScene:getScore( ... )$/;"	f
+hitMoster	demoScene.lua	/^function DemoScene:hitMoster( ... )$/;"	f
+httpUpdate	demoScene.lua	/^function DemoScene:httpUpdate(method, table)$/;"	f
+if nextCallback and type(nextCallback) 	demoScene.lua	/^			if nextCallback and type(nextCallback) == "function" then$/;"	f
+initGame	demoScene.lua	/^function DemoScene:initGame()$/;"	f
+initScene	demoScene.lua	/^function DemoScene:initScene()$/;"	f
+isCollisionWithCircle	demoScene.lua	/^function DemoScene:isCollisionWithCircle(x1, y1, x2, y2, r1, r2)$/;"	f
+isCollsion1	demoScene.lua	/^function DemoScene:isCollsion1(x1, y1, x2, y2, w, h)$/;"	f
+isCollsion2	demoScene.lua	/^function DemoScene:isCollsion2(x1, y1, x2, y2, r)$/;"	f
+isCollsionWithRect	demoScene.lua	/^function DemoScene:isCollsionWithRect(x1, y1, w1, h1, x2, y2, w2, h2)$/;"	f
+loadMusicStation	demoScene.lua	/^function DemoScene:loadMusicStation()$/;"	f
+local nextStep 	demoScene.lua	/^	local nextStep = function()$/;"	f
+nk.HttpController:execute("Login.userLogin", {param 	demoScene.lua	/^	nk.HttpController:execute("Login.userLogin", {param = {loginType = 1}}, nil, function(errCode, data)$/;"	f
+nk.HttpController:execute("Rank.getRankList", {mid 	demoScene.lua	/^	nk.HttpController:execute("Rank.getRankList", {mid = MID, param = {method = "Rank.getRankList"}}, nil, function(errCode, data)$/;"	f
+onButtonClick	demoScene.lua	/^function DemoScene:onButtonClick(mode)$/;"	f
+onButtonInit	demoScene.lua	/^function DemoScene:onButtonInit()$/;"	f
+onConfirmPopup	demoScene.lua	/^function DemoScene:onConfirmPopup( ... )$/;"	f
+onExitPopup	demoScene.lua	/^function DemoScene:onExitPopup( ... )$/;"	f
+onFailPopup	demoScene.lua	/^function DemoScene:onFailPopup()$/;"	f
+onKeyDown	demoScene.lua	/^function DemoScene:onKeyDown(key)$/;"	f
+onRankPopup	demoScene.lua	/^function DemoScene:onRankPopup( ... )$/;"	f
+onVictoryPopup	demoScene.lua	/^function DemoScene:onVictoryPopup()$/;"	f
+playBoom	demoScene.lua	/^function DemoScene:playBoom()$/;"	f
+playEffect	demoScene.lua	/^function DemoScene:playEffect(style1, style2)$/;"	f
+playMusic	demoScene.lua	/^function DemoScene:playMusic()$/;"	f
+reStart	demoScene.lua	/^function DemoScene:reStart()$/;"	f
+removeAllHandle	demoScene.lua	/^function DemoScene:removeAllHandle( ... )$/;"	f
+removeAllMyProp	demoScene.lua	/^function DemoScene:removeAllMyProp( ... )$/;"	f
+resumeSound	demoScene.lua	/^function DemoScene:resumeSound()$/;"	f
+revive	demoScene.lua	/^function DemoScene:revive()$/;"	f
+self.failPopupHandle 	demoScene.lua	/^	self.failPopupHandle = Clock.instance():schedule_once(function()$/;"	f
+self.handle 	demoScene.lua	/^	self.handle = Clock.instance():schedule(function( ... )	$/;"	f
+self.handle2 	demoScene.lua	/^		self.handle2 = Clock.instance():schedule(function( ... )$/;"	f
+self.handle3 	demoScene.lua	/^     	self.handle3 = Clock.instance():schedule(function( ... )$/;"	f
+self.handle4 	demoScene.lua	/^		self.handle4 = Clock.instance():schedule(function( ... )$/;"	f
+self.handle5 	demoScene.lua	/^        self.handle5 = Clock.instance():schedule(function( ... )$/;"	f
+setConfig	demoScene.lua	/^function DemoScene:setConfig()$/;"	f
+setHeadAndName	demoScene.lua	/^function DemoScene:setHeadAndName()$/;"	f
+setHeadPopup	demoScene.lua	/^function DemoScene:setHeadPopup( ... )$/;"	f
+setMusic	demoScene.lua	/^function DemoScene:setMusic() $/;"	f
+setTextColor	demoScene.lua	/^function DemoScene:setTextColor( ... )$/;"	f
+showRank	demoScene.lua	/^function DemoScene:showRank()$/;"	f
+start	demoScene.lua	/^function DemoScene:start()$/;"	f
+stationInit	demoScene.lua	/^function DemoScene:stationInit()$/;"	f
+upBar	demoScene.lua	/^function DemoScene:upBar(finger_action, ...)$/;"	f
+updateMaxData	demoScene.lua	/^function DemoScene:updateMaxData(value)$/;"	f
+userLogin	demoScene.lua	/^function DemoScene:userLogin(nextCallback)$/;"	f
+victory	demoScene.lua	/^function DemoScene:victory()$/;"	f
+DemoState:ctor	demoState.lua	/^function DemoState:ctor()$/;"	f
+DemoState:load	demoState.lua	/^function DemoState:load()$/;"	f
+DemoState:onBack	demoState.lua	/^function DemoState:onBack()$/;"	f
+ctor	demoState.lua	/^function DemoState:ctor()$/;"	f
+load	demoState.lua	/^function DemoState:load()$/;"	f
+onBack	demoState.lua	/^function DemoState:onBack()$/;"	f
+ctor	exitPopup.lua	/^function exitPopup:ctor(viewConfig, viewVar, data1)$/;"	f
+dtor	exitPopup.lua	/^function exitPopup:dtor()$/;"	f
+exitPopup.hide	exitPopup.lua	/^function exitPopup.hide()$/;"	f
+exitPopup.show	exitPopup.lua	/^function exitPopup.show(...)$/;"	f
+exitPopup:ctor	exitPopup.lua	/^function exitPopup:ctor(viewConfig, viewVar, data1)$/;"	f
+exitPopup:dtor	exitPopup.lua	/^function exitPopup:dtor()$/;"	f
+exitPopup:initLayer	exitPopup.lua	/^function exitPopup:initLayer()$/;"	f
+exitPopup:onCancelClick	exitPopup.lua	/^function exitPopup:onCancelClick()$/;"	f
+exitPopup:onLeaveClick	exitPopup.lua	/^function exitPopup:onLeaveClick()$/;"	f
+exitPopup:onVictory	exitPopup.lua	/^function exitPopup:onVictory()$/;"	f
+initLayer	exitPopup.lua	/^function exitPopup:initLayer()$/;"	f
+onCancelClick	exitPopup.lua	/^function exitPopup:onCancelClick()$/;"	f
+onLeaveClick	exitPopup.lua	/^function exitPopup:onLeaveClick()$/;"	f
+onVictory	exitPopup.lua	/^function exitPopup:onVictory()$/;"	f
+ctor	failPopup.lua	/^function failPopup:ctor(viewConfig, viewVar, data1, data2, data3)$/;"	f
+dtor	failPopup.lua	/^function failPopup:dtor()$/;"	f
+failPopup.hide	failPopup.lua	/^function failPopup.hide()$/;"	f
+failPopup.show	failPopup.lua	/^function failPopup.show(...)$/;"	f
+failPopup:ctor	failPopup.lua	/^function failPopup:ctor(viewConfig, viewVar, data1, data2, data3)$/;"	f
+failPopup:dtor	failPopup.lua	/^function failPopup:dtor()$/;"	f
+failPopup:initLayer	failPopup.lua	/^function failPopup:initLayer()$/;"	f
+failPopup:onContinueClick	failPopup.lua	/^function failPopup:onContinueClick()$/;"	f
+failPopup:onRestartClick	failPopup.lua	/^function failPopup:onRestartClick()$/;"	f
+failPopup:onTipClick	failPopup.lua	/^function failPopup:onTipClick()$/;"	f
+failPopup:onbackHome	failPopup.lua	/^function failPopup:onbackHome()$/;"	f
+initLayer	failPopup.lua	/^function failPopup:initLayer()$/;"	f
+onContinueClick	failPopup.lua	/^function failPopup:onContinueClick()$/;"	f
+onRestartClick	failPopup.lua	/^function failPopup:onRestartClick()$/;"	f
+onTipClick	failPopup.lua	/^function failPopup:onTipClick()$/;"	f
+onbackHome	failPopup.lua	/^function failPopup:onbackHome()$/;"	f
+ctor	gameHttp.lua	/^function gameHttp:ctor(defaultURL)$/;"	f
+dtor	gameHttp.lua	/^function gameHttp:dtor()$/;"	f
+gameHttp:ctor	gameHttp.lua	/^function gameHttp:ctor(defaultURL)$/;"	f
+gameHttp:dtor	gameHttp.lua	/^function gameHttp:dtor()$/;"	f
+gameHttp:getDefaultURL	gameHttp.lua	/^function gameHttp:getDefaultURL( ... )$/;"	f
+gameHttp:setDefaultURL	gameHttp.lua	/^function gameHttp:setDefaultURL(url)$/;"	f
+getDefaultURL	gameHttp.lua	/^function gameHttp:getDefaultURL( ... )$/;"	f
+setDefaultURL	gameHttp.lua	/^function gameHttp:setDefaultURL(url)$/;"	f
+gameModelPopup.hide	gameModelPopup.lua	/^function gameModelPopup.hide()$/;"	f
+gameModelPopup.show	gameModelPopup.lua	/^function gameModelPopup.show(...)$/;"	f
+gameModelPopup:initLayer	gameModelPopup.lua	/^function gameModelPopup:initLayer()$/;"	f
+gameModelPopup:onCrazyClick	gameModelPopup.lua	/^function gameModelPopup:onCrazyClick()$/;"	f
+gameModelPopup:onGentleClick	gameModelPopup.lua	/^function gameModelPopup:onGentleClick()$/;"	f
+initLayer	gameModelPopup.lua	/^function gameModelPopup:initLayer()$/;"	f
+onCrazyClick	gameModelPopup.lua	/^function gameModelPopup:onCrazyClick()$/;"	f
+onGentleClick	gameModelPopup.lua	/^function gameModelPopup:onGentleClick()$/;"	f
+ctor	gameSound.lua	/^function gameSound:ctor()$/;"	f
+dtor	gameSound.lua	/^function gameSound:dtor( ... )$/;"	f
+gameSound:ctor	gameSound.lua	/^function gameSound:ctor()$/;"	f
+gameSound:dtor	gameSound.lua	/^function gameSound:dtor( ... )$/;"	f
+gameSound:pauseEffect	gameSound.lua	/^function gameSound:pauseEffect()$/;"	f
+gameSound:pauseMusic	gameSound.lua	/^function gameSound:pauseMusic()$/;"	f
+gameSound:playEffect	gameSound.lua	/^function gameSound:playEffect( soundName, loop )$/;"	f
+gameSound:playMusic	gameSound.lua	/^function gameSound:playMusic(soundName, loop)$/;"	f
+gameSound:resumeEffect	gameSound.lua	/^function gameSound:resumeEffect()$/;"	f
+gameSound:resumeMusic	gameSound.lua	/^function gameSound:resumeMusic()$/;"	f
+gameSound:stopEffect	gameSound.lua	/^function gameSound:stopEffect()$/;"	f
+gameSound:stopMusic	gameSound.lua	/^function gameSound:stopMusic()$/;"	f
+pauseEffect	gameSound.lua	/^function gameSound:pauseEffect()$/;"	f
+pauseMusic	gameSound.lua	/^function gameSound:pauseMusic()$/;"	f
+playEffect	gameSound.lua	/^function gameSound:playEffect( soundName, loop )$/;"	f
+playMusic	gameSound.lua	/^function gameSound:playMusic(soundName, loop)$/;"	f
+resumeEffect	gameSound.lua	/^function gameSound:resumeEffect()$/;"	f
+resumeMusic	gameSound.lua	/^function gameSound:resumeMusic()$/;"	f
+stopEffect	gameSound.lua	/^function gameSound:stopEffect()$/;"	f
+stopMusic	gameSound.lua	/^function gameSound:stopMusic()$/;"	f
+ctor	gameTipPopup.lua	/^function gameTipPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
+gameTipPopup.hide	gameTipPopup.lua	/^function gameTipPopup.hide()$/;"	f
+gameTipPopup.show	gameTipPopup.lua	/^function gameTipPopup.show(...)$/;"	f
+gameTipPopup:ctor	gameTipPopup.lua	/^function gameTipPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
+gameTipPopup:initLayer	gameTipPopup.lua	/^function gameTipPopup:initLayer()$/;"	f
+initLayer	gameTipPopup.lua	/^function gameTipPopup:initLayer()$/;"	f
+ctor	onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar, data1)$/;"	f
+dtor	onRankPopup.lua	/^function onRankPopup:dtor()$/;"	f
+initLayer	onRankPopup.lua	/^function onRankPopup:initLayer()$/;"	f
+onRankPopup.hide	onRankPopup.lua	/^function onRankPopup.hide()$/;"	f
+onRankPopup.show	onRankPopup.lua	/^function onRankPopup.show(...)$/;"	f
+onRankPopup:ctor	onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar, data1)$/;"	f
+onRankPopup:dtor	onRankPopup.lua	/^function onRankPopup:dtor()$/;"	f
+onRankPopup:initLayer	onRankPopup.lua	/^function onRankPopup:initLayer()$/;"	f
+.uploadPhoto	setHeadPopup.lua	/^                nk.functions.uploadPhoto(true, path, self.posIndex, self.imgIndex)$/;"	f
+PopupModel.show(setHeadPopup, aboutView, aboutInfo, {name	setHeadPopup.lua	/^		PopupModel.show(setHeadPopup, aboutView, aboutInfo, {name="setHeadPopup", animFunction = function(args)$/;"	f
+countDownPhoto	setHeadPopup.lua	/^function setHeadPopup:countDownPhoto()$/;"	f
+ctor	setHeadPopup.lua	/^function setHeadPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
+doEnd	setHeadPopup.lua	/^            local function doEnd(obj, path)$/;"	f
+dtor	setHeadPopup.lua	/^function setHeadPopup:dtor()$/;"	f
+getHeadPhotoAndName	setHeadPopup.lua	/^function setHeadPopup:getHeadPhotoAndName()	$/;"	f
+onCancel	setHeadPopup.lua	/^function setHeadPopup:onCancel()$/;"	f
+onComplete 	setHeadPopup.lua	/^			onComplete = function()$/;"	f
+onEditText	setHeadPopup.lua	/^function setHeadPopup:onEditText()$/;"	f
+onGetPhoto	setHeadPopup.lua	/^function setHeadPopup:onGetPhoto(mode)$/;"	f
+onNativeCall	setHeadPopup.lua	/^function setHeadPopup:onNativeCall(key, status, data, ...)$/;"	f
+onOpenAlbm	setHeadPopup.lua	/^function setHeadPopup:onOpenAlbm()$/;"	f
+onOpenAlbmTouch	setHeadPopup.lua	/^function setHeadPopup:onOpenAlbmTouch(finger_action, x, y, drawing_id_first, drawing_id_current, event_time)$/;"	f
+onSubmit	setHeadPopup.lua	/^function setHeadPopup:onSubmit()$/;"	f
+onTakePhoto	setHeadPopup.lua	/^function setHeadPopup:onTakePhoto()$/;"	f
+pickImageCallBack	setHeadPopup.lua	/^function setHeadPopup:pickImageCallBack(status, data)$/;"	f
+setHeadPopup.hide	setHeadPopup.lua	/^function setHeadPopup.hide()$/;"	f
+setHeadPopup.show	setHeadPopup.lua	/^function setHeadPopup.show(...)$/;"	f
+setHeadPopup:countDownPhoto	setHeadPopup.lua	/^function setHeadPopup:countDownPhoto()$/;"	f
+setHeadPopup:ctor	setHeadPopup.lua	/^function setHeadPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
+setHeadPopup:dtor	setHeadPopup.lua	/^function setHeadPopup:dtor()$/;"	f
+setHeadPopup:getHeadPhotoAndName	setHeadPopup.lua	/^function setHeadPopup:getHeadPhotoAndName()	$/;"	f
+setHeadPopup:onCancel	setHeadPopup.lua	/^function setHeadPopup:onCancel()$/;"	f
+setHeadPopup:onEditText	setHeadPopup.lua	/^function setHeadPopup:onEditText()$/;"	f
+setHeadPopup:onGetPhoto	setHeadPopup.lua	/^function setHeadPopup:onGetPhoto(mode)$/;"	f
+setHeadPopup:onNativeCall	setHeadPopup.lua	/^function setHeadPopup:onNativeCall(key, status, data, ...)$/;"	f
+setHeadPopup:onOpenAlbm	setHeadPopup.lua	/^function setHeadPopup:onOpenAlbm()$/;"	f
+setHeadPopup:onOpenAlbmTouch	setHeadPopup.lua	/^function setHeadPopup:onOpenAlbmTouch(finger_action, x, y, drawing_id_first, drawing_id_current, event_time)$/;"	f
+setHeadPopup:onSubmit	setHeadPopup.lua	/^function setHeadPopup:onSubmit()$/;"	f
+setHeadPopup:onTakePhoto	setHeadPopup.lua	/^function setHeadPopup:onTakePhoto()$/;"	f
+setHeadPopup:pickImageCallBack	setHeadPopup.lua	/^function setHeadPopup:pickImageCallBack(status, data)$/;"	f
+ctor	victoryPopup.lua	/^function victoryPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
+initLayer	victoryPopup.lua	/^function victoryPopup:initLayer()$/;"	f
+victoryPopup.hide	victoryPopup.lua	/^function victoryPopup.hide()$/;"	f
+victoryPopup.show	victoryPopup.lua	/^function victoryPopup.show(...)$/;"	f
+victoryPopup:ctor	victoryPopup.lua	/^function victoryPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
+victoryPopup:initLayer	victoryPopup.lua	/^function victoryPopup:initLayer()$/;"	f
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

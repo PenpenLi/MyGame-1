@@ -1,0 +1,21 @@
+<item label="limitTimeEvent" compress="0" asset="res/limitTimeEvent" isDirectory="true">
+  <item atlasType="0" compress="0" key="13330a45e3c45a58723c20af94d88fd0" label="lTEvent_right_content_bg" asset="res/limitTimeEvent/lTEvent_right_content_bg.png" grid="8,1,0,0"/>
+  <item atlasType="0" compress="0" key="2d637f9b8198fd225058657b305d1b57" label="lTEvent_name" asset="res/limitTimeEvent/lTEvent_name.png"/>
+  <item atlasType="0" compress="0" key="362062d919695d618d64b38b3207076a" label="lTEvent_rewar_bg_get" asset="res/limitTimeEvent/lTEvent_rewar_bg_get.png"/>
+  <item atlasType="0" compress="0" key="54abc9bb9d747f672340050021497d25" label="lTEvent_star" asset="res/limitTimeEvent/lTEvent_star.png"/>
+  <item atlasType="0" compress="0" key="6daf20b255a57501452353e976022dbc" label="lTEvent_reward_bg" asset="res/limitTimeEvent/lTEvent_reward_bg.png"/>
+  <item atlasType="0" compress="0" key="7419b9b700ae07752bf22ae6f7c56922" label="lTEvent_desc_left" asset="res/limitTimeEvent/lTEvent_desc_left.png"/>
+  <item atlasType="0" compress="0" key="7afa2c6c80a9412095e59ade21f466e8" label="lTEvent_rank_bg" asset="res/limitTimeEvent/lTEvent_rank_bg.png" grid="15,15,40,20"/>
+  <item atlasType="0" compress="0" key="8fc8304f144a66559cc3c06f7dfb14d6" label="lTEvent_image_shade" asset="res/limitTimeEvent/lTEvent_image_shade.png"/>
+  <item atlasType="0" compress="0" key="9d3377d63b54744d3a7b42e5738fa739" label="lTEvent_numBar_bg" asset="res/limitTimeEvent/lTEvent_numBar_bg.png"/>
+  <item atlasType="0" compress="0" key="a9cc289f9b7ac06ff621c9c24385286d" label="lTEvent_time_hall_bg" asset="res/limitTimeEvent/lTEvent_time_hall_bg.png"/>
+  <item atlasType="0" compress="0" key="c21d62574ffe16e8aedacc51600760e7" label="lTEvent_desc_right" asset="res/limitTimeEvent/lTEvent_desc_right.png"/>
+  <item atlasType="0" compress="0" key="cb6e54709298ebd50f2dcc6485bcc906" label="lTEvent_done" asset="res/limitTimeEvent/lTEvent_done.png"/>
+  <item atlasType="0" compress="0" key="d3dcc2333c8cbba79ece89639e91a88c" label="lTEvent_reward_geted" asset="res/limitTimeEvent/lTEvent_reward_geted.png"/>
+  <item atlasType="0" compress="0" key="d57f9bca9ad5fdeb09a268e3cc72ccf1" label="lTEvent_numBar_shader" asset="res/limitTimeEvent/lTEvent_numBar_shader.png"/>
+  <item atlasType="0" compress="0" key="df165504cfd92e575fa5fd518fad02bc" label="lTEvent_frame_bg" asset="res/limitTimeEvent/lTEvent_frame_bg.png"/>
+  <item atlasType="0" compress="0" key="e05349f0254c569be4639f0b6540c841" label="lTEvent_image_bg" asset="res/limitTimeEvent/lTEvent_image_bg.png"/>
+  <item atlasType="0" compress="0" key="ec901e7c4b8e8545577d0a302ea9385a" label="lTEvent_time_bg" asset="res/limitTimeEvent/lTEvent_time_bg.png" grid="30,30,16,16"/>
+  <item atlasType="0" compress="0" key="f71889c3cee15f78a1edf219db68c0ef" label="lTEvent_rewardName_bg" asset="res/limitTimeEvent/lTEvent_rewardName_bg.png"/>
+  <item atlasType="0" compress="0" key="fe90acac69a34fce2e4b5e0adb6b16c8" label="lTEvent_time" asset="res/limitTimeEvent/lTEvent_time.png"/>
+</item>

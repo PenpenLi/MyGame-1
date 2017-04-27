@@ -1,0 +1,29 @@
+local hall_player_item=
+{
+	name="hall_player_item",type=0,typeName="View",time=0,x=0,y=0,width=252,height=79,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,
+	{
+		name="player_bg",type=1,typeName="Button",time=0,x=0,y=0,width=252,height=79,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/hall/hall_ownItem_bg.png",varname="player_bg",callbackfunc="onPlayerBgClick",
+		{
+			name="head",type=1,typeName="Image",time=0,x=-80,y=0,width=64,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_nophoto.jpg",varname="head"
+		},
+		{
+			name="name",type=4,typeName="Text",time=0,x=108,y=13,width=100,height=25,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=20,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,varname="name",colorA=1
+		},
+		{
+			name="Image24",type=1,typeName="Image",time=0,x=76,y=39,width=31,height=29,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_gold_small.png"
+		},
+		{
+			name="money",type=4,typeName="Text",time=0,x=112,y=42,width=100,height=25,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=20,textAlign=kAlignLeft,colorRed=255,colorGreen=225,colorBlue=107,string=[[0]],varname="money",colorA=1
+		},
+		{
+			name="trace_btn",type=1,typeName="Button",time=0,x=0,y=-1,width=72,height=69,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="res/friend/friend_send_money.png",varname="trace_btn",callbackfunc="onOperatorBtnClick"
+		},
+		{
+			name="SexIcon",type=1,typeName="Image",time=0,x=79,y=-15,width=25,height=25,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="res/common/common_sex_woman_icon.png",varname="SexIcon"
+		},
+		{
+			name="View_vip",type=0,typeName="View",time=0,x=149,y=-1,width=0,height=0,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,varname="View_vip"
+		}
+	}
+}
+return hall_player_item;

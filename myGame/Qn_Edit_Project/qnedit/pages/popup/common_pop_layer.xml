@@ -1,0 +1,22 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <bg type="1" typeName="Image" time="0" x="130" y="97" width="725" height="430" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="74fc3456a34ca931b94f47474c01a548" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+    <titleBg type="1" typeName="Image" time="0" x="0" y="15" width="434" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="9118df0b7cbdaeddd69649911181706d" packFile="" gridLeft="150" gridRight="150" gridTop="35" gridBottom="35">
+      <titleLabel type="4" typeName="Text" time="0" x="101" y="8" width="244" height="62" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="温馨提示" varname="titleLabel"/>
+    </titleBg>
+    <twoBtnView type="0" typeName="View" time="0" x="14" y="33" width="442" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" varname="twoBtnView">
+      <twoCancleButton type="1" typeName="Button" time="0" x="0" y="2" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="e0b8cf297c456c99a82b2cb5a4cb08e6" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="twoCancleButton" callbackfunc="onCancleButtonClick">
+        <twoCancleLabel type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="取消" varname="twoCancleLabel"/>
+      </twoCancleButton>
+      <twoSureButton type="1" typeName="Button" time="0" x="0" y="0" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" callbackfunc="onSureButtonClick" varname="twoSureButton">
+        <twoSureLabel type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="确认" varname="twoSureLabel"/>
+      </twoSureButton>
+    </twoBtnView>
+    <oneBtnView type="0" typeName="View" time="0" x="14" y="33" width="442" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" varname="oneBtnView">
+      <oneSureButton type="1" typeName="Button" time="0" x="0" y="0" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="oneSureButton" callbackfunc="onSureButtonClick">
+        <oneSureLabel type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="确认" varname="oneSureLabel"/>
+      </oneSureButton>
+    </oneBtnView>
+    <contentView type="0" typeName="View" time="0" x="49" y="114" width="653" height="191" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="contentView"/>
+    <CloseBtn type="1" typeName="Button" time="0" x="656" y="24" width="51" height="52" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="16eedbe3a1091c44ce819d48d9854cba" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" callbackfunc="onCloseBtnClick" varname="CloseBtn"/>
+  </bg>
+</root>

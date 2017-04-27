@@ -1,0 +1,42 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="680" height="400" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <friend_view type="0" typeName="View" time="0" x="0" y="0" width="230" height="400" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="friend_view">
+    <Image21 type="1" typeName="Image" time="0" x="-3" y="30" width="247" height="380" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ba6e594a996127c33eeeee2c76732dfe" packFile="" gridLeft="0" gridRight="0" gridTop="10" gridBottom="20"/>
+    <friend_online type="1" typeName="Image" time="0" x="0" y="0" width="230" height="37" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="f3e422f4b0d482c34b701b0f087d6f94" packFile="" gridLeft="8" gridRight="8" gridTop="0" gridBottom="0" varname="friend_online">
+      <friend_online_num type="4" typeName="Text" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="18" textAlign="0" color="0xffffff" string="friend_chat ( 2/14 )" colorA="1" varname="friend_online_num"/>
+    </friend_online>
+    <friend_List_view type="0" typeName="ListView" time="0" x="0" y="37" width="230" height="355" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="friend_List_view" stageH="0"/>
+  </friend_view>
+  <chat_view type="0" typeName="View" time="0" x="0" y="0" width="450" height="400" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="chat_view">
+    <chat_msg_list_view type="0" typeName="ScrollView" time="0" x="0" y="0" width="450" height="315" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="chat_msg_list_view"/>
+    <line type="1" typeName="Image" time="0" x="0" y="313" width="34" height="11" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="1" file="ac31ce8455676fc8eada8dd602afc720" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <input_bg type="1" typeName="Image" time="0" x="9" y="331" width="262" height="58" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="49866334eaddb5b8f306fe613793e150" packFile="" gridLeft="18" gridRight="18" gridTop="0" gridBottom="0" varname="input_bg">
+      <chat_msg type="7" typeName="EditTextView" time="0" x="0" y="0" width="245" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="7" color="0xec5fab" colorA="1" varname="chat_msg"/>
+    </input_bg>
+    <expression_btn type="1" typeName="Button" time="0" x="270" y="328" width="66" height="65" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="e77d8b4d5bcaed2e4d12c25e6a3d7716" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="expression_btn" callbackfunc="onFExpressionBtnClick"/>
+    <chat_send_btn type="1" typeName="Button" time="0" x="335" y="330" width="105" height="60" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="chat_send_btn" callbackfunc="onFChatSendBtnClick">
+      <Image17 type="1" typeName="Image" time="0" x="0" y="0" width="118" height="62" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="7eeb9ef62503a1c1605e3a59818ef993" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <Text12 type="4" typeName="Text" time="0" x="2" y="-2" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Kirim" colorA="1"/>
+    </chat_send_btn>
+  </chat_view>
+  <first_chat_tips type="4" typeName="Text" time="0" x="276" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" fontName="" fontSize="22" textAlign="0" color="0xf789e1" string="从左侧好友列表中选择好友开始聊天" colorA="1" varname="first_chat_tips"/>
+  <no_friend_view type="0" typeName="View" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" varname="no_friend_view">
+    <no_friend_tips type="4" typeName="Text" time="0" x="0" y="-52" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xf789e1" string="您暂无好友，赶快去添加好友聊天吧！" colorA="1" varname="no_friend_tips"/>
+    <fast_add_friend_btn type="1" typeName="Button" time="0" x="0" y="0" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="fast_add_friend_btn" callbackfunc="onFastAddFriendBtnClick">
+      <fast_add type="4" typeName="Text" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="7" color="0xffffff" string="立即添加" colorA="1" varname="fast_add"/>
+    </fast_add_friend_btn>
+  </no_friend_view>
+  <expression_view type="1" typeName="Image" time="0" x="232" y="28" width="444" height="310" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="14106f9690ef2e9f5ea9cae142e70f80" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="expression_view">
+    <top_node type="0" typeName="View" time="0" x="0" y="15" width="400" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="top_node">
+      <exp_btn type="1" typeName="Button" time="0" x="-150" y="1" width="56" height="56" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="7ab1a2cd2dafe5f75bfd30e080c8f525" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="exp_btn" callbackfunc="onNormalExpBtnClick"/>
+      <punakawan_btn type="1" typeName="Button" time="0" x="0" y="0" width="48" height="63" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="3adb4220f8a0bdc8f74c0e9e1d48e00e" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="punakawan_btn" callbackfunc="onPunakawanBtnClick"/>
+      <vip_btn type="1" typeName="Button" time="0" x="150" y="0" width="72" height="62" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="4a0ca0b8afb1f1014911f1085e28edd2" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="vip_btn" callbackfunc="onVipBtnClick"/>
+    </top_node>
+    <exp_scroller_view type="0" typeName="ScrollView" time="0" x="0" y="70" width="415" height="216" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="exp_scroller_view"/>
+    <exp_view_mask type="1" typeName="Image" time="0" x="0" y="70" width="417" height="218" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="9f192ae2b9a9ba0147a01a9ef2c640f4" packFile="" gridLeft="10" gridRight="10" gridTop="10" gridBottom="10" varname="exp_view_mask">
+      <not_vip_tips type="5" typeName="TextView" time="0" x="0" y="-40" width="382" height="80" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="0" color="0xffe6fa" string="您不是VIP会员，无法使用该表情" colorA="1" varname="not_vip_tips"/>
+      <become_vip_btn type="1" typeName="Button" time="0" x="0" y="30" width="172" height="61" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="a60831087d75c0027ba0efb484780a77" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="become_vip_btn" callbackfunc="onBecomeVipBtnClick">
+        <become_vip_text type="4" typeName="Text" time="0" x="0" y="-5" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="26" textAlign="7" color="0xFFFFFF" string="成为VIP" colorA="1" varname="become_vip_text"/>
+      </become_vip_btn>
+    </exp_view_mask>
+  </expression_view>
+</root>

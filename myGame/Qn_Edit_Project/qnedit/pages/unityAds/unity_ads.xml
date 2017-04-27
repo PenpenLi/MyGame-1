@@ -1,0 +1,17 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image8 type="1" typeName="Image" time="0" x="-5" y="-159" width="418" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="d58e46d0933bc95782ea828ee75c7fb6" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" isLock="0">
+      <Text_title type="4" typeName="Text" time="0" x="3" y="1" width="314" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="Text_title"/>
+    </Image8>
+    <btn_video type="1" typeName="Button" time="0" x="348" y="160" width="198" height="158" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3ec8d46b375b635bd158470830779f3a" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="btn_video" callbackfunc="onBtnVideoClick">
+      <Image11 type="1" typeName="Image" time="0" x="32" y="18" width="116" height="116" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="61852ccd7d8de9a7d9ca427ebe18851d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <Image12 type="1" typeName="Image" time="0" x="32" y="18" width="116" height="116" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3772e6b7757fb8fb1ecfd0bbb9fb5ca1" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <img_loading type="1" typeName="Image" time="0" x="5" y="4" width="176" height="137" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="4be2a207928ae935efa0479139ef330c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="img_loading" callbackfunc="onImgLoadingClick">
+        <text_loading type="5" typeName="TextView" time="0" x="17" y="19" width="148" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="16" textAlign="7" color="0xFFFFFF" string="视频准备中，请稍后开始观看" colorA="1" varname="text_loading"/>
+      </img_loading>
+    </btn_video>
+    <Image13 type="1" typeName="Image" time="0" x="-113" y="-53" width="262" height="524" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="0f4ce3ca0acc2e68571dba4c22101b09" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <text_desc type="5" typeName="TextView" time="0" x="131" y="162" width="206" height="155" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="8" color="0xffe6fa" colorA="1" string="1~10次" varname="text_desc"/>
+    <text_reward type="5" typeName="TextView" time="0" x="353" y="312" width="178" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="1" color="0x00f6ff" string="10M koin" colorA="1" varname="text_reward"/>
+  </Image_bg>
+</root>

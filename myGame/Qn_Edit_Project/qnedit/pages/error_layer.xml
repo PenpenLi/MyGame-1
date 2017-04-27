@@ -1,0 +1,11 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" isGenerateLocal="false">
+  <Image8 type="1" typeName="Image" time="0" x="376" y="274" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" file="14f7bd365d5e389859c4d08ae2062e47" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+  <Image2 type="1" typeName="Image" time="0" x="254" y="0" width="502" height="640" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="74c3feb25c700e591f1f0e2844eb7aa9" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+  <error_tips_bg type="1" typeName="Image" time="0" x="631" y="16" width="271" height="169" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="fbf9fa8006f709f4a0c284fceed655af" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15" effect="{&quot;shader&quot;:&quot;mirror&quot;,&quot;mirrorType&quot;:&quot;1&quot;}" varname="error_tips_bg">
+    <error_tips type="5" typeName="TextView" time="0" x="0" y="0" width="198" height="115" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="不好意思出了点意外" colorA="1" varname="error_tips"/>
+  </error_tips_bg>
+  <error_repair_btn type="1" typeName="Button" time="0" x="736" y="517" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="e0b8cf297c456c99a82b2cb5a4cb08e6" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="error_repair_btn">
+    <Text7 type="4" typeName="Text" time="0" x="0" y="-5" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Ok" colorA="1"/>
+  </error_repair_btn>
+  <errorLabel type="5" typeName="TextView" time="0" x="0" y="0" width="395" height="477" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="7" color="0xFFFFFF" string="TextView" colorA="1" varname="errorLabel"/>
+</root>

@@ -1,0 +1,22 @@
+<item label="roomChat" compress="0" asset="res/roomChat" isDirectory="true">
+  <item atlasType="0" compress="0" key="024ca51c2d71d9972cf2adcc050915dc" label="roomChat_top_shade" asset="res/roomChat/roomChat_top_shade.png"/>
+  <item atlasType="0" compress="0" key="0845b6d0e8d38e03034a8c8c1f144640" label="roomChat_vipBt_normal" asset="res/roomChat/roomChat_vipBt_normal.png"/>
+  <item atlasType="0" compress="0" key="1ff0ee83f93abbc05798d7464f650106" label="roomChat_chat_bg" asset="res/roomChat/roomChat_chat_bg.png" grid="25,25,40,40"/>
+  <item atlasType="0" compress="0" key="2e7eb2fda35145f5787499ee4233fbe3" label="roomChat_record_selected" asset="res/roomChat/roomChat_record_selected.png"/>
+  <item atlasType="0" compress="0" key="3adb4220f8a0bdc8f74c0e9e1d48e00e" label="roomChat_exp_punakawan_selected" asset="res/roomChat/roomChat_exp_punakawan_selected.png"/>
+  <item atlasType="0" compress="0" key="4a0ca0b8afb1f1014911f1085e28edd2" label="roomChat_vipBt_selected" asset="res/roomChat/roomChat_vipBt_selected.png"/>
+  <item atlasType="0" compress="0" key="61044d4c71544403cbe124520723190c" label="roomChat_face_selected" asset="res/roomChat/roomChat_face_selected.png"/>
+  <item atlasType="0" compress="0" key="6bbc34233078a9c17b9609214a05da99" label="roomChat_line" asset="res/roomChat/roomChat_line.png"/>
+  <item atlasType="0" compress="0" key="6ececd3683dca2ebf21351310273be42" label="roomChat_pop_bg" asset="res/roomChat/roomChat_pop_bg.png"/>
+  <item atlasType="0" compress="0" key="7010ab6d99dc585acd691943ca1d8f05" label="roomChat_exp_punakawan_normal" asset="res/roomChat/roomChat_exp_punakawan_normal.png"/>
+  <item atlasType="0" compress="0" key="7ab1a2cd2dafe5f75bfd30e080c8f525" label="roomChat_exp_default_selected" asset="res/roomChat/roomChat_exp_default_selected.png"/>
+  <item atlasType="0" compress="0" key="82468b8ab5e368e6333cdbe81b37c719" label="roomChat_top_arrow" asset="res/roomChat/roomChat_top_arrow.png"/>
+  <item atlasType="0" compress="0" key="82b02ecf3ccad811907647f442afa0df" label="roomChat_record_unSelected" asset="res/roomChat/roomChat_record_unSelected.png"/>
+  <item atlasType="0" compress="0" key="988ae675a49f5571edbe1b2064888396" label="roomChat_face_unSelected" asset="res/roomChat/roomChat_face_unSelected.png"/>
+  <item atlasType="0" compress="0" key="acdfa8bd2de30c8d9c05d202eb8bbbfd" label="roomChat_friend_selected" asset="res/roomChat/roomChat_friend_selected.png"/>
+  <item atlasType="0" compress="0" key="c32cbb0cde5f1f4955a8de087673d6c0" label="roomChat_chat_selected" asset="res/roomChat/roomChat_chat_selected.png"/>
+  <item atlasType="0" compress="0" key="d16ccff342f08dd652aa9576380380f0" label="roomChat_chat_unSelected" asset="res/roomChat/roomChat_chat_unSelected.png"/>
+  <item atlasType="0" compress="0" key="e6d68b985f359e65c5f273898e8c617a" label="roomChat_friend_unSelected" asset="res/roomChat/roomChat_friend_unSelected.png"/>
+  <item atlasType="0" compress="0" key="e6ee8e602dd1826b4ab4aada0c5abe2c" label="roomChat_exp_default_normal" asset="res/roomChat/roomChat_exp_default_normal.png"/>
+  <item atlasType="0" compress="0" key="ecbc60deb620e823a5011c05ec415385" label="exp_view_mask" asset="res/roomChat/exp_view_mask.png" grid="10,10,10,10"/>
+</item>

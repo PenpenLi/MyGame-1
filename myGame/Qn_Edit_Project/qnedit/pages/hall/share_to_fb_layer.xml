@@ -1,0 +1,12 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" stageW="0" isGenerateLocal="false">
+  <Image2 type="1" typeName="Image" time="0" x="0" y="0" width="710" height="517" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2491d8a29bfb06ed81b6ed13dfb240ee" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+    <ButtonClose type="1" typeName="Button" time="0" x="626" y="15" width="64" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="d8f140749295df4c37ec894c90d29e29" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" callbackfunc="onBgTouch" varname="ButtonClose"/>
+    <View6 type="0" typeName="View" time="0" x="83" y="160" width="525" height="231" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="View_container"/>
+    <EditTextView10 type="7" typeName="EditTextView" time="0" x="102" y="108" width="476" height="40" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="Input your words" colorA="1" varname="EditTextView_caption"/>
+    <Image11 type="1" typeName="Image" time="0" x="81" y="98" width="531" height="56" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ab91c65534a8d8b124e865fcdb932bab" packFile="" gridLeft="50" gridRight="50" gridTop="0" gridBottom="0"/>
+    <Button12 type="1" typeName="Button" time="0" x="240" y="417" width="218" height="56" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3bfeab870872029a9a09e7a3abb874ae" file2="" packFile="" gridLeft="25" gridRight="25" gridTop="18" gridBottom="18" varname="Button_share" callbackfunc="onBtnShareClicked">
+      <Text13 type="4" typeName="Text" time="0" x="8" y="10" width="204" height="39" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="7" color="0xffffff" string="Share To Facebook" colorA="1"/>
+    </Button12>
+    <TextTitle type="4" typeName="Text" time="0" x="266" y="28" width="204" height="43" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="Share To Facebook" colorA="1"/>
+  </Image2>
+</root>

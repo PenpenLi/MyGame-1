@@ -1,0 +1,7 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="680" height="85" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <name type="4" typeName="Text" time="0" x="35" y="3" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0xFFFFFF" string="ZZZZ" colorA="1" varname="name"/>
+  <time type="4" typeName="Text" time="0" x="255" y="6" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="7" color="0xe691aa" string="12/9 12:02" colorA="1" varname="time"/>
+  <msg_bg type="1" typeName="Image" time="0" x="0" y="25" width="649" height="59" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="0ec69a8d7a7d57076a223e2478002d55" packFile="" gridLeft="0" gridRight="0" gridTop="25" gridBottom="25" varname="msg_bg">
+    <msg type="5" typeName="TextView" time="0" x="19" y="17" width="610" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="7" color="0xffe6fa" colorA="1" varname="msg"/>
+  </msg_bg>
+</root>

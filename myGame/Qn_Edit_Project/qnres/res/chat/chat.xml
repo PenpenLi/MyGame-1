@@ -1,0 +1,15 @@
+<item label="chat" compress="0" asset="res/chat" isDirectory="true">
+  <item atlasType="0" compress="0" key="0ec69a8d7a7d57076a223e2478002d55" label="chat_message_bg" asset="res/chat/chat_message_bg.png" grid="0,0,25,25"/>
+  <item atlasType="0" compress="0" key="0f41011f2b577a25a12121e9824bfc41" label="chat_player_chat_bg" asset="res/chat/chat_player_chat_bg.png"/>
+  <item atlasType="0" compress="0" key="14106f9690ef2e9f5ea9cae142e70f80" label="chat_expression_layer_bg" asset="res/chat/chat_expression_layer_bg.png"/>
+  <item atlasType="0" compress="0" key="19a6ed053704936a447bab2f16637dbc" label="chat_horn_icon" asset="res/chat/chat_horn_icon.png"/>
+  <item atlasType="0" compress="0" key="367e1049ed9808d960a415c3272da5a8" label="chat_btn_seleted_bg" asset="res/chat/chat_btn_seleted_bg.png"/>
+  <item atlasType="0" compress="0" key="49866334eaddb5b8f306fe613793e150" label="chat_horn_bg" asset="res/chat/chat_horn_bg.png" grid="18,18,0,0"/>
+  <item atlasType="0" compress="0" key="9f192ae2b9a9ba0147a01a9ef2c640f4" label="exp_view_mask" asset="res/chat/exp_view_mask.png"/>
+  <item atlasType="0" compress="0" key="ab91c65534a8d8b124e865fcdb932bab" label="chat_change_btn_bg" asset="res/chat/chat_change_btn_bg.png" grid="50,50,0,0"/>
+  <item atlasType="0" compress="0" key="ac31ce8455676fc8eada8dd602afc720" label="chat_sep_line" asset="res/chat/chat_sep_line.png"/>
+  <item atlasType="0" compress="0" key="b552276ffc07e31cd3234b54755b2b2e" label="chat_player_online_bg" asset="res/chat/chat_player_online_bg.png"/>
+  <item atlasType="0" compress="0" key="ba6e594a996127c33eeeee2c76732dfe" label="chat_list_bg" asset="res/chat/chat_list_bg.png" grid="0,0,10,20"/>
+  <item atlasType="0" compress="0" key="d5c2e7a2c434e5a26562e41e825f2457" label="chat_player_offline_bg" asset="res/chat/chat_player_offline_bg.png"/>
+  <item atlasType="0" compress="0" key="f3e422f4b0d482c34b701b0f087d6f94" label="chat_friendChat_Title_bg" asset="res/chat/chat_friendChat_Title_bg.png" grid="8,8,0,0"/>
+</item>

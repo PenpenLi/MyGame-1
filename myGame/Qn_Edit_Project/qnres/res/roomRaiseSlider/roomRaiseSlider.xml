@@ -1,0 +1,9 @@
+<item label="roomRaiseSlider" compress="0" asset="res/roomRaiseSlider" isDirectory="true">
+  <item atlasType="0" compress="0" key="4f796117795f8e2b44b87fd57f3c79d4" label="roomRs_content_bg" asset="res/roomRaiseSlider/roomRs_content_bg.png"/>
+  <item atlasType="0" compress="0" key="7645ef988bf2eb07b82b683a162c38bf" label="roomRs_bg_track" asset="res/roomRaiseSlider/roomRs_bg_track.png"/>
+  <item atlasType="0" compress="0" key="79658230b0f36dc8459f1010f6958496" label="roomRs_bg" asset="res/roomRaiseSlider/roomRs_bg.jpg" grid="50,50,20,20"/>
+  <item atlasType="0" compress="0" key="89fdcf5c084659831460b39ce8db9d04" label="roomRs_allIn_btn" asset="res/roomRaiseSlider/roomRs_allIn_btn.png"/>
+  <item atlasType="0" compress="0" key="a1fbca5ba22616a7e4e1685b20ce8d80" label="roomRs_color_track" asset="res/roomRaiseSlider/roomRs_color_track.png" alias="roomRs_color_track"/>
+  <item atlasType="0" compress="0" key="bcb25a9205060ea47d5a86790eaaa1ec" label="roomRs_add_btn" asset="res/roomRaiseSlider/roomRs_add_btn.png"/>
+  <item atlasType="0" compress="0" key="e11959f49fb9207a8ca0a173e9d43dbf" label="roomRs_bar" asset="res/roomRaiseSlider/roomRs_bar.png"/>
+</item>

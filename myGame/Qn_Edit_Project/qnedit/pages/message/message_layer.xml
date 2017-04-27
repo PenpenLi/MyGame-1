@@ -1,0 +1,36 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="710" height="517" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2491d8a29bfb06ed81b6ed13dfb240ee" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image_bt_bg type="1" typeName="Image" time="0" x="100" y="19" width="536" height="58" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="d2fc09b8ca5b3955e7ee57b0fd9f0291" packFile="" gridLeft="30" gridRight="30" gridTop="0" gridBottom="0" varname="Image_bt_bg">
+      <RadioButtonGroup type="0" typeName="RadioButtonGroup" time="0" x="3" y="-1" width="518" height="58" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="RadioButtonGroup">
+        <RadioButton_1 type="0" typeName="RadioButton" time="0" x="-5" y="3" width="179" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="ea5ee7fd765d449d0627f5cfa0da981c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="RadioButton_1">
+          <Text_l type="4" typeName="Text" time="0" x="20" y="10" width="143" height="36" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_l" colorA="1">
+            <Image_sysMsg_point type="1" typeName="Image" time="0" x="-15" y="-17" width="24" height="26" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" file="23a57dce49ecf01e6edd122f6dbfca2c" packFile="" gridLeft="12" gridRight="12" gridTop="12" gridBottom="12" varname="Image_sysMsg_point"/>
+          </Text_l>
+        </RadioButton_1>
+        <RadioButton_2 type="0" typeName="RadioButton" time="0" x="177" y="3" width="174" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="735fd1acffc284d42b71ae077f2520bf" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="RadioButton_2">
+          <Text_m type="4" typeName="Text" time="0" x="10" y="9" width="152" height="38" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_m">
+            <Image_sysNotice_point type="1" typeName="Image" time="0" x="-14" y="-15" width="24" height="26" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" file="23a57dce49ecf01e6edd122f6dbfca2c" packFile="" gridLeft="12" gridRight="12" gridTop="12" gridBottom="12" varname="Image_sysNotice_point"/>
+          </Text_m>
+        </RadioButton_2>
+        <RadioButton_3 type="0" typeName="RadioButton" time="0" x="355" y="3" width="179" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" file2="5d80d4a39c6db44ff6c1220f96e51f45" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="RadioButton_3">
+          <Text_r type="4" typeName="Text" time="0" x="20" y="9" width="135" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_r">
+            <Image_friend_point type="1" typeName="Image" time="0" x="-13" y="-15" width="24" height="26" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" file="23a57dce49ecf01e6edd122f6dbfca2c" packFile="" gridLeft="12" gridRight="12" gridTop="12" gridBottom="12" varname="Image_friend_point"/>
+          </Text_r>
+        </RadioButton_3>
+      </RadioButtonGroup>
+    </Image_bt_bg>
+    <Image_delete type="1" typeName="Image" time="0" x="16" y="409" width="682" height="82" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ec2118a2d9e25e5731a0e17f7e3c29d0" packFile="" gridLeft="15" gridRight="15" gridTop="10" gridBottom="20" varname="Image_delete">
+      <Button_delete type="1" typeName="Button" time="0" x="549" y="20" width="131" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="aab9e02edcd5071e7439e8d1e6bd6737" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="Button_delete">
+        <Text_delete type="4" typeName="Text" time="0" x="20" y="8" width="92" height="31" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_delete"/>
+      </Button_delete>
+      <Button_sure type="1" typeName="Button" time="0" x="419" y="19" width="131" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="aab9e02edcd5071e7439e8d1e6bd6737" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="Button_sure">
+        <Text_sure type="4" typeName="Text" time="0" x="20" y="7" width="90" height="33" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_sure"/>
+      </Button_sure>
+      <Button_cancel type="1" typeName="Button" time="0" x="551" y="18" width="131" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="96f735197599ad4f02113f561c8fdd71" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="Button_cancel">
+        <Text_cancel type="4" typeName="Text" time="0" x="21" y="9" width="90" height="31" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_cancel"/>
+      </Button_cancel>
+      <Text_tip type="5" typeName="TextView" time="0" x="5" y="0" width="437" height="80" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" fontName="" fontSize="17" textAlign="7" color="0xFFFFFF" string="TextView" colorA="1" varname="Text_tip"/>
+    </Image_delete>
+    <Text_none type="4" typeName="Text" time="0" x="63" y="197" width="592" height="43" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_none" colorA="1"/>
+  </Image_bg>
+</root>

@@ -1,0 +1,13 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="179" height="273" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <bg type="1" typeName="Image" time="0" x="0" y="0" width="179" height="273" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="3849a2a4d73ff7b62ea8af6edc4afc89" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="bg">
+    <nameLabel type="4" typeName="Text" time="0" x="64" y="28" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0xffffff" string="Domin" colorA="1" varname="nameLabel"/>
+    <headImage type="1" typeName="Image" time="0" x="0" y="0" width="135" height="135" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="66e9b7ffacb52a9a71013360c5ad1f27" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="headImage" callbackfunc="onDetailButtonClick"/>
+    <goldImage type="1" typeName="Image" time="0" x="25" y="224" width="31" height="29" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="487e9fe8cc6f2cdd0823a2811952212e" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <moneyLabel type="4" typeName="Text" time="0" x="63" y="225" width="100" height="28" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="22" textAlign="7" color="0x00e6ff" string="0" varname="moneyLabel" colorA="1"/>
+    <addButton type="1" typeName="Button" time="0" x="0" y="-54" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="addButton" callbackfunc="onAddButtonClick">
+      <addLabel type="4" typeName="Text" time="0" x="0" y="0" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="0" color="0xFFFFFF" string="添加" varname="addLabel" colorA="1"/>
+    </addButton>
+    <SexIcon type="1" typeName="Image" time="0" x="25" y="24" width="30" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ec0162fa9eb0349e47b47bf6dbdcd6dd" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="SexIcon"/>
+  </bg>
+  <View_vip type="0" typeName="View" time="0" x="45" y="69" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="View_vip"/>
+</root>

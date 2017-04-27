@@ -1,0 +1,32 @@
+local setting_rules=
+{
+	name="setting_rules",type=0,typeName="View",time=0,x=0,y=0,width=960,height=640,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image_bg",type=1,typeName="Image",time=0,x=0,y=0,width=710,height=517,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_pop_bg.png",varname="Image_bg",callbackfunc="onPopupBgTouch",
+		{
+			name="Image_bt_bg",type=1,typeName="Image",time=0,x=77,y=19,width=540,height=58,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_tab_bg.png",gridLeft=30,gridRight=30
+		},
+		{
+			name="RadioButtonGroup",type=0,typeName="RadioButtonGroup",time=0,x=90,y=19,width=499,height=51,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,varname="RadioButtonGroup",
+			{
+				name="RadioButton_l",type=0,typeName="RadioButton",time=0,x=-14,y=1,width=179,height=57,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_blank.png",file2="res/common/common_tab_l.png",
+				{
+					name="Text_l",type=4,typeName="Text",time=0,x=28,y=8,width=125,height=39,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[Text]],colorA=1,varname="Text_l"
+				}
+			},
+			{
+				name="RadioButton_m",type=0,typeName="RadioButton",time=0,x=169,y=0,width=174,height=57,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_blank.png",file2="res/common/common_tab_m.png",
+				{
+					name="Text_m",type=4,typeName="Text",time=0,x=15,y=9,width=145,height=39,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[Text]],varname="Text_m"
+				}
+			},
+			{
+				name="RadioButton_r",type=0,typeName="RadioButton",time=0,x=348,y=1,width=179,height=57,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="res/common/common_blank.png",file2="res/common/common_tab_r.png",
+				{
+					name="Text_r",type=4,typeName="Text",time=0,x=19,y=8,width=136,height=39,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[Text]],varname="Text_r"
+				}
+			}
+		}
+	}
+}
+return setting_rules;

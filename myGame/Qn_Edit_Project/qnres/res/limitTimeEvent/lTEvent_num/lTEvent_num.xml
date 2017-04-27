@@ -1,0 +1,13 @@
+<item label="lTEvent_num" compress="0" asset="res/limitTimeEvent/lTEvent_num" isDirectory="true">
+  <item atlasType="0" compress="0" key="10ac58b92dfd8d06d012bfef17aea7e2" label="lTEvent_8" asset="res/limitTimeEvent/lTEvent_num/lTEvent_8.png"/>
+  <item atlasType="0" compress="0" key="19aa0f2b52a0c77543cb5242faaf2d6f" label="lTEvent_9" asset="res/limitTimeEvent/lTEvent_num/lTEvent_9.png"/>
+  <item atlasType="0" compress="0" key="268d53fc03bfb64b2d721b2bb5c79b51" label="lTEvent_3" asset="res/limitTimeEvent/lTEvent_num/lTEvent_3.png"/>
+  <item atlasType="0" compress="0" key="34c0b15c564df770de4f40c15ab9af69" label="lTEvent_5" asset="res/limitTimeEvent/lTEvent_num/lTEvent_5.png"/>
+  <item atlasType="0" compress="0" key="3d239774b07288b08115cc84a0a45e6e" label="lTEvent_7" asset="res/limitTimeEvent/lTEvent_num/lTEvent_7.png"/>
+  <item atlasType="0" compress="0" key="57e22af381dd711ba22121d7af52c96c" label="lTEvent_6" asset="res/limitTimeEvent/lTEvent_num/lTEvent_6.png"/>
+  <item atlasType="0" compress="0" key="604c7b9ffba6b9b27ed3284e54fc439c" label="lTEvent_2" asset="res/limitTimeEvent/lTEvent_num/lTEvent_2.png"/>
+  <item atlasType="0" compress="0" key="8b184db32896b4e8f0089cf91da0daf6" label="lTEvent_node" asset="res/limitTimeEvent/lTEvent_num/lTEvent_node.png"/>
+  <item atlasType="0" compress="0" key="917f05712aee1309477281ca1ab86e97" label="lTEvent_4" asset="res/limitTimeEvent/lTEvent_num/lTEvent_4.png"/>
+  <item atlasType="0" compress="0" key="a76eabfbef442595051318d87c61506d" label="lTEvent_0" asset="res/limitTimeEvent/lTEvent_num/lTEvent_0.png"/>
+  <item atlasType="0" compress="0" key="b86ea494999c4036fcc510c4090f0f07" label="lTEvent_1" asset="res/limitTimeEvent/lTEvent_num/lTEvent_1.png"/>
+</item>

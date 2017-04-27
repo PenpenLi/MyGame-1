@@ -1,0 +1,10 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Bg type="1" typeName="Image" time="0" x="0" y="0" width="696" height="594" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="634a78c5fc932bd3b43ec13a496f2bfc" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" callbackfunc="onPopupBgTouch" varname="Bg">
+    <LotteryButton type="1" typeName="Button" time="0" x="0" y="75" width="390" height="128" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="415be18f9401c7301847a7491af4b819" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="LotteryButton" callbackfunc="OnLotteryClick">
+      <Image6 type="1" typeName="Image" time="0" x="0" y="24" width="166" height="24" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="6fcb5479258bf8850868d0751840661b" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <Num type="4" typeName="Text" time="0" x="0" y="24" width="1" height="1" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="18" textAlign="0" color="0x003778" string="Text" colorA="1" varname="Num"/>
+    </LotteryButton>
+    <CloseButton type="1" typeName="Button" time="0" x="627" y="93" width="51" height="52" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="d8f140749295df4c37ec894c90d29e29" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="CloseButton" callbackfunc="OnCloseClick"/>
+    <Select type="1" typeName="Image" time="0" x="-2" y="-58" width="122" height="122" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="883ae99414ea38ebf3963a1a3209dd12" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Select"/>
+  </Bg>
+</root>

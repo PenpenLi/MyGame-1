@@ -1,0 +1,7 @@
+<item label="firstRecharge" compress="0" asset="res/firstRecharge" isDirectory="true">
+  <item atlasType="0" compress="0" key="2ab332630318248205683b1e0d5f8e1d" label="first_recharge_num" asset="res/firstRecharge/first_recharge_num.png"/>
+  <item atlasType="0" compress="0" key="766643c2994385e9984828bf118a3d96" label="first_recharge_reward_icon" asset="res/firstRecharge/first_recharge_reward_icon.png"/>
+  <item atlasType="0" compress="0" key="a3ec2805045a7e6e3b47422cf36c07ea" label="first_recharge_bg" asset="res/firstRecharge/first_recharge_bg.png"/>
+  <item atlasType="0" compress="0" key="b5ecbdf877fd5cc4ed46989da3dff572" label="first_recharge_reward" asset="res/firstRecharge/first_recharge_reward.png"/>
+  <item atlasType="0" compress="0" key="e47f829d764e5066bb54fbe57706673f" label="first_recharge_ribbon" asset="res/firstRecharge/first_recharge_ribbon.png"/>
+</item>

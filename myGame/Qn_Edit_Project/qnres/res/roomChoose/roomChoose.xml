@@ -1,0 +1,38 @@
+<item label="roomChoose" compress="0" asset="res/roomChoose" isDirectory="true">
+  <item atlasType="0" compress="0" key="00b18a6499554d69715fc06663c91b9a" label="roomC_down_bg" asset="res/roomChoose/roomC_down_bg.png"/>
+  <item atlasType="0" compress="0" key="087230ecce1581ebc6ae612f2744988a" label="roomC_type_qiuqiu" asset="res/roomChoose/roomC_type_qiuqiu.png"/>
+  <item atlasType="0" compress="0" key="08e8989c73f05950eb341c3dbf0e3515" label="roomC_onlineNum_icon" asset="res/roomChoose/roomC_onlineNum_icon.png"/>
+  <item atlasType="0" compress="0" key="0e2c71a13215455c57ac68e73ca3f59e" label="roomC_3" asset="res/roomChoose/roomC_3.png"/>
+  <item atlasType="0" compress="0" key="1064e2e967138bc7a9830cf259736fc7" label="roomC_1" asset="res/roomChoose/roomC_1.png"/>
+  <item atlasType="0" compress="0" key="15842363213364caff4889749ccc5a79" label="roomC_top_bg" asset="res/roomChoose/roomC_top_bg.png" grid="10,45,45,45"/>
+  <item atlasType="0" compress="0" key="1b7fc9bfc45c4aa5d705a3bd8979e4da" label="roomC_clock_icon" asset="res/roomChoose/roomC_clock_icon.png"/>
+  <item atlasType="0" compress="0" key="1c7c8ceb905addb6f355fe6fdaee7904" label="roomC_type_private" asset="res/roomChoose/roomC_type_private.png"/>
+  <item atlasType="0" compress="0" key="255ba01979ee7fbcffc63713ddb7d384" label="roomC_step_6" asset="res/roomChoose/roomC_step_6.png"/>
+  <item atlasType="0" compress="0" key="2705a3f4d9a941af93ef2ffd6dac1fb6" label="roomC_m" asset="res/roomChoose/roomC_m.png"/>
+  <item atlasType="0" compress="0" key="28b47e077efc3b2a2c8d422b2f4b34ef" label="roomC_step_" asset="res/roomChoose/roomC_step_.png"/>
+  <item atlasType="0" compress="0" key="38834852bf93df5486833afe0ac0fb90" label="roomC_step_4" asset="res/roomChoose/roomC_step_4.png"/>
+  <item atlasType="0" compress="0" key="541eb531c01b01a09d98c9cd7d265542" label="roomC_mall" asset="res/roomChoose/roomC_mall.png"/>
+  <item atlasType="0" compress="0" key="714990a73f893f2a221d5aa4f06852e7" label="roomC_5" asset="res/roomChoose/roomC_5.png"/>
+  <item atlasType="0" compress="0" key="7264f6ff210c87f4a895c1deab4c601b" label="roomC_step_5" asset="res/roomChoose/roomC_step_5.png"/>
+  <item atlasType="0" compress="0" key="83935808f23490c08d11f2ae518e221e" label="roomC_8" asset="res/roomChoose/roomC_8.png"/>
+  <item atlasType="0" compress="0" key="84fac28908fbd0680cff5037d3afdc60" label="roomC_title_bg" asset="res/roomChoose/roomC_title_bg.png"/>
+  <item atlasType="0" compress="0" key="8e4ad1f0f494757a2e68e1f53dd48740" label="roomC_step_2" asset="res/roomChoose/roomC_step_2.png"/>
+  <item atlasType="0" compress="0" key="90deb9a6f5c248dc9800790698f9d5f9" label="roomC_7" asset="res/roomChoose/roomC_7.png"/>
+  <item atlasType="0" compress="0" key="9b3abbeb96023a6951c0effe65a7f4c4" label="roomC_k" asset="res/roomChoose/roomC_k.png"/>
+  <item atlasType="0" compress="0" key="a2a41f05ab12bfa9fec4d7bd6ef99271" label="roomC_0" asset="res/roomChoose/roomC_0.png"/>
+  <item atlasType="0" compress="0" key="aab23cbe6629368afbe9ae223d1c60ea" label="roomC_9" asset="res/roomChoose/roomC_9.png"/>
+  <item atlasType="0" compress="0" key="ac9f84df11f571980686fae7e52cd924" label="roomC_step_select" asset="res/roomChoose/roomC_step_select.png"/>
+  <item atlasType="0" compress="0" key="b63ec27cbcd45196c636306a99787c35" label="roomC_bg" asset="res/roomChoose/roomC_bg.png"/>
+  <item atlasType="0" compress="0" key="bb28d7575ace7450bb642a86683686b4" label="roomC_step_3" asset="res/roomChoose/roomC_step_3.png"/>
+  <item atlasType="0" compress="0" key="c965c9a74fc786e06e2781bb1e73136a" label="roomC_type" asset="res/roomChoose/roomC_type.png"/>
+  <item atlasType="0" compress="0" key="cc781d81c9c146ace76ea8e0a2247dfc" label="roomC_return" asset="res/roomChoose/roomC_return.png"/>
+  <item atlasType="0" compress="0" key="cdb0a3513158d9ce7d3a80fe84ed404d" label="roomC_bet" asset="res/roomChoose/roomC_bet.png"/>
+  <item atlasType="0" compress="0" key="d17eb0d27836cfb956e5851e3797f488" label="roomC_2" asset="res/roomChoose/roomC_2.png"/>
+  <item atlasType="0" compress="0" key="d4765a4679b39c405d22bd077b511c11" label="roomC_6" asset="res/roomChoose/roomC_6.png"/>
+  <item atlasType="0" compress="0" key="df217f3a5db701a5138f4867d33f32f3" label="roomC_step_1" asset="res/roomChoose/roomC_step_1.png"/>
+  <item atlasType="0" compress="0" key="e2e78ce0100947577948be06b3255809" label="roomC_type_gaple" asset="res/roomChoose/roomC_type_gaple.png"/>
+  <item atlasType="0" compress="0" key="ed2c405b0b2b73b53caa66eec2e48526" label="roomC_changeTab_bg" asset="res/roomChoose/roomC_changeTab_bg.png"/>
+  <item atlasType="0" compress="0" key="f20aa3f8616de6b56c2789f48c23e1b2" label="roomC_type_icon" asset="res/roomChoose/roomC_type_icon.png"/>
+  <item atlasType="0" compress="0" key="f7c5f95f31bbf61a1af81dca34fec490" label="roomC_down" asset="res/roomChoose/roomC_down.png"/>
+  <item atlasType="0" compress="0" key="fab4d99fce9e24f1bd2e728a39dd9b53" label="roomC_4" asset="res/roomChoose/roomC_4.png"/>
+</item>

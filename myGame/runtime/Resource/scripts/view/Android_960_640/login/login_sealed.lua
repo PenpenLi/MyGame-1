@@ -1,0 +1,29 @@
+local login_sealed=
+{
+	name="login_sealed",type=0,typeName="View",time=0,x=0,y=0,width=960,height=640,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="Image_bg",type=1,typeName="Image",time=0,x=0,y=0,width=570,height=420,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_popup_bg_small1.png",varname="Image_bg",callbackfunc="onPopupBgTouch",
+		{
+			name="Image3",type=1,typeName="Image",time=0,x=0,y=-158,width=326,height=77,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_title1.png",
+			{
+				name="Text_title",type=4,typeName="Text",time=0,x=0,y=25,width=164,height=37,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,fontSize=20,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,colorA=1,varname="Text_title"
+			}
+		},
+		{
+			name="TextView_content",type=5,typeName="TextView",time=0,x=0,y=-36,width=484,height=101,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=20,textAlign=kAlignTopLeft,colorRed=255,colorGreen=255,colorBlue=255,colorA=1,varname="TextView_content"
+		},
+		{
+			name="Buttton_help",type=1,typeName="Button",time=0,x=-225,y=-152,width=66,height=60,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/login/login_feedback.png",varname="Buttton_help",callbackfunc="sealedBtnClick"
+		},
+		{
+			name="Text_mode",type=4,typeName="Text",time=0,x=0,y=39,width=484,height=35,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=20,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,varname="Text_mode",colorA=1
+		},
+		{
+			name="Text_time",type=4,typeName="Text",time=0,x=0,y=79,width=484,height=35,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=20,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,varname="Text_time",colorA=1
+		},
+		{
+			name="Text_info",type=5,typeName="TextView",time=0,x=0,y=141,width=484,height=80,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=20,textAlign=kAlignLeft,colorRed=255,colorGreen=255,colorBlue=255,varname="Text_info"
+		}
+	}
+}
+return login_sealed;

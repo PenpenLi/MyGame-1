@@ -1,0 +1,12 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image3 type="1" typeName="Image" time="0" x="0" y="-158" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="33b239241ad84d697765297faea5ae99" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+      <Text_title type="4" typeName="Text" time="0" x="0" y="25" width="164" height="37" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" fontName="" fontSize="20" textAlign="0" color="0xFFFFFF" colorA="1" varname="Text_title"/>
+    </Image3>
+    <TextView_content type="5" typeName="TextView" time="0" x="0" y="-36" width="484" height="101" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="8" color="0xFFFFFF" colorA="1" varname="TextView_content"/>
+    <Buttton_help type="1" typeName="Button" time="0" x="-225" y="-152" width="66" height="60" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c23440f566fabec1a86f236039c40f53" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Buttton_help" callbackfunc="sealedBtnClick"/>
+    <Text_mode type="4" typeName="Text" time="0" x="0" y="39" width="484" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="7" color="0xFFFFFF" varname="Text_mode" colorA="1"/>
+    <Text_time type="4" typeName="Text" time="0" x="0" y="79" width="484" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="7" color="0xFFFFFF" varname="Text_time" colorA="1"/>
+    <Text_info type="5" typeName="TextView" time="0" x="0" y="141" width="484" height="80" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="7" color="0xFFFFFF" varname="Text_info"/>
+  </Image_bg>
+</root>

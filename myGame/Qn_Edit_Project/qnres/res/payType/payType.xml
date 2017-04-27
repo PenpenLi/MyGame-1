@@ -1,0 +1,7 @@
+<item label="payType" compress="0" asset="res/payType" isDirectory="true">
+  <item atlasType="0" compress="0" key="320fe5afbe2d9beb9474deb39fc2a368" label="first_recharge_12_icon" asset="res/payType/first_recharge_12_icon.png"/>
+  <item atlasType="0" compress="0" key="ab92c44ba07b35f21f2ef5cff6ec3879" label="first_recharge_46_icon" asset="res/payType/first_recharge_46_icon.png"/>
+  <item atlasType="0" compress="0" key="b7edaf389001886cae602b9f0ffd4a64" label="first_recharge_269_icon" asset="res/payType/first_recharge_269_icon.png"/>
+  <item atlasType="0" compress="0" key="ca9bd834ffb81f1ef51c530aae86302d" label="first_recharge_205_icon" asset="res/payType/first_recharge_205_icon.png"/>
+  <item atlasType="0" compress="0" key="effdcfac2cb090991eecb2d9a28f49b2" label="first_recharge_147_icon" asset="res/payType/first_recharge_147_icon.png"/>
+</item>

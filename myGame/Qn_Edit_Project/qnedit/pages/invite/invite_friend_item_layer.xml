@@ -1,0 +1,13 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="214" height="108" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <View2 type="0" typeName="View" time="0" x="2" y="5" width="214" height="103" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8">
+    <itemButton type="1" typeName="Button" time="0" x="-2" y="-5" width="214" height="103" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ea44e87434d93d2514b33b3a083a0aa9" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="itemButton" callbackfunc="onItemButtonClick">
+      <nameLabel type="4" typeName="Text" time="0" x="120" y="13" width="87" height="39" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="21" textAlign="7" color="0x00ffa0" string="Domin" colorA="1" varname="nameLabel"/>
+      <moneyLabel type="4" typeName="Text" time="0" x="119" y="59" width="100" height="38" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="7" color="0x00f6ff" string="+20K" colorA="1" varname="moneyLabel"/>
+      <Image9 type="1" typeName="Image" time="0" x="85" y="62" width="31" height="29" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="487e9fe8cc6f2cdd0823a2811952212e" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <SexIcon type="1" typeName="Image" time="0" x="86" y="19" width="30" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ec0162fa9eb0349e47b47bf6dbdcd6dd" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="SexIcon"/>
+      <headImage type="1" typeName="Image" time="0" x="-60" y="0" width="64" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="66e9b7ffacb52a9a71013360c5ad1f27" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="headImage"/>
+      <Vipk type="1" typeName="Image" time="0" x="-60" y="0" width="80" height="82" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="66c88eff95d7a5cbd22fdc15fb21a30d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Vipk"/>
+    </itemButton>
+  </View2>
+  <checkImage type="1" typeName="Image" time="0" x="175" y="4" width="32" height="32" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="2db3597cffd3a1c404205b9a826481e9" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="checkImage"/>
+</root>

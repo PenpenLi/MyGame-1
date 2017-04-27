@@ -1,0 +1,11 @@
+<item label="login" compress="0" asset="res/login" isDirectory="true">
+  <item atlasType="0" compress="0" key="04b74bfc468facc1f1cbcf17fe920663" label="login_guest__btn" asset="res/login/login_guest__btn.png"/>
+  <item atlasType="0" compress="0" key="3cc5b5251f1252d15c30e64d5aaeadab" label="login_single_btn" asset="res/login/login_single_btn.png"/>
+  <item atlasType="0" compress="0" key="7a93ef023395ca274010e0f3b98cfb99" label="login_fb_desc" asset="res/login/login_fb_desc.png"/>
+  <item atlasType="0" compress="0" key="7d65783a67d47e9b5ba56589d075e98d" label="login_fb_bg" asset="res/login/login_fb_bg.png" grid="20,20,100,100"/>
+  <item atlasType="0" compress="0" key="9377b0187324edfcf7ca2db605259f93" label="login_help_down" asset="res/login/login_help_down.png" grid="15,15,20,20"/>
+  <item atlasType="0" compress="0" key="a7b7b81315180037fd0ca159d55a7770" label="login_fb_up" asset="res/login/login_fb_up.png" grid="15,15,20,20"/>
+  <item atlasType="0" compress="0" key="c23440f566fabec1a86f236039c40f53" label="login_feedback" asset="res/login/login_feedback.png"/>
+  <item atlasType="0" compress="0" key="cbee614c7be2ab0a0ba0836f6f47f80f" label="login_rotary_dot" asset="res/login/login_rotary_dot.png" alias="login_rotary_dot"/>
+  <item atlasType="0" compress="0" key="e8bf6486017843d49d73b9d1e4a5d0e3" label="login_fb_btn" asset="res/login/login_fb_btn.png"/>
+</item>

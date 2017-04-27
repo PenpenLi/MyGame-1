@@ -1,0 +1,19 @@
+<item label="rank" compress="0" asset="res/rank" isDirectory="true">
+  <item atlasType="0" compress="0" key="173835aabef5f53ce405f623de1f75f6" label="rank_sub_bg" asset="res/rank/rank_sub_bg.png" grid="15,15,15,15"/>
+  <item atlasType="0" compress="0" key="1aaecd83b630659cbb013cf675b53338" label="rank_btn_rule" asset="res/rank/rank_btn_rule.png"/>
+  <item atlasType="0" compress="0" key="3673e07c1a2275fea42b4796006c28b5" label="rank_title_profit_unchoose" asset="res/rank/rank_title_profit_unchoose.png"/>
+  <item atlasType="0" compress="0" key="369410e5c1a323d447cf432e80f7ce7d" label="rank_btn_detail" asset="res/rank/rank_btn_detail.png"/>
+  <item atlasType="0" compress="0" key="390641fd3641192b91286f99ad24c84e" label="rank_rank_2" asset="res/rank/rank_rank_2.png" alias="rank_rank_2"/>
+  <item atlasType="0" compress="0" key="5aa0d892d9220a96dcb7ba968ee948d3" label="rank_title_profit_choose" asset="res/rank/rank_title_profit_choose.png"/>
+  <item atlasType="0" compress="0" key="67f9831a08703686aa5f29e4b62da943" label="rank_rank_3" asset="res/rank/rank_rank_3.png" alias="rank_rank_3"/>
+  <item atlasType="0" compress="0" key="7956855c8c3783f43e0f75cc1e7f9b70" label="rank_btn_track" asset="res/rank/rank_btn_track.png"/>
+  <item atlasType="0" compress="0" key="a1d7c1ca71905fdd1df5183c2ff1f219" label="rank_pop_item_bg" asset="res/rank/rank_pop_item_bg.png" alias="rank_pop_item_bg"/>
+  <item atlasType="0" compress="0" key="b7364e5b82482d35e618ec00470bf29b" label="rank_btn_track_disable" asset="res/rank/rank_btn_track_disable.png"/>
+  <item atlasType="0" compress="0" key="c5ca18a6ad701c520ab7a072a7e78913" label="rank_title_game_choose" asset="res/rank/rank_title_game_choose.png"/>
+  <item atlasType="0" compress="0" key="c5caece7e18cb89c2ccc145c119b8e33" label="rank_title_money_choose" asset="res/rank/rank_title_money_choose.png"/>
+  <item atlasType="0" compress="0" key="d120121ee1091aaa965bada6bd5c1589" label="rank_title_game_unchoose" asset="res/rank/rank_title_game_unchoose.png"/>
+  <item atlasType="0" compress="0" key="d4fbe3da0e0c1437fdb6aeb6367526b3" label="rank_self_rank_bg" asset="res/rank/rank_self_rank_bg.png" alias="rank_self_rank_bg"/>
+  <item atlasType="0" compress="0" key="ef06757a1266fd7b653baf774bd3f16a" label="rank_rank_1" asset="res/rank/rank_rank_1.png" alias="rank_rank_1"/>
+  <item atlasType="0" compress="0" key="ef13c6b042c3cff7bde982f16178c8c7" label="rank_title_money_unchoose" asset="res/rank/rank_title_money_unchoose.png"/>
+  <item atlasType="0" compress="0" key="f1c46efb71ded44ea7240603f3cde5cb" label="rank_rang_bg" asset="res/rank/rank_rang_bg.png" alias="rank_rang_bg"/>
+</item>

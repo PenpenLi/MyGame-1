@@ -1,0 +1,9 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_touch type="1" typeName="Image" time="0" x="0" y="0" width="-1" height="-1" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" file="831b0e7666504bc82ab9ed1227613b3f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_touch" callbackfunc="onBgTouch"/>
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="710" height="517" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2491d8a29bfb06ed81b6ed13dfb240ee" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image3 type="1" typeName="Image" time="0" x="181" y="3" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="9118df0b7cbdaeddd69649911181706d" packFile="" gridLeft="150" gridRight="150" gridTop="35" gridBottom="35"/>
+    <Text_title type="4" typeName="Text" time="0" x="264" y="23" width="162" height="37" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_title"/>
+    <ListView_history type="0" typeName="ListView" time="0" x="29" y="105" width="654" height="373" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="ListView_history"/>
+    <Text_noData type="4" typeName="Text" time="0" x="205" y="235" width="280" height="78" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_noData"/>
+  </Image_bg>
+</root>

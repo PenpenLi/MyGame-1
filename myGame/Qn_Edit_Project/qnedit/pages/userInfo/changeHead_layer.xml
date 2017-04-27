@@ -1,0 +1,18 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="16" width="710" height="517" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="6f724816e58a93bf2343637c42004b00" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image3 type="1" typeName="Image" time="0" x="188" y="2" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="33b239241ad84d697765297faea5ae99" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <Text_change_head type="4" typeName="Text" time="0" x="272" y="28" width="152" height="38" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_change_head"/>
+    <ScrollView_headList type="0" typeName="ScrollView" time="0" x="31" y="100" width="650" height="209" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="ScrollView_headList"/>
+    <Text_tip type="4" typeName="Text" time="0" x="15" y="455" width="670" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="15" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_tip"/>
+    <Button_use type="1" typeName="Button" time="0" x="277" y="316" width="139" height="56" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ff79594ad0788e8663d12cc7a0b53ec1" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Button_use">
+      <Text_use type="4" typeName="Text" time="0" x="18" y="9" width="100" height="33" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_use"/>
+    </Button_use>
+    <Image15 type="1" typeName="Image" time="0" x="13" y="387" width="687" height="105" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ec2118a2d9e25e5731a0e17f7e3c29d0" packFile="" gridLeft="15" gridRight="15" gridTop="10" gridBottom="20"/>
+    <Button_picture type="1" typeName="Button" time="0" x="134" y="396" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="e0b8cf297c456c99a82b2cb5a4cb08e6" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="Button_picture">
+      <Text_photo type="4" typeName="Text" time="0" x="26" y="6" width="142" height="49" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_photo"/>
+    </Button_picture>
+    <Button_photo type="1" typeName="Button" time="0" x="368" y="392" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="Button_photo">
+      <Text_picture type="4" typeName="Text" time="0" x="26" y="11" width="142" height="49" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="26" textAlign="0" color="0xFFFFFF" string="Text" varname="Text_picture"/>
+    </Button_photo>
+  </Image_bg>
+</root>

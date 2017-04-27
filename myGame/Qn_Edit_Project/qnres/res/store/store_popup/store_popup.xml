@@ -1,0 +1,5 @@
+<item label="store_popup" compress="0" asset="res/store/store_popup" isDirectory="true">
+  <item atlasType="0" compress="0" key="2f4df1de5f55b3e26359da1fffbaacb4" label="store_popup_mask" asset="res/store/store_popup/store_popup_mask.png"/>
+  <item atlasType="0" compress="0" key="a1b93e89dbc1c73613d769834e5d78e8" label="store_popup_left_bg" asset="res/store/store_popup/store_popup_left_bg.png"/>
+  <item atlasType="0" compress="0" key="c5f1216cb2fd17597a441c6b0e898e14" label="store_popup_item_bg" asset="res/store/store_popup/store_popup_item_bg.png" alias="store_popup_item_bg"/>
+</item>

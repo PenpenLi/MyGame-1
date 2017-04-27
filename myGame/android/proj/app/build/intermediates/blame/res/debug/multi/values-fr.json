@@ -1,0 +1,1033 @@
+[
+    {
+        "outputFile": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 73,
+                    "endOffset": 174
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 73,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 179,
+                    "endColumn": 142,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 142,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 142,
+                    "endOffset": 460
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 307,
+                        "endColumn": 142,
+                        "endOffset": 445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 465,
+                    "endColumn": 95,
+                    "endOffset": 556
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 450,
+                        "endColumn": 95,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 561,
+                    "endColumn": 70,
+                    "endOffset": 627
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 546,
+                        "endColumn": 70,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 632,
+                    "endColumn": 69,
+                    "endOffset": 697
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 617,
+                        "endColumn": 69,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 702,
+                    "endColumn": 62,
+                    "endOffset": 760
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 62,
+                        "endOffset": 745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 765,
+                    "endColumn": 72,
+                    "endOffset": 833
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 750,
+                        "endColumn": 72,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 838,
+                    "endColumn": 74,
+                    "endOffset": 908
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 823,
+                        "endColumn": 74,
+                        "endOffset": 893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 913,
+                    "endColumn": 93,
+                    "endOffset": 1002
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 898,
+                        "endColumn": 93,
+                        "endOffset": 987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1007,
+                    "endColumn": 77,
+                    "endOffset": 1080
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 992,
+                        "endColumn": 77,
+                        "endOffset": 1065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1085,
+                    "endColumn": 77,
+                    "endOffset": 1158
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1070,
+                        "endColumn": 77,
+                        "endOffset": 1143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1163,
+                    "endColumn": 92,
+                    "endOffset": 1251
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1148,
+                        "endColumn": 92,
+                        "endOffset": 1236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1256,
+                    "endColumn": 108,
+                    "endOffset": 1360
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1241,
+                        "endColumn": 108,
+                        "endOffset": 1345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1365,
+                    "endColumn": 65,
+                    "endOffset": 1426
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1350,
+                        "endColumn": 65,
+                        "endOffset": 1411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1431,
+                    "endColumn": 67,
+                    "endOffset": 1494
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1416,
+                        "endColumn": 67,
+                        "endOffset": 1479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1499,
+                    "endColumn": 145,
+                    "endOffset": 1640
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1484,
+                        "endColumn": 145,
+                        "endOffset": 1625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1645,
+                    "endColumn": 288,
+                    "endOffset": 1929
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 288,
+                        "endOffset": 613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1934,
+                    "endColumn": 128,
+                    "endOffset": 2058
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 618,
+                        "endColumn": 128,
+                        "endOffset": 742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2063,
+                    "endColumn": 211,
+                    "endOffset": 2270
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 747,
+                        "endColumn": 211,
+                        "endOffset": 954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2275,
+                    "endColumn": 131,
+                    "endOffset": 2402
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 959,
+                        "endColumn": 131,
+                        "endOffset": 1086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2407,
+                    "endColumn": 135,
+                    "endOffset": 2538
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1091,
+                        "endColumn": 135,
+                        "endOffset": 1222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2543,
+                    "endColumn": 236,
+                    "endOffset": 2775
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1227,
+                        "endColumn": 236,
+                        "endOffset": 1459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2780,
+                    "endColumn": 236,
+                    "endOffset": 3012
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1464,
+                        "endColumn": 236,
+                        "endOffset": 1696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3017,
+                    "endColumn": 134,
+                    "endOffset": 3147
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1701,
+                        "endColumn": 134,
+                        "endOffset": 1831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3152,
+                    "endColumn": 194,
+                    "endOffset": 3342
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1836,
+                        "endColumn": 194,
+                        "endOffset": 2026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3347,
+                    "endColumn": 121,
+                    "endOffset": 3464
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2031,
+                        "endColumn": 121,
+                        "endOffset": 2148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3469,
+                    "endColumn": 192,
+                    "endOffset": 3657
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2153,
+                        "endColumn": 192,
+                        "endOffset": 2341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3662,
+                    "endColumn": 119,
+                    "endOffset": 3777
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2346,
+                        "endColumn": 119,
+                        "endOffset": 2461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3782,
+                    "endColumn": 141,
+                    "endOffset": 3919
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2466,
+                        "endColumn": 141,
+                        "endOffset": 2603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3924,
+                    "endColumn": 201,
+                    "endOffset": 4121
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2608,
+                        "endColumn": 201,
+                        "endOffset": 2805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 4126,
+                    "endColumn": 151,
+                    "endOffset": 4273
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2810,
+                        "endColumn": 151,
+                        "endOffset": 2957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4278,
+                    "endColumn": 180,
+                    "endOffset": 4454
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2962,
+                        "endColumn": 180,
+                        "endOffset": 3138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4459,
+                    "endColumn": 124,
+                    "endOffset": 4579
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 3143,
+                        "endColumn": 124,
+                        "endOffset": 3263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4584,
+                    "endColumn": 187,
+                    "endOffset": 4767
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3268,
+                        "endColumn": 187,
+                        "endOffset": 3451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4772,
+                    "endColumn": 128,
+                    "endOffset": 4896
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3456,
+                        "endColumn": 128,
+                        "endOffset": 3580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4901,
+                    "endColumn": 287,
+                    "endOffset": 5184
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 287,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 5189,
+                    "endColumn": 275,
+                    "endOffset": 5460
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3585,
+                        "endColumn": 275,
+                        "endOffset": 3856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 5465,
+                    "endColumn": 123,
+                    "endOffset": 5584
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3861,
+                        "endColumn": 123,
+                        "endOffset": 3980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 5589,
+                    "endColumn": 113,
+                    "endOffset": 5698
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3985,
+                        "endColumn": 113,
+                        "endOffset": 4094
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5703,
+                    "endColumn": 215,
+                    "endOffset": 5914
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 4099,
+                        "endColumn": 215,
+                        "endOffset": 4310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5919,
+                    "endColumn": 137,
+                    "endOffset": 6052
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 4315,
+                        "endColumn": 137,
+                        "endOffset": 4448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 6057,
+                    "endColumn": 218,
+                    "endOffset": 6271
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4453,
+                        "endColumn": 218,
+                        "endOffset": 4667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 6276,
+                    "endColumn": 137,
+                    "endOffset": 6409
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4672,
+                        "endColumn": 137,
+                        "endOffset": 4805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 6414,
+                    "endColumn": 208,
+                    "endOffset": 6618
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 4810,
+                        "endColumn": 208,
+                        "endOffset": 5014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 6623,
+                    "endColumn": 102,
+                    "endOffset": 6721
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 5019,
+                        "endColumn": 102,
+                        "endOffset": 5117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 6726,
+                    "endColumn": 96,
+                    "endOffset": 6818
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 5122,
+                        "endColumn": 96,
+                        "endOffset": 5214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 6823,
+                    "endColumn": 112,
+                    "endOffset": 6931
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 5219,
+                        "endColumn": 112,
+                        "endOffset": 5327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 6936,
+                    "endColumn": 135,
+                    "endOffset": 7067
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 135,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 7072,
+                    "endColumn": 108,
+                    "endOffset": 7176
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 490,
+                        "endColumn": 108,
+                        "endOffset": 594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 7181,
+                    "endColumn": 73,
+                    "endOffset": 7250
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endColumn": 73,
+                        "endOffset": 668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 7255,
+                    "endColumn": 62,
+                    "endOffset": 7313
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1756,
+                        "endColumn": 62,
+                        "endOffset": 1814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 7318,
+                    "endColumn": 147,
+                    "endOffset": 7461
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 673,
+                        "endColumn": 147,
+                        "endOffset": 816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 7466,
+                    "endColumn": 98,
+                    "endOffset": 7560
+                },
+                "from": {
+                    "file": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-fr\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 821,
+                        "endColumn": 98,
+                        "endOffset": 915
+                    }
+                }
+            }
+        ]
+    }
+]

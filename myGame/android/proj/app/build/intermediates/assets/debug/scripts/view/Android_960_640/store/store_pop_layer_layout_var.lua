@@ -1,0 +1,43 @@
+--Created by the QnEditor,do not modify.If not,you will die very nankan!
+local MAP = {
+	var = {
+		bg = 1,
+		goodsTypeGroup = 2,
+		typeGoodsRadiobutton = 3,
+		typePropsRadiobutton = 4,
+		typeHistoryRadiobutton = 5,
+		leftBg = 6,
+		payTypeListView = 7,
+		propTypeListView = 8,
+		salerImage = 9,
+		contentView = 10,
+		propListView = 11,
+		goodsListView = 12,
+		historyView = 13,
+		historyListView = 14,
+		noDataTipLabel = 15,
+		mask = 16,
+	},
+	ui = {
+		[1] = {"bg"},
+		[2] = {"bg","Image24","goodsTypeGroup"},
+		[3] = {"bg","Image24","goodsTypeGroup","typeGoodsRadiobutton"},
+		[4] = {"bg","Image24","goodsTypeGroup","typePropsRadiobutton"},
+		[5] = {"bg","Image24","goodsTypeGroup","typeHistoryRadiobutton"},
+		[6] = {"bg","leftBg"},
+		[7] = {"bg","payTypeListView"},
+		[8] = {"bg","propTypeListView"},
+		[9] = {"bg","salerImage"},
+		[10] = {"bg","contentViewsss"},
+		[11] = {"bg","contentViewsss","propListView"},
+		[12] = {"bg","contentViewsss","goodsListView"},
+		[13] = {"bg","contentViewsss","historyView"},
+		[14] = {"bg","contentViewsss","historyView","historyListView"},
+		[15] = {"bg","contentViewsss","historyView","noDataTipLabel"},
+		[16] = {"bg","contentViewsss","mask"},
+	},
+	func = {
+		[1] = "onPopupBgTouch",
+	},
+}
+return MAP;

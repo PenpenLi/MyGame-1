@@ -1,0 +1,43 @@
+<item label="hall" compress="0" asset="res/hall" isDirectory="true">
+  <item atlasType="0" compress="0" key="03202a873ed2a0c1c95e26e1d761ba32" label="hall_rank_btn" asset="res/hall/hall_rank_btn.png"/>
+  <item atlasType="0" compress="0" key="03c25c707db7d8cd29693579d450b8d2" label="hall_friends_btn" asset="res/hall/hall_friends_btn.png"/>
+  <item atlasType="0" compress="0" key="07d3b237480c32143ede18cae196e409" label="hall_changeTab_btn" asset="res/hall/hall_changeTab_btn.png"/>
+  <item atlasType="0" compress="0" key="08af314d9b59fbe0d72943368b969a0c" label="hall_invite_bg" asset="res/hall/hall_invite_bg.png"/>
+  <item atlasType="0" compress="0" key="0ce693b86db37e31b68c36fcecda8e2a" label="hall_msg_bubble" asset="res/hall/hall_msg_bubble.png" grid="60,60,25,40" alias="msg_bubble"/>
+  <item atlasType="0" compress="0" key="15fb577841a3b17311dfe15f2e647f16" label="hall_task_btn" asset="res/hall/hall_task_btn.png"/>
+  <item atlasType="0" compress="0" key="1eb378d4a1b7cca18a0f58efea721484" label="hall_quickStart_txt" asset="res/hall/hall_quickStart_txt.png"/>
+  <item atlasType="0" compress="0" key="292f9210235625e0f84148983199332f" label="hall_girl_eyes_1" asset="res/hall/hall_girl_eyes_1.png"/>
+  <item atlasType="0" compress="0" key="2dca76f4c8aae1ad50b2ef677f87702c" label="hall_girl_eyes_2" asset="res/hall/hall_girl_eyes_2.png"/>
+  <item atlasType="0" compress="0" key="3eb79d27e83197253752b7035132e5f4" label="hall_ownItem_bg" asset="res/hall/hall_ownItem_bg.png"/>
+  <item atlasType="0" compress="0" key="443a0f46fa78294a9487c649cd833a1a" label="hall_poker_icon" asset="res/hall/hall_poker_icon.png"/>
+  <item atlasType="0" compress="0" key="4545b599a69103b8ad9f531c193f4abb" label="hall_big_point" asset="res/hall/hall_big_point.png"/>
+  <item atlasType="0" compress="0" key="4d299ead6c8a636d6a556259566b0b0c" label="hall_add_btn" asset="res/hall/hall_add_btn.png"/>
+  <item atlasType="0" compress="0" key="5a6edd9a15c825e3d66a2ce05ab9ba9a" label="hall_facebook_invite" asset="res/hall/hall_facebook_invite.png"/>
+  <item atlasType="0" compress="0" key="617f1e15c802d7d223ee899bcfe81476" label="hall_message_btn" asset="res/hall/hall_message_btn.png"/>
+  <item atlasType="0" compress="0" key="66c88eff95d7a5cbd22fdc15fb21a30d" label="hall_playerhead_bg" asset="res/hall/hall_playerhead_bg.png"/>
+  <item atlasType="0" compress="0" key="66dcd90023704b340d0e6bc3b21b063d" label="hall_playerItem_bg" asset="res/hall/hall_playerItem_bg.png"/>
+  <item atlasType="0" compress="0" key="6f49dc6c6c0c6ba74a3091742ab9bc23" label="hall_addFriends_btn" asset="res/hall/hall_addFriends_btn.png"/>
+  <item atlasType="0" compress="0" key="75d2a4b62b50a612855c5a45508fdbe3" label="hall_small_lightPoint" asset="res/hall/hall_small_lightPoint.png"/>
+  <item atlasType="0" compress="0" key="7fd9305781b64f4334ca2b3c285ecacc" label="hall_purple_btn" asset="res/hall/hall_purple_btn.png"/>
+  <item atlasType="0" compress="0" key="8cbe02af82f9a2b80c25cd95885d7645" label="hall_activity_btn" asset="res/hall/hall_activity_btn.png"/>
+  <item atlasType="0" compress="0" key="8da6541ae4a665163574ba7fb222075d" label="hall_gaple_icon" asset="res/hall/hall_gaple_icon.png"/>
+  <item atlasType="0" compress="0" key="98f3fd6f22fa6ed311f9c37b136617c5" label="hall_setting_btn" asset="res/hall/hall_setting_btn.png"/>
+  <item atlasType="0" compress="0" key="9d90cf8e6107dc35b23f6a8a08ac7483" label="hall_chips_bg" asset="res/hall/hall_chips_bg.png"/>
+  <item atlasType="0" compress="0" key="9d9ebb3d315e639feeb85c7077e366c5" label="hall_lottery_word" asset="res/hall/hall_lottery_word.png"/>
+  <item atlasType="0" compress="0" key="a033c841466e2201caf57eddf8d9833e" label="hall_yellow_btn" asset="res/hall/hall_yellow_btn.png"/>
+  <item atlasType="0" compress="0" key="a2eff3bb34bc776e433769845e9ffdae" label="hall_lottery_btn" asset="res/hall/hall_lottery_btn.png"/>
+  <item atlasType="0" compress="0" key="b30922a4358af6004f42b16111b0bb32" label="hall_red_btn" asset="res/hall/hall_red_btn.png"/>
+  <item atlasType="0" compress="0" key="ba1139eb72f4aa27c442aad223926462" label="hall_chips_icon" asset="res/hall/hall_chips_icon.png"/>
+  <item atlasType="0" compress="0" key="bba481eea58fdb7b83658a01dbd39cca" label="hall_dice_icon" asset="res/hall/hall_dice_icon.png"/>
+  <item atlasType="0" compress="0" key="c1887a9aab4a864346f9d302b86fd715" label="hall_freeChips_btn" asset="res/hall/hall_freeChips_btn.png"/>
+  <item atlasType="0" compress="0" key="cd6dd1cd00fb2c652424d6f29eb9da1c" label="hall_ranking_bg" asset="res/hall/hall_ranking_bg.png"/>
+  <item atlasType="0" compress="0" key="d1246e4ba03dc9d68ced40cb1b438df6" label="hall_girl" asset="res/hall/hall_girl.png"/>
+  <item atlasType="0" compress="0" key="d27c101911d5e5f74362022729a2e7ec" label="hall_gold_icon" asset="res/hall/hall_gold_icon.png"/>
+  <item atlasType="0" compress="0" key="d7a61da5e5fcdddcc03b2249e47c45e9" label="hall_changeTab_bg" asset="res/hall/hall_changeTab_bg.png"/>
+  <item atlasType="0" compress="0" key="dc1749088cdc973baf1b665328d946ac" label="hall_qiuqiu_icon" asset="res/hall/hall_qiuqiu_icon.png"/>
+  <item atlasType="0" compress="0" key="dc71596723fa8127a1a31ade0e8203b9" label="hall_blue_btn" asset="res/hall/hall_blue_btn.png"/>
+  <item atlasType="0" compress="0" key="dd91c92883fec969cd04bf661b084120" label="hall_small_point" asset="res/hall/hall_small_point.png"/>
+  <item atlasType="0" compress="0" key="e100bfdbf8aadff32da0a61ac2507e84" label="hall_mall_btn" asset="res/hall/hall_mall_btn.png"/>
+  <item atlasType="0" compress="0" key="e76271be4e434a632266e26f690d966b" label="hall_bottomBtn_bg" asset="res/hall/hall_bottomBtn_bg.png"/>
+  <item atlasType="0" compress="0" key="f485b8e1f984d50e76c1efde6d12777a" label="hall_more_icon" asset="res/hall/hall_more_icon.png"/>
+</item>

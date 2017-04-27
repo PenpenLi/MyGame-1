@@ -1,0 +1,29 @@
+local dialog_pop_layer=
+{
+	name="dialog_pop_layer",type=0,typeName="View",time=0,x=0,y=0,width=960,height=640,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,
+	{
+		name="popup_bg",type=1,typeName="Image",time=0,x=7,y=-1,width=570,height=420,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_popup_bg_small1.png",varname="popup_bg",callbackfunc="onPopupBgTouch",
+		{
+			name="Image3",type=1,typeName="Image",time=0,x=0,y=12,width=326,height=77,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTop,file="res/common/common_pop_bg_title.png",gridLeft=150,gridRight=150,gridTop=35,gridBottom=35,
+			{
+				name="title",type=4,typeName="Text",time=0,x=0,y=0,width=325,height=74,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=30,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[title]],varname="title",colorA=1
+			}
+		},
+		{
+			name="message",type=5,typeName="TextView",time=0,x=0,y=-6,width=500,height=207,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=26,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[TextView]],varname="message",colorA=1
+		},
+		{
+			name="firstBtn",type=1,typeName="Button",time=0,x=-110,y=38,width=192,height=69,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="res/common/common_btn_purple.png",varname="firstBtn",callbackfunc="onFirstBtnClick",
+			{
+				name="firstBtn_text",type=4,typeName="Text",time=0,x=0,y=0,width=130,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[取消]],varname="firstBtn_text",colorA=1
+			}
+		},
+		{
+			name="secondBtn",type=1,typeName="Button",time=0,x=110,y=40,width=192,height=69,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="res/common/common_btn_yellow.png",gridLeft=50,gridRight=50,gridTop=35,gridBottom=34,varname="secondBtn",callbackfunc="onSecondBtnClick",
+			{
+				name="secondBtn_text",type=4,typeName="Text",time=0,x=0,y=0,width=130,height=42,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=24,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[确定]],varname="secondBtn_text"
+			}
+		}
+	}
+}
+return dialog_pop_layer;

@@ -1,0 +1,7 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="60" height="80" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <headButton type="1" typeName="Button" time="0" x="0" y="5" width="60" height="60" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="c28eae11be2f8dbe1e6e7308aaa9fd97" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="headButton" callbackfunc="onHeadButtonClick">
+    <headImage type="1" typeName="Image" time="0" x="0" y="0" width="64" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="66e9b7ffacb52a9a71013360c5ad1f27" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="headImage"/>
+    <Vipk type="1" typeName="Image" time="0" x="0" y="0" width="80" height="82" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="66c88eff95d7a5cbd22fdc15fb21a30d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Vipk"/>
+  </headButton>
+  <cur_num type="4" typeName="Text" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" fontName="" fontSize="16" textAlign="0" color="0xffbebc" string="100" varname="cur_num" colorA="1"/>
+</root>

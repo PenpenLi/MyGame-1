@@ -1,0 +1,63 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="680" height="400" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <Image15 type="1" typeName="Image" time="0" x="0" y="0" width="472" height="320" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" file="13330a45e3c45a58723c20af94d88fd0" packFile="" gridLeft="8" gridRight="1" gridTop="0" gridBottom="0"/>
+  <event_image_node type="1" typeName="Image" time="0" x="12" y="17" width="190" height="170" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="df165504cfd92e575fa5fd518fad02bc" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="event_image_node">
+    <event_icon type="1" typeName="Image" time="0" x="0" y="0" width="220" height="118" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="3d778d2384ae5a99efb1dc44fa3e32f4" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="event_icon"/>
+    <event_image type="1" typeName="Image" time="0" x="0" y="0" width="190" height="170" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c28eae11be2f8dbe1e6e7308aaa9fd97" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="event_image"/>
+  </event_image_node>
+  <rank_view type="1" typeName="Image" time="0" x="12" y="200" width="190" height="191" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="7afa2c6c80a9412095e59ade21f466e8" packFile="" gridLeft="15" gridRight="15" gridTop="40" gridBottom="20" varname="rank_view">
+    <rank_scroller_view type="0" typeName="ScrollView" time="0" x="0" y="33" width="180" height="156" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="rank_scroller_view"/>
+    <rank_title type="4" typeName="Text" time="0" x="0" y="7" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" fontName="" fontSize="16" textAlign="7" color="0xffbedc" varname="rank_title" colorA="1"/>
+  </rank_view>
+  <countdown_time_bg type="1" typeName="Image" time="0" x="323" y="16" width="250" height="32" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="ec901e7c4b8e8545577d0a302ea9385a" packFile="" gridLeft="30" gridRight="30" gridTop="16" gridBottom="16" varname="countdown_time_bg">
+    <fullService_event_time type="4" typeName="Text" time="0" x="0" y="0" width="0" height="0" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="18" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="fullService_event_time"/>
+  </countdown_time_bg>
+  <num_bar type="1" typeName="Image" time="0" x="215" y="100" width="336" height="86" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="9d3377d63b54744d3a7b42e5738fa739" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="num_bar">
+    <num_clip_view type="0" typeName="View" time="0" x="0" y="0" width="100" height="76" visible="true" fillParentWidth="true" fillParentHeight="false" nodeAlign="0" varname="num_clip_view">
+      <point_1 type="1" typeName="Image" time="0" x="193" y="22" width="34" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="8b184db32896b4e8f0089cf91da0daf6" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="point_1"/>
+      <point_2 type="1" typeName="Image" time="0" x="71" y="22" width="34" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="8b184db32896b4e8f0089cf91da0daf6" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="point_2"/>
+      <node_1 type="0" typeName="View" time="0" x="1" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_1">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_1>
+      <node_2 type="0" typeName="View" time="0" x="44" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_2">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_2>
+      <node_3 type="0" typeName="View" time="0" x="85" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_3">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_3>
+      <node_4 type="0" typeName="View" time="0" x="125" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_4">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_4>
+      <node_5 type="0" typeName="View" time="0" x="166" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_5">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_5>
+      <node_6 type="0" typeName="View" time="0" x="206" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_6">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_6>
+      <node_7 type="0" typeName="View" time="0" x="247" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_7">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_7>
+      <node_8 type="0" typeName="View" time="0" x="289" y="0" width="43" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="2" varname="node_8">
+        <point_21 type="1" typeName="Image" time="0" x="0" y="0" width="34" height="42" visible="false" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" file="19aa0f2b52a0c77543cb5242faaf2d6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      </node_8>
+    </num_clip_view>
+    <Image43 type="1" typeName="Image" time="0" x="0" y="-61" width="44" height="18" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="7419b9b700ae07752bf22ae6f7c56922" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <Image44 type="1" typeName="Image" time="0" x="0" y="-61" width="44" height="18" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="c21d62574ffe16e8aedacc51600760e7" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+  </num_bar>
+  <fullService_event_name type="4" typeName="Text" time="0" x="45" y="-120" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="0" color="0xFFFFFF" colorA="1" varname="fullService_event_name" string="text"/>
+  <Image41 type="1" typeName="Image" time="0" x="217" y="101" width="333" height="84" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="d57f9bca9ad5fdeb09a268e3cc72ccf1" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+  <getRewardBtn type="1" typeName="Button" time="0" x="575" y="75" width="86" height="86" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="c28eae11be2f8dbe1e6e7308aaa9fd97" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="getRewardBtn" callbackfunc="onGetRewardBtnClick">
+    <reward_view type="1" typeName="Image" time="0" x="0" y="0" width="86" height="86" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="6daf20b255a57501452353e976022dbc" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="reward_view">
+      <Image24 type="1" typeName="Image" time="0" x="0" y="0" width="106" height="104" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="54abc9bb9d747f672340050021497d25" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+      <reward_icon type="1" typeName="Image" time="0" x="-4" y="0" width="93" height="67" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="92daaade6922fc1fabeab3cb08ca005d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="reward_icon"/>
+    </reward_view>
+    <Image25 type="1" typeName="Image" time="0" x="2" y="66" width="82" height="20" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="a9cc289f9b7ac06ff621c9c24385286d" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0">
+      <reward_text type="4" typeName="Text" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="18" textAlign="0" color="0x00d7ff" string="Text" colorA="1" varname="reward_text"/>
+    </Image25>
+    <reward_condition type="4" typeName="Text" time="0" x="0" y="60" width="48" height="24" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="20" textAlign="0" color="0xffbedc" colorA="1" varname="reward_condition"/>
+  </getRewardBtn>
+  <hasGetReward type="1" typeName="Image" time="0" x="278" y="-82" width="52" height="52" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="d3dcc2333c8cbba79ece89639e91a88c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="hasGetReward"/>
+  <fullService_event_desc type="0" typeName="ScrollView" time="0" x="225" y="200" width="441" height="130" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" varname="fullService_event_desc"/>
+  <quick_play_btn type="1" typeName="Button" time="0" x="100" y="162" width="232" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="quick_play_btn" callbackfunc="onQuickPlayBtnClick">
+    <quick_play_taxt type="4" typeName="Text" time="0" x="0" y="0" width="0" height="0" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="quick_play_taxt" colorA="1"/>
+  </quick_play_btn>
+</root>

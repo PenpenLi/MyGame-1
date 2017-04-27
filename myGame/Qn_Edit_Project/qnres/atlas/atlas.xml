@@ -1,0 +1,31 @@
+<item label="atlas" compress="0" asset="atlas" isDirectory="true">
+  <item atlasType="0" compress="0" key="020ee3fbfe5b558c8a59c508725d5b2e" label="qiuqiu" asset="atlas/qiuqiu.png"/>
+  <item atlasType="0" compress="0" key="0a3c5e2912b7839419f27b5500d25907" label="common2" asset="atlas/common2.png"/>
+  <item atlasType="0" compress="0" key="0dcddb8ff2aaa47ea9ce5f6daf6e83b6" label="userInfo" asset="atlas/userInfo.png"/>
+  <item atlasType="0" compress="0" key="1b0b3cda30c418bff9463eaeda475d80" label="hddj19" asset="atlas/hddj19.png"/>
+  <item atlasType="0" compress="0" key="201cb75e31bc3b8da6d8d28c3dd77140" label="hddj14" asset="atlas/hddj14.png"/>
+  <item atlasType="0" compress="0" key="3a3519fa17f86e839029f998c02829b9" label="hddj18" asset="atlas/hddj18.png"/>
+  <item atlasType="0" compress="0" key="3fb42676fe2f51d05cdd1c46e0bcc194" label="hddj15" asset="atlas/hddj15.png"/>
+  <item atlasType="0" compress="0" key="4403f9ec7803999f3f29a89e59b65b7e" label="expression" asset="atlas/expression.png"/>
+  <item atlasType="0" compress="0" key="446be2f60a5d392c44a430e174a5417c" label="hddj16" asset="atlas/hddj16.png"/>
+  <item atlasType="0" compress="0" key="57b9d4fde7df932592ad9db62a993983" label="expNormal" asset="atlas/expNormal.png"/>
+  <item atlasType="0" compress="0" key="5ccb84d615c66695228e88189fdabcca" label="hall" asset="atlas/hall.png"/>
+  <item atlasType="0" compress="0" key="5ff8733e96b88d9a3f46982fc8073e5e" label="expVip" asset="atlas/expVip.png"/>
+  <item atlasType="0" compress="0" key="7691221f3cc7bc26cb83741d2996acb8" label="hddj13" asset="atlas/hddj13.png"/>
+  <item atlasType="0" compress="0" key="806b4071288226c15c1752fc576604f0" label="hddj3" asset="atlas/hddj3.png"/>
+  <item atlasType="0" compress="0" key="814ae7f8d246e8089489e6bf8d89486b" label="login" asset="atlas/login.png"/>
+  <item atlasType="0" compress="0" key="87e41fa241d6ad9d409621485cd03e66" label="freeGold" asset="atlas/freeGold.png"/>
+  <item atlasType="0" compress="0" key="98ca37766dcbc0edea44e5b712be1bd8" label="common" asset="atlas/common.png"/>
+  <item atlasType="0" compress="0" key="a2f2e84e1aaa2c1143aef40a7e810b2a" label="roomRs" asset="atlas/roomRs.png"/>
+  <item atlasType="0" compress="0" key="a50abbc4a55f897baaa5f6aa489283b3" label="hddj12" asset="atlas/hddj12.png"/>
+  <item atlasType="0" compress="0" key="ad6205a11b91c2181a1dd784a8127f1e" label="hddj6" asset="atlas/hddj6.png"/>
+  <item atlasType="0" compress="0" key="af45cd65205ee221bf5846d1bff25c73" label="hddj1" asset="atlas/hddj1.png"/>
+  <item atlasType="0" compress="0" key="b9adeea4acb7f1239d389bbf296d6b10" label="hddj8" asset="atlas/hddj8.png"/>
+  <item atlasType="0" compress="0" key="c44f87c4a5135749cd3f6dbecc58cc75" label="expPunakawan2" asset="atlas/expPunakawan2.png"/>
+  <item atlasType="0" compress="0" key="cb55a30164f829413bf5d73ff52b917c" label="hddj17" asset="atlas/hddj17.png"/>
+  <item atlasType="0" compress="0" key="ceb0bda0dc7348f7214c5080cbfa07dc" label="hddj5" asset="atlas/hddj5.png"/>
+  <item atlasType="0" compress="0" key="d4283c47bef58091f0b071b116670d02" label="hddj7" asset="atlas/hddj7.png"/>
+  <item atlasType="0" compress="0" key="d928d30a46652de128d1e118f3a94d15" label="hddj2" asset="atlas/hddj2.png"/>
+  <item atlasType="0" compress="0" key="dfb7371e0a125bb9408ffd5f960f13ec" label="expPunakawan" asset="atlas/expPunakawan.png"/>
+  <item atlasType="0" compress="0" key="fb46710b33e63243338f059dd797f32d" label="hddj9" asset="atlas/hddj9.png"/>
+</item>

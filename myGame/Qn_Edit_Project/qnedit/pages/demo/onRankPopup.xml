@@ -1,0 +1,12 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="600" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="0" isGenerateLocal="false">
+  <bg type="1" typeName="Image" time="0" x="0" y="0" width="800" height="600" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="baf62be613ae788ac3d54c2502fe04ef" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="bg" callbackfunc="onPopupBgTouch">
+    <RadioButtonGroup type="0" typeName="RadioButtonGroup" time="0" x="5" y="30" width="553" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="1" varname="RadioButtonGroup">
+      <gentleRadioButton type="0" typeName="RadioButton" time="0" x="0" y="0" width="276" height="68" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" file="f8aefec04f3b21ab74c104b62b5caee6" file2="037b9fc8153c266b0b50a11bb562940f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="gentleRadioButton"/>
+      <crazyRadioButton type="0" typeName="RadioButton" time="0" x="0" y="0" width="276" height="68" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" file="7347ab6b0f9a42e066088f9a8f7f74bd" file2="5ac6c8ea7a7e64c020593d8bc47d51aa" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="crazyRadioButton"/>
+    </RadioButtonGroup>
+    <ListView type="0" typeName="ListView" time="0" x="6" y="31" width="554" height="368" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="ListView"/>
+    <ImageHead type="1" typeName="Image" time="0" x="713" y="51" width="64" height="64" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="36a96d58d434549569ea7313f8889b6f" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="ImageHead">
+      <myRankTextView type="5" typeName="TextView" time="0" x="-1" y="-1" width="63" height="60" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="40" textAlign="0" color="0x000000" colorA="1" varname="myRankTextView"/>
+    </ImageHead>
+  </bg>
+</root>

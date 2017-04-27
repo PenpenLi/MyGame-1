@@ -1,0 +1,20 @@
+<item label="ui" compress="0" asset="ui" isPublicRes="true" isDirectory="true">
+  <item atlasType="0" compress="0" key="0767bc905afe560e893e8d4c1cbb3807" label="switchOff" asset="ui/switchOff.png"/>
+  <item atlasType="0" compress="0" key="2251b661c0e2101001ff0e35f301bf23" label="sliderBtn" asset="ui/sliderBtn.png"/>
+  <item atlasType="0" compress="0" key="234c737db95da0792d31589609fa2f70" label="switchOn" asset="ui/switchOn.png"/>
+  <item atlasType="0" compress="0" key="29f1f869cf836f95d43d0ae055bacb8f" label="checkBox22" asset="ui/checkBox22.png"/>
+  <item atlasType="0" compress="0" key="2dafd4713f568f97e1c37f7beb0cdcb8" label="sliderFg" asset="ui/sliderFg.png"/>
+  <item atlasType="0" compress="0" key="3e68949f4270edb726e59977d904496e" label="sliderBg" asset="ui/sliderBg.png"/>
+  <item atlasType="0" compress="0" key="4e381451512ccad91918d22408edf8f4" label="radioButton2" asset="ui/radioButton2.png"/>
+  <item atlasType="0" compress="0" key="516ea4ab78250bd860ba366613cc939f" label="switchButton" asset="ui/switchButton.png"/>
+  <item atlasType="0" compress="0" key="64cb24ad3bcd5394fa31785e3ecec930" label="toast_bg" asset="ui/toast_bg.png"/>
+  <item atlasType="0" compress="0" key="74e4bf21b4bc98b7f9917e6a23af38b9" label="checkBox21" asset="ui/checkBox21.png"/>
+  <item atlasType="0" compress="0" key="92899b8763ec8d81ebfe4c6f5eb5f117" label="image" asset="ui/image.png"/>
+  <item atlasType="0" compress="0" key="95ee24e25f8f973410061afbc5e42922" label="scroll" asset="ui/scroll.png"/>
+  <item atlasType="0" compress="0" key="a7fe5ed905a87d9196d15e743d58a193" label="checkBox2" asset="ui/checkBox2.png"/>
+  <item atlasType="0" compress="0" key="b1bf4034b3a41a55832bfb60e63bfa69" label="radioButton22" asset="ui/radioButton22.png"/>
+  <item atlasType="0" compress="0" key="b7017abe041e3da39b2ba0ef61ad8853" label="radioButton1" asset="ui/radioButton1.png"/>
+  <item atlasType="0" compress="0" key="ee8cdadc2705774ca1aa619c0a71f4f8" label="checkBox1" asset="ui/checkBox1.png"/>
+  <item atlasType="0" compress="0" key="f382c9d934a9abfdfae1425a37686c53" label="button" asset="ui/button.png"/>
+  <item atlasType="0" compress="0" key="f43b3424f0b07bf2227f034477332d93" label="radioButton21" asset="ui/radioButton21.png"/>
+</item>

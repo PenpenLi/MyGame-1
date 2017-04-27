@@ -1,0 +1,12 @@
+<project version="1.0" name="MyQNUI" key="">
+  <imageFromPath>../runtime/Resource/images</imageFromPath>
+  <pageFromPath>../runtime/Resource/editor</pageFromPath>
+  <scriptFromPath>../runtime/Resource/scripts</scriptFromPath>
+  <pageLuaToPath>../runtime/Resource/scripts/view/Android_960_640</pageLuaToPath>
+  <qnCreatePath>../runtime/Resource/scripts/qnRes</qnCreatePath>
+  <resPath>../runtime/Resource</resPath>
+  <swfFromPath>../runtime/Resource/swf</swfFromPath>
+  <viewWidth>960</viewWidth>
+  <viewHeight>640</viewHeight>
+  <win32Path/>
+</project>

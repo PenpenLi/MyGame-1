@@ -1,0 +1,42 @@
+<item label="setting" compress="0" asset="res/setting" isDirectory="true">
+  <item atlasType="0" compress="0" key="01a58f6b7862aaf9fe4ab0245fd62056" label="seting_head" asset="res/setting/seting_head.png"/>
+  <item atlasType="0" compress="0" key="01ff5daf954cda2f304c65b9a535f763" label="setting_fb_bg" asset="res/setting/setting_fb_bg.png"/>
+  <item atlasType="0" compress="0" key="0c55c8766566ca3b1bd79e6a77d7f19c" label="setting_gift" asset="res/setting/setting_gift.png"/>
+  <item atlasType="0" compress="0" key="144e1f79c5f90b7298d5a29e98c045de" label="setting_off" asset="res/setting/setting_off.png"/>
+  <item atlasType="0" compress="0" key="2532f0ad682036ab1b716d3c35c43b7f" label="setting_switch_bg" asset="res/setting/setting_switch_bg.png"/>
+  <item atlasType="0" compress="0" key="28c862a678bbf6fb6fa788610733c61d" label="setting_read_f" asset="res/setting/setting_read_f.png"/>
+  <item atlasType="0" compress="0" key="290a400451ef228cfec55d6ba73014a2" label="setting_c" asset="res/setting/setting_c.png"/>
+  <item atlasType="0" compress="0" key="319e53f3570fe3276a2f91618d74237d" label="setting_read_e" asset="res/setting/setting_read_e.png"/>
+  <item atlasType="0" compress="0" key="3d0a06827841d0c11a0d525cb863b2d7" label="setting_unread_e" asset="res/setting/setting_unread_e.png"/>
+  <item atlasType="0" compress="0" key="433256a0c030922a513262b4e70417c0" label="setting_switch" asset="res/setting/setting_switch.png"/>
+  <item atlasType="0" compress="0" key="4426f4289452394dafd3ce78b9c954da" label="setting_input" asset="res/setting/setting_input.png" grid="12,12,20,20"/>
+  <item atlasType="0" compress="0" key="50d684ba9ad1906ea24e35b18a29213b" label="setting_on" asset="res/setting/setting_on.png"/>
+  <item atlasType="0" compress="0" key="6999db94ca5f6a6ea5a0491ac6d71894" label="setting_fb_line" asset="res/setting/setting_fb_line.png"/>
+  <item atlasType="0" compress="0" key="72069ba6559e3ad69fb69de21cb72f99" label="setting_rule_line" asset="res/setting/setting_rule_line.png"/>
+  <item atlasType="0" compress="0" key="7d6926f988765d5ea2c6c4e17b09c5df" label="setting_unsov" asset="res/setting/setting_unsov.png"/>
+  <item atlasType="0" compress="0" key="84061dda910c56198e6103f1f15a0a05" label="setting_share" asset="res/setting/setting_share.png"/>
+  <item atlasType="0" compress="0" key="8e80faf13829c490cb4ad30370af99ef" label="setting_close" asset="res/setting/setting_close.png"/>
+  <item atlasType="0" compress="0" key="96619f65e09c4a20827e93d21c022a2c" label="setting_fb_addpic" asset="res/setting/setting_fb_addpic.png"/>
+  <item atlasType="0" compress="0" key="984deaf7eced23b86d8eaa61bad3dce7" label="setting_chat_head" asset="res/setting/setting_chat_head.png" grid="6,6,20,20"/>
+  <item atlasType="0" compress="0" key="99329a1a1384528fa949654804e56c6d" label="setting_line_3" asset="res/setting/setting_line_3.png"/>
+  <item atlasType="0" compress="0" key="9fe3aea436a4b6dde2a524e38b7bfdba" label="setting_rules_bg" asset="res/setting/setting_rules_bg.png"/>
+  <item atlasType="0" compress="0" key="a31516d4006b47afb9c3177a0c60f5aa" label="setteing_unread_f" asset="res/setting/setteing_unread_f.png"/>
+  <item atlasType="0" compress="0" key="a47b7bf1a45b71db5e0dd4b4a1cf09da" label="setting_commit" asset="res/setting/setting_commit.png"/>
+  <item atlasType="0" compress="0" key="a78a17957cb9662aaca5fd6cd97383f5" label="setting_change" asset="res/setting/setting_change.png"/>
+  <item atlasType="0" compress="0" key="ab44ae3d215cfb4ee3783879601ca4cc" label="setting_w" asset="res/setting/setting_w.png"/>
+  <item atlasType="0" compress="0" key="ac400f5dc9e99c6b9fbe428abc62a2bf" label="setting_zhankai" asset="res/setting/setting_zhankai.png" grid="10,10,10,15"/>
+  <item atlasType="0" compress="0" key="ad92455c29c01126e71ec8adcd2125b5" label="setting_otherbg" asset="res/setting/setting_otherbg.png"/>
+  <item atlasType="0" compress="0" key="b367e70cebeb6054ce05d65870eed659" label="setting_code" asset="res/setting/setting_code.png"/>
+  <item atlasType="0" compress="0" key="b4f9f65bec66baf2b363dada19846ce0" label="setting_head_bg" asset="res/setting/setting_head_bg.png"/>
+  <item atlasType="0" compress="0" key="b562a8e7ac0423780e9974e9230c89f3" label="setting_gold" asset="res/setting/setting_gold.png"/>
+  <item atlasType="0" compress="0" key="c03de9d46f6eb4a93cee1211954e989a" label="setting_arrow" asset="res/setting/setting_arrow.png"/>
+  <item atlasType="0" compress="0" key="c68fdb3b0d00b2db61e4bb6569953ccd" label="setting_line_2" asset="res/setting/setting_line_2.png"/>
+  <item atlasType="0" compress="0" key="ccfc85d8b3b4adc48ff8f49ac8cd9fc7" label="setting_list_arrow" asset="res/setting/setting_list_arrow.png"/>
+  <item atlasType="0" compress="0" key="d1ac7ff4ceeb7b2a90eb2c3220b1a5a7" label="setting_updata" asset="res/setting/setting_updata.png"/>
+  <item atlasType="0" compress="0" key="d54da94ddc78a5b27d73731707d23a4c" label="setting_line_1" asset="res/setting/setting_line_1.png"/>
+  <item atlasType="0" compress="0" key="d5916977a90398c465f245c755b0d1e3" label="setting_logout_kuang" asset="res/setting/setting_logout_kuang.png"/>
+  <item atlasType="0" compress="0" key="e4c43fc4c049606abd0c66563eed500f" label="setting_unc" asset="res/setting/setting_unc.png"/>
+  <item atlasType="0" compress="0" key="f4915ce1c0cb99ea257d3f15eda52a6d" label="setting_sov" asset="res/setting/setting_sov.png"/>
+  <item atlasType="0" compress="0" key="f79583a4ec6117bd73a06ca83116f623" label="setting_xia" asset="res/setting/setting_xia.png"/>
+  <item atlasType="0" compress="0" key="f91cb8f1e2c7839efe0ef0f27b0a80e9" label="help_rule_pic" asset="res/setting/help_rule_pic.png"/>
+</item>

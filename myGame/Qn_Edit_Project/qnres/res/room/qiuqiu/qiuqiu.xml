@@ -1,0 +1,112 @@
+<item label="qiuqiu" compress="0" asset="res/room/qiuqiu" isDirectory="true">
+  <item atlasType="0" compress="0" key="00173e7c03834ec35d879635dee92a3e" label="modifyCardCircle" asset="res/room/qiuqiu/modifyCardCircle.png" alias="qiuqiuModifyCardCircle"/>
+  <item atlasType="0" compress="0" key="076e46167c8b59fc8e60be18fbb3d8c9" label="qiuqiu_you_win_star" asset="res/room/qiuqiu/qiuqiu_you_win_star.png" alias="qiuqiu_you_win_star"/>
+  <item atlasType="0" compress="0" key="07d5155e716f0712f92c10d49f51b0ac" label="chip_5" asset="res/room/qiuqiu/chip_5.png" alias="chip_5"/>
+  <item atlasType="0" compress="0" key="0b607dbc0885cbb7fb6d577aefee8e96" label="chip_200m" asset="res/room/qiuqiu/chip_200m.png" alias="chip_200m"/>
+  <item atlasType="0" compress="0" key="0c3d6100f96caaa721e7c14d140cefe8" label="chip_5m_" asset="res/room/qiuqiu/chip_5m_.png" alias="chip_5m_"/>
+  <item atlasType="0" compress="0" key="0f6ae852e7da3c2d5c421798c7b2f2d0" label="qiuqiu_card_type" asset="res/room/qiuqiu/qiuqiu_card_type.png"/>
+  <item atlasType="0" compress="0" key="1110f5e9209d779b11211b4a172f23e0" label="qiuqiu_table_red" asset="res/room/qiuqiu/qiuqiu_table_red.png" alias="qiuqiu_table_red"/>
+  <item atlasType="0" compress="0" key="112a7576517631cde17708719a498801" label="qiuqiu_yellow_light" asset="res/room/qiuqiu/qiuqiu_yellow_light.png" alias="qiuqiu_yellow_light"/>
+  <item atlasType="0" compress="0" key="163f165d06b823cf31c2370712bd80a0" label="t_0" asset="res/room/qiuqiu/t_0.png" alias="t_0"/>
+  <item atlasType="0" compress="0" key="16adea7ab21b4cad246bd1a881415b92" label="room_newbie_guide_bg" asset="res/room/qiuqiu/room_newbie_guide_bg.png" alias="room_newbie_guide_bg"/>
+  <item atlasType="0" compress="0" key="1a217900a1c11e01abe6e7f8935ef0ca" label="chip_500m" asset="res/room/qiuqiu/chip_500m.png" alias="chip_500m"/>
+  <item atlasType="0" compress="0" key="1cfbfffcf50e71a3e7f3aca932a9e142" label="qiuqiu_opr_check_icon" asset="res/room/qiuqiu/qiuqiu_opr_check_icon.png" alias="qiuqiu_opr_check_icon"/>
+  <item atlasType="0" compress="0" key="21eda1f891cac8c3258b2128da31fe59" label="chip_10k" asset="res/room/qiuqiu/chip_10k.png" alias="chip_10k"/>
+  <item atlasType="0" compress="0" key="244858e3066a115edf77d2d30bbe6286" label="qiuqiu_seat_win_border" asset="res/room/qiuqiu/qiuqiu_seat_win_border.png" alias="qiuqiu_seat_win_border"/>
+  <item atlasType="0" compress="0" key="273a3fd85c71ec04845e3fd9db4d32c1" label="chip_100k" asset="res/room/qiuqiu/chip_100k.png" alias="chip_100k"/>
+  <item atlasType="0" compress="0" key="27ddcb6dbe5941f58207abdd9f3a06bd" label="change_card_mode" asset="res/room/qiuqiu/change_card_mode.png" alias="change_card_mode"/>
+  <item atlasType="0" compress="0" key="288b9dcfbb8156ac7c667d1f050d472a" label="qiuqiu_table_mark" asset="res/room/qiuqiu/qiuqiu_table_mark.png"/>
+  <item atlasType="0" compress="0" key="28b718490157b9e295c23e76b6a02e8d" label="chip_50b" asset="res/room/qiuqiu/chip_50b.png" alias="chip_50b"/>
+  <item atlasType="0" compress="0" key="2c0fe533d074e41453439733432c5678" label="chip_20" asset="res/room/qiuqiu/chip_20.png" alias="chip_20"/>
+  <item atlasType="0" compress="0" key="2c7003d11b327d21c26d7ef8d9a6d396" label="qiuqiu_dealer_send_chip" asset="res/room/qiuqiu/qiuqiu_dealer_send_chip.png"/>
+  <item atlasType="0" compress="0" key="2d766200e2d3fc65c93ec037b4a67acb" label="t_7" asset="res/room/qiuqiu/t_7.png" alias="t_7"/>
+  <item atlasType="0" compress="0" key="2ef26fcecb9cfe8fd731fe2842eaec1f" label="qiuqiu_table_purple" asset="res/room/qiuqiu/qiuqiu_table_purple.png" alias="qiuqiu_table_purple"/>
+  <item atlasType="0" compress="0" key="3086ad2dedd20eae6efa3e4e0399f857" label="chip_500b_" asset="res/room/qiuqiu/chip_500b_.png" alias="chip_500b_"/>
+  <item atlasType="0" compress="0" key="320d50e513b4a02c58b41a9eb4d5f688" label="qiuqiu_count_time" asset="res/room/qiuqiu/qiuqiu_count_time.png" alias="qiuqiu_count_time"/>
+  <item atlasType="0" compress="0" key="350c829dd07db6cc354408f79787181d" label="chip_20k" asset="res/room/qiuqiu/chip_20k.png" alias="chip_20k"/>
+  <item atlasType="0" compress="0" key="37826133db137cf525d93b259dcc88ca" label="qiuqiu_background" asset="res/room/qiuqiu/qiuqiu_background.png"/>
+  <item atlasType="0" compress="0" key="398b34042fd001517004e3bc2c0747ad" label="qiuqiu_card_mode_5" asset="res/room/qiuqiu/qiuqiu_card_mode_5.png" alias="qiuqiu_card_mode_5"/>
+  <item atlasType="0" compress="0" key="3ad35fba9cb805e171d5881da70bba24" label="t_2" asset="res/room/qiuqiu/t_2.png" alias="t_2"/>
+  <item atlasType="0" compress="0" key="3beefb8a1bf67e073e825d16a4992750" label="chip_1m" asset="res/room/qiuqiu/chip_1m.png" alias="chip_1m"/>
+  <item atlasType="0" compress="0" key="42cc0e23f3e6dc51b73e2341cc1a4829" label="chip_5b" asset="res/room/qiuqiu/chip_5b.png" alias="chip_5b"/>
+  <item atlasType="0" compress="0" key="45f24e770cc3cb7393390dd60698c146" label="chip_20b_" asset="res/room/qiuqiu/chip_20b_.png" alias="chip_20b_"/>
+  <item atlasType="0" compress="0" key="45f9619985c017325df2f59c692042f5" label="chip_500" asset="res/room/qiuqiu/chip_500.png" alias="chip_500"/>
+  <item atlasType="0" compress="0" key="4768a8d0c567c8bc36472a23b112e9cb" label="chip_5k" asset="res/room/qiuqiu/chip_5k.png" alias="chip_5k"/>
+  <item atlasType="0" compress="0" key="487bb41088218211461aeb9db75be038" label="qiuqiu_self_seat_arrow" asset="res/room/qiuqiu/qiuqiu_self_seat_arrow.png" alias="qiuqiu_self_seat_arrow"/>
+  <item atlasType="0" compress="0" key="4ca7311be37ebdaf58d01ca782a7f7e4" label="chip_20m_" asset="res/room/qiuqiu/chip_20m_.png" alias="chip_20m_"/>
+  <item atlasType="0" compress="0" key="4e94d9f2eb877ac517867275af57ca78" label="qiuqiu_card_mode_confirmed_icon" asset="res/room/qiuqiu/qiuqiu_card_mode_confirmed_icon.png" alias="qiuqiu_card_mode_confirmed_icon"/>
+  <item atlasType="0" compress="0" key="4f7b588758d4091112ceb3d454b380d0" label="qiuqiu_card_mode_4" asset="res/room/qiuqiu/qiuqiu_card_mode_4.png" alias="qiuqiu_card_mode_4"/>
+  <item atlasType="0" compress="0" key="522950f5bc2d5bf60e592c48d53b06ae" label="chip_2m" asset="res/room/qiuqiu/chip_2m.png" alias="chip_2m"/>
+  <item atlasType="0" compress="0" key="525b0bc39745069e9ca2d8cde1596b68" label="qiuqiu_opr_check_bg" asset="res/room/qiuqiu/qiuqiu_opr_check_bg.png" alias="qiuqiu_opr_check_bg"/>
+  <item atlasType="0" compress="0" key="529f48b60cb5b16d91d6b2c5d9fdfdec" label="chip_50m_" asset="res/room/qiuqiu/chip_50m_.png" alias="chip_50m_"/>
+  <item atlasType="0" compress="0" key="54c13cf817daad4d60dc2272d6bb18ec" label="qiuqiu_btn_purple" asset="res/room/qiuqiu/qiuqiu_btn_purple.png" alias="qiuqiu_btn_purple"/>
+  <item atlasType="0" compress="0" key="55f9add9cc4f02a73d49676473cdc98e" label="chip_50b_" asset="res/room/qiuqiu/chip_50b_.png" alias="chip_50b_"/>
+  <item atlasType="0" compress="0" key="56bcd024ce1ec8ff81c0b836e984b56f" label="t_6" asset="res/room/qiuqiu/t_6.png" alias="t_6"/>
+  <item atlasType="0" compress="0" key="57015587f4f4093f330285a85c091ed8" label="qiuqiu_btn_changeroom" asset="res/room/qiuqiu/qiuqiu_btn_changeroom.png"/>
+  <item atlasType="0" compress="0" key="5978b7ad9d7df69c5a10f6088cd425e1" label="chip_2m_" asset="res/room/qiuqiu/chip_2m_.png" alias="chip_2m_"/>
+  <item atlasType="0" compress="0" key="598222a3cc01cc6400b2c81cbf65bfde" label="qiuqiu_chip_text_bg" asset="res/room/qiuqiu/qiuqiu_chip_text_bg.png" alias="qiuqiu_chip_text_bg"/>
+  <item atlasType="0" compress="0" key="5ad871b77053ad62fb88b6c3856d3f61" label="chip_20m" asset="res/room/qiuqiu/chip_20m.png" alias="chip_20m"/>
+  <item atlasType="0" compress="0" key="5b2297736ea4a917b52499b551972982" label="t_8" asset="res/room/qiuqiu/t_8.png" alias="t_8"/>
+  <item atlasType="0" compress="0" key="5c3837b0a51d58cb923d9c50f8f84927" label="qiuqiu_seat_head_mask" asset="res/room/qiuqiu/qiuqiu_seat_head_mask.png" alias="qiuqiu_seat_head_mask"/>
+  <item atlasType="0" compress="0" key="5e98122fb0031b40a9a47f3a6401fdea" label="chip_100m_" asset="res/room/qiuqiu/chip_100m_.png" alias="chip_100m_"/>
+  <item atlasType="0" compress="0" key="6259b531aae163e863041c76a51c5006" label="qiuqiu_you_win_flash" asset="res/room/qiuqiu/qiuqiu_you_win_flash.png"/>
+  <item atlasType="0" compress="0" key="65acc022fac40f24bd76903fb45167de" label="chip_10b_" asset="res/room/qiuqiu/chip_10b_.png" alias="chip_10b_"/>
+  <item atlasType="0" compress="0" key="661462d52d96102b07b7f36a35cc2248" label="chip_1k" asset="res/room/qiuqiu/chip_1k.png" alias="chip_1k"/>
+  <item atlasType="0" compress="0" key="6f0ae09d5cfcdba5eeb7870bb0e0588e" label="chip_500k" asset="res/room/qiuqiu/chip_500k.png" alias="chip_500k"/>
+  <item atlasType="0" compress="0" key="714d70271afd4dabfd7fbf580b4117d4" label="modifyCardSpin" asset="res/room/qiuqiu/modifyCardSpin.png" alias="qiuqiuModifyCardSpin"/>
+  <item atlasType="0" compress="0" key="739a3bdb02c6e1337a947f5dfe44aa8f" label="chip_5b_" asset="res/room/qiuqiu/chip_5b_.png" alias="chip_5b_"/>
+  <item atlasType="0" compress="0" key="73d0d8a5bd5327e5ccbd732878e9f2fb" label="room_dealer_prop_bg" asset="res/room/qiuqiu/room_dealer_prop_bg.png"/>
+  <item atlasType="0" compress="0" key="74a5c4e84773a2d6124a1b2b7e26b3d4" label="qiuqiu_card_mode_2" asset="res/room/qiuqiu/qiuqiu_card_mode_2.png" alias="qiuqiu_card_mode_2"/>
+  <item atlasType="0" compress="0" key="80d5283de2a45725afb8f9a7d6e4e8f0" label="qiuqiu_card_point_bg2" asset="res/room/qiuqiu/qiuqiu_card_point_bg2.png" alias="qiuqiu_card_point_bg2"/>
+  <item atlasType="0" compress="0" key="8429542e158c18ebaa87ccdbc12741c4" label="qiuqiu_btn_blue" asset="res/room/qiuqiu/qiuqiu_btn_blue.png" alias="qiuqiu_btn_blue"/>
+  <item atlasType="0" compress="0" key="8a6553f78ba855069b62a65f3d044815" label="qiuqiu_card_point_bg" asset="res/room/qiuqiu/qiuqiu_card_point_bg.png" alias="qiuqiu_card_point_bg"/>
+  <item atlasType="0" compress="0" key="8c4cac7a5697f619e6544b474d2bb57d" label="qiuqiu_border_bg" asset="res/room/qiuqiu/qiuqiu_border_bg.png" grid="30,30,30,30"/>
+  <item atlasType="0" compress="0" key="90e94f6d8f29c8e3fb338425c426137e" label="chip_1m_" asset="res/room/qiuqiu/chip_1m_.png" alias="chip_1m_"/>
+  <item atlasType="0" compress="0" key="913d366ab8aefc07d272abbf97819d52" label="t_00" asset="res/room/qiuqiu/t_00.png" alias="t_00"/>
+  <item atlasType="0" compress="0" key="91d3786316187a1de446814b308f2dd4" label="chip_100" asset="res/room/qiuqiu/chip_100.png" alias="chip_100"/>
+  <item atlasType="0" compress="0" key="91d6b8f5df3936dcd809b0f3e2c0b363" label="chip_20b" asset="res/room/qiuqiu/chip_20b.png" alias="chip_20b"/>
+  <item atlasType="0" compress="0" key="944e8e8e4b1dde3b8e61d94e346ae9fd" label="chip_2" asset="res/room/qiuqiu/chip_2.png" alias="chip_2"/>
+  <item atlasType="0" compress="0" key="957409078c1e0fb4e7b3a7671787ee37" label="chip_1b" asset="res/room/qiuqiu/chip_1b.png" alias="chip_1b"/>
+  <item atlasType="0" compress="0" key="9869aa072111c195d0e4ad85d2f87642" label="qiuqiu_card_maxpoint_bg" asset="res/room/qiuqiu/qiuqiu_card_maxpoint_bg.png" alias="qiuqiu_card_maxpoint_bg"/>
+  <item atlasType="0" compress="0" key="98963669a5a82ff6220704d56228afd4" label="chip_1" asset="res/room/qiuqiu/chip_1.png" alias="chip_1"/>
+  <item atlasType="0" compress="0" key="991858a28883363a6f570b331e96437e" label="chip_50" asset="res/room/qiuqiu/chip_50.png" alias="chip_50"/>
+  <item atlasType="0" compress="0" key="9af094f7b4fedf85ee5648d88693dfd0" label="qiuqiu_card_mode_1" asset="res/room/qiuqiu/qiuqiu_card_mode_1.png" alias="qiuqiu_card_mode_1"/>
+  <item atlasType="0" compress="0" key="a0b4cbb65534df781a1102b9ec33be4c" label="chip_50m" asset="res/room/qiuqiu/chip_50m.png" alias="chip_50m"/>
+  <item atlasType="0" compress="0" key="a253ae49b11e01bf60ace74e5a820fd0" label="chip_2k" asset="res/room/qiuqiu/chip_2k.png" alias="chip_2k"/>
+  <item atlasType="0" compress="0" key="a5e382d494471dff8cea7ac6b073040b" label="qiuqiu_table_green" asset="res/room/qiuqiu/qiuqiu_table_green.png" alias="qiuqiu_table_green"/>
+  <item atlasType="0" compress="0" key="aec75066dbd6cd350d10bd7ae92929f8" label="chip_100m" asset="res/room/qiuqiu/chip_100m.png" alias="chip_100m"/>
+  <item atlasType="0" compress="0" key="b0ac488a1592fd0a699828ba4db4ffe5" label="qiuqiu_btn_cardtype" asset="res/room/qiuqiu/qiuqiu_btn_cardtype.png"/>
+  <item atlasType="0" compress="0" key="b2d6750540e90ca3b536d1fba80f8e41" label="chip_2b" asset="res/room/qiuqiu/chip_2b.png" alias="chip_2b"/>
+  <item atlasType="0" compress="0" key="b32f9d92a0ee1764a93aef9db706ef93" label="chip_200b_" asset="res/room/qiuqiu/chip_200b_.png" alias="chip_200b_"/>
+  <item atlasType="0" compress="0" key="b5244688f8f5211e837872e10cd0ae59" label="room_newbie_guide_point" asset="res/room/qiuqiu/room_newbie_guide_point.png" alias="room_newbie_guide_point"/>
+  <item atlasType="0" compress="0" key="b603eaaf0d1c05e88f74e66909dea733" label="t_3" asset="res/room/qiuqiu/t_3.png" alias="t_3"/>
+  <item atlasType="0" compress="0" key="ba08dcec24359a9191e1227b040dff2d" label="qiuqiu_seat_win_winner" asset="res/room/qiuqiu/qiuqiu_seat_win_winner.png" alias="qiuqiu_seat_win_winner"/>
+  <item atlasType="0" compress="0" key="bed76a222a4536af47e3f41944ca03e2" label="chips_20k" asset="res/room/qiuqiu/chips_20k.png" alias="chips_20k"/>
+  <item atlasType="0" compress="0" key="bf71ff3adcd7ccd12d2733197e747b2f" label="chip_10m" asset="res/room/qiuqiu/chip_10m.png" alias="chip_10m"/>
+  <item atlasType="0" compress="0" key="bf836a8bcfce9fc20c143b1d560a23a1" label="chips_50b_" asset="res/room/qiuqiu/chips_50b_.png" alias="chips_50b_"/>
+  <item atlasType="0" compress="0" key="c409a92f6c8e7b0c93f760fa0bbe03f7" label="chip_1b_" asset="res/room/qiuqiu/chip_1b_.png" alias="chip_1b_"/>
+  <item atlasType="0" compress="0" key="ce720841d8d2486dd6af57d9a40c8975" label="t_4" asset="res/room/qiuqiu/t_4.png" alias="t_4"/>
+  <item atlasType="0" compress="0" key="d1bcdeba76d10ba0cc1ee50e64b2b643" label="t_9" asset="res/room/qiuqiu/t_9.png" alias="t_9"/>
+  <item atlasType="0" compress="0" key="d272c400396dce510e7b5ee54138081b" label="chip_10b" asset="res/room/qiuqiu/chip_10b.png" alias="chip_10b"/>
+  <item atlasType="0" compress="0" key="d39e098d7120b7c25a0146598b462871" label="qiuqiu_sitdown_icon" asset="res/room/qiuqiu/qiuqiu_sitdown_icon.png"/>
+  <item atlasType="0" compress="0" key="d5971d85f0dfcd7bc97ea7b82a4b4d7d" label="chip_100b_" asset="res/room/qiuqiu/chip_100b_.png" alias="chip_100b_"/>
+  <item atlasType="0" compress="0" key="d99a53b867308967348047c3cf9785e4" label="chips_board_back_qiuqiu" asset="res/room/qiuqiu/chips_board_back_qiuqiu.png"/>
+  <item atlasType="0" compress="0" key="d9eee4fdc75ba65aef26b1a1bfbec94c" label="qiuqiu_btn_standup" asset="res/room/qiuqiu/qiuqiu_btn_standup.png"/>
+  <item atlasType="0" compress="0" key="dbcf3d4a3116c408527493b67f0963c1" label="t_5" asset="res/room/qiuqiu/t_5.png" alias="t_5"/>
+  <item atlasType="0" compress="0" key="dbeb258f3e0235deb4b093405063c187" label="chip_200m_" asset="res/room/qiuqiu/chip_200m_.png" alias="chip_200m_"/>
+  <item atlasType="0" compress="0" key="e576fc7c6b572eb958335699d2407026" label="t_1" asset="res/room/qiuqiu/t_1.png" alias="t_1"/>
+  <item atlasType="0" compress="0" key="e5e7bbdd4dd62ed51fae89256cae55fb" label="room_dealer_circle" asset="res/room/qiuqiu/room_dealer_circle.png"/>
+  <item atlasType="0" compress="0" key="e60ca99f693dc144243d68bedc2c7e50" label="qiuqiu_card_mode_confirmed_icon2" asset="res/room/qiuqiu/qiuqiu_card_mode_confirmed_icon2.png" alias="qiuqiu_card_mode_confirmed_icon2"/>
+  <item atlasType="0" compress="0" key="e8df395fe85038d45ccf7d78514e1960" label="chip_500m_" asset="res/room/qiuqiu/chip_500m_.png" alias="chip_500m_"/>
+  <item atlasType="0" compress="0" key="e915bc752859a5654f78f9cc6ac4aaeb" label="qiuqiu_card_mode_3" asset="res/room/qiuqiu/qiuqiu_card_mode_3.png" alias="qiuqiu_card_mode_3"/>
+  <item atlasType="0" compress="0" key="eb948399e477005bbda7a671d1cf08d2" label="chip_10" asset="res/room/qiuqiu/chip_10.png" alias="chip_10"/>
+  <item atlasType="0" compress="0" key="ecd44d37ea4a05ab8774aa2a349b6c35" label="qiuqiu_btn_chat" asset="res/room/qiuqiu/qiuqiu_btn_chat.png"/>
+  <item atlasType="0" compress="0" key="f04949da0ad44802853f40b977e82f54" label="chip_5m" asset="res/room/qiuqiu/chip_5m.png" alias="chip_5m"/>
+  <item atlasType="0" compress="0" key="f1cda6ef59e8b3070bb4734128422dae" label="qiuqiu_status_bg" asset="res/room/qiuqiu/qiuqiu_status_bg.png"/>
+  <item atlasType="0" compress="0" key="f2e4402255e86e95595d195164b705ba" label="chip_2b_" asset="res/room/qiuqiu/chip_2b_.png" alias="chip_2b_"/>
+  <item atlasType="0" compress="0" key="f2e46c23c05f85a02007f5d681358415" label="chip_200" asset="res/room/qiuqiu/chip_200.png" alias="chip_200"/>
+  <item atlasType="0" compress="0" key="f31a530caee168610cad558c40425e1f" label="chip_10m_" asset="res/room/qiuqiu/chip_10m_.png" alias="chip_10m_"/>
+  <item atlasType="0" compress="0" key="f45755782f59c2dad6ba2c9fcafb982a" label="chip_50k" asset="res/room/qiuqiu/chip_50k.png" alias="chip_50k"/>
+  <item atlasType="0" compress="0" key="fcf651c8e4ae2de81cded9a02851581e" label="chip_200k" asset="res/room/qiuqiu/chip_200k.png" alias="chip_200k"/>
+  <item atlasType="0" compress="0" key="fef942b466a081dac037b900365ce20f" label="border_bg" asset="res/room/qiuqiu/border_bg.png"/>
+</item>

@@ -1,0 +1,29 @@
+local update_scene=
+{
+	name="update_scene",type=0,typeName="View",time=0,x=0,y=0,width=960,height=640,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignTopLeft,
+	{
+		name="bg",type=1,typeName="Image",time=0,x=0,y=0,width=960,height=640,visible=1,fillParentWidth=1,fillParentHeight=1,nodeAlign=kAlignCenter,file="res/common/common_bg.png"
+	},
+	{
+		name="girl",type=1,typeName="Image",time=0,x=-178,y=0,width=502,height=640,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignBottom,file="res/common/common_girl.png"
+	},
+	{
+		name="logo",type=1,typeName="Image",time=0,x=111,y=-60,width=262,height=138,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,file="res/common/common_logo.png",varname="logo"
+	},
+	{
+		name="View5",type=0,typeName="View",time=0,x=61,y=60,width=360,height=109,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignRight,
+		{
+			name="progressBarBg",type=1,typeName="Image",time=0,x=0,y=0,width=354,height=26,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="res/common/common_progress_bg_blue_1.png",gridLeft=15,gridRight=15,gridTop=5,gridBottom=5,varname="progressBarBg",
+			{
+				name="progressBar",type=1,typeName="Image",time=0,x=7,y=-1,width=24,height=16,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignLeft,file="res/common/common_progress_bar_orange_big.png",gridLeft=10,gridRight=10,gridTop=8,gridBottom=8,varname="progressBar"
+			}
+		},
+		{
+			name="progressText",type=4,typeName="Text",time=0,x=0,y=0,width=289,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=15,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,string=[[正在检查更新...]],colorA=1,varname="progressText"
+		},
+		{
+			name="Text_tip",type=4,typeName="Text",time=0,x=2,y=28,width=455,height=30,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,fontSize=16,textAlign=kAlignCenter,colorRed=255,colorGreen=255,colorBlue=255,colorA=1,varname="Text_tip"
+		}
+	}
+}
+return update_scene;
