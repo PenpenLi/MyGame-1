@@ -380,7 +380,7 @@ function DemoScene:onButtonClick(mode)
 	self.btnSetConfig:setVisible(false)
 
 	self.gameModel = mode
-	self.score = 70
+	self.score = 0
 
 	local data = GAME_INFO_LIST[mode]
 	Log.dump(data,">>>>>>>>>>>>>>>>>>>>>>>>>>>>> onButtonClick " .. mode)
@@ -592,7 +592,7 @@ function DemoScene:cartonPerson()
 		self.imagehead:setPos(60, 108)
 	elseif self.person_state == "sliping" then
 		self.index = 6
-		self.imagehead:setPos(20, 100)
+		self.imagehead:setPos(18, 82)
 	elseif self.person_state == "death" then
 		self.index = 7
 		self.imagehead:setPos(-18, 20)
@@ -600,7 +600,7 @@ function DemoScene:cartonPerson()
 		self.flag = true
 	elseif self.person_state == "kicking" and self.index > 4 then
 		self.index = 4
-		self.imagehead:setPos(45, 120)
+		self.imagehead:setPos(40, 116)
 		self.imagehead:setSize(110, 90)
 	end
 
@@ -635,23 +635,26 @@ function DemoScene:createMonster()
 		local index = 1
 
 		if self.gameModel == "crazy" then
-			if self.score < 100 then
+			if self.score < 900 then
 			 	index = math.random(7, 11)
 			end
 
 			Log.dump("<<<<<<<<<<<<<<<<<<<    index",index)
 		elseif self.gameModel == "gentle" then
-			if self.score <= 2 then
-				index = math.random(1, 4)
-
+			if self.score <= 4 then
+				index = math.random(1, 2)
+			
 			elseif self.score <= 7 then
-				index = math.random(1, 8)
+				index = math.random(2, 4)
+
+			elseif self.score <= 10 then
+				index = math.random(2, 8)
 
 			elseif self.score <= 15 then
-				index = math.random(1, 10)
+				index = math.random(2, 10)
 
 			elseif self.score <= 20 then
-				index = math.random(1, 10)
+				index = math.random(2, 10)
 
 			elseif self.score <= 25 then
 				index = math.random(4, 12)
@@ -681,8 +684,7 @@ function DemoScene:createMonster()
 		
 		self.person_state = "running"
 		self.barimage_state  = "alive"
-		local x, y = self.personbutton:getPos()
-		self.personbutton:setPos(x, 110)
+
 
 		
 		self.bar_index = index
@@ -812,9 +814,9 @@ function DemoScene:setConfig()
 		}
 	elseif self.gameModel == "crazy" then
 		config =	{
-			{score = 5,  v_bar = 15, v0_person = 25, background = "game/backgroud/bg.png"},
-			{score = 10, v_bar = 16, v0_person = 20, background = "game/backgroud/bg1.png"},
-			{score = 15, v_bar = 18, v0_person = 25, background = "game/backgroud/bg2.png"},
+			{score = 5,  v_bar = 10, v0_person = 25, background = "game/backgroud/bg.png"},
+			{score = 10, v_bar = 13, v0_person = 20, background = "game/backgroud/bg1.png"},
+			{score = 15, v_bar = 16, v0_person = 25, background = "game/backgroud/bg2.png"},
 			{score = 40, v_bar = 20, v0_person = 24, background = "game/backgroud/bg3.png"},
 			{score = 999999, v_bar = 25 , v0_person = 24, background = "game/backgroud/bg4.png"},
 		}
@@ -1105,9 +1107,9 @@ function DemoScene:onKeyDown(key)
 
 		self.person_state = "sliping"
 
-		local x, y = self.personbutton:getPos()
+		-- local x, y = self.personbutton:getPos()
 	
-		self.personbutton:setPos(x, 85)
+		-- self.personbutton:setPos(x, 110)
 		
 
         self.barimage:addPropTranslate(1, kAnimNormal, 5000, 0, 0, 60, 0, -900)
@@ -1706,9 +1708,7 @@ function DemoScene:btn_event_upload(name)
     		BUTTON_CLICK_EVENT[name] = BUTTON_CLICK_EVENT[name] + 1
     	elseif BUTTON_CLICK_EVENT[self.gameModel] and BUTTON_CLICK_EVENT[self.gameModel][name] then
     		BUTTON_CLICK_EVENT[self.gameModel][name] = BUTTON_CLICK_EVENT[self.gameModel][name] + 1
-		    -- Log.dump("<<<<<<<<<<<<<<<<<<<<<< self.gameModel", self.gameModel)
-		    -- Log.dump("<<<<<<<<<<<<<<<<<<<<<< self.name", name)
-		    -- Log.dump("<<<<<<<<<<<<<<<<<<<<<< BUTTON_CLICK_EVENT[self.gameModel][name]", BUTTON_CLICK_EVENT[self.gameModel][name])
+		   
     	end
     end
 
@@ -1805,9 +1805,7 @@ function DemoScene:showRank()
 	end)
 end
 
-function DemoScene:uploadHead()
-	nk.HttpController:execute("User.uploadIcon", {param = {method = "User.uploadIcon"}})
-end
+
 
 return DemoScene
 

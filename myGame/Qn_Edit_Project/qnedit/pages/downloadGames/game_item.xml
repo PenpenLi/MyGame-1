@@ -1,0 +1,12 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="658" height="121" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <Image_item2 type="1" typeName="Image" time="0" x="5" y="0" width="649" height="113" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="96a7e49439da0d29409c0e8654085168" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15" visible="true">
+    <img_icon type="1" typeName="Image" time="0" x="15" y="29" width="100" height="54" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="f7e0101b7c3719ba96aee01187e6f395" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="img_icon"/>
+    <text_desc type="5" typeName="TextView" time="0" x="131" y="8" width="348" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="7" color="0xffe6fa" string="TextView" colorA="1" varname="text_desc"/>
+    <btn_exchange type="1" typeName="Button" time="0" x="503" y="8" width="131" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="aab9e02edcd5071e7439e8d1e6bd6737" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="btn_exchange" callbackfunc="onBtnExchangeClick">
+      <btn_exchange_text type="4" typeName="Text" time="0" x="0" y="0" width="100" height="27" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="22" textAlign="0" color="0xFFFFFF" string="兑换222" colorA="1" varname="btn_exchange_text"/>
+    </btn_exchange>
+    <btn_download type="1" typeName="Button" time="0" x="503" y="60" width="131" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="96f735197599ad4f02113f561c8fdd71" file2="" packFile="" gridLeft="40" gridRight="40" gridTop="0" gridBottom="0" varname="btn_download" callbackfunc="onBtnDownloadClick">
+      <btn_download_text type="4" typeName="Text" time="0" x="0" y="0" width="100" height="27" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="22" textAlign="0" color="0xFFFFFF" string="下载2222" colorA="1" varname="btn_download_text"/>
+    </btn_download>
+  </Image_item2>
+</root>

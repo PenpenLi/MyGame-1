@@ -1,0 +1,11 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="516" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="516" height="94" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="0023d0bc25e477cd965966593d0864b1" packFile="" gridLeft="16" gridRight="16" gridTop="16" gridBottom="16" varname="Image_bg">
+    <text_time type="4" typeName="Text" time="0" x="8" y="5" width="100" height="26" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="7" color="0xffe6fa" string="10月1日" varname="text_time" colorA="1"/>
+    <text_dynamic type="5" typeName="TextView" time="0" x="8" y="42" width="415" height="30" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="18" textAlign="8" color="0xFFFFFF" string="我的动态啊！" colorA="1" varname="text_dynamic"/>
+    <Image8 type="1" typeName="Image" time="0" x="8" y="36" width="419" height="3" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="79fb7ad71280f6d3fea8e90d815d1183" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+    <img_like type="1" typeName="Image" time="0" x="143" y="7" width="24" height="22" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="7855c1f0f5c1150bd77e4f6dc4a31915" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="img_like">
+      <text_like_times type="4" typeName="Text" time="0" x="34" y="1" width="58" height="23" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="7" fontName="" fontSize="15" textAlign="7" color="0xFFFFFF" string="111" varname="text_like_times"/>
+    </img_like>
+    <btn_delete type="1" typeName="Button" time="0" x="450" y="25" width="44" height="44" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="456544701924013973a97294f7e3a4c3" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="btn_delete" callbackfunc="onBtnDeleteClick"/>
+  </Image_bg>
+</root>

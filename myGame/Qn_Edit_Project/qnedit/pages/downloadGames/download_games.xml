@@ -1,0 +1,10 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="710" height="517" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="6f724816e58a93bf2343637c42004b00" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image8 type="1" typeName="Image" time="0" x="0" y="-217" width="480" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="d58e46d0933bc95782ea828ee75c7fb6" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" isLock="0">
+      <Text_title type="4" typeName="Text" time="0" x="1" y="0" width="314" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="28" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="Text_title"/>
+    </Image8>
+    <ScrollView_games type="0" typeName="ScrollView" time="0" x="0" y="72" width="658" height="304" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="ScrollView_games"/>
+    <text_no_games type="4" typeName="Text" time="0" x="0" y="3" width="120" height="58" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="没有游戏哦" colorA="1" varname="text_no_games"/>
+    <text_info type="5" typeName="TextView" time="0" x="27" y="100" width="655" height="67" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="20" textAlign="8" color="0xFFFFFF" string="前往谷歌" colorA="1" varname="text_info"/>
+  </Image_bg>
+</root>

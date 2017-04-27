@@ -1,0 +1,10 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="556" height="297" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="f87c3a0d1e8e30bf153c7f8c5f89703b" packFile="" gridLeft="30" gridRight="30" gridTop="30" gridBottom="30" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <text_info type="4" typeName="Text" time="0" x="0" y="-96" width="120" height="35" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="输入新游戏内的数字账号ID" colorA="1" varname="text_info"/>
+    <Image9 type="1" typeName="Image" time="0" x="104" y="100" width="347" height="49" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="9fc5b033f14ac3c62f1818e8545e6d20" packFile="" gridLeft="15" gridRight="15" gridTop="15" gridBottom="15"/>
+    <EditText_id type="6" typeName="EditText" time="0" x="115" y="107" width="325" height="41" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="7" color="0xFFFFFF" string="256879" colorA="1" varname="EditText_id"/>
+    <btn_get_reward type="1" typeName="Button" time="0" x="182" y="188" width="192" height="69" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="c7a82219d5f0a1481c6911bd157e6cf8" file2="" packFile="" gridLeft="50" gridRight="50" gridTop="35" gridBottom="34" varname="btn_get_reward" callbackfunc="onBtnGetRewardClick">
+      <btn_get_reward_text type="4" typeName="Text" time="0" x="6" y="-1" width="180" height="72" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="Text" varname="btn_get_reward_text"/>
+    </btn_get_reward>
+  </Image_bg>
+</root>

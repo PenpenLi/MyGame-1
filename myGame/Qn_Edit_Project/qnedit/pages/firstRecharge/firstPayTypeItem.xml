@@ -1,0 +1,7 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="135" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" isGenerateLocal="false">
+  <Button6 type="1" typeName="Button" time="0" x="0" y="0" width="135" height="50" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="831b0e7666504bc82ab9ed1227613b3f" file2="" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Button6">
+    <itemBg type="1" typeName="Image" time="0" x="0" y="0" width="135" height="44" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="2c6d7145e0a287b45b083ec625c2a873" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="itemBg"/>
+    <itemView type="1" typeName="Image" time="0" x="5" y="-5" width="135" height="57" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="320fe5afbe2d9beb9474deb39fc2a368" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="itemView"/>
+    <Image6 type="1" typeName="Image" time="0" x="0" y="0" width="135" height="2" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="5" file="79fb7ad71280f6d3fea8e90d815d1183" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0"/>
+  </Button6>
+</root>

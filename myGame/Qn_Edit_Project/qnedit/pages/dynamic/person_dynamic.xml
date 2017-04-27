@@ -1,0 +1,12 @@
+<root type="0" typeName="View" time="0" x="0" y="0" width="960" height="640" visible="true" fillParentWidth="true" fillParentHeight="true" nodeAlign="8" isGenerateLocal="false">
+  <Image_bg type="1" typeName="Image" time="0" x="0" y="0" width="570" height="420" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="ba5899ca2855d29bb58d4725733c596c" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" varname="Image_bg" callbackfunc="onPopupBgTouch">
+    <Image8 type="1" typeName="Image" time="0" x="0" y="-159" width="326" height="77" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" file="33b239241ad84d697765297faea5ae99" packFile="" gridLeft="0" gridRight="0" gridTop="0" gridBottom="0" isLock="0">
+      <Text_title type="4" typeName="Text" time="0" x="0" y="0" width="314" height="42" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="30" textAlign="0" color="0xFFFFFF" string="Text" colorA="1" varname="Text_title"/>
+    </Image8>
+    <ScrollView_dynamic type="0" typeName="ScrollView" time="0" x="0" y="34" width="516" height="237" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" varname="ScrollView_dynamic"/>
+    <text_total_dynamics type="4" typeName="Text" time="0" x="16" y="-96" width="100" height="29" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="3" fontName="" fontSize="16" textAlign="7" color="0xf17fc7" string="全部动态：8条" colorA="1" varname="text_total_dynamics"/>
+    <Image11 type="1" typeName="Image" time="0" x="16" y="364" width="540" height="28" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="8" file="65b2f855eaeb003a6614444dd97bf00e" packFile="" gridLeft="5" gridRight="5" gridTop="5" gridBottom="5"/>
+    <text_tips type="4" typeName="Text" time="0" x="0" y="170" width="100" height="29" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="16" textAlign="0" color="0xf17fc7" string="即将开放" colorA="1" varname="text_tips"/>
+    <text_no_dynamic type="4" typeName="Text" time="0" x="0" y="13" width="100" height="100" visible="true" fillParentWidth="false" fillParentHeight="false" nodeAlign="0" fontName="" fontSize="24" textAlign="0" color="0xFFFFFF" string="没有动态哦！" colorA="1" varname="text_no_dynamic"/>
+  </Image_bg>
+</root>
