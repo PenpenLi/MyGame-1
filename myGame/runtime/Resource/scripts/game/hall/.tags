@@ -1,0 +1,291 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.registerImageTouchFunc	.\hallScene.lua	/^        nk.functions.registerImageTouchFunc(self.m_panel_freeBg, self, self.onFreeMoneyBtnClick)$/;"	f
+.removeFromParent	.\hallScene.lua	/^            nk.functions.removeFromParent(self.m_btn_star_swf)$/;"	f
+DrawVip	.\hallPlayerItem.lua	/^function HallPlayerItem:DrawVip(node,vipLevel)$/;"	f
+DrawVip	.\hallScene.lua	/^function HallScene:DrawVip(node,vipLevel)$/;"	f
+HallController:ctor	.\hallController.lua	/^function HallController:ctor(state, viewClass, viewConfig, dataClass)$/;"	f
+HallController:doLogout	.\hallController.lua	/^function HallController:doLogout()$/;"	f
+HallController:dosomething	.\hallController.lua	/^function HallController:dosomething()$/;"	f
+HallController:dtor	.\hallController.lua	/^function HallController:dtor()$/;"	f
+HallController:exitApp	.\hallController.lua	/^function HallController:exitApp()$/;"	f
+HallController:handleLogout	.\hallController.lua	/^function HallController:handleLogout()$/;"	f
+HallController:onBack	.\hallController.lua	/^function HallController:onBack()$/;"	f
+HallController:onFriendChange	.\hallController.lua	/^function HallController:onFriendChange()$/;"	f
+HallController:onLimitTimeClose	.\hallController.lua	/^function HallController:onLimitTimeClose(isBuySuccess)$/;"	f
+HallController:onLimitTimeOpen	.\hallController.lua	/^function HallController:onLimitTimeOpen(pack)$/;"	f
+HallController:onLoginServerSucc	.\hallController.lua	/^function HallController:onLoginServerSucc(data)$/;"	f
+HallController:onSocketError	.\hallController.lua	/^function HallController:onSocketError(errorCode)$/;"	f
+HallController:onTryToEnterRoom	.\hallController.lua	/^function HallController:onTryToEnterRoom(data, type)$/;"	f
+HallController:pause	.\hallController.lua	/^function HallController:pause()$/;"	f
+HallController:pickCallBack	.\hallController.lua	/^function HallController:pickCallBack()$/;"	f
+HallController:reLoginRoom_	.\hallController.lua	/^function HallController:reLoginRoom_()$/;"	f
+HallController:resume	.\hallController.lua	/^function HallController:resume()$/;"	f
+HallController:saveNoReadMsg	.\hallController.lua	/^function HallController:saveNoReadMsg()$/;"	f
+HallController:showErrorByDialog_	.\hallController.lua	/^function HallController:showErrorByDialog_(msg)$/;"	f
+HallController:showExitAlert	.\hallController.lua	/^function HallController:showExitAlert()$/;"	f
+HallController:showRewardPopup	.\hallController.lua	/^function HallController:showRewardPopup()$/;"	f
+HallData:ctor	.\hallData.lua	/^function HallData:ctor(controller)$/;"	f
+HallData:dtor	.\hallData.lua	/^function HallData:dtor()$/;"	f
+HallData:getLoginRewardConfigCallBack	.\hallData.lua	/^function HallData:getLoginRewardConfigCallBack(errorCode,data)$/;"	f
+HallGirlController.RectContainsPoint	.\hallGirlController.lua	/^function HallGirlController.RectContainsPoint( rect, point )$/;"	f
+HallGirlController.TriangleContainsPoint	.\hallGirlController.lua	/^function HallGirlController.TriangleContainsPoint(triangle, P)$/;"	f
+HallGirlController:ctor	.\hallGirlController.lua	/^function HallGirlController:ctor(spriteGirl)$/;"	f
+HallGirlController:dtor	.\hallGirlController.lua	/^function HallGirlController:dtor( ... )$/;"	f
+HallGirlController:initMsgLib	.\hallGirlController.lua	/^function HallGirlController:initMsgLib()$/;"	f
+HallGirlController:onEventTouch	.\hallGirlController.lua	/^function HallGirlController:onEventTouch(finger_action, x, y, drawing_id_first, drawing_id_current, event_time)$/;"	f
+HallGirlController:onNormalTouch	.\hallGirlController.lua	/^function HallGirlController:onNormalTouch()$/;"	f
+HallGirlController:onPrivateTouch	.\hallGirlController.lua	/^function HallGirlController:onPrivateTouch()$/;"	f
+HallGirlController:refreshTalkView	.\hallGirlController.lua	/^function HallGirlController:refreshTalkView()$/;"	f
+HallGirlController:runLoop	.\hallGirlController.lua	/^function HallGirlController:runLoop()$/;"	f
+HallGirlController:showOver	.\hallGirlController.lua	/^function HallGirlController:showOver()$/;"	f
+HallGirlController:startLoop	.\hallGirlController.lua	/^function HallGirlController:startLoop()$/;"	f
+HallGirlController:stopLoop	.\hallGirlController.lua	/^function HallGirlController:stopLoop()$/;"	f
+HallGirlController:talk	.\hallGirlController.lua	/^function HallGirlController:talk(msg, notForce)$/;"	f
+HallPlayerItem:DrawVip	.\hallPlayerItem.lua	/^function HallPlayerItem:DrawVip(node,vipLevel)$/;"	f
+HallPlayerItem:ctor	.\hallPlayerItem.lua	/^function HallPlayerItem:ctor(data,index)$/;"	f
+HallPlayerItem:dtor	.\hallPlayerItem.lua	/^function HallPlayerItem:dtor()$/;"	f
+HallPlayerItem:init	.\hallPlayerItem.lua	/^function HallPlayerItem:init()$/;"	f
+HallPlayerItem:onHttpProcesser	.\hallPlayerItem.lua	/^function HallPlayerItem:onHttpProcesser(command, errorCode, data)$/;"	f
+HallPlayerItem:onOperatorBtnClick	.\hallPlayerItem.lua	/^function HallPlayerItem:onOperatorBtnClick()$/;"	f
+HallPlayerItem:onPlayerBgClick	.\hallPlayerItem.lua	/^function HallPlayerItem:onPlayerBgClick()$/;"	f
+HallPlayerItem:onPlayerIconChange	.\hallPlayerItem.lua	/^function HallPlayerItem:onPlayerIconChange(data)$/;"	f
+HallPlayerItem:onPlayerMoneyChange	.\hallPlayerItem.lua	/^function HallPlayerItem:onPlayerMoneyChange(data)$/;"	f
+HallPlayerItem:setData	.\hallPlayerItem.lua	/^function HallPlayerItem:setData()$/;"	f
+HallPlayerItem:updataPlayerIcon	.\hallPlayerItem.lua	/^function HallPlayerItem:updataPlayerIcon()$/;"	f
+HallRecommendItem:ctor	.\hallRecommendItem.lua	/^function HallRecommendItem:ctor(data,index)$/;"	f
+HallRecommendItem:dtor	.\hallRecommendItem.lua	/^function HallRecommendItem:dtor()$/;"	f
+HallRecommendItem:init	.\hallRecommendItem.lua	/^function HallRecommendItem:init()$/;"	f
+HallRecommendItem:onOperatorBtnClick	.\hallRecommendItem.lua	/^function HallRecommendItem:onOperatorBtnClick()$/;"	f
+HallRecommendItem:onPlayerBgClick	.\hallRecommendItem.lua	/^function HallRecommendItem:onPlayerBgClick()$/;"	f
+HallScene:DrawVip	.\hallScene.lua	/^function HallScene:DrawVip(node,vipLevel)$/;"	f
+HallScene:addPropertyObservers_	.\hallScene.lua	/^function HallScene:addPropertyObservers_()$/;"	f
+HallScene:ctor	.\hallScene.lua	/^function HallScene:ctor(viewConfig, controller)$/;"	f
+HallScene:dtor	.\hallScene.lua	/^function HallScene:dtor()$/;"	f
+HallScene:initAdsAndDownloadBtn	.\hallScene.lua	/^function HallScene:initAdsAndDownloadBtn() -- 广告及换量按钮初始化$/;"	f
+HallScene:initOperator	.\hallScene.lua	/^function HallScene:initOperator()$/;"	f
+HallScene:initPlayerInfo	.\hallScene.lua	/^function HallScene:initPlayerInfo()$/;"	f
+HallScene:initRankingNode	.\hallScene.lua	/^function HallScene:initRankingNode()$/;"	f
+HallScene:initScene	.\hallScene.lua	/^function HallScene:initScene()$/;"	f
+HallScene:initSwf	.\hallScene.lua	/^function HallScene:initSwf()$/;"	f
+HallScene:judgeFiveStar	.\hallScene.lua	/^function HallScene:judgeFiveStar()$/;"	f
+HallScene:onActivityBtnClick	.\hallScene.lua	/^function HallScene:onActivityBtnClick()$/;"	f
+HallScene:onAddBtnClick	.\hallScene.lua	/^function HallScene:onAddBtnClick()$/;"	f
+HallScene:onAddFriendsBtnClick	.\hallScene.lua	/^function HallScene:onAddFriendsBtnClick()$/;"	f
+HallScene:onFacebookButtonClick	.\hallScene.lua	/^function HallScene:onFacebookButtonClick()$/;"	f
+HallScene:onFirstPayButtonClick	.\hallScene.lua	/^function HallScene:onFirstPayButtonClick()$/;"	f
+HallScene:onFreeDownloadBtnClick	.\hallScene.lua	/^function HallScene:onFreeDownloadBtnClick()$/;"	f
+HallScene:onFreeFansBtnClick	.\hallScene.lua	/^function HallScene:onFreeFansBtnClick()$/;"	f
+HallScene:onFreeGrowBtnClick	.\hallScene.lua	/^function HallScene:onFreeGrowBtnClick()$/;"	f
+HallScene:onFreeLoginBtnClick	.\hallScene.lua	/^function HallScene:onFreeLoginBtnClick()   $/;"	f
+HallScene:onFreeMoneyBtnClick	.\hallScene.lua	/^function HallScene:onFreeMoneyBtnClick()$/;"	f
+HallScene:onFreeVideoBtnClick	.\hallScene.lua	/^function HallScene:onFreeVideoBtnClick()$/;"	f
+HallScene:onFriendsBtnClick	.\hallScene.lua	/^function HallScene:onFriendsBtnClick()$/;"	f
+HallScene:onGapleBtnClick	.\hallScene.lua	/^function HallScene:onGapleBtnClick()$/;"	f
+HallScene:onHeadBtnClick	.\hallScene.lua	/^function HallScene:onHeadBtnClick()$/;"	f
+HallScene:onLimitTimeClick	.\hallScene.lua	/^function HallScene:onLimitTimeClick()$/;"	f
+HallScene:onLimitTimeClose	.\hallScene.lua	/^function HallScene:onLimitTimeClose(isBuySuccess)$/;"	f
+HallScene:onLimitTimeEventBtnClick	.\hallScene.lua	/^function HallScene:onLimitTimeEventBtnClick()$/;"	f
+HallScene:onLimitTimeOpen	.\hallScene.lua	/^function HallScene:onLimitTimeOpen(pack)$/;"	f
+HallScene:onLotteryClick	.\hallScene.lua	/^function HallScene:onLotteryClick()$/;"	f
+HallScene:onMallBtnClick	.\hallScene.lua	/^function HallScene:onMallBtnClick()$/;"	f
+HallScene:onMessageBtnClick	.\hallScene.lua	/^function HallScene:onMessageBtnClick()$/;"	f
+HallScene:onMoreBtnClick	.\hallScene.lua	/^function HallScene:onMoreBtnClick()$/;"	f
+HallScene:onQiuqiuBtnClick	.\hallScene.lua	/^function HallScene:onQiuqiuBtnClick()$/;"	f
+HallScene:onQuickPayButtonClick	.\hallScene.lua	/^function HallScene:onQuickPayButtonClick()$/;"	f
+HallScene:onQuickStartBtnClick	.\hallScene.lua	/^function HallScene:onQuickStartBtnClick()$/;"	f
+HallScene:onRankFriendsBtnClick	.\hallScene.lua	/^function HallScene:onRankFriendsBtnClick()$/;"	f
+HallScene:onRankListBtnClick	.\hallScene.lua	/^function HallScene:onRankListBtnClick()$/;"	f
+HallScene:onRankingBtnClick	.\hallScene.lua	/^function HallScene:onRankingBtnClick()$/;"	f
+HallScene:onRefreshFriendList	.\hallScene.lua	/^function HallScene:onRefreshFriendList()$/;"	f
+HallScene:onRefreshlTEventCountdownTime	.\hallScene.lua	/^function HallScene:onRefreshlTEventCountdownTime(time_table)$/;"	f
+HallScene:onReportMoreBtnClick	.\hallScene.lua	/^function HallScene:onReportMoreBtnClick()$/;"	f
+HallScene:onSettingBtnClick	.\hallScene.lua	/^function HallScene:onSettingBtnClick()$/;"	f
+HallScene:onShowRoomChoosePopup	.\hallScene.lua	/^function HallScene:onShowRoomChoosePopup(roomType)$/;"	f
+HallScene:onTaskBtnClick	.\hallScene.lua	/^function HallScene:onTaskBtnClick()$/;"	f
+HallScene:pause	.\hallScene.lua	/^function HallScene:pause()$/;"	f
+HallScene:pauseSwf	.\hallScene.lua	/^function HallScene:pauseSwf()$/;"	f
+HallScene:playHideAnim	.\hallScene.lua	/^function HallScene:playHideAnim()$/;"	f
+HallScene:recharge	.\hallScene.lua	/^function HallScene:recharge(firstRechargeStatus)$/;"	f
+HallScene:removePropertyObservers	.\hallScene.lua	/^function HallScene:removePropertyObservers()$/;"	f
+HallScene:resume	.\hallScene.lua	/^function HallScene:resume()$/;"	f
+HallScene:resumeSwf	.\hallScene.lua	/^function HallScene:resumeSwf()$/;"	f
+HallScene:scheduleHandler	.\hallScene.lua	/^function HallScene:scheduleHandler()$/;"	f
+HallScene:setFreeRedPoint	.\hallScene.lua	/^function HallScene:setFreeRedPoint(index)$/;"	f
+HallScene:setRankNodeBtnStatus	.\hallScene.lua	/^function HallScene:setRankNodeBtnStatus(index)$/;"	f
+HallScene:showEnterAnim	.\hallScene.lua	/^function HallScene:showEnterAnim(delayTimeBase)$/;"	f
+HallScene:start	.\hallScene.lua	/^function HallScene:start()$/;"	f
+HallScene:stopEnterAnim	.\hallScene.lua	/^function HallScene:stopEnterAnim()$/;"	f
+HallScene:updataLimitTimeEventStatus	.\hallScene.lua	/^function HallScene:updataLimitTimeEventStatus()$/;"	f
+HallScene:updataUserinfo	.\hallScene.lua	/^function HallScene:updataUserinfo()$/;"	f
+HallScene:updateLotteryTimes	.\hallScene.lua	/^function HallScene:updateLotteryTimes()$/;"	f
+HallState:__after_delete	.\hallState.lua	/^function HallState:__after_delete()$/;"	f
+HallState:ctor	.\hallState.lua	/^function HallState:ctor()$/;"	f
+HallState:load	.\hallState.lua	/^function HallState:load()$/;"	f
+RoomConfigController:checkRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:checkRoomConfig()$/;"	f
+RoomConfigController:cleanCallback	.\roomConfigController.lua	/^function RoomConfigController:cleanCallback()$/;"	f
+RoomConfigController:ctor	.\roomConfigController.lua	/^function RoomConfigController:ctor()$/;"	f
+RoomConfigController:dtor	.\roomConfigController.lua	/^function RoomConfigController:dtor()$/;"	f
+RoomConfigController:getRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:getRoomConfig()$/;"	f
+RoomConfigController:onHttpPorcesser	.\roomConfigController.lua	/^function RoomConfigController:onHttpPorcesser(command, errorCode, data)$/;"	f
+RoomConfigController:registerProcesser	.\roomConfigController.lua	/^function RoomConfigController:registerProcesser()$/;"	f
+RoomConfigController:requireRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:requireRoomConfig()$/;"	f
+RoomConfigController:setRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:setRoomConfig(roomConfig)$/;"	f
+ShareToFbPopup.TakeScreenShot	.\shareToFbPopup.lua	/^function ShareToFbPopup.TakeScreenShot(drawingContainer)$/;"	f
+ShareToFbPopup:ctor	.\shareToFbPopup.lua	/^function ShareToFbPopup:ctor()$/;"	f
+ShareToFbPopup:dtor	.\shareToFbPopup.lua	/^function ShareToFbPopup:dtor()$/;"	f
+ShareToFbPopup:onBtnShareClicked	.\shareToFbPopup.lua	/^function ShareToFbPopup:onBtnShareClicked()$/;"	f
+__after_delete	.\hallState.lua	/^function HallState:__after_delete()$/;"	f
+addPropertyObservers_	.\hallScene.lua	/^function HallScene:addPropertyObservers_()$/;"	f
+callback 	.\hallController.lua	/^        callback = function (type)$/;"	f
+checkRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:checkRoomConfig()$/;"	f
+cleanCallback	.\roomConfigController.lua	/^function RoomConfigController:cleanCallback()$/;"	f
+ctor	.\hallController.lua	/^function HallController:ctor(state, viewClass, viewConfig, dataClass)$/;"	f
+ctor	.\hallData.lua	/^function HallData:ctor(controller)$/;"	f
+ctor	.\hallGirlController.lua	/^function HallGirlController:ctor(spriteGirl)$/;"	f
+ctor	.\hallPlayerItem.lua	/^function HallPlayerItem:ctor(data,index)$/;"	f
+ctor	.\hallRecommendItem.lua	/^function HallRecommendItem:ctor(data,index)$/;"	f
+ctor	.\hallScene.lua	/^function HallScene:ctor(viewConfig, controller)$/;"	f
+ctor	.\hallState.lua	/^function HallState:ctor()$/;"	f
+ctor	.\roomConfigController.lua	/^function RoomConfigController:ctor()$/;"	f
+ctor	.\shareToFbPopup.lua	/^function ShareToFbPopup:ctor()$/;"	f
+doLogout	.\hallController.lua	/^function HallController:doLogout()$/;"	f
+dosomething	.\hallController.lua	/^function HallController:dosomething()$/;"	f
+dtor	.\hallController.lua	/^function HallController:dtor()$/;"	f
+dtor	.\hallData.lua	/^function HallData:dtor()$/;"	f
+dtor	.\hallGirlController.lua	/^function HallGirlController:dtor( ... )$/;"	f
+dtor	.\hallPlayerItem.lua	/^function HallPlayerItem:dtor()$/;"	f
+dtor	.\hallRecommendItem.lua	/^function HallRecommendItem:dtor()$/;"	f
+dtor	.\hallScene.lua	/^function HallScene:dtor()$/;"	f
+dtor	.\roomConfigController.lua	/^function RoomConfigController:dtor()$/;"	f
+dtor	.\shareToFbPopup.lua	/^function ShareToFbPopup:dtor()$/;"	f
+exitApp	.\hallController.lua	/^function HallController:exitApp()$/;"	f
+getLoginRewardConfigCallBack	.\hallData.lua	/^function HallData:getLoginRewardConfigCallBack(errorCode,data)$/;"	f
+getRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:getRoomConfig()$/;"	f
+handleLogout	.\hallController.lua	/^function HallController:handleLogout()$/;"	f
+init	.\hallPlayerItem.lua	/^function HallPlayerItem:init()$/;"	f
+init	.\hallRecommendItem.lua	/^function HallRecommendItem:init()$/;"	f
+initAdsAndDownloadBtn	.\hallScene.lua	/^function HallScene:initAdsAndDownloadBtn() -- 广告及换量按钮初始化$/;"	f
+initMsgLib	.\hallGirlController.lua	/^function HallGirlController:initMsgLib()$/;"	f
+initOperator	.\hallScene.lua	/^function HallScene:initOperator()$/;"	f
+initPlayerInfo	.\hallScene.lua	/^function HallScene:initPlayerInfo()$/;"	f
+initRankingNode	.\hallScene.lua	/^function HallScene:initRankingNode()$/;"	f
+initScene	.\hallScene.lua	/^function HallScene:initScene()$/;"	f
+initSwf	.\hallScene.lua	/^function HallScene:initSwf()$/;"	f
+judgeFiveStar	.\hallScene.lua	/^function HallScene:judgeFiveStar()$/;"	f
+load	.\hallState.lua	/^function HallState:load()$/;"	f
+local money 	.\hallController.lua	/^    local money = nk.functions.getMoney()$/;"	f
+local updateViewFunc 	.\hallScene.lua	/^            local updateViewFunc = function()$/;"	f
+onActivityBtnClick	.\hallScene.lua	/^function HallScene:onActivityBtnClick()$/;"	f
+onAddBtnClick	.\hallScene.lua	/^function HallScene:onAddBtnClick()$/;"	f
+onAddFriendsBtnClick	.\hallScene.lua	/^function HallScene:onAddFriendsBtnClick()$/;"	f
+onBack	.\hallController.lua	/^function HallController:onBack()$/;"	f
+onBtnShareClicked	.\shareToFbPopup.lua	/^function ShareToFbPopup:onBtnShareClicked()$/;"	f
+onEventTouch	.\hallGirlController.lua	/^function HallGirlController:onEventTouch(finger_action, x, y, drawing_id_first, drawing_id_current, event_time)$/;"	f
+onFacebookButtonClick	.\hallScene.lua	/^function HallScene:onFacebookButtonClick()$/;"	f
+onFirstPayButtonClick	.\hallScene.lua	/^function HallScene:onFirstPayButtonClick()$/;"	f
+onFreeDownloadBtnClick	.\hallScene.lua	/^function HallScene:onFreeDownloadBtnClick()$/;"	f
+onFreeFansBtnClick	.\hallScene.lua	/^function HallScene:onFreeFansBtnClick()$/;"	f
+onFreeGrowBtnClick	.\hallScene.lua	/^function HallScene:onFreeGrowBtnClick()$/;"	f
+onFreeLoginBtnClick	.\hallScene.lua	/^function HallScene:onFreeLoginBtnClick()   $/;"	f
+onFreeMoneyBtnClick	.\hallScene.lua	/^function HallScene:onFreeMoneyBtnClick()$/;"	f
+onFreeVideoBtnClick	.\hallScene.lua	/^function HallScene:onFreeVideoBtnClick()$/;"	f
+onFriendChange	.\hallController.lua	/^function HallController:onFriendChange()$/;"	f
+onFriendsBtnClick	.\hallScene.lua	/^function HallScene:onFriendsBtnClick()$/;"	f
+onGapleBtnClick	.\hallScene.lua	/^function HallScene:onGapleBtnClick()$/;"	f
+onHeadBtnClick	.\hallScene.lua	/^function HallScene:onHeadBtnClick()$/;"	f
+onHttpPorcesser	.\roomConfigController.lua	/^function RoomConfigController:onHttpPorcesser(command, errorCode, data)$/;"	f
+onHttpProcesser	.\hallPlayerItem.lua	/^function HallPlayerItem:onHttpProcesser(command, errorCode, data)$/;"	f
+onLimitTimeClick	.\hallScene.lua	/^function HallScene:onLimitTimeClick()$/;"	f
+onLimitTimeClose	.\hallController.lua	/^function HallController:onLimitTimeClose(isBuySuccess)$/;"	f
+onLimitTimeClose	.\hallScene.lua	/^function HallScene:onLimitTimeClose(isBuySuccess)$/;"	f
+onLimitTimeEventBtnClick	.\hallScene.lua	/^function HallScene:onLimitTimeEventBtnClick()$/;"	f
+onLimitTimeOpen	.\hallController.lua	/^function HallController:onLimitTimeOpen(pack)$/;"	f
+onLimitTimeOpen	.\hallScene.lua	/^function HallScene:onLimitTimeOpen(pack)$/;"	f
+onLoginServerSucc	.\hallController.lua	/^function HallController:onLoginServerSucc(data)$/;"	f
+onLotteryClick	.\hallScene.lua	/^function HallScene:onLotteryClick()$/;"	f
+onMallBtnClick	.\hallScene.lua	/^function HallScene:onMallBtnClick()$/;"	f
+onMessageBtnClick	.\hallScene.lua	/^function HallScene:onMessageBtnClick()$/;"	f
+onMoreBtnClick	.\hallScene.lua	/^function HallScene:onMoreBtnClick()$/;"	f
+onNormalTouch	.\hallGirlController.lua	/^function HallGirlController:onNormalTouch()$/;"	f
+onOperatorBtnClick	.\hallPlayerItem.lua	/^function HallPlayerItem:onOperatorBtnClick()$/;"	f
+onOperatorBtnClick	.\hallRecommendItem.lua	/^function HallRecommendItem:onOperatorBtnClick()$/;"	f
+onPlayerBgClick	.\hallPlayerItem.lua	/^function HallPlayerItem:onPlayerBgClick()$/;"	f
+onPlayerBgClick	.\hallRecommendItem.lua	/^function HallRecommendItem:onPlayerBgClick()$/;"	f
+onPlayerIconChange	.\hallPlayerItem.lua	/^function HallPlayerItem:onPlayerIconChange(data)$/;"	f
+onPlayerMoneyChange	.\hallPlayerItem.lua	/^function HallPlayerItem:onPlayerMoneyChange(data)$/;"	f
+onPrivateTouch	.\hallGirlController.lua	/^function HallGirlController:onPrivateTouch()$/;"	f
+onQiuqiuBtnClick	.\hallScene.lua	/^function HallScene:onQiuqiuBtnClick()$/;"	f
+onQuickPayButtonClick	.\hallScene.lua	/^function HallScene:onQuickPayButtonClick()$/;"	f
+onQuickStartBtnClick	.\hallScene.lua	/^function HallScene:onQuickStartBtnClick()$/;"	f
+onRankFriendsBtnClick	.\hallScene.lua	/^function HallScene:onRankFriendsBtnClick()$/;"	f
+onRankListBtnClick	.\hallScene.lua	/^function HallScene:onRankListBtnClick()$/;"	f
+onRankingBtnClick	.\hallScene.lua	/^function HallScene:onRankingBtnClick()$/;"	f
+onRefreshFriendList	.\hallScene.lua	/^function HallScene:onRefreshFriendList()$/;"	f
+onRefreshlTEventCountdownTime	.\hallScene.lua	/^function HallScene:onRefreshlTEventCountdownTime(time_table)$/;"	f
+onReportMoreBtnClick	.\hallScene.lua	/^function HallScene:onReportMoreBtnClick()$/;"	f
+onSettingBtnClick	.\hallScene.lua	/^function HallScene:onSettingBtnClick()$/;"	f
+onShowRoomChoosePopup	.\hallScene.lua	/^function HallScene:onShowRoomChoosePopup(roomType)$/;"	f
+onSocketError	.\hallController.lua	/^function HallController:onSocketError(errorCode)$/;"	f
+onTaskBtnClick	.\hallScene.lua	/^function HallScene:onTaskBtnClick()$/;"	f
+onTryToEnterRoom	.\hallController.lua	/^function HallController:onTryToEnterRoom(data, type)$/;"	f
+pause	.\hallController.lua	/^function HallController:pause()$/;"	f
+pause	.\hallScene.lua	/^function HallScene:pause()$/;"	f
+pauseSwf	.\hallScene.lua	/^function HallScene:pauseSwf()$/;"	f
+pickCallBack	.\hallController.lua	/^function HallController:pickCallBack()$/;"	f
+playHideAnim	.\hallScene.lua	/^function HallScene:playHideAnim()$/;"	f
+reLoginRoom_	.\hallController.lua	/^function HallController:reLoginRoom_()$/;"	f
+recharge	.\hallScene.lua	/^function HallScene:recharge(firstRechargeStatus)$/;"	f
+refreshTalkView	.\hallGirlController.lua	/^function HallGirlController:refreshTalkView()$/;"	f
+registerProcesser	.\roomConfigController.lua	/^function RoomConfigController:registerProcesser()$/;"	f
+removePropertyObservers	.\hallScene.lua	/^function HallScene:removePropertyObservers()$/;"	f
+requireRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:requireRoomConfig()$/;"	f
+result) if result then Log.printInfo	.\hallController.lua	/^        nk.taskController:requestTaskData()-- function(result) if result then Log.printInfo("LoginController","updata task status succ") end end$/;"	f
+resume	.\hallController.lua	/^function HallController:resume()$/;"	f
+resume	.\hallScene.lua	/^function HallScene:resume()$/;"	f
+resumeSwf	.\hallScene.lua	/^function HallScene:resumeSwf()$/;"	f
+runLoop	.\hallGirlController.lua	/^function HallGirlController:runLoop()$/;"	f
+saveNoReadMsg	.\hallController.lua	/^function HallController:saveNoReadMsg()$/;"	f
+scheduleHandler	.\hallScene.lua	/^function HallScene:scheduleHandler()$/;"	f
+self.NewMessageDataHandle_ 	.\hallScene.lua	/^    self.NewMessageDataHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.NEW_MESSAGE, "MsgMainPoint", handler(self, function(obj, visible)$/;"	f
+self.TaskDataHandle_ 	.\hallScene.lua	/^   self.TaskDataHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.NEW_MESSAGE, "TaskMainPoint", handler(self, function(obj, visible)$/;"	f
+self.activityNumObserverHandle_ 	.\hallScene.lua	/^    self.activityNumObserverHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "activityNum", handler(self, function (obj, count)$/;"	f
+self.chatRecordHandle_ 	.\hallScene.lua	/^    self.chatRecordHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "chatRecord", handler(self, function (obj, chatRecord)$/;"	f
+self.clockHandler 	.\hallController.lua	/^    self.clockHandler = Clock.instance():schedule_once(function()    $/;"	f
+self.clockHandler 	.\hallScene.lua	/^    self.clockHandler = Clock.instance():schedule_once(function()$/;"	f
+self.eventIsOpenHandle_ 	.\hallScene.lua	/^    self.eventIsOpenHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.NEW_MESSAGE, "eventIsOpen", handler(self, function(obj, isOpen)$/;"	f
+self.fiveStarSchedule 	.\hallScene.lua	/^    self.fiveStarSchedule = Clock.instance():schedule_once(function (dt)$/;"	f
+self.freeMoneyHandle_ 	.\hallScene.lua	/^    self.freeMoneyHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "FreeMoneyModTips", handler(self, function(obj, pointList)$/;"	f
+self.fullEventHandle_ 	.\hallScene.lua	/^    self.fullEventHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.NEW_MESSAGE, "fullEventPoint", handler(self, function(obj, visible)$/;"	f
+self.inviteIsGetHandle_ 	.\hallScene.lua	/^    self.inviteIsGetHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "inviteIsGet", handler(self, function(obj, inviteIsGet)$/;"	f
+self.miconHandle_ 	.\hallScene.lua	/^    self.miconHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "micon", handler(self, function (obj, micon)$/;"	f
+self.moneyObserverHandle_ 	.\hallScene.lua	/^    self.moneyObserverHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "money", handler(self, function (obj, money)$/;"	f
+self.msexHandle_ 	.\hallScene.lua	/^    self.msexHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "msex", handler(self, function (obj, msex)$/;"	f
+self.nameHandle_ 	.\hallScene.lua	/^    self.nameHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "name", handler(self, function()$/;"	f
+self.schedule 	.\hallScene.lua	/^        self.schedule = Clock.instance():schedule(function (dt) -- 更新视频按钮红点，判断视频是否加载好$/;"	f
+self.settingHandle_ 	.\hallScene.lua	/^    self.settingHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.NEW_MESSAGE, "settingPoint", handler(self, function(obj, visible)$/;"	f
+self.singleEventHandle_ 	.\hallScene.lua	/^    self.singleEventHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.NEW_MESSAGE, "singleEventPoint", handler(self, function(obj, visible)$/;"	f
+self.vipObserverHandle_ 	.\hallScene.lua	/^    self.vipObserverHandle_ = nk.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "vip", handler(self, function (obj, vip)$/;"	f
+setData	.\hallPlayerItem.lua	/^function HallPlayerItem:setData()$/;"	f
+setFreeRedPoint	.\hallScene.lua	/^function HallScene:setFreeRedPoint(index)$/;"	f
+setRankNodeBtnStatus	.\hallScene.lua	/^function HallScene:setRankNodeBtnStatus(index)$/;"	f
+setRoomConfig	.\roomConfigController.lua	/^function RoomConfigController:setRoomConfig(roomConfig)$/;"	f
+showEnterAnim	.\hallScene.lua	/^function HallScene:showEnterAnim(delayTimeBase)$/;"	f
+showErrorByDialog_	.\hallController.lua	/^function HallController:showErrorByDialog_(msg)$/;"	f
+showExitAlert	.\hallController.lua	/^function HallController:showExitAlert()$/;"	f
+showOver	.\hallGirlController.lua	/^function HallGirlController:showOver()$/;"	f
+showRewardPopup	.\hallController.lua	/^function HallController:showRewardPopup()$/;"	f
+start	.\hallScene.lua	/^function HallScene:start()$/;"	f
+startLoop	.\hallGirlController.lua	/^function HallGirlController:startLoop()$/;"	f
+stopEnterAnim	.\hallScene.lua	/^function HallScene:stopEnterAnim()$/;"	f
+stopLoop	.\hallGirlController.lua	/^function HallGirlController:stopLoop()$/;"	f
+talk	.\hallGirlController.lua	/^function HallGirlController:talk(msg, notForce)$/;"	f
+text 	.\hallScene.lua	/^    text = nk.updateFunctions.formatBigNumber(nk.functions.getMoney())$/;"	f
+updataLimitTimeEventStatus	.\hallScene.lua	/^function HallScene:updataLimitTimeEventStatus()$/;"	f
+updataPlayerIcon	.\hallPlayerItem.lua	/^function HallPlayerItem:updataPlayerIcon()$/;"	f
+updataUserinfo	.\hallScene.lua	/^function HallScene:updataUserinfo()$/;"	f
+updateLotteryTimes	.\hallScene.lua	/^function HallScene:updateLotteryTimes()$/;"	f

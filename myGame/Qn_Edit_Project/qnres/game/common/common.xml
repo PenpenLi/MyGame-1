@@ -15,5 +15,6 @@
   <item atlasType="0" compress="0" key="9ed945535c6167edbc48434544e6e33c" label="editButton" asset="game/common/editButton.png"/>
   <item atlasType="0" compress="0" key="bbcf9d2c4e52ebf02f568431aa5787c5" label="maxscore0" asset="game/common/maxscore0.png"/>
   <item atlasType="0" compress="0" key="f168c2983d76e77055702f49c38fa7e0" label="blank" asset="game/common/blank.png"/>
+  <item atlasType="0" compress="0" key="f2e595f021ddff6db337482b68a5efac" label="common_transparent" asset="game/common/common_transparent.png"/>
   <item atlasType="0" compress="0" key="fa660c3423d0bd4658abfef76d989bae" label="common_transparent_blank" asset="game/common/common_transparent_blank.png"/>
 </item>

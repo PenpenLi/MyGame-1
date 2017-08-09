@@ -70,6 +70,7 @@ end
 
 
 function event_init()
+	print("main event_init!!!!!!!!!")
 	-- 设置默认像素格式
 	Window.instance().root.fbo.need_stencil = true
 	System.setImageFilterPicker(function(filename) return kFilterLinear end)
@@ -79,10 +80,12 @@ function event_init()
 	--init_game()
 
 	
+	
 	StateMachine.getInstance():changeState(States.Demo)
 
 	-- local scene = new(ClassName)
 	-- scene:addToRoot()
 
 	-- new(DemoController, self, DemoScene, DemoLayer, DemoData, DemoLayerVar);
+
 end

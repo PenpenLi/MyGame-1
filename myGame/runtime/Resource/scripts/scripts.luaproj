@@ -25,6 +25,7 @@
     <Folder Include="boyaa\" />
     <Folder Include="boyaa\proxy\" />
     <Folder Include="demo\" />
+    <Folder Include="demo\rankItemLayer\" />
     <Folder Include="EngineCoreex\" />
     <Folder Include="EngineCore\" />
     <Folder Include="game\" />
@@ -152,10 +153,21 @@
   <ItemGroup>
     <Compile Include="boyaa\proxy\DataProxy.lua" />
     <Compile Include="config.lua" />
+    <Compile Include="demo\coinTipPopup.lua" />
     <Compile Include="demo\demoController.lua" />
     <Compile Include="demo\demoData.lua" />
     <Compile Include="demo\demoScene.lua" />
     <Compile Include="demo\demoState.lua" />
+    <Compile Include="demo\exitPopup.lua" />
+    <Compile Include="demo\failPopup.lua" />
+    <Compile Include="demo\gameHttp.lua" />
+    <Compile Include="demo\gameModelPopup.lua" />
+    <Compile Include="demo\gameSound.lua" />
+    <Compile Include="demo\gameTipPopup.lua" />
+    <Compile Include="demo\onRankPopup.lua" />
+    <Compile Include="demo\rankItemLayer\rankItemLayer.lua" />
+    <Compile Include="demo\setHeadPopup.lua" />
+    <Compile Include="demo\victoryPopup.lua" />
     <Compile Include="editor.lua" />
     <Compile Include="EngineCoreex\adapterex.lua" />
     <Compile Include="EngineCoreex\buttonex.lua" />
@@ -171,6 +183,7 @@
     <Compile Include="EngineCoreex\tableViewex.lua" />
     <Compile Include="EngineCoreex\textex.lua" />
     <Compile Include="EngineCoreex\textviewex.lua" />
+    <Compile Include="EngineCoreex\widgetBaseAnimEx.lua" />
     <Compile Include="EngineCoreex\widgetBaseex.lua" />
     <Compile Include="EngineCore\animation.lua" />
     <Compile Include="EngineCore\config.lua" />
@@ -551,6 +564,7 @@
     <Compile Include="profile.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\double_swf_info.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\double_swf_pin.lua" />
+    <Compile Include="qnRes\qnSwfRes\swf\fireworks_swf_info.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\hall_btn_1_swf_info.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\hall_btn_1_swf_pin.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\hall_btn_2_swf_info.lua" />
@@ -561,6 +575,9 @@
     <Compile Include="qnRes\qnSwfRes\swf\hall_btn_4_swf_pin.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\hall_btn_star_swf_info.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\hall_btn_star_swf_pin.lua" />
+    <Compile Include="qnRes\qnSwfRes\swf\Kingslime_swf_info.lua" />
+    <Compile Include="qnRes\qnSwfRes\swf\pig_swf_info.lua" />
+    <Compile Include="qnRes\qnSwfRes\swf\pig_swf_pin.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\quretet_swf_info.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\quretet_swf_pin.lua" />
     <Compile Include="qnRes\qnSwfRes\swf\reward_swf_info.lua" />
@@ -601,6 +618,21 @@
     <Compile Include="view\Android_960_640\chat\world_chat_view_layout_var.lua" />
     <Compile Include="view\Android_960_640\demo\demoLayer.lua" />
     <Compile Include="view\Android_960_640\demo\demoLayer_layout_var.lua" />
+    <Compile Include="view\Android_960_640\demo\exitPopup.lua" />
+    <Compile Include="view\Android_960_640\demo\exitPopup_layout_var.lua" />
+    <Compile Include="view\Android_960_640\demo\failPopup.lua" />
+    <Compile Include="view\Android_960_640\demo\failPopup_layout_var.lua" />
+    <Compile Include="view\Android_960_640\demo\gameTipPopue.lua" />
+    <Compile Include="view\Android_960_640\demo\gameTipPopup.lua" />
+    <Compile Include="view\Android_960_640\demo\gameTipPopup_layout_var.lua" />
+    <Compile Include="view\Android_960_640\demo\onRankPopup.lua" />
+    <Compile Include="view\Android_960_640\demo\onRankPopup_layout_var.lua" />
+    <Compile Include="view\Android_960_640\demo\rankItemLayer.lua" />
+    <Compile Include="view\Android_960_640\demo\rankItemLayer_layout_var.lua" />
+    <Compile Include="view\Android_960_640\demo\setHeadPopup.lua" />
+    <Compile Include="view\Android_960_640\demo\setHeadPopup_layout_var.lua" />
+    <Compile Include="view\Android_960_640\demo\victoryPopup.lua" />
+    <Compile Include="view\Android_960_640\demo\victoryPopup_layout_var.lua" />
     <Compile Include="view\Android_960_640\downloadGames\download_games.lua" />
     <Compile Include="view\Android_960_640\downloadGames\download_games_layout_var.lua" />
     <Compile Include="view\Android_960_640\downloadGames\game_item.lua" />
@@ -825,7 +857,11 @@
     <Compile Include="view\view_config.lua" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".tags" />
+    <Content Include=".tags_sorted_by_file" />
     <Content Include="debug.log" />
+    <Content Include="demo\.tags" />
+    <Content Include="demo\.tags_sorted_by_file" />
     <Content Include="language\lang\th_ID.mo" />
     <Content Include="language\lang\zh_CN.mo" />
     <Content Include="libs\XML_README.md" />

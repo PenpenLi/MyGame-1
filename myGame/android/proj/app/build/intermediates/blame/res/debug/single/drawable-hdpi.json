@@ -32,12 +32,12 @@
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\boyaa_ad_sector_select_bg_item.png"
     },
     {
-        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ad_float_normal.png",
-        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\ad_float_normal.png"
-    },
-    {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\push.png",
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\push.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ad_float_normal.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\ad_float_normal.png"
     },
     {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boyaa_snail_two.png",
@@ -84,12 +84,12 @@
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\boyaa_ad_progress_bg.png"
     },
     {
-        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boyaa_ad_classify_bg.png",
-        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\boyaa_ad_classify_bg.png"
-    },
-    {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boyaa_ad_loading.png",
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\boyaa_ad_loading.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boyaa_ad_classify_bg.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\boyaa_ad_classify_bg.png"
     },
     {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boyaa_ad_sector_bg.png",
@@ -144,12 +144,12 @@
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-hdpi\\com_facebook_tooltip_blue_xout.png"
     },
     {
-        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\com_facebook_tooltip_black_background.9.png",
-        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-hdpi\\com_facebook_tooltip_black_background.9.png"
-    },
-    {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boyaa_right.png",
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\src\\main\\res\\drawable-hdpi\\boyaa_right.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\com_facebook_tooltip_black_background.9.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-hdpi\\com_facebook_tooltip_black_background.9.png"
     },
     {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ad_float_press.png",

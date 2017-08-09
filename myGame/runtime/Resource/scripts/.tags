@@ -135,9 +135,9 @@
 .typeFilter	.\game\update\updateData.lua	/^			nk.functions.typeFilter(retData.java, {$/;"	f
 .updataChatRecord	.\game\chat\layers\friendsChatLayer.lua	/^    nk.functions.updataChatRecord()$/;"	f
 .updataChatRecord	.\game\net\socket\socketProcesserModule.lua	/^        nk.functions.updataChatRecord()$/;"	f
+.uploadPhoto	.\demo\setHeadPopup.lua	/^	nk.functions.uploadPhoto(self.newpath)$/;"	f
 .uploadPhoto	.\demo\setHeadPopup.lua	/^                nk.functions.uploadPhoto(path)$/;"	f
 .uploadPhoto	.\game\photoManager\photoItem.lua	/^                nk.functions.uploadPhoto(true,path,self.posIndex,self.imgIndex)$/;"	f
-.uploadPhoto1	.\demo\setHeadPopup.lua	/^		nk.functions.uploadPhoto1(data)$/;"	f
 AboutPopup.hide	.\game\setting\aboutPopup.lua	/^function AboutPopup.hide()$/;"	f
 AboutPopup.show	.\game\setting\aboutPopup.lua	/^function AboutPopup.show(data)$/;"	f
 AboutPopup:bt_share_click	.\game\setting\aboutPopup.lua	/^function AboutPopup:bt_share_click()$/;"	f
@@ -588,7 +588,6 @@ DemoScene:backHome	.\demo\demoScene.lua	/^function DemoScene:backHome()$/;"	f
 DemoScene:breakRecord	.\demo\demoScene.lua	/^function DemoScene:breakRecord()$/;"	f
 DemoScene:btn_event_upload	.\demo\demoScene.lua	/^function DemoScene:btn_event_upload(name)$/;"	f
 DemoScene:cancel	.\demo\demoScene.lua	/^function DemoScene:cancel()$/;"	f
-DemoScene:cancelSetHeadAndName	.\demo\demoScene.lua	/^function DemoScene:cancelSetHeadAndName()$/;"	f
 DemoScene:cartonMonster	.\demo\demoScene.lua	/^function DemoScene:cartonMonster( ... )$/;"	f
 DemoScene:cartonPerson	.\demo\demoScene.lua	/^function DemoScene:cartonPerson()$/;"	f
 DemoScene:checkStation	.\demo\demoScene.lua	/^function DemoScene:checkStation()$/;"	f
@@ -606,8 +605,8 @@ DemoScene:gameOver	.\demo\demoScene.lua	/^function DemoScene:gameOver()$/;"	f
 DemoScene:gameTip	.\demo\demoScene.lua	/^function DemoScene:gameTip( ... )$/;"	f
 DemoScene:gameTipPopup	.\demo\demoScene.lua	/^function DemoScene:gameTipPopup()$/;"	f
 DemoScene:getCoin	.\demo\demoScene.lua	/^function DemoScene:getCoin( ... )$/;"	f
-DemoScene:getLastNameAndHeadFromHttp	.\demo\demoScene.lua	/^function DemoScene:getLastNameAndHeadFromHttp( ... )$/;"	f
 DemoScene:getMaxData	.\demo\demoScene.lua	/^function DemoScene:getMaxData()$/;"	f
+DemoScene:getNameAndHeadFromHttp	.\demo\demoScene.lua	/^function DemoScene:getNameAndHeadFromHttp(nextCallback)$/;"	f
 DemoScene:getScore	.\demo\demoScene.lua	/^function DemoScene:getScore( ... )$/;"	f
 DemoScene:hitMoster	.\demo\demoScene.lua	/^function DemoScene:hitMoster( ... )$/;"	f
 DemoScene:httpUpdate	.\demo\demoScene.lua	/^function DemoScene:httpUpdate(method, table)$/;"	f
@@ -622,27 +621,30 @@ DemoScene:onConfirmPopup	.\demo\demoScene.lua	/^function DemoScene:onConfirmPopu
 DemoScene:onExitPopup	.\demo\demoScene.lua	/^function DemoScene:onExitPopup( ... )$/;"	f
 DemoScene:onFailPopup	.\demo\demoScene.lua	/^function DemoScene:onFailPopup()$/;"	f
 DemoScene:onKeyDown	.\demo\demoScene.lua	/^function DemoScene:onKeyDown(key)$/;"	f
-DemoScene:onRankPopup	.\demo\demoScene.lua	/^function DemoScene:onRankPopup( ... )$/;"	f
+DemoScene:onRankPopup	.\demo\demoScene.lua	/^function DemoScene:onRankPopup( RANK )$/;"	f
 DemoScene:onVictoryPopup	.\demo\demoScene.lua	/^function DemoScene:onVictoryPopup()$/;"	f
 DemoScene:playBoom	.\demo\demoScene.lua	/^function DemoScene:playBoom()$/;"	f
 DemoScene:playEffect	.\demo\demoScene.lua	/^function DemoScene:playEffect(style1, style2)$/;"	f
 DemoScene:playMusic	.\demo\demoScene.lua	/^function DemoScene:playMusic()$/;"	f
+DemoScene:postName	.\demo\demoScene.lua	/^function DemoScene:postName()$/;"	f
 DemoScene:reStart	.\demo\demoScene.lua	/^function DemoScene:reStart()$/;"	f
 DemoScene:removeAllHandle	.\demo\demoScene.lua	/^function DemoScene:removeAllHandle( ... )$/;"	f
 DemoScene:removeAllMyProp	.\demo\demoScene.lua	/^function DemoScene:removeAllMyProp( ... )$/;"	f
 DemoScene:revive	.\demo\demoScene.lua	/^function DemoScene:revive()$/;"	f
 DemoScene:setConfig	.\demo\demoScene.lua	/^function DemoScene:setConfig()$/;"	f
-DemoScene:setHeadAndName	.\demo\demoScene.lua	/^function DemoScene:setHeadAndName()$/;"	f
+DemoScene:setConfigHeadAndName	.\demo\demoScene.lua	/^function DemoScene:setConfigHeadAndName()$/;"	f
 DemoScene:setHeadPopup	.\demo\demoScene.lua	/^function DemoScene:setHeadPopup( ... )$/;"	f
 DemoScene:setMusic	.\demo\demoScene.lua	/^function DemoScene:setMusic() $/;"	f
-DemoScene:setTextColor	.\demo\demoScene.lua	/^function DemoScene:setTextColor( ... )$/;"	f
+DemoScene:setTextColor_black	.\demo\demoScene.lua	/^function DemoScene:setTextColor_black( ... )$/;"	f
+DemoScene:setTextColor_white	.\demo\demoScene.lua	/^function DemoScene:setTextColor_white( ... )$/;"	f
 DemoScene:showRank	.\demo\demoScene.lua	/^function DemoScene:showRank()$/;"	f
 DemoScene:start	.\demo\demoScene.lua	/^function DemoScene:start()$/;"	f
 DemoScene:stationInit	.\demo\demoScene.lua	/^function DemoScene:stationInit()$/;"	f
 DemoScene:upBar	.\demo\demoScene.lua	/^function DemoScene:upBar(finger_action, ...)$/;"	f
+DemoScene:updateHead	.\demo\demoScene.lua	/^function DemoScene:updateHead()$/;"	f
+DemoScene:updateHeadAndName	.\demo\demoScene.lua	/^function DemoScene:updateHeadAndName()$/;"	f
 DemoScene:updateMaxData	.\demo\demoScene.lua	/^function DemoScene:updateMaxData(value)$/;"	f
-DemoScene:uploadHead	.\demo\demoScene.lua	/^function DemoScene:uploadHead()$/;"	f
-DemoScene:userLogin	.\demo\demoScene.lua	/^function DemoScene:userLogin(nextCallback)$/;"	f
+DemoScene:userLogin	.\demo\demoScene.lua	/^function DemoScene:userLogin()$/;"	f
 DemoScene:victory	.\demo\demoScene.lua	/^function DemoScene:victory()$/;"	f
 DemoState:ctor	.\demo\demoState.lua	/^function DemoState:ctor()$/;"	f
 DemoState:load	.\demo\demoState.lua	/^function DemoState:load()$/;"	f
@@ -6010,7 +6012,6 @@ cancel	.\game\config\loadLevelControl.lua	/^function LoadLevelControl:cancel(req
 cancel	.\game\giftShop\loadGiftControl.lua	/^function LoadGiftControl:cancel(requestId)$/;"	f
 cancelSchedule	.\game\limitTimeGiftbag\limitTimer.lua	/^function LimitTimer:cancelSchedule()$/;"	f
 cancelSchedule	.\game\lottery\lotteryPopup.lua	/^function LotteryPopup:cancelSchedule()$/;"	f
-cancelSetHeadAndName	.\demo\demoScene.lua	/^function DemoScene:cancelSetHeadAndName()$/;"	f
 cancelSuspend	.\game\roomGaple\roomGapleController.lua	/^-- function RoomGapleController:cancelSuspend()$/;"	f
 cancelSuspend	.\game\roomGaple\roomGapleData.lua	/^function RoomGapleData:cancelSuspend()$/;"	f
 cancelSuspend	.\game\roomQiuQiu\roomQiuQiuData.lua	/^function RoomQiuQiuData:cancelSuspend()$/;"	f
@@ -6259,7 +6260,8 @@ ctor	.\demo\failPopup.lua	/^function failPopup:ctor(viewConfig, viewVar, data1, 
 ctor	.\demo\gameHttp.lua	/^function gameHttp:ctor(defaultURL)$/;"	f
 ctor	.\demo\gameSound.lua	/^function gameSound:ctor()$/;"	f
 ctor	.\demo\gameTipPopup.lua	/^function gameTipPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
-ctor	.\demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar)$/;"	f
+ctor	.\demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar, data)$/;"	f
+ctor	.\demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:ctor(data)$/;"	f
 ctor	.\demo\setHeadPopup.lua	/^function setHeadPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
 ctor	.\demo\victoryPopup.lua	/^function victoryPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
 ctor	.\game\anim\enterRoomLoadingAnim.lua	/^function EnterRoomLoadingAnim:ctor(roomType)$/;"	f
@@ -6683,6 +6685,7 @@ dtor	.\demo\failPopup.lua	/^function failPopup:dtor()$/;"	f
 dtor	.\demo\gameHttp.lua	/^function gameHttp:dtor()$/;"	f
 dtor	.\demo\gameSound.lua	/^function gameSound:dtor( ... )$/;"	f
 dtor	.\demo\onRankPopup.lua	/^function onRankPopup:dtor()$/;"	f
+dtor	.\demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:dtor()$/;"	f
 dtor	.\demo\setHeadPopup.lua	/^function setHeadPopup:dtor()$/;"	f
 dtor	.\game\anim\enterRoomLoadingAnim.lua	/^function EnterRoomLoadingAnim:dtor()$/;"	f
 dtor	.\game\anim\frameAnim.lua	/^function FrameAnim:dtor()$/;"	f
@@ -7374,7 +7377,6 @@ getKey	.\game\roomQiuQiu\manager\chipData.lua	/^function ChipData:getKey()$/;"	f
 getLabel	.\game\roomQiuQiu\layers\operationButton.lua	/^function OperationButton:getLabel()$/;"	f
 getLabelValue	.\game\roomQiuQiu\layers\raiseSlider.lua	/^function RaiseSlider:getLabelValue()$/;"	f
 getLastCards	.\game\roomGaple\views\seatView.lua	/^function SeatView:getLastCards()$/;"	f
-getLastNameAndHeadFromHttp	.\demo\demoScene.lua	/^function DemoScene:getLastNameAndHeadFromHttp( ... )$/;"	f
 getLayerTouchEnabled	.\game\roomGaple\views\touchLayer.lua	/^function TouchLayer:getLayerTouchEnabled()$/;"	f
 getLeftPoint	.\game\roomQiuQiu\layers\handCard.lua	/^function HandCard:getLeftPoint()$/;"	f
 getLevelByExp	.\game\config\loadLevelControl.lua	/^function LoadLevelControl:getLevelByExp(exp,callback)$/;"	f
@@ -7397,6 +7399,7 @@ getMyGameData	.\game\rank\rankController.lua	/^function RankController:getMyGame
 getMyGameData	.\game\rank\rankData.lua	/^function RankData:getMyGameData()$/;"	f
 getMyTotalRank	.\game\rank\rankData.lua	/^function RankData:getMyTotalRank(typeStr)$/;"	f
 getName	.\game\common\component\component.lua	/^function Component:getName()$/;"	f
+getNameAndHeadFromHttp	.\demo\demoScene.lua	/^function DemoScene:getNameAndHeadFromHttp(nextCallback)$/;"	f
 getNativeCallResult	.\game\nativeEvent\nativeEventController.lua	/^function NativeEventController:getNativeCallResult()$/;"	f
 getNewCardType	.\game\roomQiuQiu\roomQiuQiuModel.lua	/^function RoomQiuQiuModel:getNewCardType(cardType, pointCount)$/;"	f
 getNewDayStr	.\game\invite\layers\inviteMyAwardViewLayer.lua	/^function InviteMyAwardViewLayer:getNewDayStr(srcDateTime, interval)$/;"	f
@@ -7653,7 +7656,7 @@ if enabled and type( val ) 	.\EngineCore\libutils.lua	/^    if enabled and type(
 if functions.getMoney() - (price * count) >	.\game\common\functions.lua	/^                if functions.getMoney() - (price * count) >= roomData.minBuyIn then$/;"	f
 if functions.getMoney() - (price * count) >	.\game\common\functions.lua	/^        if functions.getMoney() - (price * count) >= 0 then$/;"	f
 if functions.getMoney() >	.\game\common\functions.lua	/^            if functions.getMoney() >= (price * count + buyIn) then$/;"	f
-if nextCallback and type(nextCallback) 	.\demo\demoScene.lua	/^			if nextCallback and type(nextCallback) == "function" then$/;"	f
+if nextCallback and type(nextCallback) 	.\demo\demoScene.lua	/^		if nextCallback and type(nextCallback) == "function" then$/;"	f
 if nk.functions.getMoney() >	.\game\enterRoom\enterRoomManager.lua	/^                    if nk.functions.getMoney() >= roomData.minBuyIn then$/;"	f
 if nk.functions.getMoney() >	.\game\roomGaple\roomGapleController.lua	/^                if nk.functions.getMoney() >= (self.model.roomInfo.minBuyIn or 0) then$/;"	f
 if nk.functions.getMoney() >	.\game\roomQiuQiu\roomQiuQiuController.lua	/^        if nk.functions.getMoney() >= self.model.roomInfo.minBuyIn then$/;"	f
@@ -8527,7 +8530,6 @@ onConfirmPopup	.\demo\demoScene.lua	/^function DemoScene:onConfirmPopup( ... )$/
 onContinueClick	.\demo\coinTipPopup.lua	/^function coinTipPopup:onContinueClick()$/;"	f
 onContinueClick	.\demo\failPopup.lua	/^function failPopup:onContinueClick()$/;"	f
 onCrazyClick	.\demo\gameModelPopup.lua	/^function gameModelPopup:onCrazyClick()$/;"	f
-onCrazyMode	.\demo\onRankPopup.lua	/^function onRankPopup:onCrazyMode()$/;"	f
 onCreateOrderBack	.\game\store\pay\payManager.lua	/^function PayManager:onCreateOrderBack(errorCode, data)$/;"	f
 onDailyTaskBtnClick	.\game\roomFreeChip\roomFreeChipPopup.lua	/^function RoomFreeChipPopup:onDailyTaskBtnClick()$/;"	f
 onDealerChipButtonClick	.\game\roomQiuQiu\roomQiuQiuScene.lua	/^function RoomQiuQiuScene:onDealerChipButtonClick()$/;"	f
@@ -8609,7 +8611,6 @@ onFriendsSendBtnClick	.\game\giftShop\layers\myGiftLayer.lua	/^function MyGiftLa
 onFrontActionComplete_	.\game\roomQiuQiu\layers\ModifyCardIndexAni.lua	/^function ModifyCardIndexAni:onFrontActionComplete_()$/;"	f
 onGapleBtnClick	.\game\hall\hallScene.lua	/^function HallScene:onGapleBtnClick()$/;"	f
 onGentleClick	.\demo\gameModelPopup.lua	/^function gameModelPopup:onGentleClick()$/;"	f
-onGentleMode	.\demo\onRankPopup.lua	/^function onRankPopup:onGentleMode()$/;"	f
 onGetAllButtonClick	.\game\invite\layers\inviteMyAwardViewLayer.lua	/^function InviteMyAwardViewLayer:onGetAllButtonClick()$/;"	f
 onGetAward	.\game\invite\layers\inviteMyAwardViewLayer.lua	/^function InviteMyAwardViewLayer:onGetAward(id, isAll)$/;"	f
 onGetAwardDataCallback	.\game\invite\layers\inviteMyAwardViewLayer.lua	/^function InviteMyAwardViewLayer:onGetAwardDataCallback(errorCode, data)$/;"	f
@@ -8807,6 +8808,7 @@ onMenuBtnClick	.\game\roomQiuQiu\roomQiuQiuScene.lua	/^function RoomQiuQiuScene:
 onMenuShadowTouch	.\game\roomQiuQiu\roomQiuQiuScene.lua	/^function RoomQiuQiuScene:onMenuShadowTouch(finger_action, x, y, drawing_id_first, drawing_id_current)$/;"	f
 onMergeCallback	.\game\update\updateController.lua	/^function UpdateController:onMergeCallback(status, patchPath, newApkPath)$/;"	f
 onMessageBtnClick	.\game\hall\hallScene.lua	/^function HallScene:onMessageBtnClick()$/;"	f
+onMode	.\demo\onRankPopup.lua	/^function onRankPopup:onMode(mode)$/;"	f
 onModifyFinish	.\game\roomQiuQiu\layers\ModifyCardIndexAni.lua	/^function ModifyCardIndexAni:onModifyFinish(posX,posY)$/;"	f
 onModifyWaitting	.\game\roomQiuQiu\layers\ModifyCardIndexAni.lua	/^function ModifyCardIndexAni:onModifyWaitting(isSelf,posX,posY)$/;"	f
 onMoneyChangedCallback	.\game\userInfo\personalInfoPopup.lua	/^function PersonalInfoPopup:onMoneyChangedCallback(money)$/;"	f
@@ -8886,14 +8888,13 @@ onRadiobtnClick	.\game\limitTimeEvent\limitTimeEventPopup.lua	/^function LimitTi
 onRaiseSliderButtonClicked_	.\game\roomQiuQiu\manager\operationManager.lua	/^function OperationManager:onRaiseSliderButtonClicked_(tag)$/;"	f
 onRankFriendsBtnClick	.\game\hall\hallScene.lua	/^function HallScene:onRankFriendsBtnClick()$/;"	f
 onRankListBtnClick	.\game\hall\hallScene.lua	/^function HallScene:onRankListBtnClick()$/;"	f
-onRankPopup	.\demo\demoScene.lua	/^function DemoScene:onRankPopup( ... )$/;"	f
+onRankPopup	.\demo\demoScene.lua	/^function DemoScene:onRankPopup( RANK )$/;"	f
 onRankPopup.hide	.\demo\onRankPopup.lua	/^function onRankPopup.hide()$/;"	f
 onRankPopup.show	.\demo\onRankPopup.lua	/^function onRankPopup.show(...)$/;"	f
-onRankPopup:ctor	.\demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar)$/;"	f
+onRankPopup:ctor	.\demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar, data)$/;"	f
 onRankPopup:dtor	.\demo\onRankPopup.lua	/^function onRankPopup:dtor()$/;"	f
 onRankPopup:initLayer	.\demo\onRankPopup.lua	/^function onRankPopup:initLayer()$/;"	f
-onRankPopup:onCrazyMode	.\demo\onRankPopup.lua	/^function onRankPopup:onCrazyMode()$/;"	f
-onRankPopup:onGentleMode	.\demo\onRankPopup.lua	/^function onRankPopup:onGentleMode()$/;"	f
+onRankPopup:onMode	.\demo\onRankPopup.lua	/^function onRankPopup:onMode(mode)$/;"	f
 onRankPopup:onTitleGroupChangeClick	.\demo\onRankPopup.lua	/^function onRankPopup:onTitleGroupChangeClick()$/;"	f
 onRankingBtnClick	.\game\hall\hallScene.lua	/^function HallScene:onRankingBtnClick()$/;"	f
 onReLoginRoomSuccess	.\game\roomGaple\roomGapleController.lua	/^function RoomGapleController:onReLoginRoomSuccess(pack)$/;"	f
@@ -9605,6 +9606,7 @@ pop	.\EngineCore\libutils.lua	/^        local function pop()$/;"	f
 popupActions	.\EngineCoreex\widgetBaseAnimEx.lua	/^            local function popupActions()$/;"	f
 postDataOrganizer	.\game\net\http\httpController.lua	/^function HttpController:postDataOrganizer(method,params,addDefaultParams)  -- post 数据$/;"	f
 postDataOrganizerSocket	.\game\net\http\httpController.lua	/^function HttpController:postDataOrganizerSocket(method,params,addDefaultParams)  -- post 数据$/;"	f
+postName	.\demo\demoScene.lua	/^function DemoScene:postName()$/;"	f
 praseReceiveFriendMsg	.\game\chat\layers\friendsChatLayer.lua	/^function FriendsChatLayer:praseReceiveFriendMsg(data)$/;"	f
 prepareDealCards	.\game\roomGaple\manage\seatManager.lua	/^function SeatManager:prepareDealCards()$/;"	f
 prepareDealCards	.\game\roomQiuQiu\manager\seatManager.lua	/^function SeatManager:prepareDealCards()$/;"	f
@@ -9683,6 +9685,9 @@ radio_bt_click	.\game\setting\rulesPopup.lua	/^function RulesPopup:radio_bt_clic
 radio_bt_click	.\game\store\vip\vipRuleLayer.lua	/^function VipRulePopLayer:radio_bt_click(index)$/;"	f
 radio_bt_click	.\game\task\taskPopup.lua	/^function TaskPopup:radio_bt_click(index)$/;"	f
 randomIndexArr_	.\game\roomQiuQiu\layers\roomTipsView.lua	/^function RoomTipsView:randomIndexArr_(total)$/;"	f
+rankItemLayer:ctor	.\demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:ctor(data)$/;"	f
+rankItemLayer:dtor	.\demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:dtor()$/;"	f
+rankItemLayer:updateData	.\demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:updateData(data)$/;"	f
 reLoginRoom_	.\game\hall\hallController.lua	/^function HallController:reLoginRoom_()$/;"	f
 reLoginRoom_	.\game\net\socket\socketProcesserModule.lua	/^function SocketProcesserModule:reLoginRoom_()$/;"	f
 reSetExpireTime	.\game\limitTimeEvent\limitTimeEventDataController.lua	/^function LimitTimeEventDataController:reSetExpireTime(time)$/;"	f
@@ -10151,6 +10156,7 @@ setChecked	.\game\roomQiuQiu\layers\operationButtonGroup.lua	/^function Operatio
 setChipTxt	.\game\roomGaple\views\seatView.lua	/^function SeatView:setChipTxt(value)$/;"	f
 setCompleteEvent	.\EngineCore\swf.lua	/^function Swf:setCompleteEvent(obj, func)$/;"	f
 setConfig	.\demo\demoScene.lua	/^function DemoScene:setConfig()$/;"	f
+setConfigHeadAndName	.\demo\demoScene.lua	/^function DemoScene:setConfigHeadAndName()$/;"	f
 setConfigMap	.\game\net\http\httpController.lua	/^function HttpController:setConfigMap(configMap)$/;"	f
 setCost	.\game\userInfo\roomUserinfo\roomUserinfoOtherPopup.lua	/^function RoomUserinfoOtherPopup:setCost()$/;"	f
 setCountdownTimeStr	.\game\limitTimeEvent\layers\fullServerEventLayer.lua	/^function FullServerEventLayer:setCountdownTimeStr(text, time)$/;"	f
@@ -10213,7 +10219,6 @@ setHandCardStatus	.\game\roomGaple\manage\seatManager.lua	/^function SeatManager
 setHandCardTouchStatus	.\game\roomGaple\views\seatView.lua	/^function SeatView:setHandCardTouchStatus(status)$/;"	f
 setHandCardValue	.\game\roomGaple\views\seatView.lua	/^function SeatView:setHandCardValue(cards)$/;"	f
 setHandCardValue	.\game\roomQiuQiu\layers\seatView.lua	/^function SeatView:setHandCardValue(cards)$/;"	f
-setHeadAndName	.\demo\demoScene.lua	/^function DemoScene:setHeadAndName()$/;"	f
 setHeadIcon	.\game\photoManager\photoItem.lua	/^function PhotoItem:setHeadIcon(index)$/;"	f
 setHeadImage	.\game\chat\layers\friendsChatItem.lua	/^function FriendsChatItem:setHeadImage()$/;"	f
 setHeadPopup	.\demo\demoScene.lua	/^function DemoScene:setHeadPopup( ... )$/;"	f
@@ -10374,7 +10379,8 @@ setSubTabIndex	.\game\rank\rankData.lua	/^-- function RankData:setSubTabIndex(in
 setSwitch	.\game\common\dataCenterManager.lua	/^function DataCenterManager:setSwitch(switch)$/;"	f
 setTabs	.\game\userInfo\tabController.lua	/^function TabController:setTabs(tabNames, selectedIndex)$/;"	f
 setTaskCanGetNum	.\game\task\taskController.lua	/^function taskController:setTaskCanGetNum()$/;"	f
-setTextColor	.\demo\demoScene.lua	/^function DemoScene:setTextColor( ... )$/;"	f
+setTextColor_black	.\demo\demoScene.lua	/^function DemoScene:setTextColor_black( ... )$/;"	f
+setTextColor_white	.\demo\demoScene.lua	/^function DemoScene:setTextColor_white( ... )$/;"	f
 setTextData	.\game\chat\layers\friendsChatItem.lua	/^function FriendsChatItem:setTextData()$/;"	f
 setTime	.\game\limitTimeGiftbag\limitTimer.lua	/^function LimitTimer:setTime(time)$/;"	f
 setTime	.\game\roomQiuQiu\layers\cardModeConfirm.lua	/^function CardModeConfirm:setTime(t)$/;"	f
@@ -10781,6 +10787,7 @@ updateAward	.\game\invite\layers\inviteMyAwardViewLayer.lua	/^function InviteMyA
 updateAwardDataList	.\game\invite\layers\inviteMyAwardViewLayer.lua	/^function InviteMyAwardViewLayer:updateAwardDataList(data)$/;"	f
 updateBtnState	.\game\roomQiuQiu\layers\raiseSlider.lua	/^function RaiseSlider:updateBtnState()$/;"	f
 updateChangeRoomButtonMode	.\game\roomQiuQiu\roomQiuQiuController.lua	/^function RoomQiuQiuController:updateChangeRoomButtonMode()$/;"	f
+updateData	.\demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:updateData(data)$/;"	f
 updateData	.\game\gameBase\gameBaseController.lua	/^function GameBaseController:updateData(cmd, ...)$/;"	f
 updateData	.\game\rank\layers\rankItemLayer.lua	/^function RankItemLayer:updateData(data, isSelf)$/;"	f
 updateDiscount	.\game\store\pay\payHelper.lua	/^-- function PayHelper:updateDiscount(products, paytypeConfig)$/;"	f
@@ -10790,7 +10797,9 @@ updateGiftUrl	.\game\roomGaple\manage\seatManager.lua	/^function SeatManager:upd
 updateGiftUrl	.\game\roomGaple\views\seatView.lua	/^function SeatView:updateGiftUrl(gift_Id)$/;"	f
 updateGiftUrl	.\game\roomQiuQiu\layers\seatView.lua	/^function SeatView:updateGiftUrl(gift_Id)$/;"	f
 updateGiftUrl	.\game\roomQiuQiu\manager\seatManager.lua	/^function SeatManager:updateGiftUrl(seatId, giftId)$/;"	f
+updateHead	.\demo\demoScene.lua	/^function DemoScene:updateHead()$/;"	f
 updateHead	.\demo\setHeadPopup.lua	/^function setHeadPopup:updateHead()$/;"	f
+updateHeadAndName	.\demo\demoScene.lua	/^function DemoScene:updateHeadAndName()$/;"	f
 updateHeadImage	.\game\roomGaple\manage\seatManager.lua	/^function SeatManager:updateHeadImage(seatId, imageUrl)$/;"	f
 updateHeadImage	.\game\roomGaple\views\seatView.lua	/^function SeatView:updateHeadImage(imgurl)$/;"	f
 updateHeadImage	.\game\roomQiuQiu\layers\seatView.lua	/^function SeatView:updateHeadImage(imgurl)$/;"	f
@@ -10840,7 +10849,6 @@ update_recommend_view 	.\game\friend\friendScene.lua	/^update_recommend_view = f
 update_rule_scroll 	.\game\rank\layers\rankRulePopLayer.lua	/^update_rule_scroll = function(content, data)$/;"	f
 update_vip_award_scroll 	.\game\store\vip\vipPopup.lua	/^update_vip_award_scroll = function(content, data)$/;"	f
 uploadChanged	.\game\userInfo\personalSpaceView.lua	/^function PersonalSpaceView:uploadChanged()$/;"	f
-uploadHead	.\demo\demoScene.lua	/^function DemoScene:uploadHead()$/;"	f
 uploadPhoto	.\game\nativeEvent\facebookNativeEvent.lua	/^function FacebookNativeEvent:uploadPhoto(path, caption, callback)$/;"	f
 uploadpic	.\game\setting\feedbackLayer.lua	/^function FeedbackPopup:uploadpic(fid)$/;"	f
 upvalues	.\EngineCore\libutils.lua	/^  function upvalues( val, enabled, show_env )$/;"	f
@@ -10864,7 +10872,7 @@ userLayerController:onHttpPorcesser	.\game\userInfo\userLayerController.lua	/^fu
 userLayerController:registerProcesser	.\game\userInfo\userLayerController.lua	/^function userLayerController:registerProcesser()$/;"	f
 userLayerController:requiredataConfig	.\game\userInfo\userLayerController.lua	/^function userLayerController:requiredataConfig()$/;"	f
 userLayerController:setLogoutConfig	.\game\userInfo\userLayerController.lua	/^function userLayerController:setLogoutConfig(data)$/;"	f
-userLogin	.\demo\demoScene.lua	/^function DemoScene:userLogin(nextCallback)$/;"	f
+userLogin	.\demo\demoScene.lua	/^function DemoScene:userLogin()$/;"	f
 utf8_enc	.\libs\json.lua	/^function JsonReader:utf8_enc(cp)$/;"	f
 utf8_len	.\utils\functionModule.lua	/^function utf8_len(str)$/;"	f
 utf8_sub	.\utils\functionModule.lua	/^function utf8_sub(str, u_start, u_end)$/;"	f

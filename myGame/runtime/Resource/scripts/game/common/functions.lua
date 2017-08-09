@@ -1034,6 +1034,8 @@ function functions.uploadPhoto(path)
         param = {method = "User.uploadIcon"}
     }
 
+    Log.dump(MID, "MID")
+
     http2.request_async({
          url = HttpConfig.BASE_URL,
          post = {
@@ -1055,11 +1057,11 @@ function functions.uploadPhoto(path)
             if rsp.code == 200 and rsp.content ~= nil then
 
                 local content = json.decode(rsp.content)
-                -- Log.dump(content, "<<content")
-                local iconUrl = content.data.middle .. "?" ..os.time() 
+                Log.dump(content, "<<content")
+                local iconUrl = content.data.middle
+               
                 nk.DictModule:setString("playerAvatar", "iconUrl", iconUrl)
                 nk.DictModule:saveDict("playerAvatar")
-
                 EventDispatcher.getInstance():dispatch(EventConstants.changeHeadSuccess)
             end
          end

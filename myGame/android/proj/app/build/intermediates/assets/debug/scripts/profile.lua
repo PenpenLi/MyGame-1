@@ -1,3 +1,6 @@
+path1 = "swf_anim_pin/bmob_ten_end_swf_pin_1.png"
+path2 = "swf_anim_pin/bmob_hundred_end_swf_pin_1.png"
+
 
 local function profile()
 	local node = new(Text, "Test", 0, 20, kAlignLeft,"", 18, 255, 255, 255);

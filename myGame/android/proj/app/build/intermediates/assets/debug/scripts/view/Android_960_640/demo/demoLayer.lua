@@ -23,7 +23,7 @@ local demoLayer=
 		name="coin",type=1,typeName="Image",time=0,x=230,y=25,width=50,height=50,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="game/common/coin.png",varname="coin"
 	},
 	{
-		name="btntitle",type=1,typeName="Button",time=0,x=84,y=48,width=530,height=119,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="game/common/title0.png",varname="btntitle"
+		name="btntitle",type=1,typeName="Button",time=0,x=84,y=49,width=530,height=119,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopLeft,file="game/common/title0.png",varname="btntitle"
 	},
 	{
 		name="btnmusic",type=1,typeName="Button",time=0,x=25,y=15,width=60,height=60,visible=0,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignTopRight,file="game/button/btnmusic.png",varname="btnmusic"
@@ -47,7 +47,7 @@ local demoLayer=
 		name="bgModel",type=1,typeName="Image",time=0,x=0,y=0,width=400,height=300,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="game/backgroud/bg0.png",varname="bgModel"
 	},
 	{
-		name="gentleModel",type=1,typeName="Button",time=0,x=4,y=-54,width=238,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="game/button/gentleMode.png",varname="gentleModel"
+		name="gentleModel",type=1,typeName="Button",time=0,x=4,y=-61,width=238,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="game/button/gentleMode.png",varname="gentleModel"
 	},
 	{
 		name="carzyModel",type=1,typeName="Button",time=0,x=2,y=42,width=241,height=64,visible=1,fillParentWidth=0,fillParentHeight=0,nodeAlign=kAlignCenter,file="game/button/crazyMode.png",varname="carzyModel"

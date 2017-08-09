@@ -269,5 +269,5 @@ EventConstants.backHomeDomoScene = event_generator(root)
 -- 上传头像成功
 EventConstants.changeHeadSuccess = event_generator(root)
 
--- 点击设置头像
-EventConstants.setHeadDemoScene = event_generator(root)
+-- 更新设置名字
+EventConstants.setNameDemoScene = event_generator(root)

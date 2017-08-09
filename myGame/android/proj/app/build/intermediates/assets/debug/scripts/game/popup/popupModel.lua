@@ -91,7 +91,7 @@ end
 
 -- 添加阴影层
 function PopupModel:addShadowLayer(res)
-	local shadowLayer = new(Image, res or kImageMap.common_transparent) 
+	local shadowLayer = new(Image, res or "game/common/common_transparent.png") 
 	shadowLayer:setFillParent(true, true)
 	self:addChild(shadowLayer)
 	shadowLayer:setLevel(-1)

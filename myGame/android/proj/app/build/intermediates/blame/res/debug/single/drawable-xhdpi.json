@@ -40,12 +40,12 @@
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xhdpi\\com_facebook_button_like_icon_selected.png"
     },
     {
-        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\messenger_bubble_large_white.png",
-        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xhdpi\\messenger_bubble_large_white.png"
-    },
-    {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\messenger_bubble_large_blue.png",
         "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xhdpi\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\messenger_bubble_large_white.png",
+        "source": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.5.0\\res\\drawable-xhdpi\\messenger_bubble_large_white.png"
     },
     {
         "merged": "E:\\MyGame\\myGame\\android\\proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\line.png",

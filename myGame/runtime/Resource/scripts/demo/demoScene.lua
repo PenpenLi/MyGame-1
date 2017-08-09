@@ -10,6 +10,9 @@ local exitPopup = require("demo.exitPopup")
 local failPopup = require("demo.failPopup")
 local gameSound = require("demo.gameSound")
 
+local a = require("example.person_pb")
+
+
 local DemoScene = class(GameBaseSceneAsync)
 
 function DemoScene:ctor(viewConfig, controller)
@@ -20,10 +23,11 @@ function DemoScene:ctor(viewConfig, controller)
 	EventDispatcher.getInstance():register(EventConstants.reviveDomoScene, self, self.revive)
 	EventDispatcher.getInstance():register(EventConstants.cancelDomoScene, self, self.cancel)
 	EventDispatcher.getInstance():register(EventConstants.tipDemoScene, self, self.gameTip)
-	EventDispatcher.getInstance():register(EventConstants.setHeadDemoScene, self, self.setHeadAndName)
+	EventDispatcher.getInstance():register(EventConstants.setNameDemoScene, self, self.postName)
 	EventDispatcher.getInstance():register(EventConstants.failDemoScene, self, self.gameOver)
 	EventDispatcher.getInstance():register(EventConstants.btn_event_upload, self, self.btn_event_upload)
 	EventDispatcher.getInstance():register(EventConstants.backHomeDomoScene, self, self.backHome)
+	EventDispatcher.getInstance():register(EventConstants.changeHeadSuccess, self, self.updateHead);
 end
 
 function DemoScene:dtor(viewConfig, controller)
@@ -34,10 +38,11 @@ function DemoScene:dtor(viewConfig, controller)
 	EventDispatcher.getInstance():urregister(EventConstants.reviveDomoScene, self, self.revive)
 	EventDispatcher.getInstance():urregister(EventConstants.cancelDomoScene, self, self.cancel)
 	EventDispatcher.getInstance():urregister(EventConstants.tipDemoScene, self, self.gameTip)
-	EventDispatcher.getInstance():urregister(EventConstants.setHeadDemoScene, self, self.setHeadAndName)
+	EventDispatcher.getInstance():urregister(EventConstants.setNameDemoScene, self, self.postName)
 	EventDispatcher.getInstance():urregister(EventConstants.failDemoScene, self, self.gameOver)
 	EventDispatcher.getInstance():urregister(EventConstants.btn_event_upload, self, self.btn_event_upload)
 	EventDispatcher.getInstance():urregister(EventConstants.backHomeDomoScene, self, self.backHome)
+	EventDispatcher.getInstance():unregister(EventConstants.changeHeadSuccess, self, self.updateHead);
 end
 
 BUTTON_CLICK_EVENT = {
@@ -106,20 +111,20 @@ function DemoScene:start()
     --  self.brickArr = {}
     self.station = "Init"
 	self:initGame()
-
+    Log.printInfo("--------------------")
 
 	local nextStep = function()
 		self:setHeadPopup()
-		self:getLastNameAndHeadFromHttp()
+		self:updateHeadAndName()
 	end
 
-	self:userLogin(nextStep)
-
-	-- self:setHeadPopup()
+	self:getNameAndHeadFromHttp(nextStep)
+	
+	self:userLogin()
 	self.first = true
 end
 
-function DemoScene:userLogin(nextCallback)
+function DemoScene:userLogin()
 
 	nk.HttpController:execute("Login.userLogin", {param = {loginType = 1}}, nil, function(errCode, data)
 
@@ -155,9 +160,9 @@ function DemoScene:userLogin(nextCallback)
 
 			-- Log.dump(GAME_INFO_LIST, "<<<<<<<<<<< GAME_INFO_LIST")
 
-			MID = ret.mid
-			LASTNAME = ret.nick
-			ICON_URL = ret.iconUrl
+			-- MID = ret.mid
+			-- LASTNAME = ret.nick
+			-- ICON_URL = ret.iconUrl
 
 			if ret.loginType == 1 then
 				Log.dump("-----Visitor login", ret.loginType)
@@ -166,12 +171,30 @@ function DemoScene:userLogin(nextCallback)
 			elseif ret.loginType == 3 then
 				Log.dump("-----The third-party payment platform", ret.loginType)
 			end
-			if nextCallback and type(nextCallback) == "function" then
-				nextCallback()
-			end
+
 		end 
 	end)
 
+end
+
+function DemoScene:getNameAndHeadFromHttp(nextCallback)
+
+	nk.HttpController:execute("Login.userLogin", {param = {loginType = 1}}, nil, function(errCode, data)
+		if data and data.flag == 10000 then
+			local ret = data.data
+			MID = ret.mid
+			self.iconUrl = ret.iconUrl
+			self.nick = ret.nick
+
+			Log.dump(self.iconUrl, "self.iconUrl")
+			Log.dump(self.nick, "self.nick")
+
+		end
+
+		if nextCallback and type(nextCallback) == "function" then
+			nextCallback()
+		end
+	end)
 end
 
 
@@ -249,19 +272,15 @@ function DemoScene:initGame()
 
     self.m_gameSound = new(gameSound)
 
-    
-
- 
     Log.printInfo("The first initialization is complete.")
 end
 
 function DemoScene:setConfigHeadAndName()
 	local nextStep = function()
 		self:setHeadPopup()
-		self:getLastNameAndHeadFromHttp()
+		self:updateHeadAndName()
 	end
-
-	self:userLogin(nextStep)
+	self:getNameAndHeadFromHttp(nextStep)
 end
 function DemoScene:initScene()
 	self.bar:setVisible(false)
@@ -316,7 +335,8 @@ end
 function DemoScene:backHome()
 
 	self.station = "Stop"
-	
+	self.inPopup = true
+
 	self:checkStation()
 	self:removeAllMyProp()   --停止????????????
 	self:removeAllHandle()   --停止??????
@@ -468,16 +488,16 @@ end
 -- 复活
 function DemoScene:revive()
 
-	if self.coin >= 20 then
+	if self.coin >= 60 then
 	
-		-- self.Curstr = "亲，复活需要20金币\n\n需要复活吗？"
-		self.Curstr = "You need 20 coins to continue the game , \n\ndo you need to continue?"
+		-- self.Curstr = "亲，复活需要60金币\n\n需要复活吗？"
+		self.Curstr = "Resurrection requires 60 gold coins , \n\nsure to continue?"
 		self:coinTipPopup()
 	
 	else
 		
-		-- self.Curstr = "亲，你的金币不足20\n\n不能 复活 哦\n\n慢慢攒着吧！"
-		self.Curstr = "Dear, your coin less than 20, \n\ncan't continue??"
+		-- self.Curstr = "亲，你的金币不足60\n\n不能 复活 哦\n\n慢慢攒着吧！"
+		self.Curstr = "Dear, your coins less than 60, \n\ncan not be resurrected!"
 		self:onFailPopup()
   	end
 	
@@ -636,7 +656,9 @@ function DemoScene:createMonster()
 
 		if self.gameModel == "crazy" then
 			if self.score < 900 then
-			 	index = math.random(7, 11)
+				local t = {8, 9, 10, 11, 12, 13}
+			 	local x = math.random(1, #t)
+			 	index = t[x]
 			end
 
 			Log.dump("<<<<<<<<<<<<<<<<<<<    index",index)
@@ -766,13 +788,13 @@ function DemoScene:getCoin( ... )
 	if monsterStyle == "Little" then
 		self.coin = self.coin + 1
 	elseif monsterStyle == "Long" then
-		self.coin = self.coin + 2
+		self.coin = self.coin + 1
 	elseif monsterStyle == "Mid" then
-		self.coin = self.coin + 3
+		self.coin = self.coin + 1
 	elseif monsterStyle == "Tall" then
-		self.coin = self.coin + 3
+		self.coin = self.coin + 1
 	elseif monsterStyle == "ZOMBIE" then
-		self.coin = self.coin + 3
+		self.coin = self.coin + 2
 	end
 
 	Log.dump("self.gameModel<<<<<<<<<<<<<<<<<<<<<<", self.gameModel)
@@ -785,7 +807,7 @@ function DemoScene:getCoin( ... )
 end
 
 function DemoScene:consumeCoin( ... )
-	self.coin = self.coin - 20
+	self.coin = self.coin - 60
 	self.textviewcoin:setText("" .. self.coin, 150, 50, 0, 0, 0)
 	GAME_INFO_LIST[self.gameModel].gameCoins = self.coin
 end
@@ -814,9 +836,9 @@ function DemoScene:setConfig()
 		}
 	elseif self.gameModel == "crazy" then
 		config =	{
-			{score = 5,  v_bar = 10, v0_person = 25, background = "game/backgroud/bg.png"},
-			{score = 10, v_bar = 13, v0_person = 20, background = "game/backgroud/bg1.png"},
-			{score = 15, v_bar = 16, v0_person = 25, background = "game/backgroud/bg2.png"},
+			{score = 5,  v_bar = 15, v0_person = 25, background = "game/backgroud/bg.png"},
+			{score = 10, v_bar = 20, v0_person = 20, background = "game/backgroud/bg1.png"},
+			{score = 15, v_bar = 25, v0_person = 25, background = "game/backgroud/bg2.png"},
 			{score = 40, v_bar = 20, v0_person = 24, background = "game/backgroud/bg3.png"},
 			{score = 999999, v_bar = 25 , v0_person = 24, background = "game/backgroud/bg4.png"},
 		}
@@ -971,7 +993,7 @@ function DemoScene:EventTouch()
 
             if clickPos.y - y > 40 then                           --上滑
                 isAction = 1
-                self:onKeyDown(32) 
+                -- self:onKeyDown(32) 
             elseif clickPos.x - x > 40 then                       --左滑
             	isAction = 2
             	
@@ -980,7 +1002,7 @@ function DemoScene:EventTouch()
  
             elseif y - clickPos.y > 30 then                       --下滑
            		isAction = 4
-           		self:onKeyDown(82)	
+           		-- self:onKeyDown(82)	
 
             end
         elseif finger_action == kFingerUp then
@@ -988,7 +1010,7 @@ function DemoScene:EventTouch()
             if isAction == 0 then 
 				self:onKeyDown(83)                
             elseif isAction == 1 then 
-			--	self:onKeyDown(32) 
+				self:onKeyDown(32) 
 			elseif isAction == 2 then 
 				if px >= 0 then
 					self:onKeyDown(37)
@@ -998,7 +1020,7 @@ function DemoScene:EventTouch()
 					self:onKeyDown(39)
 				end
 			elseif isAction == 4 then 
-				-- self:onKeyDown(82)	
+				self:onKeyDown(82)	
 			end
 		end
     end)
@@ -1092,7 +1114,7 @@ function DemoScene:onKeyDown(key)
 
 		self.handle4 = Clock.instance():schedule(function( ... )
 			local bx, by = self.barimage:getPos()
-			self.barimage:setPos(bx, by + 120)
+			self.barimage:setPos(bx, by + 300)
 
 			if self.handle4 then
 				self.handle4:cancel()
@@ -1357,9 +1379,9 @@ end
 
 function DemoScene:gameTipPopup()
 	
-	if self.coin < 20 then
-		-- self.Curstr = "亲，你的金币不足20\n\n不能获得 提示 哦\n\n慢慢攒着吧！"
-		self.Curstr = "Dear, your coin less than 20, \n\ncan't get the tips!"
+	if self.coin < 50 then
+		-- self.Curstr = "亲，你的金币不足50\n\n不能获得 提示 哦\n\n慢慢攒着吧！"
+		self.Curstr = "Dear, your coin less than 50, \n\ncan't get the tips!"
 		self:onFailPopup()
 	else
 		local style = self:classifyMonster()
@@ -1401,7 +1423,7 @@ function DemoScene:onRankPopup( RANK )
 end
 
 function DemoScene:setHeadPopup( ... )
-	nk.PopupManager:addPopup(setHeadPopup, "DemoScene")
+	nk.PopupManager:addPopup(setHeadPopup, "DemoScene", self.iconUrl, self.nick)
 end
 
 
@@ -1645,61 +1667,54 @@ function DemoScene:getMaxData()
 
 	if MaxScore == "" then
 		MaxScore = 0
-		Log.printInfo("??ling")
+		Log.printInfo("ling")
 	end
 	return MaxScore
 end
 
-function DemoScene:setHeadAndName()
-	local headPhotoPath = nk.DictModule:getString("playerAvatar", "photo")
-	local playerName = nk.DictModule:getString("playerName", "name")
-	local httpHeadUrl = nk.DictModule:getString("playerAvatar", "iconUrl")
+function DemoScene:postName()
 
-	if headPhotoPath ~= "" and headPhotoPath ~= nil then
-		local i, j = string.find(headPhotoPath, "[^\\/]-$")
-		local FileName = string.sub(headPhotoPath, i, j)
-		self.imagehead:setFile(FileName)
-		self.imagehead = Mask.setMask(self.imagehead, "game/common/headframe1.png", {scale = 1, align = 0, x = -1.5, y = -1})
-		self.imagehead:setVisible(true)
-	else
-		self.imagehead:setVisible(false)
-	end
+
+	Log.dump("postHeadAndName")
+	local playerName = nk.DictModule:getString("playerName", "name") 
+
+	local name = playerName or "Fool"
+	-----------------------------------------------------------------------------------------------------
+	local table = {method = "User.updateGameInfo", mid = MID, nick = name}
+	Log.dump(table, "<<<<<<<<<<<<<<     PostData,submit")
+	self:httpUpdate("User.updateGameInfo", table)
+	---------------------------------------------------------------------------------------------------
+
+	self.textName:setVisible(true)
+	self.textName:setText(name)
+	self.name = name
+
+end
+
+function DemoScene:updateHead()
+	local iconUrl = nk.DictModule:getString("playerAvatar", "iconUrl")
+	UrlImage.spriteSetUrl(self.imagehead,iconUrl)
+end
+
+-- 获得上次的头像和名字
+function DemoScene:updateHeadAndName()
+
+	local iconUrl = self.iconUrl
+	local name = self.nick
 
 	self.imagehead = Mask.setMask(self.imagehead, "game/common/headframe1.png", {scale = 1, align = 0, x = -1.5, y = -1})
 	self.imagehead:setVisible(true)
-	UrlImage.spriteSetUrl(self.imagehead, httpHeadUrl)
+	UrlImage.spriteSetUrl(self.imagehead, iconUrl)
 
-	if playerName ~= "" and playerName ~= nil then
-		self.textName:setText(playerName)
-		self.name = playerName
+	if name ~= "" and name ~= nil then
+		self.textName:setVisible(true)
+		self.textName:setText(name)
+		self.name = name
 	else
 		self.textName:setVisible(false)
 		self.name = "Fool"
 	end
-
-	local headUrl = httpHeadUrl
-	------------------------------------------------------------------------------
-	local table = {method = "User.updateGameInfo", mid = MID, iconUrl = headUrl, nick = self.name}
-	Log.dump(table, "<<<<<<<<<<<<<<     PostData,submit")
-	self:httpUpdate("User.updateGameInfo", table)
-	------------------------------------------------------------------------------
 end
-
-function DemoScene:getLastNameAndHeadFromHttp( ... )
-	if LASTNAME ~= "" and LASTNAME ~= nil then
-		self.textName:setVisible(true)
-		self.textName:setText(LASTNAME)
-		self.name = LASTNAME
-	else
-		self.textName:setVisible(false)
-		self.name = "Child"
-	end
-
-	self.imagehead = Mask.setMask(self.imagehead, "game/common/headframe1.png", {scale = 1, align = 0, x = -1.5, y = -1})
-	self.imagehead:setVisible(true)
-	UrlImage.spriteSetUrl(self.imagehead, ICON_URL)
-end
-
 
 function DemoScene:btn_event_upload(name)
 
@@ -1728,7 +1743,7 @@ end
 local RANK = {
 	personalRankList = {
 		mid = "",
-		nick = LASTNAME,
+		nick = "",
 		iconUrl = "",
 		crazy = {
 			rank = 0,
@@ -1804,6 +1819,7 @@ function DemoScene:showRank()
 
 	end)
 end
+
 
 
 

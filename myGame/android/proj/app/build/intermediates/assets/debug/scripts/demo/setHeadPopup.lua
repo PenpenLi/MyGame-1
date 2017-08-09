@@ -6,6 +6,7 @@ local setHeadPopup = class(PopupModel);
 
 
 function setHeadPopup.show(...)
+	local arg = {...}
 	Clock.instance():schedule_once(function()
 		PopupModel.show(setHeadPopup, aboutView, aboutInfo, {name="setHeadPopup", animFunction = function(args)
 		local root = args.root
@@ -20,7 +21,7 @@ function setHeadPopup.show(...)
 			end,
 			ease = Action.easeInOutBack,
 			}))
-		end})
+		end}, unpack(arg))
     end, 0)
 	
 end
@@ -31,13 +32,15 @@ end
 
 
 function setHeadPopup:ctor(viewConfig, viewVar, data1, data2)
-	Log.printInfo("setHeadPopup.ctor"); 
+	Log.printInfo("setHeadPopup.ctor");     
     EventDispatcher.getInstance():register(EventConstants.changeHeadSuccess, self, self.updateHead);
     EventDispatcher.getInstance():register(EventConstants.onEventCallBack, self, self.onNativeCall);
+
+    self.iconUrl = data1
+    self.nick = data2
 	
     self:addShadowLayer()
     self:setIsCanClose(false)
-
 
     self.bgSetHead = self:getUI("bgSetHead")
 	self.imagePerson = self:getUI("imagePerson")
@@ -93,36 +96,37 @@ end
 
 function setHeadPopup:getHeadPhotoAndName()	
 
-	local headPhotoPath = nk.DictModule:getString("playerAvatar", "photo")
-	local playerName = nk.DictModule:getString("playerName", "name")
-	Log.dump(ICON_URL, "ICON_URL>>>")
-	if headPhotoPath ~= "" and headPhotoPath ~= nil then
-		-- 找到以时间戳命名的头像图片名字
-		local i, j = string.find(headPhotoPath, "[^/\\]-$")
-		local tempName = string.sub(headPhotoPath, i, j)
-		Log.dump(">>>>>>>>>>>>>>>>>>>>>>>>>> tempName", tempName)
-		self.imageHead:setFile(tempName)
+	-- local headPhotoPath = nk.DictModule:getString("playerAvatar", "photo")
+	-- local playerName = nk.DictModule:getString("playerName", "name")
+	-- if headPhotoPath ~= "" and headPhotoPath ~= nil then
+	-- 	-- 找到以时间戳命名的头像图片名字
+	-- 	local i, j = string.find(headPhotoPath, "[^/\\]-$")
+	-- 	local tempName = string.sub(headPhotoPath, i, j)
+	-- 	Log.dump(">>>>>>>>>>>>>>>>>>>>>>>>>> tempName", tempName)
+	-- 	self.imageHead:setFile(tempName)
+	-- else
+	-- 	self.imageHead:setFile("game/common/headframe.png")
+	-- end
+
+	local iconUrl = self.iconUrl
+	if iconUrl ~= "" and iconUrl ~= nil then
+		UrlImage.spriteSetUrl(self.imageHead, iconUrl)
 	else
 		self.imageHead:setFile("game/common/headframe.png")
 	end
-	UrlImage.spriteSetUrl(self.imageHead, ICON_URL)
 
-	
-	if playerName ~= "" and playerName ~= nil then
-		self.editTextName:setText(playerName)
+
+	local nick = self.nick
+	if nick ~= "" and nick ~= nil then
+		self.editTextName:setText(nick)
 	else
 		self.editTextName:setText("Fool")
 	end
-
-	if LASTNAME ~= nil then
-		Log.dump(LASTNAME," asdas<<<<<<<")
-		self.editTextName:setText(LASTNAME)
-	end
-
 	
 end
 
 function setHeadPopup:onEditText()
+	
 	local name = self.editTextName:getText()
 	name = string.trim(name)
 	if name == "" then
@@ -183,12 +187,12 @@ function setHeadPopup:onCancel()
 end
 
 function setHeadPopup:onSubmit()
-	Log.printInfo("点击确认按钮")
+	Log.printInfo("SetHeadAndName_submit")
 	-------------------------------------------
 	nk.functions.uploadPhoto(self.newpath)
 	-------------------------------------------
 	PopupModel.hide(setHeadPopup)
-	EventDispatcher.getInstance():dispatch(EventConstants.setHeadDemoScene)
+	EventDispatcher.getInstance():dispatch(EventConstants.setNameDemoScene)
 end
 
 function setHeadPopup:pickImageCallBack(status, data)
@@ -201,7 +205,7 @@ function setHeadPopup:pickImageCallBack(status, data)
      	self.newpath = System.getStorageImagePath() .. tempName
 		System.copyFile(data, self.newpath)
 
-     	nk.DictModule:setString("playerAvatar", "photo", self.newpath)
+        nk.DictModule:setString("playerAvatar", "photo", self.newpath)
   		nk.DictModule:saveDict("playerAvatar")
 
      	self.imageHead:setFile(tempName)

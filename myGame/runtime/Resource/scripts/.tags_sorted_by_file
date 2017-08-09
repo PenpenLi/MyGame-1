@@ -2344,7 +2344,6 @@ DemoScene:backHome	demo\demoScene.lua	/^function DemoScene:backHome()$/;"	f
 DemoScene:breakRecord	demo\demoScene.lua	/^function DemoScene:breakRecord()$/;"	f
 DemoScene:btn_event_upload	demo\demoScene.lua	/^function DemoScene:btn_event_upload(name)$/;"	f
 DemoScene:cancel	demo\demoScene.lua	/^function DemoScene:cancel()$/;"	f
-DemoScene:cancelSetHeadAndName	demo\demoScene.lua	/^function DemoScene:cancelSetHeadAndName()$/;"	f
 DemoScene:cartonMonster	demo\demoScene.lua	/^function DemoScene:cartonMonster( ... )$/;"	f
 DemoScene:cartonPerson	demo\demoScene.lua	/^function DemoScene:cartonPerson()$/;"	f
 DemoScene:checkStation	demo\demoScene.lua	/^function DemoScene:checkStation()$/;"	f
@@ -2362,8 +2361,8 @@ DemoScene:gameOver	demo\demoScene.lua	/^function DemoScene:gameOver()$/;"	f
 DemoScene:gameTip	demo\demoScene.lua	/^function DemoScene:gameTip( ... )$/;"	f
 DemoScene:gameTipPopup	demo\demoScene.lua	/^function DemoScene:gameTipPopup()$/;"	f
 DemoScene:getCoin	demo\demoScene.lua	/^function DemoScene:getCoin( ... )$/;"	f
-DemoScene:getLastNameAndHeadFromHttp	demo\demoScene.lua	/^function DemoScene:getLastNameAndHeadFromHttp( ... )$/;"	f
 DemoScene:getMaxData	demo\demoScene.lua	/^function DemoScene:getMaxData()$/;"	f
+DemoScene:getNameAndHeadFromHttp	demo\demoScene.lua	/^function DemoScene:getNameAndHeadFromHttp(nextCallback)$/;"	f
 DemoScene:getScore	demo\demoScene.lua	/^function DemoScene:getScore( ... )$/;"	f
 DemoScene:hitMoster	demo\demoScene.lua	/^function DemoScene:hitMoster( ... )$/;"	f
 DemoScene:httpUpdate	demo\demoScene.lua	/^function DemoScene:httpUpdate(method, table)$/;"	f
@@ -2378,27 +2377,30 @@ DemoScene:onConfirmPopup	demo\demoScene.lua	/^function DemoScene:onConfirmPopup(
 DemoScene:onExitPopup	demo\demoScene.lua	/^function DemoScene:onExitPopup( ... )$/;"	f
 DemoScene:onFailPopup	demo\demoScene.lua	/^function DemoScene:onFailPopup()$/;"	f
 DemoScene:onKeyDown	demo\demoScene.lua	/^function DemoScene:onKeyDown(key)$/;"	f
-DemoScene:onRankPopup	demo\demoScene.lua	/^function DemoScene:onRankPopup( ... )$/;"	f
+DemoScene:onRankPopup	demo\demoScene.lua	/^function DemoScene:onRankPopup( RANK )$/;"	f
 DemoScene:onVictoryPopup	demo\demoScene.lua	/^function DemoScene:onVictoryPopup()$/;"	f
 DemoScene:playBoom	demo\demoScene.lua	/^function DemoScene:playBoom()$/;"	f
 DemoScene:playEffect	demo\demoScene.lua	/^function DemoScene:playEffect(style1, style2)$/;"	f
 DemoScene:playMusic	demo\demoScene.lua	/^function DemoScene:playMusic()$/;"	f
+DemoScene:postName	demo\demoScene.lua	/^function DemoScene:postName()$/;"	f
 DemoScene:reStart	demo\demoScene.lua	/^function DemoScene:reStart()$/;"	f
 DemoScene:removeAllHandle	demo\demoScene.lua	/^function DemoScene:removeAllHandle( ... )$/;"	f
 DemoScene:removeAllMyProp	demo\demoScene.lua	/^function DemoScene:removeAllMyProp( ... )$/;"	f
 DemoScene:revive	demo\demoScene.lua	/^function DemoScene:revive()$/;"	f
 DemoScene:setConfig	demo\demoScene.lua	/^function DemoScene:setConfig()$/;"	f
-DemoScene:setHeadAndName	demo\demoScene.lua	/^function DemoScene:setHeadAndName()$/;"	f
+DemoScene:setConfigHeadAndName	demo\demoScene.lua	/^function DemoScene:setConfigHeadAndName()$/;"	f
 DemoScene:setHeadPopup	demo\demoScene.lua	/^function DemoScene:setHeadPopup( ... )$/;"	f
 DemoScene:setMusic	demo\demoScene.lua	/^function DemoScene:setMusic() $/;"	f
-DemoScene:setTextColor	demo\demoScene.lua	/^function DemoScene:setTextColor( ... )$/;"	f
+DemoScene:setTextColor_black	demo\demoScene.lua	/^function DemoScene:setTextColor_black( ... )$/;"	f
+DemoScene:setTextColor_white	demo\demoScene.lua	/^function DemoScene:setTextColor_white( ... )$/;"	f
 DemoScene:showRank	demo\demoScene.lua	/^function DemoScene:showRank()$/;"	f
 DemoScene:start	demo\demoScene.lua	/^function DemoScene:start()$/;"	f
 DemoScene:stationInit	demo\demoScene.lua	/^function DemoScene:stationInit()$/;"	f
 DemoScene:upBar	demo\demoScene.lua	/^function DemoScene:upBar(finger_action, ...)$/;"	f
+DemoScene:updateHead	demo\demoScene.lua	/^function DemoScene:updateHead()$/;"	f
+DemoScene:updateHeadAndName	demo\demoScene.lua	/^function DemoScene:updateHeadAndName()$/;"	f
 DemoScene:updateMaxData	demo\demoScene.lua	/^function DemoScene:updateMaxData(value)$/;"	f
-DemoScene:uploadHead	demo\demoScene.lua	/^function DemoScene:uploadHead()$/;"	f
-DemoScene:userLogin	demo\demoScene.lua	/^function DemoScene:userLogin(nextCallback)$/;"	f
+DemoScene:userLogin	demo\demoScene.lua	/^function DemoScene:userLogin()$/;"	f
 DemoScene:victory	demo\demoScene.lua	/^function DemoScene:victory()$/;"	f
 EventTouch	demo\demoScene.lua	/^function DemoScene:EventTouch()$/;"	f
 [10] 	demo\demoScene.lua	/^		[10] = function( ... )$/;"	f
@@ -2419,7 +2421,6 @@ backHome	demo\demoScene.lua	/^function DemoScene:backHome()$/;"	f
 breakRecord	demo\demoScene.lua	/^function DemoScene:breakRecord()$/;"	f
 btn_event_upload	demo\demoScene.lua	/^function DemoScene:btn_event_upload(name)$/;"	f
 cancel	demo\demoScene.lua	/^function DemoScene:cancel()$/;"	f
-cancelSetHeadAndName	demo\demoScene.lua	/^function DemoScene:cancelSetHeadAndName()$/;"	f
 cartonMonster	demo\demoScene.lua	/^function DemoScene:cartonMonster( ... )$/;"	f
 cartonPerson	demo\demoScene.lua	/^function DemoScene:cartonPerson()$/;"	f
 checkStation	demo\demoScene.lua	/^function DemoScene:checkStation()$/;"	f
@@ -2439,12 +2440,12 @@ gameOver	demo\demoScene.lua	/^function DemoScene:gameOver()$/;"	f
 gameTip	demo\demoScene.lua	/^function DemoScene:gameTip( ... )$/;"	f
 gameTipPopup	demo\demoScene.lua	/^function DemoScene:gameTipPopup()$/;"	f
 getCoin	demo\demoScene.lua	/^function DemoScene:getCoin( ... )$/;"	f
-getLastNameAndHeadFromHttp	demo\demoScene.lua	/^function DemoScene:getLastNameAndHeadFromHttp( ... )$/;"	f
 getMaxData	demo\demoScene.lua	/^function DemoScene:getMaxData()$/;"	f
+getNameAndHeadFromHttp	demo\demoScene.lua	/^function DemoScene:getNameAndHeadFromHttp(nextCallback)$/;"	f
 getScore	demo\demoScene.lua	/^function DemoScene:getScore( ... )$/;"	f
 hitMoster	demo\demoScene.lua	/^function DemoScene:hitMoster( ... )$/;"	f
 httpUpdate	demo\demoScene.lua	/^function DemoScene:httpUpdate(method, table)$/;"	f
-if nextCallback and type(nextCallback) 	demo\demoScene.lua	/^			if nextCallback and type(nextCallback) == "function" then$/;"	f
+if nextCallback and type(nextCallback) 	demo\demoScene.lua	/^		if nextCallback and type(nextCallback) == "function" then$/;"	f
 initGame	demo\demoScene.lua	/^function DemoScene:initGame()$/;"	f
 initScene	demo\demoScene.lua	/^function DemoScene:initScene()$/;"	f
 isCollisionWithCircle	demo\demoScene.lua	/^function DemoScene:isCollisionWithCircle(x1, y1, x2, y2, r1, r2)$/;"	f
@@ -2459,11 +2460,12 @@ onConfirmPopup	demo\demoScene.lua	/^function DemoScene:onConfirmPopup( ... )$/;"
 onExitPopup	demo\demoScene.lua	/^function DemoScene:onExitPopup( ... )$/;"	f
 onFailPopup	demo\demoScene.lua	/^function DemoScene:onFailPopup()$/;"	f
 onKeyDown	demo\demoScene.lua	/^function DemoScene:onKeyDown(key)$/;"	f
-onRankPopup	demo\demoScene.lua	/^function DemoScene:onRankPopup( ... )$/;"	f
+onRankPopup	demo\demoScene.lua	/^function DemoScene:onRankPopup( RANK )$/;"	f
 onVictoryPopup	demo\demoScene.lua	/^function DemoScene:onVictoryPopup()$/;"	f
 playBoom	demo\demoScene.lua	/^function DemoScene:playBoom()$/;"	f
 playEffect	demo\demoScene.lua	/^function DemoScene:playEffect(style1, style2)$/;"	f
 playMusic	demo\demoScene.lua	/^function DemoScene:playMusic()$/;"	f
+postName	demo\demoScene.lua	/^function DemoScene:postName()$/;"	f
 reStart	demo\demoScene.lua	/^function DemoScene:reStart()$/;"	f
 removeAllHandle	demo\demoScene.lua	/^function DemoScene:removeAllHandle( ... )$/;"	f
 removeAllMyProp	demo\demoScene.lua	/^function DemoScene:removeAllMyProp( ... )$/;"	f
@@ -2475,17 +2477,19 @@ self.handle3 	demo\demoScene.lua	/^     	self.handle3 = Clock.instance():schedul
 self.handle4 	demo\demoScene.lua	/^		self.handle4 = Clock.instance():schedule(function( ... )$/;"	f
 self.handle5 	demo\demoScene.lua	/^        self.handle5 = Clock.instance():schedule(function( ... )$/;"	f
 setConfig	demo\demoScene.lua	/^function DemoScene:setConfig()$/;"	f
-setHeadAndName	demo\demoScene.lua	/^function DemoScene:setHeadAndName()$/;"	f
+setConfigHeadAndName	demo\demoScene.lua	/^function DemoScene:setConfigHeadAndName()$/;"	f
 setHeadPopup	demo\demoScene.lua	/^function DemoScene:setHeadPopup( ... )$/;"	f
 setMusic	demo\demoScene.lua	/^function DemoScene:setMusic() $/;"	f
-setTextColor	demo\demoScene.lua	/^function DemoScene:setTextColor( ... )$/;"	f
+setTextColor_black	demo\demoScene.lua	/^function DemoScene:setTextColor_black( ... )$/;"	f
+setTextColor_white	demo\demoScene.lua	/^function DemoScene:setTextColor_white( ... )$/;"	f
 showRank	demo\demoScene.lua	/^function DemoScene:showRank()$/;"	f
 start	demo\demoScene.lua	/^function DemoScene:start()$/;"	f
 stationInit	demo\demoScene.lua	/^function DemoScene:stationInit()$/;"	f
 upBar	demo\demoScene.lua	/^function DemoScene:upBar(finger_action, ...)$/;"	f
+updateHead	demo\demoScene.lua	/^function DemoScene:updateHead()$/;"	f
+updateHeadAndName	demo\demoScene.lua	/^function DemoScene:updateHeadAndName()$/;"	f
 updateMaxData	demo\demoScene.lua	/^function DemoScene:updateMaxData(value)$/;"	f
-uploadHead	demo\demoScene.lua	/^function DemoScene:uploadHead()$/;"	f
-userLogin	demo\demoScene.lua	/^function DemoScene:userLogin(nextCallback)$/;"	f
+userLogin	demo\demoScene.lua	/^function DemoScene:userLogin()$/;"	f
 victory	demo\demoScene.lua	/^function DemoScene:victory()$/;"	f
 DemoState:ctor	demo\demoState.lua	/^function DemoState:ctor()$/;"	f
 DemoState:load	demo\demoState.lua	/^function DemoState:load()$/;"	f
@@ -2565,22 +2569,26 @@ gameTipPopup.show	demo\gameTipPopup.lua	/^function gameTipPopup.show(...)$/;"	f
 gameTipPopup:ctor	demo\gameTipPopup.lua	/^function gameTipPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
 gameTipPopup:initLayer	demo\gameTipPopup.lua	/^function gameTipPopup:initLayer()$/;"	f
 initLayer	demo\gameTipPopup.lua	/^function gameTipPopup:initLayer()$/;"	f
-ctor	demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar)$/;"	f
+ctor	demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar, data)$/;"	f
 dtor	demo\onRankPopup.lua	/^function onRankPopup:dtor()$/;"	f
 initLayer	demo\onRankPopup.lua	/^function onRankPopup:initLayer()$/;"	f
-onCrazyMode	demo\onRankPopup.lua	/^function onRankPopup:onCrazyMode()$/;"	f
-onGentleMode	demo\onRankPopup.lua	/^function onRankPopup:onGentleMode()$/;"	f
+onMode	demo\onRankPopup.lua	/^function onRankPopup:onMode(mode)$/;"	f
 onRankPopup.hide	demo\onRankPopup.lua	/^function onRankPopup.hide()$/;"	f
 onRankPopup.show	demo\onRankPopup.lua	/^function onRankPopup.show(...)$/;"	f
-onRankPopup:ctor	demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar)$/;"	f
+onRankPopup:ctor	demo\onRankPopup.lua	/^function onRankPopup:ctor(viewConfig, viewVar, data)$/;"	f
 onRankPopup:dtor	demo\onRankPopup.lua	/^function onRankPopup:dtor()$/;"	f
 onRankPopup:initLayer	demo\onRankPopup.lua	/^function onRankPopup:initLayer()$/;"	f
-onRankPopup:onCrazyMode	demo\onRankPopup.lua	/^function onRankPopup:onCrazyMode()$/;"	f
-onRankPopup:onGentleMode	demo\onRankPopup.lua	/^function onRankPopup:onGentleMode()$/;"	f
+onRankPopup:onMode	demo\onRankPopup.lua	/^function onRankPopup:onMode(mode)$/;"	f
 onRankPopup:onTitleGroupChangeClick	demo\onRankPopup.lua	/^function onRankPopup:onTitleGroupChangeClick()$/;"	f
 onTitleGroupChangeClick	demo\onRankPopup.lua	/^function onRankPopup:onTitleGroupChangeClick()$/;"	f
+ctor	demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:ctor(data)$/;"	f
+dtor	demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:dtor()$/;"	f
+rankItemLayer:ctor	demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:ctor(data)$/;"	f
+rankItemLayer:dtor	demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:dtor()$/;"	f
+rankItemLayer:updateData	demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:updateData(data)$/;"	f
+updateData	demo\rankItemLayer\rankItemLayer.lua	/^function rankItemLayer:updateData(data)$/;"	f
+.uploadPhoto	demo\setHeadPopup.lua	/^	nk.functions.uploadPhoto(self.newpath)$/;"	f
 .uploadPhoto	demo\setHeadPopup.lua	/^                nk.functions.uploadPhoto(path)$/;"	f
-.uploadPhoto1	demo\setHeadPopup.lua	/^		nk.functions.uploadPhoto1(data)$/;"	f
 PopupModel.show(setHeadPopup, aboutView, aboutInfo, {name	demo\setHeadPopup.lua	/^		PopupModel.show(setHeadPopup, aboutView, aboutInfo, {name="setHeadPopup", animFunction = function(args)$/;"	f
 countDownPhoto	demo\setHeadPopup.lua	/^function setHeadPopup:countDownPhoto()$/;"	f
 ctor	demo\setHeadPopup.lua	/^function setHeadPopup:ctor(viewConfig, viewVar, data1, data2)$/;"	f
